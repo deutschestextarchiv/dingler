@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx310442a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2423 x 5069</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-04-05T13:33:29">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\pj310\png100\tx310442a.png" width="2423px" height="5069px"></graphic><zone xml:id="fig310442a_1" rendition="Textfigures" ulx="22" uly="28" lrx="2406" lry="3782" rend="visible"></zone><zone xml:id="fig310442a_2" rendition="Textfigures" ulx="20" uly="3495" lrx="2322" lry="4996" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig310442a_1" type="imtAnnotation"><head>Fig. 1</head></div><div corresp="#fig310442a_2" type="imtAnnotation"><head>Fig. 2</head></div></div></body></text></TEI>

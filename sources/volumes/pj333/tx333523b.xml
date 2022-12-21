@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx333523b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>4243 x 2773</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-05-25T11:25:30">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\pj333\png100\tx333523b.png" width="4243px" height="2773px"></graphic><zone xml:id="fig333523b_4" rendition="Textfigures" ulx="18" uly="18" lrx="1918" lry="1266" rend="visible"></zone><zone xml:id="fig333523b_5" rendition="Textfigures" ulx="1792" uly="15" lrx="2985" lry="1407" rend="visible"></zone><zone xml:id="fig333523b_6" rendition="Textfigures" ulx="3016" uly="9" lrx="4246" lry="1164" rend="visible"></zone><zone xml:id="fig333523b_7" rendition="Textfigures" ulx="12" uly="1196" lrx="1924" lry="2757" rend="visible"></zone><zone xml:id="fig333523b_8" rendition="Textfigures" ulx="1799" uly="1177" lrx="2986" lry="2345" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig333523b_4" type="imtAnnotation"><head>Fig. 4</head><div><p>Einzelfigur S. 205, Bd. 333</p></div></div><div corresp="#fig333523b_5" type="imtAnnotation"><head>Fig. 5</head><div><p>Einzelfigur S. 205, Bd. 333</p></div></div><div corresp="#fig333523b_6" type="imtAnnotation"><head>Fig. 6</head><div><p>Einzelfigur S. 205, Bd. 333</p></div></div><div corresp="#fig333523b_7" type="imtAnnotation"><head>Fig. 7</head><div><p>Einzelfigur S. 205, Bd. 333</p></div></div><div corresp="#fig333523b_8" type="imtAnnotation"><head>Fig. 8</head><div><p>Einzelfigur S. 205, Bd. 333</p></div></div></div></body></text></TEI>

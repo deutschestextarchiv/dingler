@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab222422"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab222422.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2208 x 1417 2274 x 1560 3235 x 2408 1711 x 1070 1711 x 1070</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. A, Bd. 222</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.7" notAfter="2010-10-01T09:11:44">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\32422711Z\tab222422.png" width="1711px" height="1070px"></graphic><zone xml:id="fig222422_1" rendition="Einzelfiguren" ulx="5" uly="11" lrx="1707" lry="1066" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig222422_1" type="imtAnnotation"><head>C. von Haagen's Patent-Schleifmaschine für Spiralbohrer; ausgeführt von Thomson, Sterne von Thomson, Sterne&amp; Comp. in Glasgow</head></div></div></body></text></TEI>

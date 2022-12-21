@@ -1,0 +1,10 @@
+*.swp
+
+# generated data
+data/*
+
+web/site/*.html
+web/site/articles
+web/site/facsimile
+web/site/volumes
+

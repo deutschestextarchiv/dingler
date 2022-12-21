@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab002514">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab002514.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2186 x 938 2712 x 1138</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 13, Bd. 2</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T16:52:55">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab002514.png" width="2712px" height="1138px"/>
+            <zone xml:id="fig002514_1a" rendition="Einzelfiguren" ulx="50" uly="29" lrx="735" lry="393" rend="visible"/>
+            <zone xml:id="fig002514_2a" rendition="Einzelfiguren" ulx="738" uly="76" lrx="1015" lry="430" rend="visible"/>
+            <zone xml:id="fig002514_3a" rendition="Einzelfiguren" ulx="79" uly="390" lrx="757" lry="521" rend="visible"/>
+            <zone xml:id="fig002514_4a" rendition="Einzelfiguren" ulx="1088" uly="68" lrx="1182" lry="151"
+                rend="visible"/>
+            <zone xml:id="fig002514_5a" rendition="Einzelfiguren" ulx="1038" uly="149" lrx="1215" lry="318"
+                rend="visible"/>
+            <zone xml:id="fig002514_6a" rendition="Einzelfiguren" ulx="1073" uly="320" lrx="1219" lry="376"
+                rend="visible"/>
+            <zone xml:id="fig002514_7a" rendition="Einzelfiguren" ulx="1214" uly="69" lrx="1495" lry="422"
+                rend="visible"/>
+            <zone xml:id="fig002514_8a" rendition="Einzelfiguren" ulx="1469" uly="80" lrx="1999" lry="408"
+                rend="visible"/>
+            <zone xml:id="fig002514_9a" rendition="Einzelfiguren" ulx="1938" uly="29" lrx="2682" lry="497"
+                rend="visible"/>
+            <zone xml:id="fig002514_10a" rendition="Einzelfiguren" ulx="1919" uly="81" lrx="2109" lry="211"
+                rend="visible"/>
+            <zone xml:id="fig002514_11a" rendition="Einzelfiguren" ulx="56" uly="483" lrx="396" lry="846" rend="visible"/>
+            <zone xml:id="fig002514_12a" rendition="Einzelfiguren" ulx="345" uly="498" lrx="860" lry="668"
+                rend="visible"/>
+            <zone xml:id="fig002514_13a" rendition="Einzelfiguren" ulx="542" uly="528" lrx="974" lry="789"
+                rend="visible"/>
+            <zone xml:id="fig002514_14a" rendition="Einzelfiguren" ulx="2433" uly="44" lrx="2532" lry="220"
+                rend="visible"/>
+            <zone xml:id="fig002514_14b" rendition="Einzelfiguren" ulx="2499" uly="65" lrx="2636" lry="248"
+                rend="visible"/>
+            <zone xml:id="fig002514_15a" rendition="Einzelfiguren" ulx="967" uly="405" lrx="1207" lry="744"
+                rend="visible"/>
+            <zone xml:id="fig002514_16a" rendition="Einzelfiguren" ulx="1227" uly="506" lrx="2130" lry="812"
+                rend="visible"/>
+            <zone xml:id="fig002514_17a" rendition="Einzelfiguren" ulx="1232" uly="422" lrx="1335" lry="640"
+                rend="visible"/>
+            <zone xml:id="fig002514_18a" rendition="Einzelfiguren" ulx="1329" uly="422" lrx="1442" lry="666"
+                rend="visible"/>
+            <zone xml:id="fig002514_19a" rendition="Einzelfiguren" ulx="1442" uly="419" lrx="1537" lry="569"
+                rend="visible"/>
+            <zone xml:id="fig002514_20a" rendition="Einzelfiguren" ulx="1539" uly="424" lrx="1664" lry="519"
+                rend="visible"/>
+            <zone xml:id="fig002514_21a" rendition="Einzelfiguren" ulx="1876" uly="432" lrx="1996" lry="621"
+                rend="visible"/>
+            <zone xml:id="fig002514_22a" rendition="Einzelfiguren" ulx="2387" uly="366" lrx="2691" lry="722"
+                rend="visible"/>
+            <zone xml:id="fig002514_23a" rendition="Einzelfiguren" ulx="2009" uly="502" lrx="2402" lry="664"
+                rend="visible"/>
+            <zone xml:id="fig002514_24a" rendition="Einzelfiguren" ulx="2215" uly="368" lrx="2382" lry="496"
+                rend="visible"/>
+            <zone xml:id="fig002514_25a" rendition="Einzelfiguren" ulx="429" uly="769" lrx="1042" lry="1119"
+                rend="visible"/>
+            <zone xml:id="fig002514_26a" rendition="Einzelfiguren" ulx="229" uly="986" lrx="425" lry="1091"
+                rend="visible"/>
+            <zone xml:id="fig002514_27a" rendition="Einzelfiguren" ulx="750" uly="450" lrx="848" lry="561"
+                rend="visible"/>
+            <zone xml:id="fig002514_28a" rendition="Einzelfiguren" ulx="205" uly="846" lrx="415" lry="993"
+                rend="visible"/>
+            <zone xml:id="fig002514_29a" rendition="Einzelfiguren" ulx="53" uly="856" lrx="221" lry="1091"
+                rend="visible"/>
+            <zone xml:id="fig002514_1b" rendition="Einzelfiguren" ulx="1051" uly="738" lrx="1685" lry="1085"
+                rend="visible"/>
+            <zone xml:id="fig002514_2b" rendition="Einzelfiguren" ulx="1447" uly="867" lrx="1532" lry="962"
+                rend="visible"/>
+            <zone xml:id="fig002514_3b" rendition="Einzelfiguren" ulx="1521" uly="917" lrx="1642" lry="984"
+                rend="visible"/>
+            <zone xml:id="fig002514_4b" rendition="Einzelfiguren" ulx="1441" uly="980" lrx="1606" lry="1057"
+                rend="visible"/>
+            <zone xml:id="fig002514_5b" rendition="Einzelfiguren" ulx="1186" uly="951" lrx="1364" lry="1071"
+                rend="visible"/>
+            <zone xml:id="fig002514_A" rendition="Einzelfiguren" ulx="1686" uly="724" lrx="2204" lry="1111"
+                rend="visible"/>
+            <zone xml:id="fig002514_B" rendition="Einzelfiguren" ulx="2262" uly="796" lrx="2614" lry="1015"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig002514_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_5a" type="imtAnnotation">
+                    <head>Fig. 5 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_6a" type="imtAnnotation">
+                    <head>Fig. 6 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_7a" type="imtAnnotation">
+                    <head>Fig. 7 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_8a" type="imtAnnotation">
+                    <head>Fig. 8 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_9a" type="imtAnnotation">
+                    <head>Fig. 9 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_10a" type="imtAnnotation">
+                    <head>Fig. 10 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_11a" type="imtAnnotation">
+                    <head>Fig. 11 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_12a" type="imtAnnotation">
+                    <head>Fig. 12 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_13a" type="imtAnnotation">
+                    <head>Fig. 13 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_14a" type="imtAnnotation">
+                    <head>Fig. 14a (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_14b" type="imtAnnotation">
+                    <head>Fig. 14b (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_15a" type="imtAnnotation">
+                    <head>Fig. 15 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_16a" type="imtAnnotation">
+                    <head>Fig. 16 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_17a" type="imtAnnotation">
+                    <head>Fig. 17 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_18a" type="imtAnnotation">
+                    <head>Fig. 18 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_19a" type="imtAnnotation">
+                    <head>Fig. 19 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_20a" type="imtAnnotation">
+                    <head>Fig. 20 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_21a" type="imtAnnotation">
+                    <head>Fig. 21 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_22a" type="imtAnnotation">
+                    <head>Fig. 22 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_23a" type="imtAnnotation">
+                    <head>Fig. 23 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_24a" type="imtAnnotation">
+                    <head>Fig. 24 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_25a" type="imtAnnotation">
+                    <head>Fig. 25 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_26a" type="imtAnnotation">
+                    <head>Fig. 26 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_27a" type="imtAnnotation">
+                    <head>Fig. 27 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_28a" type="imtAnnotation">
+                    <head>Fig. 28 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_29a" type="imtAnnotation">
+                    <head>Fig. 29 (Lewis Tuch-Scheer-Maschine)</head>
+                </div>
+                <div corresp="#fig002514_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Fox's Vorrichtung zum Abfeuern)</head>
+                </div>
+                <div corresp="#fig002514_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Fox's Vorrichtung zum Abfeuern)</head>
+                </div>
+                <div corresp="#fig002514_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Fox's Vorrichtung zum Abfeuern)</head>
+                </div>
+                <div corresp="#fig002514_4b" type="imtAnnotation">
+                    <head>Fig. 4 (Fox's Vorrichtung zum Abfeuern)</head>
+                </div>
+                <div corresp="#fig002514_5b" type="imtAnnotation">
+                    <head>Fig. 5 (Fox's Vorrichtung zum Abfeuern)</head>
+                </div>
+                <div corresp="#fig002514_A" type="imtAnnotation">
+                    <head>Fig. A (M. Carthy's Strassen - Pflaster)</head>
+                </div>
+                <div corresp="#fig002514_B" type="imtAnnotation">
+                    <head>Fig. B (M. Carthy's Strassen - Pflaster)</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

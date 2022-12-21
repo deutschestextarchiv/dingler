@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx3200617d"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2153 x 1386 2153 x 1386</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-08-06T17:01:40">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\32199816Z\png100\tx3200617d.png" width="2153px" height="1386px"></graphic><zone xml:id="fig3200617d_31" rendition="Textfigures" ulx="32" uly="17" lrx="746" lry="1090" rend="visible"></zone><zone xml:id="fig3200617d_32" rendition="Textfigures" ulx="721" uly="23" lrx="1433" lry="1103" rend="visible"></zone><zone xml:id="fig3200617d_33" rendition="Textfigures" ulx="1401" uly="20" lrx="2125" lry="1097" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig3200617d_31" type="imtAnnotation"><head>Fig. 31</head></div><div corresp="#fig3200617d_32" type="imtAnnotation"><head>Fig. 32</head></div><div corresp="#fig3200617d_33" type="imtAnnotation"><head>Fig. 33</head></div></div></body></text></TEI>

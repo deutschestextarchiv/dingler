@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab002520">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab002520.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2437 x 970 3040 x 1205</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 16, Bd. 2</label><code rend="rectangle"
+                        lang="text/css">color: #0000ff</code></rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T17:58:57">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab002520.png" width="3040px" height="1205px"/>
+            <zone xml:id="fig002520_1a" rendition="Einzelfiguren" ulx="32" uly="19" lrx="1099" lry="596" rend="visible"/>
+            <zone xml:id="fig002520_2a" rendition="Einzelfiguren" ulx="41" uly="591" lrx="1184" lry="1173"
+                rend="visible"/>
+            <zone xml:id="fig002520_3a" rendition="Einzelfiguren" ulx="1094" uly="63" lrx="1647" lry="529"
+                rend="visible"/>
+            <zone xml:id="fig002520_4a" rendition="Einzelfiguren" ulx="1636" uly="30" lrx="2467" lry="548"
+                rend="visible"/>
+            <zone xml:id="fig002520_5a" rendition="Einzelfiguren" ulx="2436" uly="27" lrx="2999" lry="327"
+                rend="visible"/>
+            <zone xml:id="fig002520_6a" rendition="Einzelfiguren" ulx="2466" uly="351" lrx="2999" lry="578"
+                rend="visible"/>
+            <zone xml:id="fig002520_7a" rendition="Einzelfiguren" ulx="2839" uly="608" lrx="2975" lry="873"
+                rend="visible"/>
+            <zone xml:id="fig002520_8a" rendition="Einzelfiguren" ulx="2784" uly="908" lrx="2964" lry="1127"
+                rend="visible"/>
+            <zone xml:id="fig002520_1b" rendition="Einzelfiguren" ulx="2132" uly="568" lrx="2343" lry="856"
+                rend="visible"/>
+            <zone xml:id="fig002520_2b" rendition="Einzelfiguren" ulx="2076" uly="855" lrx="2330" lry="1137"
+                rend="visible"/>
+            <zone xml:id="fig002520_3b" rendition="Einzelfiguren" ulx="2357" uly="660" lrx="2782" lry="1132"
+                rend="visible"/>
+            <zone xml:id="fig002520_d" rendition="Einzelfiguren" ulx="1184" uly="550" lrx="2076" lry="1150"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig002520_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Menanrd's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002520_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Tritton's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002520_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Destillir-Apparat des P. I. C. Reitz.)</head>
+                </div>
+                <div corresp="#fig002520_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Destillir-Apparat von Strauss)</head>
+                </div>
+                <div corresp="#fig002520_5a" type="imtAnnotation">
+                    <head>Fig. 5 (Eglund's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002520_6a" type="imtAnnotation">
+                    <head>Fig. 6 (Eglund's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002520_7a" type="imtAnnotation">
+                    <head>Fig. 7 (Eglund's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002520_8a" type="imtAnnotation">
+                    <head>Fig. 8 (Eglund's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002520_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Thierry's Menschen-Heil Gebiss)</head>
+                </div>
+                <div corresp="#fig002520_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Thierry's Menschen-Heil Gebiss)</head>
+                </div>
+                <div corresp="#fig002520_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Thierry's Menschen-Heil Gebiss)</head>
+                </div>
+                <div corresp="#fig002520_d" type="imtAnnotation">
+                    <head>Russische Droschky</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

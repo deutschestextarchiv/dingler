@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx282294b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1172 x 845</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition><rendition xml:id="Textfigures_2"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2011-09-19T13:17:52">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\png100\tx282294b.png" width="1172px" height="845px"></graphic><zone xml:id="fig282294b_50" rendition="Textfigures" ulx="373" uly="5" lrx="967" lry="361" rend="visible"></zone><zone xml:id="fig282294b_51" rendition="Textfigures" ulx="214" uly="522" lrx="585" lry="766" rend="visible"></zone><zone xml:id="fig282294b_49" rendition="Textfigures" ulx="661" uly="362" lrx="974" lry="770" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig282294b_50" type="imtAnnotation"><head>Fig. 50</head></div><div corresp="#fig282294b_51" type="imtAnnotation"><head>Fig. 51</head></div><div corresp="#fig282294b_49" type="imtAnnotation"><head>Fig. 49</head></div></div></body></text></TEI>

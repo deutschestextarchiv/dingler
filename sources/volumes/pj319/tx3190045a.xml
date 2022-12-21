@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx3190045a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2676 x 2539</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-06-26T10:19:25">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="F:\pj319_pt. markup\png100\tx3190045a.png" width="2676px" height="2539px"></graphic><zone xml:id="fig3190045a_149" rendition="Textfigures" ulx="566" uly="17" lrx="2657" lry="1419" rend="visible"></zone><zone xml:id="fig3190045a_150" rendition="Textfigures" ulx="25" uly="79" lrx="591" lry="1224" rend="visible"></zone><zone xml:id="fig3190045a_151" rendition="Textfigures" ulx="76" uly="1247" lrx="1030" lry="2379" rend="visible"></zone><zone xml:id="fig3190045a_152" rendition="Textfigures" ulx="1081" uly="1258" lrx="2021" lry="2393" rend="visible"></zone><zone xml:id="fig3190045a_153" rendition="Textfigures" ulx="1998" uly="1436" lrx="2606" lry="2069" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig3190045a_149" type="imtAnnotation"><head>Fig. 149</head></div><div corresp="#fig3190045a_150" type="imtAnnotation"><head>Fig. 150</head></div><div corresp="#fig3190045a_151" type="imtAnnotation"><head>Fig. 151</head></div><div corresp="#fig3190045a_152" type="imtAnnotation"><head>Fig. 152</head></div><div corresp="#fig3190045a_153" type="imtAnnotation"><head>Fig. 153</head></div></div></body></text></TEI>

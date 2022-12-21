@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx333297a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1775 x 4115</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-07-24T15:43:35">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="Z:\Dingler_A\2_xml\pj333\32199908Z\png100\tx333297a.png" width="1775px" height="4115px"></graphic><zone xml:id="fig333297a_16" rendition="Textfigures" ulx="9" uly="27" lrx="1200" lry="3006" rend="visible"></zone><zone xml:id="fig333297a_17" rendition="Textfigures" ulx="1136" uly="23" lrx="1761" lry="3034" rend="visible"></zone><zone xml:id="fig333297a_18" rendition="Textfigures" ulx="110" uly="3001" lrx="1246" lry="4101" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig333297a_16" type="imtAnnotation"><head>Fig. 16</head><div><p>Einzelfigur S. 111, Bd. 333</p></div></div><div corresp="#fig333297a_17" type="imtAnnotation"><head>Fig. 17</head><div><p>Einzelfigur S. 111, Bd. 333</p></div></div><div corresp="#fig333297a_18" type="imtAnnotation"><head>Fig. 18</head><div><p>Einzelfigur S. 111, Bd. 333</p></div></div></div></body></text></TEI>

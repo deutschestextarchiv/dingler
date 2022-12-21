@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx290178b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2061 x 2597</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2011-12-22T10:10:08">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\pj290\png100\tx290178b.png" width="2061px" height="2597px"></graphic><zone xml:id="fig290178b_5" rendition="Textfigures" ulx="20" uly="12" lrx="592" lry="1425" rend="visible"></zone><zone xml:id="fig290178b_6" rendition="Textfigures" ulx="607" uly="9" lrx="1531" lry="1436" rend="visible"></zone><zone xml:id="fig290178b_7" rendition="Textfigures" ulx="51" uly="1436" lrx="924" lry="2519" rend="visible"></zone><zone xml:id="fig290178b_8" rendition="Textfigures" ulx="820" uly="1431" lrx="1408" lry="2520" rend="visible"></zone><zone xml:id="fig290178b_9" rendition="Textfigures" ulx="1448" uly="1595" lrx="2044" lry="2516" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig290178b_5" type="imtAnnotation"><head>Fig. 5</head></div><div corresp="#fig290178b_6" type="imtAnnotation"><head>Fig. 6</head></div><div corresp="#fig290178b_7" type="imtAnnotation"><head>Fig. 7</head></div><div corresp="#fig290178b_8" type="imtAnnotation"><head>Fig. 8</head></div><div corresp="#fig290178b_9" type="imtAnnotation"><head>Fig. 9</head></div></div></body></text></TEI>

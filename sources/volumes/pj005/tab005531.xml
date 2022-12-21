@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab005531">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab005531.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2339 x 946 2923 x 1182</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 8, Bd. 5</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-30T15:31:45">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab005531.png" width="2923px" height="1182px"/>
+            <zone xml:id="fig005531_A" rendition="Einzelfiguren" ulx="19" uly="19" lrx="1098" lry="650" rend="visible"/>
+            <zone xml:id="fig005531_1" rendition="Einzelfiguren" ulx="17" uly="19" lrx="1097" lry="649" rend="visible"/>
+            <zone xml:id="fig005531_2" rendition="Einzelfiguren" ulx="17" uly="17" lrx="1098" lry="649" rend="visible"/>
+            <zone xml:id="fig005531_3" rendition="Einzelfiguren" ulx="20" uly="22" lrx="1096" lry="648" rend="visible"/>
+            <zone xml:id="fig005531_4a" rendition="Einzelfiguren" ulx="15" uly="20" lrx="1096" lry="646" rend="visible"/>
+            <zone xml:id="fig005531_4b" rendition="Einzelfiguren" ulx="2657" uly="550" lrx="2895" lry="1100"
+                rend="visible"/>
+            <zone xml:id="fig005531_5" rendition="Einzelfiguren" ulx="2423" uly="32" lrx="2866" lry="495" rend="visible"/>
+            <zone xml:id="fig005531_6" rendition="Einzelfiguren" ulx="2126" uly="25" lrx="2432" lry="624" rend="visible"/>
+            <zone xml:id="fig005531_8" rendition="Einzelfiguren" ulx="655" uly="950" lrx="857" lry="1159" rend="visible"/>
+            <zone xml:id="fig005531_9" rendition="Einzelfiguren" ulx="642" uly="707" lrx="785" lry="1016" rend="visible"/>
+            <zone xml:id="fig005531_10" rendition="Einzelfiguren" ulx="748" uly="702" lrx="880" lry="854" rend="visible"/>
+            <zone xml:id="fig005531_11" rendition="Einzelfiguren" ulx="872" uly="703" lrx="1115" lry="1108"
+                rend="visible"/>
+            <zone xml:id="fig005531_12" rendition="Einzelfiguren" ulx="1140" uly="570" lrx="1452" lry="1173"
+                rend="visible"/>
+            <zone xml:id="fig005531_13" rendition="Einzelfiguren" ulx="1841" uly="615" lrx="2229" lry="965"
+                rend="visible"/>
+            <zone xml:id="fig005531_14" rendition="Einzelfiguren" ulx="2225" uly="620" lrx="2667" lry="970"
+                rend="visible"/>
+            <zone xml:id="fig005531_15" rendition="Einzelfiguren" ulx="1892" uly="959" lrx="2223" lry="1143"
+                rend="visible"/>
+            <zone xml:id="fig005531_16" rendition="Einzelfiguren" ulx="2224" uly="960" lrx="2622" lry="1149"
+                rend="visible"/>
+            <zone xml:id="fig005531_17" rendition="Einzelfiguren" ulx="1086" uly="19" lrx="1667" lry="587"
+                rend="visible"/>
+            <zone xml:id="fig005531_18" rendition="Einzelfiguren" ulx="1661" uly="20" lrx="2131" lry="587"
+                rend="visible"/>
+            <zone xml:id="fig005531_19" rendition="Einzelfiguren" ulx="21" uly="641" lrx="426" lry="1165" rend="visible"/>
+            <zone xml:id="fig005531_20a" rendition="Einzelfiguren" ulx="397" uly="725" lrx="651" lry="1165"
+                rend="visible"/>
+            <zone xml:id="fig005531_20b" rendition="Einzelfiguren" ulx="1446" uly="579" lrx="1851" lry="1165"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig005531_A" type="imtAnnotation">
+                    <head>Fig. A (Hall Gower's Canal Schleusse)</head>
+                </div>
+                <div corresp="#fig005531_1" type="imtAnnotation">
+                    <head>Fig. 1 (Hall Gower's Canal Schleusse)</head>
+                </div>
+                <div corresp="#fig005531_2" type="imtAnnotation">
+                    <head>Fig. 2 (Hall Gower's Canal Schleusse)</head>
+                </div>
+                <div corresp="#fig005531_3" type="imtAnnotation">
+                    <head>Fig. 3 (Hall Gower's Canal Schleusse)</head>
+                </div>
+                <div corresp="#fig005531_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Hall Gower's Canal Schleusse)</head>
+                </div>
+                <div corresp="#fig005531_4b" type="imtAnnotation">
+                    <head>Fig. 4 (Perkin's hydraulische Pumpe)</head>
+                </div>
+                <div corresp="#fig005531_5" type="imtAnnotation">
+                    <head>Fig. 5 (Perkin's hydraulische Pumpe)</head>
+                </div>
+                <div corresp="#fig005531_6" type="imtAnnotation">
+                    <head>Fig. 6 (Perkin's hydraulische Pumpe)</head>
+                </div>
+                <div corresp="#fig005531_8" type="imtAnnotation">
+                    <head>Fig. 8 (Dingler's Dampf-Koch-Apparat)</head>
+                </div>
+                <div corresp="#fig005531_9" type="imtAnnotation">
+                    <head>Fig. 9 (Dingler's Dampf-Koch-Apparat)</head>
+                </div>
+                <div corresp="#fig005531_10" type="imtAnnotation">
+                    <head>Fig. 10 (Dingler's Dampf-Koch-Apparat)</head>
+                </div>
+                <div corresp="#fig005531_11" type="imtAnnotation">
+                    <head>Fig. 11 (Dingler's Dampf-Koch-Apparat)</head>
+                </div>
+                <div corresp="#fig005531_12" type="imtAnnotation">
+                    <head>Fig. 12 (Dingler's Dampf-Koch-Apparat)</head>
+                </div>
+                <div corresp="#fig005531_13" type="imtAnnotation">
+                    <head>Fig. 13 (Wasch Maschine für Cotton-Fabriken)</head>
+                </div>
+                <div corresp="#fig005531_14" type="imtAnnotation">
+                    <head>Fig. 14 (Wasch Maschine für Cotton-Fabriken)</head>
+                </div>
+                <div corresp="#fig005531_15" type="imtAnnotation">
+                    <head>Fig. 15 (Wasch Maschine für Cotton-Fabriken)</head>
+                </div>
+                <div corresp="#fig005531_16" type="imtAnnotation">
+                    <head>Fig. 16 (Wasch Maschine für Cotton-Fabriken)</head>
+                </div>
+                <div corresp="#fig005531_17" type="imtAnnotation">
+                    <head>Fig. 17 (Maschine zum Waschen der Wasche)</head>
+                </div>
+                <div corresp="#fig005531_18" type="imtAnnotation">
+                    <head>Fig. 18 (Maschine zum Waschen der Wasche)</head>
+                </div>
+                <div corresp="#fig005531_19" type="imtAnnotation">
+                    <head>Fig. 19 (Maschine zum Waschen der Wasche)</head>
+                </div>
+                <div corresp="#fig005531_20a" type="imtAnnotation">
+                    <head>Fig. 20 (Maschine zum Waschen der Wasche)</head>
+                </div>
+                <div corresp="#fig005531_20b" type="imtAnnotation">
+                    <head>Fig. 20 (Waschbrett (Pansch Maschine))</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

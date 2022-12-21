@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx305037a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1597 x 2749</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-02-24T16:24:35">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\pj305\png100\tx305037a.png" width="1597px" height="2749px"></graphic><zone xml:id="fig305037a_31" rendition="Textfigures" ulx="828" uly="1890" lrx="1548" lry="2676" rend="visible"></zone><zone xml:id="fig305037a_32" rendition="Textfigures" ulx="8" uly="649" lrx="865" lry="1883" rend="visible"></zone><zone xml:id="fig305037a_33" rendition="Textfigures" ulx="758" uly="713" lrx="1588" lry="1877" rend="visible"></zone><zone xml:id="fig305037a_34" rendition="Textfigures" ulx="226" uly="3" lrx="775" lry="658" rend="visible"></zone><zone xml:id="fig305037a_35" rendition="Textfigures" ulx="363" uly="1876" lrx="768" lry="2298" rend="visible"></zone><zone xml:id="fig305037a_36" rendition="Textfigures" ulx="332" uly="2263" lrx="780" lry="2678" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig305037a_31" type="imtAnnotation"><head>Fig. 31</head></div><div corresp="#fig305037a_32" type="imtAnnotation"><head>Fig. 32</head></div><div corresp="#fig305037a_33" type="imtAnnotation"><head>Fig. 33</head></div><div corresp="#fig305037a_34" type="imtAnnotation"><head>Fig. 34</head></div><div corresp="#fig305037a_35" type="imtAnnotation"><head>Fig. 35</head></div><div corresp="#fig305037a_36" type="imtAnnotation"><head>Fig. 36</head></div></div></body></text></TEI>

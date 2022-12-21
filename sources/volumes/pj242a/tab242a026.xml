@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab242a026"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab242a026.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1609 x 1184 1653 x 1188</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 20, Bd. 242</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2010-10-06T16:54:03">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="tab242a026.png" width="1653px" height="1188px"></graphic><zone xml:id="fig242a026_1" rendition="Einzelfiguren" ulx="833" uly="45" lrx="1649" lry="1148" rend="visible"></zone><zone xml:id="fig242a026_2" rendition="Einzelfiguren" ulx="3" uly="36" lrx="861" lry="1130" rend="visible"></zone><zone xml:id="fig242a026_3" rendition="Einzelfiguren" ulx="478" uly="804" lrx="777" lry="1064" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig242a026_1" type="imtAnnotation"><head>Fig. 1</head></div><div corresp="#fig242a026_2" type="imtAnnotation"><head>Fig. 2</head></div><div corresp="#fig242a026_3" type="imtAnnotation"><head>Fig. 3</head></div></div></body></text></TEI>

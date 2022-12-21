@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx292075d"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1337 x 1437</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2011-12-28T19:34:41">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\pj292\png100\tx292075d.png" width="1337px" height="1437px"></graphic><zone xml:id="fig292075d_103" rendition="Textfigures" ulx="-5" uly="206" lrx="332" lry="1367" rend="visible"></zone><zone xml:id="fig292075d_104" rendition="Textfigures" ulx="589" uly="3" lrx="1337" lry="833" rend="visible"></zone><zone xml:id="fig292075d_105" rendition="Textfigures" ulx="615" uly="828" lrx="1336" lry="1349" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig292075d_103" type="imtAnnotation"><head>Fig. 103</head></div><div corresp="#fig292075d_104" type="imtAnnotation"><head>Fig. 104</head></div><div corresp="#fig292075d_105" type="imtAnnotation"><head>Fig. 105</head></div></div></body></text></TEI>

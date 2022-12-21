@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab217055"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab217055.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>750 x 1094</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. A, Bd. 217</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.7.2.6" notAfter="2010-09-12T00:39:55">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="tab217055.png" width="750px" height="1094px"></graphic><zone xml:id="fig217055_1" rendition="Einzelfiguren" ulx="183" uly="234" lrx="730" lry="1072" rend="visible"></zone><zone xml:id="fig217055_2" rendition="Einzelfiguren" ulx="37" uly="236" lrx="207" lry="438" rend="visible"></zone><zone xml:id="fig217055_3" rendition="Einzelfiguren" ulx="38" uly="434" lrx="196" lry="599" rend="visible"></zone><zone xml:id="fig217055_4" rendition="Einzelfiguren" ulx="65" uly="649" lrx="190" lry="791" rend="visible"></zone><zone xml:id="fig217055_5" rendition="Einzelfiguren" ulx="51" uly="828" lrx="189" lry="1006" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div facs="fig217055_1" type="imtAnnotation"><head>Fig. 1</head></div><div facs="fig217055_2" type="imtAnnotation"><head>Fig. 2</head></div><div facs="fig217055_3" type="imtAnnotation"><head>Fig. 3</head></div><div facs="fig217055_4" type="imtAnnotation"><head>Fig. 4</head></div><div facs="fig217055_5" type="imtAnnotation"><head>Fig. 5</head></div></div></body></text></TEI>

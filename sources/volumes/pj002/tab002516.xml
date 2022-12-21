@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab002516">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab002516.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2271 x 958 2833 x 1198</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 14, Bd. 2</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T17:39:28">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab002516.png" width="2833px" height="1198px"/>
+            <zone xml:id="fig002516_1a" rendition="Einzelfiguren" ulx="132" uly="46" lrx="695" lry="309" rend="visible"/>
+            <zone xml:id="fig002516_2a" rendition="Einzelfiguren" ulx="36" uly="607" lrx="790" lry="1165" rend="visible"/>
+            <zone xml:id="fig002516_3a" rendition="Einzelfiguren" ulx="32" uly="280" lrx="709" lry="678" rend="visible"/>
+            <zone xml:id="fig002516_4a" rendition="Einzelfiguren" ulx="34" uly="658" lrx="308" lry="834" rend="visible"/>
+            <zone xml:id="fig002516_5a" rendition="Einzelfiguren" ulx="543" uly="488" lrx="710" lry="624" rend="visible"/>
+            <zone xml:id="fig002516_1b" rendition="Einzelfiguren" ulx="733" uly="123" lrx="1232" lry="1179"
+                rend="visible"/>
+            <zone xml:id="fig002516_2b" rendition="Einzelfiguren" ulx="1199" uly="125" lrx="1679" lry="1181"
+                rend="visible"/>
+            <zone xml:id="fig002516_1c" rendition="Einzelfiguren" ulx="1641" uly="552" lrx="1967" lry="1157"
+                rend="visible"/>
+            <zone xml:id="fig002516_2c" rendition="Einzelfiguren" ulx="1902" uly="476" lrx="2057" lry="1143"
+                rend="visible"/>
+            <zone xml:id="fig002516_3c" rendition="Einzelfiguren" ulx="2058" uly="780" lrx="2214" lry="1144"
+                rend="visible"/>
+            <zone xml:id="fig002516_4c" rendition="Einzelfiguren" ulx="2046" uly="570" lrx="2214" lry="733"
+                rend="visible"/>
+            <zone xml:id="fig002516_5c" rendition="Einzelfiguren" ulx="1674" uly="428" lrx="1914" lry="521"
+                rend="visible"/>
+            <zone xml:id="fig002516_6c" rendition="Einzelfiguren" ulx="1673" uly="134" lrx="1922" lry="413"
+                rend="visible"/>
+            <zone xml:id="fig002516_7c" rendition="Einzelfiguren" ulx="2056" uly="259" lrx="2208" lry="524"
+                rend="visible"/>
+            <zone xml:id="fig002516_8c" rendition="Einzelfiguren" ulx="1924" uly="132" lrx="2057" lry="395"
+                rend="visible"/>
+            <zone xml:id="fig002516_1d" rendition="Einzelfiguren" ulx="2213" uly="775" lrx="2349" lry="1149"
+                rend="visible"/>
+            <zone xml:id="fig002516_2d" rendition="Einzelfiguren" ulx="2303" uly="771" lrx="2632" lry="1134"
+                rend="visible"/>
+            <zone xml:id="fig002516_1e" rendition="Einzelfiguren" ulx="2576" uly="262" lrx="2798" lry="495"
+                rend="visible"/>
+            <zone xml:id="fig002516_2e" rendition="Einzelfiguren" ulx="2571" uly="507" lrx="2788" lry="773"
+                rend="visible"/>
+            <zone xml:id="fig002516_3e" rendition="Einzelfiguren" ulx="2585" uly="787" lrx="2794" lry="1031"
+                rend="visible"/>
+            <zone xml:id="fig002516_2f" rendition="Einzelfiguren" ulx="2201" uly="97" lrx="2587" lry="713"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig002516_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Adam's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002516_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Ernst's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002516_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Ernst's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002516_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Ernst's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002516_5a" type="imtAnnotation">
+                    <head>Fig. 5 (Ernst's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002516_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Barker's Vorrichtung Maschinen in stätem Gange zu erhalten)</head>
+                </div>
+                <div corresp="#fig002516_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Barker's Vorrichtung Maschinen in stätem Gange zu erhalten)</head>
+                </div>
+                <div corresp="#fig002516_1c" type="imtAnnotation">
+                    <head>Fig. 1 (Schmid's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002516_2c" type="imtAnnotation">
+                    <head>Fig. 2 (Schmid's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002516_3c" type="imtAnnotation">
+                    <head>Fig. 3 (Schmid's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002516_4c" type="imtAnnotation">
+                    <head>Fig. 4 (Schmid's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002516_5c" type="imtAnnotation">
+                    <head>Fig. 5 (Schmid's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002516_6c" type="imtAnnotation">
+                    <head>Fig. 6 (Schmid's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002516_7c" type="imtAnnotation">
+                    <head>Fig. 7 (Schmid's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002516_8c" type="imtAnnotation">
+                    <head>Fig. 8 (Schmid's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002516_1d" type="imtAnnotation">
+                    <head>Fig. 1 (Hadden's Verbesserung zum Wolle-Spinnen)</head>
+                </div>
+                <div corresp="#fig002516_2d" type="imtAnnotation">
+                    <head>Fig. 2 (Hadden's Verbesserung zum Wolle-Spinnen)</head>
+                </div>
+                <div corresp="#fig002516_1e" type="imtAnnotation">
+                    <head>Fig. 1 (Moriz's Caffe-Maschine)</head>
+                </div>
+                <div corresp="#fig002516_2e" type="imtAnnotation">
+                    <head>Fig. 2 (Moriz's Caffe-Maschine)</head>
+                </div>
+                <div corresp="#fig002516_3e" type="imtAnnotation">
+                    <head>Fig. 3 (Moriz's Caffe-Maschine)</head>
+                </div>
+                <div corresp="#fig002516_2f" type="imtAnnotation">
+                    <head>Bundy's Hanf- und Flachs Brechmaschine</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

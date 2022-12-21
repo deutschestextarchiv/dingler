@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab217421"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab217421.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>960 x 1198</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. F, Bd. 217</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.7.2.6" notAfter="2010-09-12T00:58:33">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="tab217421.png" width="960px" height="1198px"></graphic><zone xml:id="fig217421_1" rendition="Einzelfiguren" ulx="15" uly="206" lrx="510" lry="681" rend="visible"></zone><zone xml:id="fig217421_2" rendition="Einzelfiguren" ulx="505" uly="222" lrx="912" lry="688" rend="visible"></zone><zone xml:id="fig217421_3" rendition="Einzelfiguren" ulx="44" uly="683" lrx="470" lry="1188" rend="visible"></zone><zone xml:id="fig217421_4" rendition="Einzelfiguren" ulx="531" uly="701" lrx="857" lry="1198" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div facs="fig217421_1" type="imtAnnotation"><head>Fig. I</head></div><div facs="fig217421_2" type="imtAnnotation"><head>Fig. II</head></div><div facs="fig217421_3" type="imtAnnotation"><head>Fig. III</head></div><div facs="fig217421_4" type="imtAnnotation"><head>Fig. IV</head></div></div></body></text></TEI>

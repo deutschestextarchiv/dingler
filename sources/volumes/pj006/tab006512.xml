@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab006512">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab006512.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2359 x 952 2949 x 1190</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 4, Bd. 6</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2005-01-21T00:20:45">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab006512.png" width="2949px" height="1190px"/>
+            <zone xml:id="fig006512_1a" rendition="Einzelfiguren" ulx="642" uly="30" lrx="804" lry="179" rend="visible"/>
+            <zone xml:id="fig006512_2a" rendition="Einzelfiguren" ulx="800" uly="33" lrx="934" lry="159" rend="visible"/>
+            <zone xml:id="fig006512_3a" rendition="Einzelfiguren" ulx="587" uly="127" lrx="715" lry="291" rend="visible"/>
+            <zone xml:id="fig006512_4a" rendition="Einzelfiguren" ulx="751" uly="149" lrx="904" lry="280" rend="visible"/>
+            <zone xml:id="fig006512_5a" rendition="Einzelfiguren" ulx="90" uly="30" lrx="558" lry="275" rend="visible"/>
+            <zone xml:id="fig006512_7a" rendition="Einzelfiguren" ulx="934" uly="52" lrx="1021" lry="161" rend="visible"/>
+            <zone xml:id="fig006512_8a" rendition="Einzelfiguren" ulx="1022" uly="28" lrx="1086" lry="163"
+                rend="visible"/>
+            <zone xml:id="fig006512_9a" rendition="Einzelfiguren" ulx="920" uly="163" lrx="1070" lry="287"
+                rend="visible"/>
+            <zone xml:id="fig006512_10a" rendition="Einzelfiguren" ulx="31" uly="275" lrx="345" lry="443" rend="visible"/>
+            <zone xml:id="fig006512_11a" rendition="Einzelfiguren" ulx="343" uly="275" lrx="489" lry="443"
+                rend="visible"/>
+            <zone xml:id="fig006512_12a" rendition="Einzelfiguren" ulx="486" uly="264" lrx="635" lry="441"
+                rend="visible"/>
+            <zone xml:id="fig006512_13a" rendition="Einzelfiguren" ulx="633" uly="265" lrx="776" lry="438"
+                rend="visible"/>
+            <zone xml:id="fig006512_14a" rendition="Einzelfiguren" ulx="774" uly="264" lrx="919" lry="440"
+                rend="visible"/>
+            <zone xml:id="fig006512_15a" rendition="Einzelfiguren" ulx="915" uly="265" lrx="1124" lry="437"
+                rend="visible"/>
+            <zone xml:id="fig006512_16a" rendition="Einzelfiguren" ulx="29" uly="437" lrx="206" lry="502" rend="visible"/>
+            <zone xml:id="fig006512_17a" rendition="Einzelfiguren" ulx="204" uly="438" lrx="323" lry="506"
+                rend="visible"/>
+            <zone xml:id="fig006512_18a" rendition="Einzelfiguren" ulx="319" uly="438" lrx="424" lry="501"
+                rend="visible"/>
+            <zone xml:id="fig006512_19a" rendition="Einzelfiguren" ulx="579" uly="433" lrx="991" lry="501"
+                rend="visible"/>
+            <zone xml:id="fig006512_20a" rendition="Einzelfiguren" ulx="26" uly="500" lrx="373" lry="1119"
+                rend="visible"/>
+            <zone xml:id="fig006512_21a" rendition="Einzelfiguren" ulx="296" uly="503" lrx="579" lry="1111"
+                rend="visible"/>
+            <zone xml:id="fig006512_22a" rendition="Einzelfiguren" ulx="234" uly="815" lrx="372" lry="988"
+                rend="visible"/>
+            <zone xml:id="fig006512_23a" rendition="Einzelfiguren" ulx="550" uly="500" lrx="772" lry="1080"
+                rend="visible"/>
+            <zone xml:id="fig006512_24a" rendition="Einzelfiguren" ulx="768" uly="468" lrx="1931" lry="1159"
+                rend="visible"/>
+            <zone xml:id="fig006512_25a" rendition="Einzelfiguren" ulx="2294" uly="32" lrx="2933" lry="441"
+                rend="visible"/>
+            <zone xml:id="fig006512_26a" rendition="Einzelfiguren" ulx="2294" uly="435" lrx="2933" lry="632"
+                rend="visible"/>
+            <zone xml:id="fig006512_27a" rendition="Einzelfiguren" ulx="2099" uly="303" lrx="2333" lry="492"
+                rend="visible"/>
+            <zone xml:id="fig006512_28a" rendition="Einzelfiguren" ulx="1999" uly="426" lrx="2256" lry="586"
+                rend="visible"/>
+            <zone xml:id="fig006512_29a" rendition="Einzelfiguren" ulx="1970" uly="259" lrx="2225" lry="317"
+                rend="visible"/>
+            <zone xml:id="fig006512_30a" rendition="Einzelfiguren" ulx="2096" uly="30" lrx="2348" lry="287"
+                rend="visible"/>
+            <zone xml:id="fig006512_1b" rendition="Einzelfiguren" ulx="1879" uly="596" lrx="2155" lry="739"
+                rend="visible"/>
+            <zone xml:id="fig006512_2b" rendition="Einzelfiguren" ulx="2149" uly="598" lrx="2302" lry="740"
+                rend="visible"/>
+            <zone xml:id="fig006512_3b" rendition="Einzelfiguren" ulx="2264" uly="597" lrx="2477" lry="741"
+                rend="visible"/>
+            <zone xml:id="fig006512_4b" rendition="Einzelfiguren" ulx="2443" uly="598" lrx="2608" lry="741"
+                rend="visible"/>
+            <zone xml:id="fig006512_5b" rendition="Einzelfiguren" ulx="2588" uly="600" lrx="2861" lry="740"
+                rend="visible"/>
+            <zone xml:id="fig006512_6b" rendition="Einzelfiguren" ulx="2045" uly="735" lrx="2619" lry="776"
+                rend="visible"/>
+            <zone xml:id="fig006512_7b" rendition="Einzelfiguren" ulx="2347" uly="738" lrx="2475" lry="775"
+                rend="visible"/>
+            <zone xml:id="fig006512_8b" rendition="Einzelfiguren" ulx="1877" uly="750" lrx="2424" lry="831"
+                rend="visible"/>
+            <zone xml:id="fig006512_9b" rendition="Einzelfiguren" ulx="1878" uly="826" lrx="2424" lry="870"
+                rend="visible"/>
+            <zone xml:id="fig006512_10b" rendition="Einzelfiguren" ulx="2588" uly="751" lrx="2831" lry="841"
+                rend="visible"/>
+            <zone xml:id="fig006512_11b" rendition="Einzelfiguren" ulx="2536" uly="821" lrx="2785" lry="888"
+                rend="visible"/>
+            <zone xml:id="fig006512_12b" rendition="Einzelfiguren" ulx="2417" uly="781" lrx="2592" lry="837"
+                rend="visible"/>
+            <zone xml:id="fig006512_13b" rendition="Einzelfiguren" ulx="2845" uly="846" lrx="2921" lry="911"
+                rend="visible"/>
+            <zone xml:id="fig006512_14b" rendition="Einzelfiguren" ulx="2487" uly="884" lrx="2650" lry="980"
+                rend="visible"/>
+            <zone xml:id="fig006512_15b" rendition="Einzelfiguren" ulx="1877" uly="863" lrx="2424" lry="908"
+                rend="visible"/>
+            <zone xml:id="fig006512_16b" rendition="Einzelfiguren" ulx="1883" uly="903" lrx="2424" lry="986"
+                rend="visible"/>
+            <zone xml:id="fig006512_17b" rendition="Einzelfiguren" ulx="1882" uly="981" lrx="2034" lry="1065"
+                rend="visible"/>
+            <zone xml:id="fig006512_18b" rendition="Einzelfiguren" ulx="1872" uly="1061" lrx="2035" lry="1109"
+                rend="visible"/>
+            <zone xml:id="fig006512_19b" rendition="Einzelfiguren" ulx="2103" uly="981" lrx="2347" lry="1069"
+                rend="visible"/>
+            <zone xml:id="fig006512_20b" rendition="Einzelfiguren" ulx="2092" uly="1065" lrx="2349" lry="1113"
+                rend="visible"/>
+            <zone xml:id="fig006512_21b" rendition="Einzelfiguren" ulx="2429" uly="994" lrx="2524" lry="1148"
+                rend="visible"/>
+            <zone xml:id="fig006512_22b" rendition="Einzelfiguren" ulx="2545" uly="976" lrx="2907" lry="1093"
+                rend="visible"/>
+            <zone xml:id="fig006512_23b" rendition="Einzelfiguren" ulx="2547" uly="1092" lrx="2882" lry="1156"
+                rend="visible"/>
+            <zone xml:id="fig006512_24b" rendition="Einzelfiguren" ulx="2824" uly="927" lrx="2900" lry="983"
+                rend="visible"/>
+            <zone xml:id="fig006512_25b" rendition="Einzelfiguren" ulx="2739" uly="933" lrx="2810" lry="988"
+                rend="visible"/>
+            <zone xml:id="fig006512_26b" rendition="Einzelfiguren" ulx="2769" uly="868" lrx="2823" lry="932"
+                rend="visible"/>
+            <zone xml:id="fig006512_27b" rendition="Einzelfiguren" ulx="1080" uly="27" lrx="2110" lry="487"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig006512_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_5a" type="imtAnnotation">
+                    <head>Fig. 5 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_7a" type="imtAnnotation">
+                    <head>Fig. 7 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_8a" type="imtAnnotation">
+                    <head>Fig. 8 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_9a" type="imtAnnotation">
+                    <head>Fig. 9 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_10a" type="imtAnnotation">
+                    <head>Fig. 10 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_11a" type="imtAnnotation">
+                    <head>Fig. 11 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_12a" type="imtAnnotation">
+                    <head>Fig. 12 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_13a" type="imtAnnotation">
+                    <head>Fig. 13 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_14a" type="imtAnnotation">
+                    <head>Fig. 14 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_15a" type="imtAnnotation">
+                    <head>Fig. 15 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_16a" type="imtAnnotation">
+                    <head>Fig. 16 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_17a" type="imtAnnotation">
+                    <head>Fig. 17 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_18a" type="imtAnnotation">
+                    <head>Fig. 18 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_19a" type="imtAnnotation">
+                    <head>Fig. 19 (Birkinshaw's verbesserte Eisen-Bahnen)</head>
+                </div>
+                <div corresp="#fig006512_20a" type="imtAnnotation">
+                    <head>Fig. 20 (Hague's Maschine zur Bearbeitung der Materialien zu Töpferwaaren Dach u.
+                        Mauerziegeln)</head>
+                </div>
+                <div corresp="#fig006512_21a" type="imtAnnotation">
+                    <head>Fig. 21 (Hague's Maschine zur Bearbeitung der Materialien zu Töpferwaaren Dach u.
+                        Mauerziegeln)</head>
+                </div>
+                <div corresp="#fig006512_22a" type="imtAnnotation">
+                    <head>Fig. 22 (Hague's Maschine zur Bearbeitung der Materialien zu Töpferwaaren Dach u.
+                        Mauerziegeln)</head>
+                </div>
+                <div corresp="#fig006512_23a" type="imtAnnotation">
+                    <head>Fig. 23 (Howard's Differential-Thermometer)</head>
+                </div>
+                <div corresp="#fig006512_24a" type="imtAnnotation">
+                    <head>Fig. 24 (Vismara's Oel- und Fett-Gas Apparat)</head>
+                </div>
+                <div corresp="#fig006512_25a" type="imtAnnotation">
+                    <head>Fig. 25 (Serre's Maschine zum Weben der Schläuche und Säcke ohne Naht)</head>
+                </div>
+                <div corresp="#fig006512_26a" type="imtAnnotation">
+                    <head>Fig. 26 (Serre's Maschine zum Weben der Schläuche und Säcke ohne Naht)</head>
+                </div>
+                <div corresp="#fig006512_27a" type="imtAnnotation">
+                    <head>Fig. 27 (Serre's Maschine zum Weben der Schläuche und Säcke ohne Naht)</head>
+                </div>
+                <div corresp="#fig006512_28a" type="imtAnnotation">
+                    <head>Fig. 28 (Serre's Maschine zum Weben der Schläuche und Säcke ohne Naht)</head>
+                </div>
+                <div corresp="#fig006512_29a" type="imtAnnotation">
+                    <head>Fig. 29 (Serre's Maschine zum Weben der Schläuche und Säcke ohne Naht)</head>
+                </div>
+                <div corresp="#fig006512_30a" type="imtAnnotation">
+                    <head>Fig. 30 (Serre's Maschine zum Weben der Schläuche und Säcke ohne Naht)</head>
+                </div>
+                <div corresp="#fig006512_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_4b" type="imtAnnotation">
+                    <head>Fig. 4 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_5b" type="imtAnnotation">
+                    <head>Fig. 5 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_6b" type="imtAnnotation">
+                    <head>Fig. 6 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_7b" type="imtAnnotation">
+                    <head>Fig. 7 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_8b" type="imtAnnotation">
+                    <head>Fig. 8 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_9b" type="imtAnnotation">
+                    <head>Fig. 9 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_10b" type="imtAnnotation">
+                    <head>Fig. 10 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_11b" type="imtAnnotation">
+                    <head>Fig. 11 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_12b" type="imtAnnotation">
+                    <head>Fig. 12 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_13b" type="imtAnnotation">
+                    <head>Fig. 13 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_14b" type="imtAnnotation">
+                    <head>Fig. 14 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_15b" type="imtAnnotation">
+                    <head>Fig. 15 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_16b" type="imtAnnotation">
+                    <head>Fig. 16 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_17b" type="imtAnnotation">
+                    <head>Fig. 17 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_18b" type="imtAnnotation">
+                    <head>Fig. 18 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_19b" type="imtAnnotation">
+                    <head>Fig. 19 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_20b" type="imtAnnotation">
+                    <head>Fig. 20 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_21b" type="imtAnnotation">
+                    <head>Fig. 21 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_22b" type="imtAnnotation">
+                    <head>Fig. 22 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_23b" type="imtAnnotation">
+                    <head>Fig. 23 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_24b" type="imtAnnotation">
+                    <head>Fig. 24 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_25b" type="imtAnnotation">
+                    <head>Fig. 25 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_26b" type="imtAnnotation">
+                    <head>Fig. 26 (Ransome's verbesserte Pflüge)</head>
+                </div>
+                <div corresp="#fig006512_27b" type="imtAnnotation">
+                    <head>Kittoe's Doppelt kegelförmige sich umdrehende Kutschen-Achsen</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab003518">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab003518.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2253 x 958 800 x 340 2816 x 1198</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 17, Bd. 3</label><code rend="rectangle"
+                        lang="text/css">color: #0000ff</code></rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T18:09:29">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab003518.png" width="2816px" height="1198px"/>
+            <zone xml:id="fig003518_1a" rendition="Einzelfiguren" ulx="475" uly="74" lrx="1006" lry="419" rend="visible"/>
+            <zone xml:id="fig003518_2a" rendition="Einzelfiguren" ulx="79" uly="73" lrx="523" lry="393" rend="visible"/>
+            <zone xml:id="fig003518_3a" rendition="Einzelfiguren" ulx="45" uly="391" lrx="544" lry="710" rend="visible"/>
+            <zone xml:id="fig003518_4a" rendition="Einzelfiguren" ulx="543" uly="417" lrx="927" lry="713" rend="visible"/>
+            <zone xml:id="fig003518_1b" rendition="Einzelfiguren" ulx="627" uly="707" lrx="850" lry="1126"
+                rend="visible"/>
+            <zone xml:id="fig003518_2b" rendition="Einzelfiguren" ulx="292" uly="746" lrx="630" lry="1131"
+                rend="visible"/>
+            <zone xml:id="fig003518_3b" rendition="Einzelfiguren" ulx="847" uly="751" lrx="1195" lry="1121"
+                rend="visible"/>
+            <zone xml:id="fig003518_4b" rendition="Einzelfiguren" ulx="64" uly="721" lrx="314" lry="1162" rend="visible"/>
+            <zone xml:id="fig003518_5b" rendition="Einzelfiguren" ulx="920" uly="181" lrx="1388" lry="713"
+                rend="visible"/>
+            <zone xml:id="fig003518_6b" rendition="Einzelfiguren" ulx="1014" uly="47" lrx="1383" lry="183"
+                rend="visible"/>
+            <zone xml:id="fig003518_7b" rendition="Einzelfiguren" ulx="1218" uly="805" lrx="1750" lry="1176"
+                rend="visible"/>
+            <zone xml:id="fig003518_8b" rendition="Einzelfiguren" ulx="1188" uly="492" lrx="1746" lry="811"
+                rend="visible"/>
+            <zone xml:id="fig003518_9b" rendition="Einzelfiguren" ulx="1332" uly="167" lrx="1687" lry="496"
+                rend="visible"/>
+            <zone xml:id="fig003518_1c" rendition="Einzelfiguren" ulx="1628" uly="60" lrx="1848" lry="434"
+                rend="visible"/>
+            <zone xml:id="fig003518_2c" rendition="Einzelfiguren" ulx="1829" uly="96" lrx="1978" lry="426"
+                rend="visible"/>
+            <zone xml:id="fig003518_3c" rendition="Einzelfiguren" ulx="1974" uly="148" lrx="2162" lry="424"
+                rend="visible"/>
+            <zone xml:id="fig003518_4c" rendition="Einzelfiguren" ulx="2159" uly="157" lrx="2340" lry="425"
+                rend="visible"/>
+            <zone xml:id="fig003518_A" rendition="Einzelfiguren" ulx="1743" uly="839" lrx="2778" lry="1182"
+                rend="visible"/>
+            <zone xml:id="fig003518_B" rendition="Einzelfiguren" ulx="1744" uly="408" lrx="2778" lry="845"
+                rend="visible"/>
+            <zone xml:id="fig003518_C" rendition="Einzelfiguren" ulx="2096" uly="499" lrx="2429" lry="832"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig003518_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Auspress-Maschine für Bleichereien und Kattundruckereien)</head>
+                </div>
+                <div corresp="#fig003518_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Auspress-Maschine für Bleichereien und Kattundruckereien)</head>
+                </div>
+                <div corresp="#fig003518_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Auspress-Maschine für Bleichereien und Kattundruckereien)</head>
+                </div>
+                <div corresp="#fig003518_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Auspress-Maschine für Bleichereien und Kattundruckereien)</head>
+                </div>
+                <div corresp="#fig003518_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Beuch-Apparat)</head>
+                </div>
+                <div corresp="#fig003518_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Beuch-Apparat)</head>
+                </div>
+                <div corresp="#fig003518_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Beuch-Apparat)</head>
+                </div>
+                <div corresp="#fig003518_4b" type="imtAnnotation">
+                    <head>Fig. 4 (Beuch-Apparat)</head>
+                </div>
+                <div corresp="#fig003518_5b" type="imtAnnotation">
+                    <head>Fig. 5 (Beuch Kufe)</head>
+                </div>
+                <div corresp="#fig003518_6b" type="imtAnnotation">
+                    <head>Fig. 6 (Rost zur Beuch-Kufe)</head>
+                </div>
+                <div corresp="#fig003518_7b" type="imtAnnotation">
+                    <head>Fig. 7 (Maschine zur Reinigung der Gewebe)</head>
+                </div>
+                <div corresp="#fig003518_8b" type="imtAnnotation">
+                    <head>Fig. 8 (Maschine zur Reinigung der Gewebe)</head>
+                </div>
+                <div corresp="#fig003518_9b" type="imtAnnotation">
+                    <head>Fig. 9 (Maschine zur Reinigung der Gewebe)</head>
+                </div>
+                <div corresp="#fig003518_1c" type="imtAnnotation">
+                    <head>Fig. 1 (Apparat zur Bereitung der Bleichflüssigkeit für Schaaf- und Baumwollenzeuge)</head>
+                </div>
+                <div corresp="#fig003518_2c" type="imtAnnotation">
+                    <head>Fig. 2 (Apparat zur Bereitung der Bleichflüssigkeit für Schaaf- und Baumwollenzeuge)</head>
+                </div>
+                <div corresp="#fig003518_3c" type="imtAnnotation">
+                    <head>Fig. 3 (Apparat zur Bereitung der Bleichflüssigkeit für Schaaf- und Baumwollenzeuge)</head>
+                </div>
+                <div corresp="#fig003518_4c" type="imtAnnotation">
+                    <head>Fig. 4 (Apparat zur Bereitung der Bleichflüssigkeit für Schaaf- und Baumwollenzeuge)</head>
+                </div>
+                <div corresp="#fig003518_A" type="imtAnnotation">
+                    <head>Fig. A (Appretur-Maschine für Baumwollen-Gewebe)</head>
+                </div>
+                <div corresp="#fig003518_B" type="imtAnnotation">
+                    <head>Fig. B (Appretur-Maschine für Baumwollen-Gewebe)</head>
+                </div>
+                <div corresp="#fig003518_C" type="imtAnnotation">
+                    <head>Fig. C (Appretur-Maschine für Baumwollen-Gewebe)</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

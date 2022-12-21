@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab002518">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab002518.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2395 x 938 2988 x 1170</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 15, Bd. 2</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T17:56:21">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab002518.png" width="2988px" height="1170px"/>
+            <zone xml:id="fig002518_A" rendition="Einzelfiguren" ulx="52" uly="207" lrx="186" lry="317" rend="visible"/>
+            <zone xml:id="fig002518_B" rendition="Einzelfiguren" ulx="65" uly="67" lrx="193" lry="211" rend="visible"/>
+            <zone xml:id="fig002518_C" rendition="Einzelfiguren" ulx="209" uly="91" lrx="313" lry="299" rend="visible"/>
+            <zone xml:id="fig002518_D" rendition="Einzelfiguren" ulx="340" uly="228" lrx="486" lry="337" rend="visible"/>
+            <zone xml:id="fig002518_E" rendition="Einzelfiguren" ulx="323" uly="55" lrx="449" lry="232" rend="visible"/>
+            <zone xml:id="fig002518_F" rendition="Einzelfiguren" ulx="440" uly="87" lrx="609" lry="295" rend="visible"/>
+            <zone xml:id="fig002518_G" rendition="Einzelfiguren" ulx="30" uly="339" lrx="357" lry="1095" rend="visible"/>
+            <zone xml:id="fig002518_H" rendition="Einzelfiguren" ulx="356" uly="339" lrx="695" lry="1107" rend="visible"/>
+            <zone xml:id="fig002518_I" rendition="Einzelfiguren" ulx="712" uly="704" lrx="1208" lry="1127"
+                rend="visible"/>
+            <zone xml:id="fig002518_K" rendition="Einzelfiguren" ulx="714" uly="428" lrx="1108" lry="723" rend="visible"/>
+            <zone xml:id="fig002518_L" rendition="Einzelfiguren" ulx="783" uly="53" lrx="1001" lry="455" rend="visible"/>
+            <zone xml:id="fig002518_M" rendition="Einzelfiguren" ulx="990" uly="49" lrx="1145" lry="459" rend="visible"/>
+            <zone xml:id="fig002518_N" rendition="Einzelfiguren" ulx="623" uly="68" lrx="804" lry="196" rend="visible"/>
+            <zone xml:id="fig002518_O" rendition="Einzelfiguren" ulx="615" uly="191" lrx="778" lry="343" rend="visible"/>
+            <zone xml:id="fig002518_P" rendition="Einzelfiguren" ulx="1202" uly="596" lrx="1490" lry="1128"
+                rend="visible"/>
+            <zone xml:id="fig002518_1a" rendition="Einzelfiguren" ulx="1475" uly="617" lrx="2127" lry="1122"
+                rend="visible"/>
+            <zone xml:id="fig002518_2a" rendition="Einzelfiguren" ulx="2123" uly="680" lrx="2550" lry="1132"
+                rend="visible"/>
+            <zone xml:id="fig002518_3a" rendition="Einzelfiguren" ulx="2535" uly="621" lrx="2746" lry="1134"
+                rend="visible"/>
+            <zone xml:id="fig002518_4a" rendition="Einzelfiguren" ulx="2725" uly="31" lrx="2949" lry="848"
+                rend="visible"/>
+            <zone xml:id="fig002518_5a" rendition="Einzelfiguren" ulx="2769" uly="847" lrx="2918" lry="1098"
+                rend="visible"/>
+            <zone xml:id="fig002518_6a" rendition="Einzelfiguren" ulx="2433" uly="292" lrx="2555" lry="534"
+                rend="visible"/>
+            <zone xml:id="fig002518_6b" rendition="Einzelfiguren" ulx="2611" uly="62" lrx="2716" lry="183"
+                rend="visible"/>
+            <zone xml:id="fig002518_7a" rendition="Einzelfiguren" ulx="2608" uly="195" lrx="2725" lry="351"
+                rend="visible"/>
+            <zone xml:id="fig002518_8a" rendition="Einzelfiguren" ulx="2387" uly="50" lrx="2495" lry="272"
+                rend="visible"/>
+            <zone xml:id="fig002518_9a" rendition="Einzelfiguren" ulx="2492" uly="53" lrx="2599" lry="274"
+                rend="visible"/>
+            <zone xml:id="fig002518_10a" rendition="Einzelfiguren" ulx="2560" uly="348" lrx="2759" lry="517"
+                rend="visible"/>
+            <zone xml:id="fig002518_11a" rendition="Einzelfiguren" ulx="1810" uly="229" lrx="2375" lry="588"
+                rend="visible"/>
+            <zone xml:id="fig002518_12a" rendition="Einzelfiguren" ulx="1998" uly="413" lrx="2206" lry="545"
+                rend="visible"/>
+            <zone xml:id="fig002518_13a" rendition="Einzelfiguren" ulx="1838" uly="30" lrx="2267" lry="240"
+                rend="visible"/>
+            <zone xml:id="fig002518_14a" rendition="Einzelfiguren" ulx="1141" uly="37" lrx="1572" lry="321"
+                rend="visible"/>
+            <zone xml:id="fig002518_15a" rendition="Einzelfiguren" ulx="1146" uly="322" lrx="1560" lry="588"
+                rend="visible"/>
+            <zone xml:id="fig002518_16a" rendition="Einzelfiguren" ulx="1559" uly="84" lrx="1821" lry="344"
+                rend="visible"/>
+            <zone xml:id="fig002518_17a" rendition="Einzelfiguren" ulx="1737" uly="81" lrx="1826" lry="220"
+                rend="visible"/>
+            <zone xml:id="fig002518_18a" rendition="Einzelfiguren" ulx="1554" uly="337" lrx="1821" lry="592"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig002518_A" type="imtAnnotation">
+                    <head>Fig. A (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_B" type="imtAnnotation">
+                    <head>Fig. B (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_C" type="imtAnnotation">
+                    <head>Fig. C (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_D" type="imtAnnotation">
+                    <head>Fig. D (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_E" type="imtAnnotation">
+                    <head>Fig. E (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_F" type="imtAnnotation">
+                    <head>Fig. F (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_G" type="imtAnnotation">
+                    <head>Fig. G (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_H" type="imtAnnotation">
+                    <head>Fig. H (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_I" type="imtAnnotation">
+                    <head>Fig. I (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_K" type="imtAnnotation">
+                    <head>Fig. K (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_L" type="imtAnnotation">
+                    <head>Fig. L (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_M" type="imtAnnotation">
+                    <head>Fig. M (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_N" type="imtAnnotation">
+                    <head>Fig. N (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_O" type="imtAnnotation">
+                    <head>Fig. O (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_P" type="imtAnnotation">
+                    <head>Fig. P (Zu Voit's Bauverbesserungen)</head>
+                </div>
+                <div corresp="#fig002518_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Lewis's Maschine zum Walken)</head>
+                </div>
+                <div corresp="#fig002518_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Lewis's Maschine zum Walken)</head>
+                </div>
+                <div corresp="#fig002518_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Lewis's Maschine zum Walken)</head>
+                </div>
+                <div corresp="#fig002518_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Spratley's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002518_5a" type="imtAnnotation">
+                    <head>Fig. 5 (Spratley's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002518_6a" type="imtAnnotation">
+                    <head>Fig. 6a (Spratley's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002518_6b" type="imtAnnotation">
+                    <head>Fig. 6b (Spratley's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002518_7a" type="imtAnnotation">
+                    <head>Fig. 7 (Spratley's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002518_8a" type="imtAnnotation">
+                    <head>Fig. 8 (Spratley's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002518_9a" type="imtAnnotation">
+                    <head>Fig. 9 (Spratley's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002518_10a" type="imtAnnotation">
+                    <head>Fig. 10 (Spratley's verbesserte Wagen-Achsen)</head>
+                </div>
+                <div corresp="#fig002518_11a" type="imtAnnotation">
+                    <head>Fig. 11 (Berard's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002518_12a" type="imtAnnotation">
+                    <head>Fig. 12 (Berard's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002518_13a" type="imtAnnotation">
+                    <head>Fig. 13 (Berard's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002518_14a" type="imtAnnotation">
+                    <head>Fig. 14 (Soliman's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002518_15a" type="imtAnnotation">
+                    <head>Fig. 15 (Soliman's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002518_16a" type="imtAnnotation">
+                    <head>Fig. 16 (Soliman's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002518_17a" type="imtAnnotation">
+                    <head>Fig. 17 (Soliman's Destillir-Apparat)</head>
+                </div>
+                <div corresp="#fig002518_18a" type="imtAnnotation">
+                    <head>Fig. 18 (Soliman's Destillir-Apparat)</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

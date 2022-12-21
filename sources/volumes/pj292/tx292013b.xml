@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx292013b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1716 x 1728</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2011-12-28T16:31:18">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\pj292\png100\tx292013b.png" width="1716px" height="1728px"></graphic><zone xml:id="fig292013b_4" rendition="Textfigures" ulx="8" uly="278" lrx="491" lry="1426" rend="visible"></zone><zone xml:id="fig292013b_5" rendition="Textfigures" ulx="505" uly="270" lrx="1004" lry="1414" rend="visible"></zone><zone xml:id="fig292013b_6" rendition="Textfigures" ulx="1053" uly="4" lrx="1707" lry="1642" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig292013b_4" type="imtAnnotation"><head>Fig. 4</head></div><div corresp="#fig292013b_5" type="imtAnnotation"><head>Fig. 5</head></div><div corresp="#fig292013b_6" type="imtAnnotation"><head>Fig. 6</head></div></div></body></text></TEI>

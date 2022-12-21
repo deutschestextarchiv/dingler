@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab268675"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1540 x 1208</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 3, Bd. 268</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2011-07-26T09:34:34">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\png25\tab268675.png" width="1540px" height="1208px"></graphic><zone xml:id="fig268675_1" rendition="Einzelfiguren" ulx="43" uly="137" lrx="333" lry="1188" rend="visible"></zone><zone xml:id="fig268675_2" rendition="Einzelfiguren" ulx="354" uly="167" lrx="890" lry="506" rend="visible"></zone><zone xml:id="fig268675_3" rendition="Einzelfiguren" ulx="418" uly="602" lrx="820" lry="951" rend="visible"></zone><zone xml:id="fig268675_4" rendition="Einzelfiguren" ulx="353" uly="32" lrx="1490" lry="1192" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig268675_1" type="imtAnnotation"><head>Grundriss</head></div><div corresp="#fig268675_2" type="imtAnnotation"><head>Querschnitt von C</head></div><div corresp="#fig268675_3" type="imtAnnotation"><head>Querschnitt von B</head></div><div corresp="#fig268675_4" type="imtAnnotation"><head>Aufriss</head></div></div></body></text></TEI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx3190905b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2936 x 1552 2936 x 1552</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-08-07T10:49:45">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\32199826Z\png100\tx3190905b.png" width="2936px" height="1552px"></graphic><zone xml:id="fig3190905b_68" rendition="Textfigures" ulx="15" uly="14" lrx="912" lry="1542" rend="visible"></zone><zone xml:id="fig3190905b_69" rendition="Textfigures" ulx="866" uly="21" lrx="1573" lry="1485" rend="visible"></zone><zone xml:id="fig3190905b_70" rendition="Textfigures" ulx="1452" uly="22" lrx="2921" lry="1328" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig3190905b_68" type="imtAnnotation"><head>Fig. 68</head></div><div corresp="#fig3190905b_69" type="imtAnnotation"><head>Fig. 69</head></div><div corresp="#fig3190905b_70" type="imtAnnotation"><head>Fig. 70</head></div></div></body></text></TEI>

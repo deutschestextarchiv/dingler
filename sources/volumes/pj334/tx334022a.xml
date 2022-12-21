@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx334022a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1760 x 3684</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-05-08T13:16:47">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\pj334\tx334022a.png" width="1760px" height="3684px"></graphic><zone xml:id="fig334022a_1a" rendition="Textfigures" ulx="106" uly="16" lrx="1679" lry="641" rend="visible"></zone><zone xml:id="fig334022a_1b" rendition="Textfigures" ulx="89" uly="690" lrx="1702" lry="1344" rend="visible"></zone><zone xml:id="fig334022a_1c" rendition="Textfigures" ulx="24" uly="1376" lrx="1699" lry="2062" rend="visible"></zone><zone xml:id="fig334022a_1d" rendition="Textfigures" ulx="98" uly="2107" lrx="1703" lry="2757" rend="visible"></zone><zone xml:id="fig334022a_1e" rendition="Textfigures" ulx="98" uly="2802" lrx="1683" lry="3607" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig334022a_1a" type="imtAnnotation"><head>Stufe I</head></div><div corresp="#fig334022a_1b" type="imtAnnotation"><head>Stufe II</head></div><div corresp="#fig334022a_1c" type="imtAnnotation"><head>Stufe III</head></div><div corresp="#fig334022a_1d" type="imtAnnotation"><head>Stufe IVa</head></div><div corresp="#fig334022a_1e" type="imtAnnotation"><head>Stufe IVb</head></div></div></body></text></TEI>

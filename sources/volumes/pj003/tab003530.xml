@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab003530">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab003530.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2405 x 953 3006 x 1192</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 23, Bd. 3</label><code rend="rectangle"
+                        lang="text/css">color: #0000ff</code></rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T20:09:22">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab003530.png" width="3006px" height="1192px"/>
+            <zone xml:id="fig003530_1a" rendition="Einzelfiguren" ulx="34" uly="148" lrx="828" lry="591" rend="visible"/>
+            <zone xml:id="fig003530_2a" rendition="Einzelfiguren" ulx="822" uly="149" lrx="1250" lry="591"
+                rend="visible"/>
+            <zone xml:id="fig003530_3a" rendition="Einzelfiguren" ulx="1307" uly="127" lrx="1632" lry="588"
+                rend="visible"/>
+            <zone xml:id="fig003530_4a" rendition="Einzelfiguren" ulx="23" uly="620" lrx="701" lry="1076" rend="visible"/>
+            <zone xml:id="fig003530_5a" rendition="Einzelfiguren" ulx="923" uly="613" lrx="1273" lry="1076"
+                rend="visible"/>
+            <zone xml:id="fig003530_5b" rendition="Einzelfiguren" ulx="629" uly="631" lrx="930" lry="1079"
+                rend="visible"/>
+            <zone xml:id="fig003530_6a" rendition="Einzelfiguren" ulx="2184" uly="35" lrx="2420" lry="616"
+                rend="visible"/>
+            <zone xml:id="fig003530_6b" rendition="Einzelfiguren" ulx="1639" uly="32" lrx="2187" lry="617"
+                rend="visible"/>
+            <zone xml:id="fig003530_7a" rendition="Einzelfiguren" ulx="2409" uly="35" lrx="2912" lry="618"
+                rend="visible"/>
+            <zone xml:id="fig003530_1b" rendition="Einzelfiguren" ulx="1366" uly="608" lrx="1661" lry="1158"
+                rend="visible"/>
+            <zone xml:id="fig003530_2b" rendition="Einzelfiguren" ulx="1660" uly="615" lrx="1826" lry="1166"
+                rend="visible"/>
+            <zone xml:id="fig003530_3b" rendition="Einzelfiguren" ulx="1861" uly="652" lrx="2743" lry="757"
+                rend="visible"/>
+            <zone xml:id="fig003530_1c" rendition="Einzelfiguren" ulx="1837" uly="999" lrx="2938" lry="1116"
+                rend="visible"/>
+            <zone xml:id="fig003530_2c" rendition="Einzelfiguren" ulx="1841" uly="785" lrx="2928" lry="922"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig003530_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Valcourt's Schrauben-Pressen zur Zusammendruckung der Baumwollen-Ballen etc.)</head>
+                </div>
+                <div corresp="#fig003530_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Valcourt's Schrauben-Pressen zur Zusammendruckung der Baumwollen-Ballen etc.)</head>
+                </div>
+                <div corresp="#fig003530_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Valcourt's Schrauben-Pressen zur Zusammendruckung der Baumwollen-Ballen etc.)</head>
+                </div>
+                <div corresp="#fig003530_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Valcourt's Schrauben-Pressen zur Zusammendruckung der Baumwollen-Ballen etc.)</head>
+                </div>
+                <div corresp="#fig003530_5a" type="imtAnnotation">
+                    <head>Fig. 5 (Valcourt's Schrauben-Pressen zur Zusammendruckung der Baumwollen-Ballen etc.)</head>
+                </div>
+                <div corresp="#fig003530_5b" type="imtAnnotation">
+                    <head>Fig. 5 bis (Valcourt's Schrauben-Pressen zur Zusammendruckung der Baumwollen-Ballen
+                        etc.)</head>
+                </div>
+                <div corresp="#fig003530_6a" type="imtAnnotation">
+                    <head>Fig. 6 (Valcourt's Schrauben-Pressen zur Zusammendruckung der Baumwollen-Ballen etc.)</head>
+                </div>
+                <div corresp="#fig003530_6b" type="imtAnnotation">
+                    <head>Fig. 6 bis (Valcourt's Schrauben-Pressen zur Zusammendruckung der Baumwollen-Ballen
+                        etc.)</head>
+                </div>
+                <div corresp="#fig003530_7a" type="imtAnnotation">
+                    <head>Fig. 7 (Valcourt's Schrauben-Pressen zur Zusammendruckung der Baumwollen-Ballen etc.)</head>
+                </div>
+                <div corresp="#fig003530_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Zech's Kammräder mit Reifen und Kammen von Guss-Eisen)</head>
+                </div>
+                <div corresp="#fig003530_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Zech's Kammräder mit Reifen und Kammen von Guss-Eisen)</head>
+                </div>
+                <div corresp="#fig003530_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Zech's Kammräder mit Reifen und Kammen von Guss-Eisen)</head>
+                </div>
+                <div corresp="#fig003530_1c" type="imtAnnotation">
+                    <head>Fig. 1 (Smart's Dach-Stuhl)</head>
+                </div>
+                <div corresp="#fig003530_2c" type="imtAnnotation">
+                    <head>Fig. 2 (Smart's Dach-Stuhl)</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx279181a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1580 x 1439</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2011-09-13T17:11:55">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\png100\tx279181a.png" width="1580px" height="1439px"></graphic><zone xml:id="fig279181a_35" rendition="Textfigures" ulx="0" uly="3" lrx="1447" lry="1257" rend="visible"></zone><zone xml:id="fig279181a_36" rendition="Textfigures" ulx="723" uly="1053" lrx="1068" lry="1377" rend="visible"></zone><zone xml:id="fig279181a_37" rendition="Textfigures" ulx="1289" uly="1076" lrx="1565" lry="1375" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig279181a_35" type="imtAnnotation"><head>Fig. 35</head></div><div corresp="#fig279181a_36" type="imtAnnotation"><head>Fig. 36</head></div><div corresp="#fig279181a_37" type="imtAnnotation"><head>Fig. 37</head></div></div></body></text></TEI>

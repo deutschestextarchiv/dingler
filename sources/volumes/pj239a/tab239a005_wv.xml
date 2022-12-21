@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tab239a005_wv.xsl"?>
+<?oasis-schema href="imt_1_7.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_7.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab239a005"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab239a005.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>6637 x 4999 6637 x 4999 1800 x 1355</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2005-01-24T17:43:52">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="tab239a005.png" width="1800px" height="1355px"></graphic><zone xml:id="fig239a005_1" rendition="Einzelfiguren" ulx="28" uly="59" lrx="1266" lry="1310" rend="visible"></zone><zone xml:id="fig239a005_2" rendition="Einzelfiguren" ulx="1248" uly="68" lrx="1774" lry="1311" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig239a005_1" type="imtAnnotation"><head>Fig. 1.</head><div><p>Einzelfigur aus Tab. 1, Bd. 239</p></div></div><div corresp="#fig239a005_2" type="imtAnnotation"><head>Fig. 2.</head><div><p>Einzelfigur aus Tab. 1, Bd. 239</p></div></div></div></body></text></TEI>

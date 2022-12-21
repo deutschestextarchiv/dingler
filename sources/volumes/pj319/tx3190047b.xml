@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx3190047b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2180 x 3311</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-06-26T10:28:47">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="F:\pj319_pt. markup\png100\tx3190047b.png" width="2180px" height="3311px"></graphic><zone xml:id="fig3190047b_164" rendition="Textfigures" ulx="84" uly="29" lrx="2088" lry="1658" rend="visible"></zone><zone xml:id="fig3190047b_165" rendition="Textfigures" ulx="70" uly="1538" lrx="1384" lry="3157" rend="visible"></zone><zone xml:id="fig3190047b_166" rendition="Textfigures" ulx="1193" uly="1439" lrx="2059" lry="3168" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig3190047b_164" type="imtAnnotation"><head>Fig. 164</head></div><div corresp="#fig3190047b_165" type="imtAnnotation"><head>Fig. 165</head></div><div corresp="#fig3190047b_166" type="imtAnnotation"><head>Fig. 166</head></div></div></body></text></TEI>

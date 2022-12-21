@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx333248b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>4824 x 3628 1206 x 907 4824 x 3628</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.2.0" notAfter="2012-07-26T13:21:49">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\32199908Z\png100\tx333248b.png" width="4824px" height="3628px"></graphic><zone xml:id="fig333248b_3a" rendition="Textfigures" ulx="32" uly="28" lrx="4816" lry="3450" rend="visible"></zone><zone xml:id="fig333248b_3b" rendition="Textfigures" ulx="736" uly="28" lrx="4812" lry="2731" rend="visible"></zone><zone xml:id="fig333248b_3c" rendition="Textfigures" ulx="1452" uly="24" lrx="4807" lry="2136" rend="visible"></zone><zone xml:id="fig333248b_3d" rendition="Textfigures" ulx="2342" uly="24" lrx="4816" lry="1806" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig333248b_3a" type="imtAnnotation"><head>Fig. 3a</head><div><p>Einzelfigur S. 94, Bd. 333</p></div></div><div corresp="#fig333248b_3b" type="imtAnnotation"><head>Fig. 3b</head><div><p>Einzelfigur S. 94, Bd. 333</p></div></div><div corresp="#fig333248b_3c" type="imtAnnotation"><head>Fig. 3c</head><div><p>Einzelfigur S. 94, Bd. 333</p></div></div><div corresp="#fig333248b_3d" type="imtAnnotation"><head>Fig. 3d</head><div><p>Einzelfigur S. 94, Bd. 333</p></div></div></div></body></text></TEI>

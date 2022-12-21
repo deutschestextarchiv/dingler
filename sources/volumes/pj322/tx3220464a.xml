@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx3220464a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2519 x 1589</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-08-08T16:00:16">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="Y:\Dingler_A\2_xml\pj322\png100\tx3220464a.png" width="2519px" height="1589px"></graphic><zone xml:id="fig3220464a_1" rendition="Textfigures" ulx="14" uly="16" lrx="1873" lry="712" rend="visible"></zone><zone xml:id="fig3220464a_2" rendition="Textfigures" ulx="58" uly="608" lrx="1878" lry="1049" rend="visible"></zone><zone xml:id="fig3220464a_3" rendition="Textfigures" ulx="12" uly="1029" lrx="2503" lry="1579" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig3220464a_1" type="imtAnnotation"><head>Fig. 1</head></div><div corresp="#fig3220464a_2" type="imtAnnotation"><head>Fig. 2</head></div><div corresp="#fig3220464a_3" type="imtAnnotation"><head>Fig. 3</head></div></div></body></text></TEI>

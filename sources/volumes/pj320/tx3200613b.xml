@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx3200613b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2994 x 4546 2994 x 4546</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.2.0" notAfter="2012-08-16T14:20:32">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\32199816Z\png100\tx3200613b.png" width="2994px" height="4546px"></graphic><zone xml:id="fig3200613b_38" rendition="Textfigures" ulx="35" uly="1185" lrx="1416" lry="4491" rend="visible"></zone><zone xml:id="fig3200613b_39" rendition="Textfigures" ulx="1305" uly="1179" lrx="2983" lry="4460" rend="visible"></zone><zone xml:id="fig3200613b_40" rendition="Textfigures" ulx="182" uly="40" lrx="1447" lry="1280" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig3200613b_38" type="imtAnnotation"><head>Fig. 38</head></div><div corresp="#fig3200613b_39" type="imtAnnotation"><head>Fig. 39</head></div><div corresp="#fig3200613b_40" type="imtAnnotation"><head>Fig. 40</head></div></div></body></text></TEI>

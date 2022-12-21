@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx286180a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1543 x 1026</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2011-11-17T13:40:38">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\..\pj286\png100\tx286180a.png" width="1543px" height="1026px"></graphic><zone xml:id="fig286180a_1" rendition="Textfigures" ulx="565" uly="7" lrx="1060" lry="868" rend="visible"></zone><zone xml:id="fig286180a_2" rendition="Textfigures" ulx="3" uly="1" lrx="602" lry="987" rend="visible"></zone><zone xml:id="fig286180a_3" rendition="Textfigures" ulx="1072" uly="7" lrx="1541" lry="742" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig286180a_1" type="imtAnnotation"><head>Fig. 1</head></div><div corresp="#fig286180a_2" type="imtAnnotation"><head>Fig. 2</head></div><div corresp="#fig286180a_3" type="imtAnnotation"><head>Fig. 3</head></div></div></body></text></TEI>

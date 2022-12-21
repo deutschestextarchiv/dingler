@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab226040a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab226040a.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1800 x 1287 1800 x 1287</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2005-01-27T21:25:14">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="tab226040a.png" width="1800px" height="1287px"></graphic><zone xml:id="fig226040a_1" rendition="Einzelfiguren" ulx="55" uly="98" lrx="613" lry="579" rend="visible"></zone><zone xml:id="fig226040a_2" rendition="Einzelfiguren" ulx="614" uly="89" lrx="1147" lry="636" rend="visible"></zone><zone xml:id="fig226040a_3" rendition="Einzelfiguren" ulx="1166" uly="66" lrx="1449" lry="641" rend="visible"></zone><zone xml:id="fig226040a_4" rendition="Einzelfiguren" ulx="1452" uly="67" lrx="1744" lry="643" rend="visible"></zone><zone xml:id="fig226040a_5" rendition="Einzelfiguren" ulx="-3" uly="547" lrx="1792" lry="1286" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig226040a_1" type="imtAnnotation"><head>Fig. 1.</head><div><p>Einzelfigur aus Tab. 1, Bd. 226</p></div></div><div corresp="#fig226040a_2" type="imtAnnotation"><head>Fig. 2.</head><div><p>Einzelfigur aus Tab. 1, Bd. 226</p></div></div><div corresp="#fig226040a_3" type="imtAnnotation"><head>Fig. 3.</head><div><p>Einzelfigur aus Tab. 1, Bd. 226</p></div></div><div corresp="#fig226040a_4" type="imtAnnotation"><head>Fig. 4.</head><div><p>Einzelfigur aus Tab. 1, Bd. 226</p></div></div><div corresp="#fig226040a_5" type="imtAnnotation"><head>Fig. 5.</head><div><p>Einzelfigur aus Tab. 1, Bd. 226</p></div></div></div></body></text></TEI>

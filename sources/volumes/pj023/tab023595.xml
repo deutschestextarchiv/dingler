@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab023595"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab023595.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2894 x 1195</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 3, Bd. 23</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2005-01-21T00:36:13">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="tab023595.png" width="2894px" height="1195px"></graphic><zone xml:id="fig023595_2" rendition="Einzelfiguren" ulx="19" uly="21" lrx="2000" lry="652" rend="visible"></zone><zone xml:id="fig023595_7" rendition="Einzelfiguren" ulx="2422" uly="238" lrx="2727" lry="556" rend="visible"></zone><zone xml:id="fig023595_8" rendition="Einzelfiguren" ulx="897" uly="234" lrx="2869" lry="1189" rend="visible"></zone><zone xml:id="fig023595_11" rendition="Einzelfiguren" ulx="2703" uly="242" lrx="2859" lry="828" rend="visible"></zone><zone xml:id="fig023595_12" rendition="Einzelfiguren" ulx="36" uly="554" lrx="479" lry="1161" rend="visible"></zone><zone xml:id="fig023595_13" rendition="Einzelfiguren" ulx="469" uly="588" lrx="914" lry="961" rend="visible"></zone><zone xml:id="fig023595_14" rendition="Einzelfiguren" ulx="724" uly="949" lrx="1123" lry="1146" rend="visible"></zone><zone xml:id="fig023595_15" rendition="Einzelfiguren" ulx="831" uly="1052" lrx="1050" lry="1133" rend="visible"></zone><zone xml:id="fig023595_16" rendition="Einzelfiguren" ulx="1763" uly="20" lrx="2861" lry="643" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig023595_2" type="imtAnnotation"><head>Fig. 2 (Pihet's Maschine zum Schlagen u. Ausbreiten der Baumwolle)</head></div><div corresp="#fig023595_7" type="imtAnnotation"><head>Fig. 7</head></div><div corresp="#fig023595_8" type="imtAnnotation"><head>Fig. 8</head></div><div corresp="#fig023595_11" type="imtAnnotation"><head>Fig. 11</head></div><div corresp="#fig023595_12" type="imtAnnotation"><head>Fig. 12</head></div><div corresp="#fig023595_13" type="imtAnnotation"><head>Fig. 13</head></div><div corresp="#fig023595_14" type="imtAnnotation"><head>Fig. 14</head></div><div corresp="#fig023595_15" type="imtAnnotation"><head>Fig. 15</head></div><div corresp="#fig023595_16" type="imtAnnotation"><head>Fig. 16 (Houten's Athmungs-Pumpe)</head></div></div></body></text></TEI>

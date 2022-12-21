@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx279089b">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc>
+				<p>4279 x 4258 4279 x 4258</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl xml:id="imtAnnotationCategories">
+				<rendition xml:id="Textfigures">
+					<label>Textfigures</label>
+					<code rend="rectangle" lang="text/css">color: #0000ff</code>
+				</rendition>
+			</tagsDecl>
+			<appInfo>
+				<application ident="ImageMarkupTool01" version="1.8.2.0" notAfter="2011-10-20T14:48:38">
+					<label>
+     Image Markup Tool</label>
+					<desc>
+     Tool for annotating images using TEI</desc>
+					<ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+					<ptr target="#imtAnnotatedImage"/>
+					<ptr target="#imtImageAnnotations"/>
+					<ptr target="#imtAnnotationCategories"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+	</teiHeader>
+	<facsimile xml:id="imtAnnotatedImage">
+		<surface>
+			<graphic url="..\30536795Z\png100\tx279089b.png" width="4279px" height="4258px"/>
+			<zone xml:id="fig279089b_1" rendition="Textfigures" ulx="28" uly="5" lrx="2111" lry="2016" rend="visible"/>
+			<zone xml:id="fig279089b_2" rendition="Textfigures" ulx="2063" uly="0" lrx="4284" lry="2030" rend="visible"/>
+			<zone xml:id="fig279089b_3" rendition="Textfigures" ulx="0" uly="1939" lrx="2120" lry="4187" rend="visible"/>
+			<zone xml:id="fig279089b_4" rendition="Textfigures" ulx="9" uly="317" lrx="693" lry="1251" rend="visible"/>
+			<zone xml:id="fig279089b_5" rendition="Textfigures" ulx="1542" uly="5" lrx="2059" lry="1300" rend="visible"/>
+			<zone xml:id="fig279089b_6" rendition="Textfigures" ulx="49" uly="15" lrx="751" lry="331" rend="visible"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div xml:id="imtImageAnnotations">
+				<div corresp="#fig279089b_1" type="imtAnnotation">
+					<head>Fig. 1</head>
+					
+				</div>
+				<div corresp="#fig279089b_2" type="imtAnnotation">
+					<head>Fig. 2</head>
+					
+				</div>
+				<div corresp="#fig279089b_3" type="imtAnnotation">
+					<head>Fig. 3</head>
+					
+				</div>
+				<div corresp="#fig279089b_4" type="imtAnnotation">
+					<head>Fig. 4</head>
+					
+				</div>
+				<div corresp="#fig279089b_5" type="imtAnnotation">
+					<head>Fig. 5</head>
+					
+				</div>
+				<div corresp="#fig279089b_6" type="imtAnnotation">
+					<head>Fig. 6</head>
+					
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

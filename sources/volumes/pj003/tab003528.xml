@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab003528">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab003528.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2442 x 968 3053 x 1210</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 22: (Bd. 3)</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T20:04:47">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab003528.png" width="3053px" height="1210px"/>
+            <zone xml:id="fig003528_1a" rendition="Einzelfiguren" ulx="30" uly="30" lrx="751" lry="911" rend="visible"/>
+            <zone xml:id="fig003528_2a" rendition="Einzelfiguren" ulx="52" uly="898" lrx="681" lry="1169" rend="visible"/>
+            <zone xml:id="fig003528_3a" rendition="Einzelfiguren" ulx="557" uly="350" lrx="746" lry="485" rend="visible"/>
+            <zone xml:id="fig003528_1b" rendition="Einzelfiguren" ulx="697" uly="71" lrx="1013" lry="295" rend="visible"/>
+            <zone xml:id="fig003528_2b" rendition="Einzelfiguren" ulx="1010" uly="75" lrx="1531" lry="299"
+                rend="visible"/>
+            <zone xml:id="fig003528_3b" rendition="Einzelfiguren" ulx="1521" uly="42" lrx="2086" lry="545"
+                rend="visible"/>
+            <zone xml:id="fig003528_4b" rendition="Einzelfiguren" ulx="2096" uly="62" lrx="2282" lry="249"
+                rend="visible"/>
+            <zone xml:id="fig003528_5b" rendition="Einzelfiguren" ulx="2097" uly="256" lrx="2269" lry="458"
+                rend="visible"/>
+            <zone xml:id="fig003528_6b" rendition="Einzelfiguren" ulx="2211" uly="114" lrx="2433" lry="422"
+                rend="visible"/>
+            <zone xml:id="fig003528_7b" rendition="Einzelfiguren" ulx="2394" uly="183" lrx="2578" lry="427"
+                rend="visible"/>
+            <zone xml:id="fig003528_1c" rendition="Einzelfiguren" ulx="799" uly="317" lrx="1120" lry="618"
+                rend="visible"/>
+            <zone xml:id="fig003528_2c" rendition="Einzelfiguren" ulx="774" uly="611" lrx="1128" lry="886"
+                rend="visible"/>
+            <zone xml:id="fig003528_3c" rendition="Einzelfiguren" ulx="769" uly="870" lrx="1161" lry="1187"
+                rend="visible"/>
+            <zone xml:id="fig003528_1d" rendition="Einzelfiguren" ulx="1448" uly="676" lrx="1869" lry="1099"
+                rend="visible"/>
+            <zone xml:id="fig003528_2d" rendition="Einzelfiguren" ulx="1185" uly="862" lrx="1455" lry="1144"
+                rend="visible"/>
+            <zone xml:id="fig003528_3d" rendition="Einzelfiguren" ulx="1275" uly="461" lrx="1725" lry="624"
+                rend="visible"/>
+            <zone xml:id="fig003528_4d" rendition="Einzelfiguren" ulx="1197" uly="338" lrx="1303" lry="743"
+                rend="visible"/>
+            <zone xml:id="fig003528_5d" rendition="Einzelfiguren" ulx="1270" uly="666" lrx="1607" lry="823"
+                rend="visible"/>
+            <zone xml:id="fig003528_6d" rendition="Einzelfiguren" ulx="1730" uly="458" lrx="2271" lry="597"
+                rend="visible"/>
+            <zone xml:id="fig003528_7d" rendition="Einzelfiguren" ulx="1876" uly="597" lrx="1953" lry="912"
+                rend="visible"/>
+            <zone xml:id="fig003528_8d" rendition="Einzelfiguren" ulx="1723" uly="558" lrx="2357" lry="1184"
+                rend="visible"/>
+            <zone xml:id="fig003528_1e" rendition="Einzelfiguren" ulx="2569" uly="79" lrx="3017" lry="465"
+                rend="visible"/>
+            <zone xml:id="fig003528_2e" rendition="Einzelfiguren" ulx="2354" uly="489" lrx="2620" lry="866"
+                rend="visible"/>
+            <zone xml:id="fig003528_3e" rendition="Einzelfiguren" ulx="2350" uly="849" lrx="2999" lry="1184"
+                rend="visible"/>
+            <zone xml:id="fig003528_4e" rendition="Einzelfiguren" ulx="2612" uly="489" lrx="2994" lry="823"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig003528_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Moult's verbesserte Methode um Maschinen zu treiben)</head>
+                </div>
+                <div corresp="#fig003528_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Moult's verbesserte Methode um Maschinen zu treiben)</head>
+                </div>
+                <div corresp="#fig003528_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Moult's verbesserte Methode um Maschinen zu treiben)</head>
+                </div>
+                <div corresp="#fig003528_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Lewis und Davis verbesserte Tuchscheer-Maschine)</head>
+                </div>
+                <div corresp="#fig003528_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Lewis und Davis verbesserte Tuchscheer-Maschine)</head>
+                </div>
+                <div corresp="#fig003528_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Lewis und Davis verbesserte Tuchscheer-Maschine)</head>
+                </div>
+                <div corresp="#fig003528_4b" type="imtAnnotation">
+                    <head>Fig. 4 (Lewis und Davis verbesserte Tuchscheer-Maschine)</head>
+                </div>
+                <div corresp="#fig003528_5b" type="imtAnnotation">
+                    <head>Fig. 5 (Lewis und Davis verbesserte Tuchscheer-Maschine)</head>
+                </div>
+                <div corresp="#fig003528_6b" type="imtAnnotation">
+                    <head>Fig. 6 (Lewis und Davis verbesserte Tuchscheer-Maschine)</head>
+                </div>
+                <div corresp="#fig003528_7b" type="imtAnnotation">
+                    <head>Fig. 7 (Lewis und Davis verbesserte Tuchscheer-Maschine)</head>
+                </div>
+                <div corresp="#fig003528_1c" type="imtAnnotation">
+                    <head>Fig. 1 (Lewis verbesserte Streck-Rahmen für Wollen Tücher)</head>
+                </div>
+                <div corresp="#fig003528_2c" type="imtAnnotation">
+                    <head>Fig. 2 (Lewis verbesserte Streck-Rahmen für Wollen Tücher)</head>
+                </div>
+                <div corresp="#fig003528_3c" type="imtAnnotation">
+                    <head>Fig. 3 (Lewis verbesserte Streck-Rahmen für Wollen Tücher)</head>
+                </div>
+                <div corresp="#fig003528_1d" type="imtAnnotation">
+                    <head>Fig. 1 (Beckway's Maschine zum Wägen und Binden des Heues)</head>
+                </div>
+                <div corresp="#fig003528_2d" type="imtAnnotation">
+                    <head>Fig. 2 (Beckway's Maschine zum Wägen und Binden des Heues)</head>
+                </div>
+                <div corresp="#fig003528_3d" type="imtAnnotation">
+                    <head>Fig. 3 (Beckway's Maschine zum Wägen und Binden des Heues)</head>
+                </div>
+                <div corresp="#fig003528_4d" type="imtAnnotation">
+                    <head>Fig. 4 (Beckway's Maschine zum Wägen und Binden des Heues)</head>
+                </div>
+                <div corresp="#fig003528_5d" type="imtAnnotation">
+                    <head>Fig. 5 (Beckway's Maschine zum Wägen und Binden des Heues)</head>
+                </div>
+                <div corresp="#fig003528_6d" type="imtAnnotation">
+                    <head>Fig. 6 (Beckway's Maschine zum Wägen und Binden des Heues)</head>
+                </div>
+                <div corresp="#fig003528_7d" type="imtAnnotation">
+                    <head>Fig. 7 (Beckway's Maschine zum Wägen und Binden des Heues)</head>
+                </div>
+                <div corresp="#fig003528_8d" type="imtAnnotation">
+                    <head>Fig. 8 (Beckway's Maschine zum Wägen und Binden des Heues)</head>
+                </div>
+                <div corresp="#fig003528_1e" type="imtAnnotation">
+                    <head>Fig. 1 (Strutt's verbesserte Schlösser und Klinken)</head>
+                </div>
+                <div corresp="#fig003528_2e" type="imtAnnotation">
+                    <head>Fig. 2 (Strutt's verbesserte Schlösser und Klinken)</head>
+                </div>
+                <div corresp="#fig003528_3e" type="imtAnnotation">
+                    <head>Fig. 3 (Strutt's verbesserte Schlösser und Klinken)</head>
+                </div>
+                <div corresp="#fig003528_4e" type="imtAnnotation">
+                    <head>Fig. 4 (Strutt's verbesserte Schlösser und Klinken)</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

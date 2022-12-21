@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx3270898b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1413 x 1737</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-08-02T11:16:14">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="pj327\png100\tx3270898b.png" width="1413px" height="1737px"></graphic><zone xml:id="fig3270898b_43a" rendition="Textfigures" ulx="9" uly="23" lrx="1373" lry="622" rend="visible"></zone><zone xml:id="fig3270898b_43b" rendition="Textfigures" ulx="6" uly="578" lrx="1365" lry="1048" rend="visible"></zone><zone xml:id="fig3270898b_43c" rendition="Textfigures" ulx="20" uly="994" lrx="1384" lry="1285" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig3270898b_43a" type="imtAnnotation"><head>Fig. 43a</head></div><div corresp="#fig3270898b_43b" type="imtAnnotation"><head>Fig. 43b</head></div><div corresp="#fig3270898b_43c" type="imtAnnotation"><head>Fig. 43c</head></div></div></body></text></TEI>

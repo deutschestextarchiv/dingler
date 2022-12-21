@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx335274b"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2164 x 835</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-05-25T11:55:25">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="F:\pj335\tx335274b.tif" width="2164px" height="835px"></graphic><zone xml:id="fig335274b_2" rendition="Textfigures" ulx="7" uly="27" lrx="620" lry="743" rend="visible"></zone><zone xml:id="fig335274b_3" rendition="Textfigures" ulx="723" uly="67" lrx="1383" lry="736" rend="visible"></zone><zone xml:id="fig335274b_4" rendition="Textfigures" ulx="1531" uly="5" lrx="2155" lry="744" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig335274b_2" type="imtAnnotation"><head>Fig. 2</head></div><div corresp="#fig335274b_3" type="imtAnnotation"><head>Fig. 3</head></div><div corresp="#fig335274b_4" type="imtAnnotation"><head>Fig. 4</head></div></div></body></text></TEI>

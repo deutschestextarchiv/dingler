@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab003526">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab003526.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2419 x 961 3024 x 1201</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 21, Bd. 3</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T19:03:04">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab003526.png" width="3024px" height="1201px"/>
+            <zone xml:id="fig003526_1a" rendition="Einzelfiguren" ulx="33" uly="74" lrx="574" lry="757" rend="visible"/>
+            <zone xml:id="fig003526_2a" rendition="Einzelfiguren" ulx="518" uly="27" lrx="918" lry="722" rend="visible"/>
+            <zone xml:id="fig003526_3a" rendition="Einzelfiguren" ulx="601" uly="880" lrx="807" lry="943" rend="visible"/>
+            <zone xml:id="fig003526_4a" rendition="Einzelfiguren" ulx="562" uly="762" lrx="787" lry="855" rend="visible"/>
+            <zone xml:id="fig003526_1b" rendition="Einzelfiguren" ulx="18" uly="803" lrx="755" lry="1142" rend="visible"/>
+            <zone xml:id="fig003526_2b" rendition="Einzelfiguren" ulx="742" uly="755" lrx="1521" lry="1165"
+                rend="visible"/>
+            <zone xml:id="fig003526_3b" rendition="Einzelfiguren" ulx="858" uly="395" lrx="1247" lry="760"
+                rend="visible"/>
+            <zone xml:id="fig003526_4b" rendition="Einzelfiguren" ulx="911" uly="76" lrx="1234" lry="438" rend="visible"/>
+            <zone xml:id="fig003526_A" rendition="Einzelfiguren" ulx="1213" uly="45" lrx="1544" lry="358" rend="visible"/>
+            <zone xml:id="fig003526_B" rendition="Einzelfiguren" ulx="1254" uly="352" lrx="1539" lry="572"
+                rend="visible"/>
+            <zone xml:id="fig003526_C" rendition="Einzelfiguren" ulx="1231" uly="569" lrx="1544" lry="807"
+                rend="visible"/>
+            <zone xml:id="fig003526_D" rendition="Einzelfiguren" ulx="1537" uly="32" lrx="1789" lry="1178"
+                rend="visible"/>
+            <zone xml:id="fig003526_1c" rendition="Einzelfiguren" ulx="1799" uly="45" lrx="2194" lry="392"
+                rend="visible"/>
+            <zone xml:id="fig003526_2c" rendition="Einzelfiguren" ulx="1792" uly="389" lrx="2179" lry="729"
+                rend="visible"/>
+            <zone xml:id="fig003526_3c" rendition="Einzelfiguren" ulx="2123" uly="85" lrx="2552" lry="554"
+                rend="visible"/>
+            <zone xml:id="fig003526_4c" rendition="Einzelfiguren" ulx="2579" uly="72" lrx="2968" lry="737"
+                rend="visible"/>
+            <zone xml:id="fig003526_5c" rendition="Einzelfiguren" ulx="2497" uly="268" lrx="2573" lry="374"
+                rend="visible"/>
+            <zone xml:id="fig003526_6c" rendition="Einzelfiguren" ulx="2145" uly="544" lrx="2385" lry="750"
+                rend="visible"/>
+            <zone xml:id="fig003526_7c" rendition="Einzelfiguren" ulx="2384" uly="549" lrx="2578" lry="712"
+                rend="visible"/>
+            <zone xml:id="fig003526_1d" rendition="Einzelfiguren" ulx="1798" uly="802" lrx="1975" lry="1181"
+                rend="visible"/>
+            <zone xml:id="fig003526_2d" rendition="Einzelfiguren" ulx="1981" uly="786" lrx="2091" lry="977"
+                rend="visible"/>
+            <zone xml:id="fig003526_3d" rendition="Einzelfiguren" ulx="1987" uly="801" lrx="2426" lry="1175"
+                rend="visible"/>
+            <zone xml:id="fig003526_4d" rendition="Einzelfiguren" ulx="2284" uly="816" lrx="2405" lry="987"
+                rend="visible"/>
+            <zone xml:id="fig003526_5d" rendition="Einzelfiguren" ulx="2426" uly="792" lrx="2545" lry="1091"
+                rend="visible"/>
+            <zone xml:id="fig003526_6d" rendition="Einzelfiguren" ulx="2576" uly="831" lrx="2729" lry="994"
+                rend="visible"/>
+            <zone xml:id="fig003526_7d" rendition="Einzelfiguren" ulx="2558" uly="998" lrx="2643" lry="1094"
+                rend="visible"/>
+            <zone xml:id="fig003526_8d" rendition="Einzelfiguren" ulx="2656" uly="990" lrx="2744" lry="1098"
+                rend="visible"/>
+            <zone xml:id="fig003526_9d" rendition="Einzelfiguren" ulx="2763" uly="796" lrx="2972" lry="1100"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig003526_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Davis Maschine um Fleisch für Würste zu hacken)</head>
+                </div>
+                <div corresp="#fig003526_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Davis Maschine um Fleisch für Würste zu hacken)</head>
+                </div>
+                <div corresp="#fig003526_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Davis Maschine um Fleisch für Würste zu hacken)</head>
+                </div>
+                <div corresp="#fig003526_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Davis Maschine um Fleisch für Würste zu hacken)</head>
+                </div>
+                <div corresp="#fig003526_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Cleggs Gazameter)</head>
+                </div>
+                <div corresp="#fig003526_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Cleggs Gazameter)</head>
+                </div>
+                <div corresp="#fig003526_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Cleggs Gazameter)</head>
+                </div>
+                <div corresp="#fig003526_4b" type="imtAnnotation">
+                    <head>Fig. 4 (Cleggs Gazameter)</head>
+                </div>
+                <div corresp="#fig003526_A" type="imtAnnotation">
+                    <head>Fig. A (Behälter zum Aufbewahren des Getreides)</head>
+                </div>
+                <div corresp="#fig003526_B" type="imtAnnotation">
+                    <head>Fig. B (Behälter zum Aufbewahren des Getreides)</head>
+                </div>
+                <div corresp="#fig003526_C" type="imtAnnotation">
+                    <head>Fig. C (Behälter zum Aufbewahren des Getreides)</head>
+                </div>
+                <div corresp="#fig003526_D" type="imtAnnotation">
+                    <head>Fig. D (Behälter zum Aufbewahren des Getreides)</head>
+                </div>
+                <div corresp="#fig003526_1c" type="imtAnnotation">
+                    <head>Fig. 1 (Turners's verbessertes Räderwerk)</head>
+                </div>
+                <div corresp="#fig003526_2c" type="imtAnnotation">
+                    <head>Fig. 2 (Turners's verbessertes Räderwerk)</head>
+                </div>
+                <div corresp="#fig003526_3c" type="imtAnnotation">
+                    <head>Fig. 3 (Turners's verbessertes Räderwerk)</head>
+                </div>
+                <div corresp="#fig003526_4c" type="imtAnnotation">
+                    <head>Fig. 4 (Turners's verbessertes Räderwerk)</head>
+                </div>
+                <div corresp="#fig003526_5c" type="imtAnnotation">
+                    <head>Fig. 5 (Turners's verbessertes Räderwerk)</head>
+                </div>
+                <div corresp="#fig003526_6c" type="imtAnnotation">
+                    <head>Fig. 6 (Turners's verbessertes Räderwerk)</head>
+                </div>
+                <div corresp="#fig003526_7c" type="imtAnnotation">
+                    <head>Fig. 7 (Turners's verbessertes Räderwerk)</head>
+                </div>
+                <div corresp="#fig003526_1d" type="imtAnnotation">
+                    <head>No. 1 (Jones und Plimley's Verbesserung an Wind- und Dampf-Maschinen)</head>
+                </div>
+                <div corresp="#fig003526_2d" type="imtAnnotation">
+                    <head>No. 2 (Jones und Plimley's Verbesserung an Wind- und Dampf-Maschinen)</head>
+                </div>
+                <div corresp="#fig003526_3d" type="imtAnnotation">
+                    <head>No. 3 (Jones und Plimley's Verbesserung an Wind- und Dampf-Maschinen)</head>
+                </div>
+                <div corresp="#fig003526_4d" type="imtAnnotation">
+                    <head>No. 4 (Jones und Plimley's Verbesserung an Wind- und Dampf-Maschinen)</head>
+                </div>
+                <div corresp="#fig003526_5d" type="imtAnnotation">
+                    <head>No. 5 (Jones und Plimley's Verbesserung an Wind- und Dampf-Maschinen)</head>
+                </div>
+                <div corresp="#fig003526_6d" type="imtAnnotation">
+                    <head>No. 6 (Jones und Plimley's Verbesserung an Wind- und Dampf-Maschinen)</head>
+                </div>
+                <div corresp="#fig003526_7d" type="imtAnnotation">
+                    <head>No. 7 (Jones und Plimley's Verbesserung an Wind- und Dampf-Maschinen)</head>
+                </div>
+                <div corresp="#fig003526_8d" type="imtAnnotation">
+                    <head>No. 8 (Jones und Plimley's Verbesserung an Wind- und Dampf-Maschinen)</head>
+                </div>
+                <div corresp="#fig003526_9d" type="imtAnnotation">
+                    <head>No. 9 (Jones und Plimley's Verbesserung an Wind- und Dampf-Maschinen)</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab137489">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab137489.png</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>3091 x 1205</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 2, Bd. 137</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.7" notAfter="2010-07-06T17:23:57">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="..\32422705Z\tab137489.png" width="3091px" height="1205px"/>
+            <zone xml:id="fig137489_1" rendition="Einzelfiguren" ulx="14" uly="21" lrx="451" lry="876" rend="visible"/>
+            <zone xml:id="fig137489_2" rendition="Einzelfiguren" ulx="451" uly="26" lrx="752" lry="883" rend="visible"/>
+            <zone xml:id="fig137489_3" rendition="Einzelfiguren" ulx="275" uly="178" lrx="475" lry="500" rend="visible"/>
+            <zone xml:id="fig137489_4" rendition="Einzelfiguren" ulx="21" uly="921" lrx="420" lry="1179" rend="visible"/>
+            <zone xml:id="fig137489_5" rendition="Einzelfiguren" ulx="23" uly="885" lrx="106" lry="1001" rend="visible"/>
+            <zone xml:id="fig137489_6" rendition="Einzelfiguren" ulx="310" uly="906" lrx="454" lry="1022" rend="visible"/>
+            <zone xml:id="fig137489_7" rendition="Einzelfiguren" ulx="419" uly="952" lrx="697" lry="1176" rend="visible"/>
+            <zone xml:id="fig137489_8" rendition="Einzelfiguren" ulx="752" uly="24" lrx="1339" lry="504" rend="visible"/>
+            <zone xml:id="fig137489_9" rendition="Einzelfiguren" ulx="926" uly="68" lrx="1173" lry="264" rend="visible"/>
+            <zone xml:id="fig137489_10" rendition="Einzelfiguren" ulx="727" uly="535" lrx="1463" lry="749"
+                rend="visible"/>
+            <zone xml:id="fig137489_11" rendition="Einzelfiguren" ulx="731" uly="728" lrx="1482" lry="898"
+                rend="visible"/>
+            <zone xml:id="fig137489_12" rendition="Einzelfiguren" ulx="706" uly="962" lrx="872" lry="1169"
+                rend="visible"/>
+            <zone xml:id="fig137489_13" rendition="Einzelfiguren" ulx="903" uly="960" lrx="967" lry="1009"
+                rend="visible"/>
+            <zone xml:id="fig137489_14" rendition="Einzelfiguren" ulx="865" uly="1003" lrx="982" lry="1047"
+                rend="visible"/>
+            <zone xml:id="fig137489_15" rendition="Einzelfiguren" ulx="860" uly="1053" lrx="925" lry="1105"
+                rend="visible"/>
+            <zone xml:id="fig137489_16" rendition="Einzelfiguren" ulx="945" uly="1044" lrx="1044" lry="1108"
+                rend="visible"/>
+            <zone xml:id="fig137489_17" rendition="Einzelfiguren" ulx="1067" uly="914" lrx="1356" lry="1166"
+                rend="visible"/>
+            <zone xml:id="fig137489_18" rendition="Einzelfiguren" ulx="1416" uly="911" lrx="1553" lry="1102"
+                rend="visible"/>
+            <zone xml:id="fig137489_19" rendition="Einzelfiguren" ulx="1364" uly="167" lrx="1435" lry="300"
+                rend="visible"/>
+            <zone xml:id="fig137489_20" rendition="Einzelfiguren" ulx="1362" uly="299" lrx="1436" lry="395"
+                rend="visible"/>
+            <zone xml:id="fig137489_21" rendition="Einzelfiguren" ulx="1360" uly="391" lrx="1430" lry="487"
+                rend="visible"/>
+            <zone xml:id="fig137489_22" rendition="Einzelfiguren" ulx="1458" uly="285" lrx="1542" lry="411"
+                rend="visible"/>
+            <zone xml:id="fig137489_23" rendition="Einzelfiguren" ulx="1445" uly="409" lrx="1534" lry="493"
+                rend="visible"/>
+            <zone xml:id="fig137489_24" rendition="Einzelfiguren" ulx="1457" uly="163" lrx="1541" lry="288"
+                rend="visible"/>
+            <zone xml:id="fig137489_25" rendition="Einzelfiguren" ulx="2217" uly="24" lrx="2496" lry="482"
+                rend="visible"/>
+            <zone xml:id="fig137489_26" rendition="Einzelfiguren" ulx="2229" uly="472" lrx="2464" lry="730"
+                rend="visible"/>
+            <zone xml:id="fig137489_27" rendition="Einzelfiguren" ulx="1759" uly="104" lrx="2128" lry="336"
+                rend="visible"/>
+            <zone xml:id="fig137489_28" rendition="Einzelfiguren" ulx="2585" uly="101" lrx="3065" lry="578"
+                rend="visible"/>
+            <zone xml:id="fig137489_29" rendition="Einzelfiguren" ulx="2363" uly="639" lrx="2698" lry="1167"
+                rend="visible"/>
+            <zone xml:id="fig137489_30" rendition="Einzelfiguren" ulx="2695" uly="630" lrx="3041" lry="1173"
+                rend="visible"/>
+            <zone xml:id="fig137489_31" rendition="Einzelfiguren" ulx="1721" uly="1020" lrx="2142" lry="1174"
+                rend="visible"/>
+            <zone xml:id="fig137489_32" rendition="Einzelfiguren" ulx="1628" uly="1040" lrx="1712" lry="1172"
+                rend="visible"/>
+            <zone xml:id="fig137489_33" rendition="Einzelfiguren" ulx="1665" uly="856" lrx="2003" lry="1023"
+                rend="visible"/>
+            <zone xml:id="fig137489_34" rendition="Einzelfiguren" ulx="1619" uly="851" lrx="1779" lry="955"
+                rend="visible"/>
+            <zone xml:id="fig137489_35" rendition="Einzelfiguren" ulx="2018" uly="622" lrx="2369" lry="1035"
+                rend="visible"/>
+            <zone xml:id="fig137489_36" rendition="Einzelfiguren" ulx="1598" uly="272" lrx="1916" lry="598"
+                rend="visible"/>
+            <zone xml:id="fig137489_37" rendition="Einzelfiguren" ulx="1595" uly="576" lrx="1918" lry="840"
+                rend="visible"/>
+            <zone xml:id="fig137489_38" rendition="Einzelfiguren" ulx="1918" uly="423" lrx="2120" lry="666"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig137489_1" type="imtAnnotation">
+                    <head>Fig. 1</head>
+                </div>
+                <div corresp="#fig137489_2" type="imtAnnotation">
+                    <head>Fig. 2</head>
+                </div>
+                <div corresp="#fig137489_3" type="imtAnnotation">
+                    <head>Fig. 3</head>
+                </div>
+                <div corresp="#fig137489_4" type="imtAnnotation">
+                    <head>Fig. 4</head>
+                </div>
+                <div corresp="#fig137489_5" type="imtAnnotation">
+                    <head>Fig. 5</head>
+                </div>
+                <div corresp="#fig137489_6" type="imtAnnotation">
+                    <head>Fig. 6</head>
+                </div>
+                <div corresp="#fig137489_7" type="imtAnnotation">
+                    <head>Fig. 7</head>
+                </div>
+                <div corresp="#fig137489_8" type="imtAnnotation">
+                    <head>Fig. 8</head>
+                </div>
+                <div corresp="#fig137489_9" type="imtAnnotation">
+                    <head>Fig. 9</head>
+                </div>
+                <div corresp="#fig137489_10" type="imtAnnotation">
+                    <head>Fig. 10</head>
+                </div>
+                <div corresp="#fig137489_11" type="imtAnnotation">
+                    <head>Fig. 11</head>
+                </div>
+                <div corresp="#fig137489_12" type="imtAnnotation">
+                    <head>Fig. 12</head>
+                </div>
+                <div corresp="#fig137489_13" type="imtAnnotation">
+                    <head>Fig. 13</head>
+                </div>
+                <div corresp="#fig137489_14" type="imtAnnotation">
+                    <head>Fig. 14</head>
+                </div>
+                <div corresp="#fig137489_15" type="imtAnnotation">
+                    <head>Fig. 15</head>
+                </div>
+                <div corresp="#fig137489_16" type="imtAnnotation">
+                    <head>Fig. 16</head>
+                </div>
+                <div corresp="#fig137489_17" type="imtAnnotation">
+                    <head>Fig. 17</head>
+                </div>
+                <div corresp="#fig137489_18" type="imtAnnotation">
+                    <head>Fig. 18</head>
+                </div>
+                <div corresp="#fig137489_19" type="imtAnnotation">
+                    <head>Fig. 19</head>
+                </div>
+                <div corresp="#fig137489_20" type="imtAnnotation">
+                    <head>Fig. 20</head>
+                </div>
+                <div corresp="#fig137489_21" type="imtAnnotation">
+                    <head>Fig. 21</head>
+                </div>
+                <div corresp="#fig137489_22" type="imtAnnotation">
+                    <head>Fig. 22</head>
+                </div>
+                <div corresp="#fig137489_23" type="imtAnnotation">
+                    <head>Fig. 23</head>
+                </div>
+                <div corresp="#fig137489_24" type="imtAnnotation">
+                    <head>Fig. 24</head>
+                </div>
+                <div corresp="#fig137489_25" type="imtAnnotation">
+                    <head>Fig. 25</head>
+                </div>
+                <div corresp="#fig137489_26" type="imtAnnotation">
+                    <head>Fig. 26</head>
+                </div>
+                <div corresp="#fig137489_27" type="imtAnnotation">
+                    <head>Fig. 27</head>
+                </div>
+                <div corresp="#fig137489_28" type="imtAnnotation">
+                    <head>Fig. 28</head>
+                </div>
+                <div corresp="#fig137489_29" type="imtAnnotation">
+                    <head>Fig. 29</head>
+                </div>
+                <div corresp="#fig137489_30" type="imtAnnotation">
+                    <head>Fig. 30</head>
+                </div>
+                <div corresp="#fig137489_31" type="imtAnnotation">
+                    <head>Fig. 31</head>
+                </div>
+                <div corresp="#fig137489_32" type="imtAnnotation">
+                    <head>Fig. 32</head>
+                </div>
+                <div corresp="#fig137489_33" type="imtAnnotation">
+                    <head>Fig. 33</head>
+                </div>
+                <div corresp="#fig137489_34" type="imtAnnotation">
+                    <head>Fig. 34</head>
+                </div>
+                <div corresp="#fig137489_35" type="imtAnnotation">
+                    <head>Fig. 35</head>
+                </div>
+                <div corresp="#fig137489_36" type="imtAnnotation">
+                    <head>Fig. 36</head>
+                </div>
+                <div corresp="#fig137489_37" type="imtAnnotation">
+                    <head>Fig. 37</head>
+                </div>
+                <div corresp="#fig137489_38" type="imtAnnotation">
+                    <head>Fig. 38</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

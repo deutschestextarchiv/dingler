@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab228653"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1614 x 1214</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 22, Bd. 228</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2011-05-19T14:32:17">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\png25\tab228653.png" width="1614px" height="1214px"></graphic><zone xml:id="fig228653_2" rendition="Einzelfiguren" ulx="16" uly="632" lrx="1257" lry="1194" rend="visible"></zone><zone xml:id="fig228653_4" rendition="Einzelfiguren" ulx="1266" uly="80" lrx="1549" lry="624" rend="visible"></zone><zone xml:id="fig228653_3" rendition="Einzelfiguren" ulx="1287" uly="582" lrx="1555" lry="1195" rend="visible"></zone><zone xml:id="fig228653_1" rendition="Einzelfiguren" ulx="19" uly="50" lrx="1224" lry="666" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig228653_2" type="imtAnnotation"><head>Fig. 2</head></div><div corresp="#fig228653_4" type="imtAnnotation"><head>Fig. 4</head></div><div corresp="#fig228653_3" type="imtAnnotation"><head>Fig. 3</head></div><div corresp="#fig228653_1" type="imtAnnotation"><head>Fig. 1</head></div></div></body></text></TEI>

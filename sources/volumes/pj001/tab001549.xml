@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab001549">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab001549.png</title>
+            </titleStmt>
+
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2768 x 1131</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Default"><label>Explanation of this annotation category...</label><code
+                        rend="rectangle" lang="text/css">color: #0000ff</code></rendition>
+                <rendition xml:id="fig"><label>Einzelfiguren Tab. 7, Bd. 1</label><code rend="rectangle" lang="text/css"
+                        >color: #0000ff</code></rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-10-29T17:20:30">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="..\32258227Z\tab001549.png" width="2768px" height="1131px"/>
+            <zone xml:id="fig001549_1a" rendition="fig" ulx="1568" uly="61" lrx="2737" lry="548" rend="visible"/>
+            <zone xml:id="fig001549_2a" rendition="fig" ulx="669" uly="69" lrx="1627" lry="661" rend="visible"/>
+            <zone xml:id="fig001549_3a" rendition="fig" ulx="1888" uly="500" lrx="2764" lry="1124" rend="visible"/>
+            <zone xml:id="fig001549_4a" rendition="fig" ulx="126" uly="13" lrx="610" lry="261" rend="visible"/>
+            <zone xml:id="fig001549_1b" rendition="fig" ulx="673" uly="612" lrx="1022" lry="1079" rend="visible"/>
+            <zone xml:id="fig001549_2b" rendition="fig" ulx="1032" uly="646" lrx="1472" lry="1074" rend="visible"/>
+            <zone xml:id="fig001549_3b" rendition="fig" ulx="1393" uly="532" lrx="1901" lry="1080" rend="visible"/>
+            <zone xml:id="fig001549_4b" rendition="fig" ulx="500" uly="987" lrx="669" lry="1118" rend="visible"/>
+            <zone xml:id="fig001549_5b" rendition="fig" ulx="24" uly="258" lrx="689" lry="630" rend="visible"/>
+            <zone xml:id="fig001549_6b" rendition="fig" ulx="22" uly="615" lrx="687" lry="1094" rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig001549_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Lankensperger‐ und Ackermann'sche bewegliche Achsen)</head>
+                </div>
+                <div corresp="#fig001549_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Lankensperger‐ und Ackermann'sche bewegliche Achsen]</head>
+                </div>
+                <div corresp="#fig001549_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Lankensperger‐ und Ackermann'sche bewegliche Achsen)</head>
+                </div>
+                <div corresp="#fig001549_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Lankensperger‐ und Ackermann'sche bewegliche Achsen)</head>
+                </div>
+                <div corresp="#fig001549_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Hand-Maschine zu Kartoffel-Mehl)</head>
+                </div>
+                <div corresp="#fig001549_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Hand-Maschine zu Kartoffel-Mehl)</head>
+                </div>
+                <div corresp="#fig001549_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Hand-Maschine zu Kartoffel-Mehl)</head>
+                </div>
+                <div corresp="#fig001549_4b" type="imtAnnotation">
+                    <head>Fig. 4 (Hand-Maschine zu Kartoffel-Mehl)</head>
+                </div>
+                <div corresp="#fig001549_5b" type="imtAnnotation">
+                    <head>Fig. 5 (Hand-Maschine zu Kartoffel-Mehl)</head>
+                </div>
+                <div corresp="#fig001549_6b" type="imtAnnotation">
+                    <head>Fig. 6 (Hand-Maschine zu Kartoffel-Mehl)</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

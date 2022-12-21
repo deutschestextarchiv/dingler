@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx3280166a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>5341 x 3734 5341 x 3734</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-09-20T16:13:26">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\32199917Z\png100\tx3280166a.png" width="5341px" height="3734px"></graphic><zone xml:id="fig3280166a_4" rendition="Textfigures" ulx="8" uly="17" lrx="2972" lry="3345" rend="visible"></zone><zone xml:id="fig3280166a_5" rendition="Textfigures" ulx="2240" uly="41" lrx="5345" lry="3423" rend="visible"></zone><zone xml:id="fig3280166a_5a" rendition="Textfigures" ulx="3987" uly="1933" lrx="5275" lry="2736" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig3280166a_4" type="imtAnnotation"><head>Fig. 4</head></div><div corresp="#fig3280166a_5" type="imtAnnotation"><head>Fig. 5</head></div><div corresp="#fig3280166a_5a" type="imtAnnotation"><head>Fig. 5a</head></div></div></body></text></TEI>

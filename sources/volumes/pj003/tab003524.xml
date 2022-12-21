@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab003524">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab003524.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2432 x 956 3040 x 1195</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 20, Bd. 3</label><code rend="rectangle"
+                        lang="text/css">color: #0000ff</code></rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T18:56:39">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab003524.png" width="3040px" height="1195px"/>
+            <zone xml:id="fig003524_A" rendition="Einzelfiguren" ulx="1414" uly="72" lrx="1753" lry="383" rend="visible"/>
+            <zone xml:id="fig003524_B" rendition="Einzelfiguren" ulx="1753" uly="37" lrx="2096" lry="333" rend="visible"/>
+            <zone xml:id="fig003524_C" rendition="Einzelfiguren" ulx="2090" uly="36" lrx="2264" lry="332" rend="visible"/>
+            <zone xml:id="fig003524_D" rendition="Einzelfiguren" ulx="1304" uly="43" lrx="1446" lry="495" rend="visible"/>
+            <zone xml:id="fig003524_E" rendition="Einzelfiguren" ulx="2417" uly="319" lrx="2644" lry="477"
+                rend="visible"/>
+            <zone xml:id="fig003524_F" rendition="Einzelfiguren" ulx="1445" uly="324" lrx="1585" lry="432"
+                rend="visible"/>
+            <zone xml:id="fig003524_G" rendition="Einzelfiguren" ulx="2260" uly="58" lrx="2775" lry="352" rend="visible"/>
+            <zone xml:id="fig003524_H" rendition="Einzelfiguren" ulx="2771" uly="58" lrx="3019" lry="345" rend="visible"/>
+            <zone xml:id="fig003524_I" rendition="Einzelfiguren" ulx="2600" uly="347" lrx="2790" lry="731"
+                rend="visible"/>
+            <zone xml:id="fig003524_K" rendition="Einzelfiguren" ulx="2803" uly="341" lrx="3002" lry="731"
+                rend="visible"/>
+            <zone xml:id="fig003524_L" rendition="Einzelfiguren" ulx="108" uly="760" lrx="1278" lry="1123"
+                rend="visible"/>
+            <zone xml:id="fig003524_M" rendition="Einzelfiguren" ulx="95" uly="429" lrx="1276" lry="769" rend="visible"/>
+            <zone xml:id="fig003524_N" rendition="Einzelfiguren" ulx="98" uly="88" lrx="1276" lry="435" rend="visible"/>
+            <zone xml:id="fig003524_O" rendition="Einzelfiguren" ulx="1369" uly="371" lrx="2631" lry="779"
+                rend="visible"/>
+            <zone xml:id="fig003524_P" rendition="Einzelfiguren" ulx="1397" uly="774" lrx="2601" lry="1129"
+                rend="visible"/>
+            <zone xml:id="fig003524_Q" rendition="Einzelfiguren" ulx="2611" uly="768" lrx="2975" lry="1127"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig003524_A" type="imtAnnotation">
+                    <head>Fig. A</head>
+                </div>
+                <div corresp="#fig003524_B" type="imtAnnotation">
+                    <head>Fig. B</head>
+                </div>
+                <div corresp="#fig003524_C" type="imtAnnotation">
+                    <head>Fig. C</head>
+                </div>
+                <div corresp="#fig003524_D" type="imtAnnotation">
+                    <head>Fig. D</head>
+                </div>
+                <div corresp="#fig003524_E" type="imtAnnotation">
+                    <head>Fig. E</head>
+                </div>
+                <div corresp="#fig003524_F" type="imtAnnotation">
+                    <head>Fig. F</head>
+                </div>
+                <div corresp="#fig003524_G" type="imtAnnotation">
+                    <head>Fig. G</head>
+                </div>
+                <div corresp="#fig003524_H" type="imtAnnotation">
+                    <head>Fig. H</head>
+                </div>
+                <div corresp="#fig003524_I" type="imtAnnotation">
+                    <head>Fig. I</head>
+                </div>
+                <div corresp="#fig003524_K" type="imtAnnotation">
+                    <head>Fig. K</head>
+                </div>
+                <div corresp="#fig003524_L" type="imtAnnotation">
+                    <head>Fig. L</head>
+                </div>
+                <div corresp="#fig003524_M" type="imtAnnotation">
+                    <head>Fig. M</head>
+                </div>
+                <div corresp="#fig003524_N" type="imtAnnotation">
+                    <head>Fig. N</head>
+                </div>
+                <div corresp="#fig003524_O" type="imtAnnotation">
+                    <head>Fig. O</head>
+                </div>
+                <div corresp="#fig003524_P" type="imtAnnotation">
+                    <head>Fig. P</head>
+                </div>
+                <div corresp="#fig003524_Q" type="imtAnnotation">
+                    <head>Fig. Q</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

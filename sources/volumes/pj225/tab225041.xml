@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab225041"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab225041.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>3016 x 2227 2234 x 1478 2996 x 2221 3041 x 2223 774 x 1287 774 x 1287</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. A, Bd. 225</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.7" notAfter="2010-10-13T11:31:56">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\30519639Z\tab225041.png" width="774px" height="1287px"></graphic><zone xml:id="fig225041_1" rendition="Einzelfiguren" ulx="4" uly="35" lrx="770" lry="672" rend="visible"></zone><zone xml:id="fig225041_2" rendition="Einzelfiguren" ulx="6" uly="670" lrx="772" lry="1289" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig225041_1" type="imtAnnotation"><head>I. Abnahme des Widerstandes bei constant bleibender Streckung</head></div><div corresp="#fig225041_2" type="imtAnnotation"><head>II. Zunahme der Streckung bei constant bleibender Belastung</head></div></div></body></text></TEI>

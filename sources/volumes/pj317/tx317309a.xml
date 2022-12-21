@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx317309a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>4832 x 4192</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-06-08T10:50:09">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="F:\pj317\png100\tx317309a.png" width="4832px" height="4192px"></graphic><zone xml:id="fig317309a_81" rendition="Textfigures" ulx="23" uly="28" lrx="4809" lry="2049" rend="visible"></zone><zone xml:id="fig317309a_82" rendition="Textfigures" ulx="269" uly="1994" lrx="2117" lry="4085" rend="visible"></zone><zone xml:id="fig317309a_83" rendition="Textfigures" ulx="2834" uly="1927" lrx="4655" lry="4094" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig317309a_81" type="imtAnnotation"><head>Fig. 81</head></div><div corresp="#fig317309a_82" type="imtAnnotation"><head>Fig. 82</head></div><div corresp="#fig317309a_83" type="imtAnnotation"><head>Fig. 83</head></div></div></body></text></TEI>

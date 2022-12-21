@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx333085a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>4167 x 4214</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-07-24T15:26:54">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="Z:\Dingler_A\2_xml\pj333\32199908Z\png100\tx333085a.png" width="4167px" height="4214px"></graphic><zone xml:id="fig333085a_5a" rendition="Textfigures" ulx="19" uly="28" lrx="3859" lry="771" rend="visible"></zone><zone xml:id="fig333085a_5b" rendition="Textfigures" ulx="19" uly="916" lrx="3999" lry="1584" rend="visible"></zone><zone xml:id="fig333085a_5c" rendition="Textfigures" ulx="23" uly="1616" lrx="3989" lry="2387" rend="visible"></zone><zone xml:id="fig333085a_5d" rendition="Textfigures" ulx="23" uly="2444" lrx="4157" lry="3182" rend="visible"></zone><zone xml:id="fig333085a_5e" rendition="Textfigures" ulx="23" uly="3308" lrx="4134" lry="4102" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig333085a_5a" type="imtAnnotation"><head>Fig. 5a</head><div><p>Einzelfigur S. 29, Bd. 333</p></div></div><div corresp="#fig333085a_5b" type="imtAnnotation"><head>Fig. 5b</head><div><p>Einzelfigur S. 29, Bd. 333</p></div></div><div corresp="#fig333085a_5c" type="imtAnnotation"><head>Fig. 5c</head><div><p>Einzelfigur S. 29, Bd. 333</p></div></div><div corresp="#fig333085a_5d" type="imtAnnotation"><head>Fig. 5d</head><div><p>Einzelfigur S. 29, Bd. 333</p></div></div><div corresp="#fig333085a_5e" type="imtAnnotation"><head>Fig. 5e</head><div><p>Einzelfigur S. 29, Bd. 333</p></div></div></div></body></text></TEI>

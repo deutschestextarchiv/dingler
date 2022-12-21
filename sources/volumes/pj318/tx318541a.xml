@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx318541a">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<p/>
+			</publicationStmt>
+			<sourceDesc>
+				<p>1392 x 1624</p>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<tagsDecl xml:id="imtAnnotationCategories">
+				<rendition xml:id="Textfigures">
+					<label>Textfigures</label>
+					<code rend="rectangle" lang="text/css">color: #0000ff</code>
+				</rendition>
+			</tagsDecl>
+			<appInfo>
+				<application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-06-19T18:34:28">
+					<label>
+     Image Markup Tool</label>
+					<desc>
+     Tool for annotating images using TEI</desc>
+					<ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+					<ptr target="#imtAnnotatedImage"/>
+					<ptr target="#imtImageAnnotations"/>
+					<ptr target="#imtAnnotationCategories"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+	</teiHeader>
+	<facsimile xml:id="imtAnnotatedImage">
+		<surface>
+			<graphic url="F:\pj318\png100\tx318541a.png" width="1392px" height="1624px"/>
+			<zone xml:id="fig318541a_295" rendition="Textfigures" ulx="110" uly="23" lrx="785" lry="837" rend="visible"/>
+			<zone xml:id="fig318541a_296" rendition="Textfigures" ulx="22" uly="822" lrx="715" lry="1534" rend="visible"/>
+			<zone xml:id="fig318541a_297" rendition="Textfigures" ulx="869" uly="209" lrx="1359" lry="1034" rend="visible"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div xml:id="imtImageAnnotations">
+				<div corresp="#fig318541a_235" type="imtAnnotation">
+					<head>Fig. 235</head>
+					
+				</div>
+				<div corresp="#fig318541a_296" type="imtAnnotation">
+					<head>Fig. 296</head>
+					
+				</div>
+				<div corresp="#fig318541a_297" type="imtAnnotation">
+					<head>Fig. 297</head>
+					
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

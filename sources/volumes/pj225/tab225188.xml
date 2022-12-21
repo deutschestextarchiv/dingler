@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab225188"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab225188.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>3016 x 2227 2234 x 1478 2996 x 2221 3041 x 2223 1131 x 709 1131 x 709</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. C, Bd. 225</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.7" notAfter="2010-10-13T11:38:56">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\30519639Z\tab225188.png" width="1131px" height="709px"></graphic><zone xml:id="fig225188_1" rendition="Einzelfiguren" ulx="5" uly="28" lrx="495" lry="244" rend="visible"></zone><zone xml:id="fig225188_2" rendition="Einzelfiguren" ulx="9" uly="271" lrx="450" lry="701" rend="visible"></zone><zone xml:id="fig225188_3" rendition="Einzelfiguren" ulx="288" uly="13" lrx="792" lry="380" rend="visible"></zone><zone xml:id="fig225188_4" rendition="Einzelfiguren" ulx="464" uly="348" lrx="644" lry="668" rend="visible"></zone><zone xml:id="fig225188_5" rendition="Einzelfiguren" ulx="700" uly="83" lrx="1125" lry="707" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig225188_1" type="imtAnnotation"><head>Fig. 1</head></div><div corresp="#fig225188_2" type="imtAnnotation"><head>Fig. 2</head></div><div corresp="#fig225188_3" type="imtAnnotation"><head>Fig. 3</head></div><div corresp="#fig225188_4" type="imtAnnotation"><head>Fig. 4</head></div><div corresp="#fig225188_5" type="imtAnnotation"><head>Fig. 5</head></div></div></body></text></TEI>

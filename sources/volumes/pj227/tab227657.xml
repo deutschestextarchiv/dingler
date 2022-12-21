@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab227657"><teiHeader>
+  <fileDesc>
+  	<titleStmt><title>tab227657.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>1952 x 1449</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 7, Bd. 227</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2011-05-18T15:16:20">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\png25\tab227657.png" width="1952px" height="1449px"></graphic><zone xml:id="fig227657_1" rendition="Einzelfiguren" ulx="28" uly="29" lrx="776" lry="1426" rend="visible"></zone><zone xml:id="fig227657_2" rendition="Einzelfiguren" ulx="763" uly="43" lrx="1517" lry="1421" rend="visible"></zone><zone xml:id="fig227657_3" rendition="Einzelfiguren" ulx="1489" uly="48" lrx="1892" lry="706" rend="visible"></zone><zone xml:id="fig227657_4" rendition="Einzelfiguren" ulx="1497" uly="692" lrx="1887" lry="1013" rend="visible"></zone><zone xml:id="fig227657_5" rendition="Einzelfiguren" ulx="1442" uly="944" lrx="1901" lry="1418" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig227657_1" type="imtAnnotation"><head>Fig. 1</head></div><div corresp="#fig227657_2" type="imtAnnotation"><head>Fig. 2</head></div><div corresp="#fig227657_3" type="imtAnnotation"><head>Fig. 3</head></div><div corresp="#fig227657_4" type="imtAnnotation"><head>Fig. 4</head></div><div corresp="#fig227657_5" type="imtAnnotation"><head>Fig. 5</head></div></div></body></text></TEI>

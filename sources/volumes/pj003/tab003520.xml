@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab003520">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab003520.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2404 x 961 3005 x 1201</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 18, Bd. 3</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T18:16:36">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab003520.png" width="3005px" height="1201px"/>
+            <zone xml:id="fig003520_1a" rendition="Einzelfiguren" ulx="23" uly="300" lrx="490" lry="1183" rend="visible"/>
+            <zone xml:id="fig003520_2a" rendition="Einzelfiguren" ulx="479" uly="460" lrx="1326" lry="1185"
+                rend="visible"/>
+            <zone xml:id="fig003520_3a" rendition="Einzelfiguren" ulx="485" uly="75" lrx="1329" lry="466" rend="visible"/>
+            <zone xml:id="fig003520_4a" rendition="Einzelfiguren" ulx="759" uly="691" lrx="1129" lry="1173"
+                rend="visible"/>
+            <zone xml:id="fig003520_5a" rendition="Einzelfiguren" ulx="123" uly="300" lrx="352" lry="473" rend="visible"/>
+            <zone xml:id="fig003520_1b" rendition="Einzelfiguren" ulx="1374" uly="75" lrx="2828" lry="159"
+                rend="visible"/>
+            <zone xml:id="fig003520_2b" rendition="Einzelfiguren" ulx="2417" uly="288" lrx="2641" lry="736"
+                rend="visible"/>
+            <zone xml:id="fig003520_3b" rendition="Einzelfiguren" ulx="2638" uly="235" lrx="2962" lry="731"
+                rend="visible"/>
+            <zone xml:id="fig003520_4b" rendition="Einzelfiguren" ulx="2337" uly="796" lrx="2953" lry="1165"
+                rend="visible"/>
+            <zone xml:id="fig003520_1c" rendition="Einzelfiguren" ulx="1325" uly="164" lrx="2296" lry="767"
+                rend="visible"/>
+            <zone xml:id="fig003520_2c" rendition="Einzelfiguren" ulx="1462" uly="588" lrx="1562" lry="743"
+                rend="visible"/>
+            <zone xml:id="fig003520_3c" rendition="Einzelfiguren" ulx="1383" uly="653" lrx="1449" lry="731"
+                rend="visible"/>
+            <zone xml:id="fig003520_4c" rendition="Einzelfiguren" ulx="2062" uly="570" lrx="2168" lry="673"
+                rend="visible"/>
+            <zone xml:id="fig003520_5c" rendition="Einzelfiguren" ulx="1942" uly="656" lrx="2124" lry="768"
+                rend="visible"/>
+            <zone xml:id="fig003520_6c" rendition="Einzelfiguren" ulx="2183" uly="624" lrx="2369" lry="751"
+                rend="visible"/>
+            <zone xml:id="fig003520_7c" rendition="Einzelfiguren" ulx="2240" uly="197" lrx="2312" lry="326"
+                rend="visible"/>
+            <zone xml:id="fig003520_8c" rendition="Einzelfiguren" ulx="2326" uly="190" lrx="2408" lry="332"
+                rend="visible"/>
+            <zone xml:id="fig003520_9c" rendition="Einzelfiguren" ulx="2363" uly="203" lrx="2498" lry="282"
+                rend="visible"/>
+            <zone xml:id="fig003520_10c" rendition="Einzelfiguren" ulx="2242" uly="352" lrx="2455" lry="558"
+                rend="visible"/>
+            <zone xml:id="fig003520_11c" rendition="Einzelfiguren" ulx="1565" uly="649" lrx="1690" lry="747"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig003520_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Gundry und Neave's Vorrichtung Gasarten und Dämpfe nützlich anzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Gundry und Neave's Vorrichtung Gasarten und Dämpfe nützlich anzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Gundry und Neave's Vorrichtung Gasarten und Dämpfe nützlich anzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Gundry und Neave's Vorrichtung Gasarten und Dämpfe nützlich anzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_5a" type="imtAnnotation">
+                    <head>Fig. 5 (Gundry und Neave's Vorrichtung Gasarten und Dämpfe nützlich anzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Romershausen's Instrumente zur Vermehrung der Kraft des Schiess-Pulvers etc.)</head>
+                </div>
+                <div corresp="#fig003520_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Romershausen's Instrumente zur Vermehrung der Kraft des Schiess-Pulvers etc.)</head>
+                </div>
+                <div corresp="#fig003520_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Romershausen's Instrumente zur Vermehrung der Kraft des Schiess-Pulvers etc.)</head>
+                </div>
+                <div corresp="#fig003520_4b" type="imtAnnotation">
+                    <head>Fig. 4 (Romershausen's Instrumente zur Vermehrung der Kraft des Schiess-Pulvers etc.)</head>
+                </div>
+                <div corresp="#fig003520_1c" type="imtAnnotation">
+                    <head>Fig. 1 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_2c" type="imtAnnotation">
+                    <head>Fig. 2 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_3c" type="imtAnnotation">
+                    <head>Fig. 3 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_4c" type="imtAnnotation">
+                    <head>Fig. 4 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_5c" type="imtAnnotation">
+                    <head>Fig. 5 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_6c" type="imtAnnotation">
+                    <head>Fig. 6 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_7c" type="imtAnnotation">
+                    <head>Fig. 7 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_8c" type="imtAnnotation">
+                    <head>Fig. 8 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_9c" type="imtAnnotation">
+                    <head>Fig. 9 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_10c" type="imtAnnotation">
+                    <head>Fig. 10 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+                <div corresp="#fig003520_11c" type="imtAnnotation">
+                    <head>Fig. 11 (Monk's Vorrichtung die Gefahr bei der Schiesspulverfabrikation abzuwenden)</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

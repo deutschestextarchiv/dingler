@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx285223a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2035 x 1392 2035 x 1392</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.2.0" notAfter="2012-02-01T14:18:23">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\30536794Z\png100\tx285223a.png" width="2035px" height="1392px"></graphic><zone xml:id="fig285223a_36" rendition="Textfigures" ulx="5" uly="0" lrx="1077" lry="1362" rend="visible"></zone><zone xml:id="fig285223a_37" rendition="Textfigures" ulx="1114" uly="2" lrx="2035" lry="1346" rend="visible"></zone><zone xml:id="fig285223a_38" rendition="Textfigures" ulx="1743" uly="96" lrx="2021" lry="319" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig285223a_36" type="imtAnnotation"><head>Fig. 36</head></div><div corresp="#fig285223a_37" type="imtAnnotation"><head>Fig. 37</head></div><div corresp="#fig285223a_38" type="imtAnnotation"><head>Fig. 38</head></div></div></body></text></TEI>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab003522">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>tab003522.png</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <p>2466 x 963 3082 x 1204</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <tagsDecl xml:id="imtAnnotationCategories">
+                <rendition xml:id="Einzelfiguren">
+                    <label>Einzelfiguren aus Tab. 19, Bd. 3</label>
+                    <code rend="rectangle" lang="text/css">color: #0000ff</code>
+                </rendition>
+            </tagsDecl>
+            <appInfo>
+                <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2009-11-28T18:25:20">
+                    <label> Image Markup Tool</label>
+                    <desc> Tool for annotating images using TEI</desc>
+                    <ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/"> </ref>
+                    <ptr target="#imtAnnotatedImage"/>
+                    <ptr target="#imtImageAnnotations"/>
+                    <ptr target="#imtAnnotationCategories"/>
+                </application>
+
+
+            </appInfo>
+        </encodingDesc>
+    </teiHeader>
+    <facsimile xml:id="imtAnnotatedImage">
+        <surface>
+            <graphic url="tab003522.png" width="3082px" height="1204px"/>
+            <zone xml:id="fig003522_1a" rendition="Einzelfiguren" ulx="41" uly="45" lrx="783" lry="624" rend="visible"/>
+            <zone xml:id="fig003522_2a" rendition="Einzelfiguren" ulx="36" uly="586" lrx="847" lry="1007" rend="visible"/>
+            <zone xml:id="fig003522_3a" rendition="Einzelfiguren" ulx="739" uly="36" lrx="1424" lry="498" rend="visible"/>
+            <zone xml:id="fig003522_4a" rendition="Einzelfiguren" ulx="674" uly="106" lrx="746" lry="399" rend="visible"/>
+            <zone xml:id="fig003522_1b" rendition="Einzelfiguren" ulx="59" uly="1004" lrx="326" lry="1172"
+                rend="visible"/>
+            <zone xml:id="fig003522_2b" rendition="Einzelfiguren" ulx="327" uly="995" lrx="624" lry="1171"
+                rend="visible"/>
+            <zone xml:id="fig003522_3b" rendition="Einzelfiguren" ulx="630" uly="1013" lrx="968" lry="1168"
+                rend="visible"/>
+            <zone xml:id="fig003522_4b" rendition="Einzelfiguren" ulx="973" uly="974" lrx="1346" lry="1148"
+                rend="visible"/>
+            <zone xml:id="fig003522_5b" rendition="Einzelfiguren" ulx="1348" uly="848" lrx="1748" lry="1176"
+                rend="visible"/>
+            <zone xml:id="fig003522_6b" rendition="Einzelfiguren" ulx="846" uly="497" lrx="1147" lry="994"
+                rend="visible"/>
+            <zone xml:id="fig003522_7b" rendition="Einzelfiguren" ulx="1156" uly="653" lrx="1378" lry="959"
+                rend="visible"/>
+            <zone xml:id="fig003522_8b" rendition="Einzelfiguren" ulx="1125" uly="364" lrx="1401" lry="653"
+                rend="visible"/>
+            <zone xml:id="fig003522_1c" rendition="Einzelfiguren" ulx="1842" uly="94" lrx="2189" lry="547"
+                rend="visible"/>
+            <zone xml:id="fig003522_2c" rendition="Einzelfiguren" ulx="2185" uly="93" lrx="2510" lry="555"
+                rend="visible"/>
+            <zone xml:id="fig003522_3c" rendition="Einzelfiguren" ulx="1419" uly="67" lrx="1847" lry="554"
+                rend="visible"/>
+            <zone xml:id="fig003522_4c" rendition="Einzelfiguren" ulx="1631" uly="86" lrx="1789" lry="294"
+                rend="visible"/>
+            <zone xml:id="fig003522_5c" rendition="Einzelfiguren" ulx="1728" uly="259" lrx="1832" lry="336"
+                rend="visible"/>
+            <zone xml:id="fig003522_1d" rendition="Einzelfiguren" ulx="1372" uly="543" lrx="1969" lry="840"
+                rend="visible"/>
+            <zone xml:id="fig003522_2d" rendition="Einzelfiguren" ulx="1957" uly="545" lrx="2494" lry="730"
+                rend="visible"/>
+            <zone xml:id="fig003522_3d" rendition="Einzelfiguren" ulx="1983" uly="682" lrx="2489" lry="907"
+                rend="visible"/>
+            <zone xml:id="fig003522_4d" rendition="Einzelfiguren" ulx="1741" uly="900" lrx="2234" lry="1137"
+                rend="visible"/>
+            <zone xml:id="fig003522_5d" rendition="Einzelfiguren" ulx="2343" uly="852" lrx="2431" lry="974"
+                rend="visible"/>
+            <zone xml:id="fig003522_6d" rendition="Einzelfiguren" ulx="2121" uly="998" lrx="2292" lry="1140"
+                rend="visible"/>
+            <zone xml:id="fig003522_7d" rendition="Einzelfiguren" ulx="2289" uly="980" lrx="2382" lry="1109"
+                rend="visible"/>
+            <zone xml:id="fig003522_8d" rendition="Einzelfiguren" ulx="2405" uly="980" lrx="2491" lry="1123"
+                rend="visible"/>
+            <zone xml:id="fig003522_1e" rendition="Einzelfiguren" ulx="2502" uly="44" lrx="3042" lry="677"
+                rend="visible"/>
+            <zone xml:id="fig003522_2e" rendition="Einzelfiguren" ulx="2513" uly="689" lrx="3025" lry="1186"
+                rend="visible"/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div xml:id="imtImageAnnotations">
+                <div corresp="#fig003522_1a" type="imtAnnotation">
+                    <head>Fig. 1 (Lewis und Davis Verbesserungen an einer Drath Rau-Mühle)</head>
+                </div>
+                <div corresp="#fig003522_2a" type="imtAnnotation">
+                    <head>Fig. 2 (Lewis und Davis Verbesserungen an einer Drath Rau-Mühle)</head>
+                </div>
+                <div corresp="#fig003522_3a" type="imtAnnotation">
+                    <head>Fig. 3 (Lewis und Davis Verbesserungen an einer Drath Rau-Mühle)</head>
+                </div>
+                <div corresp="#fig003522_4a" type="imtAnnotation">
+                    <head>Fig. 4 (Lewis und Davis Verbesserungen an einer Drath Rau-Mühle)</head>
+                </div>
+                <div corresp="#fig003522_1b" type="imtAnnotation">
+                    <head>Fig. 1 (Jeffrey's Verbesserungen an Maschinen welche durch Wind, Dampf, Wasser oder auf andere
+                        Art bewegt werden)</head>
+                </div>
+                <div corresp="#fig003522_2b" type="imtAnnotation">
+                    <head>Fig. 2 (Jeffrey's Verbesserungen an Maschinen welche durch Wind, Dampf, Wasser oder auf andere
+                        Art bewegt werden)</head>
+                </div>
+                <div corresp="#fig003522_3b" type="imtAnnotation">
+                    <head>Fig. 3 (Jeffrey's Verbesserungen an Maschinen welche durch Wind, Dampf, Wasser oder auf andere
+                        Art bewegt werden)</head>
+                </div>
+                <div corresp="#fig003522_4b" type="imtAnnotation">
+                    <head>Fig. 4 (Jeffrey's Verbesserungen an Maschinen welche durch Wind, Dampf, Wasser oder auf andere
+                        Art bewegt werden)</head>
+                </div>
+                <div corresp="#fig003522_5b" type="imtAnnotation">
+                    <head>Fig. 5 (Jeffrey's Verbesserungen an Maschinen welche durch Wind, Dampf, Wasser oder auf andere
+                        Art bewegt werden)</head>
+                </div>
+                <div corresp="#fig003522_6b" type="imtAnnotation">
+                    <head>Fig. 6 (Jeffrey's Verbesserungen an Maschinen welche durch Wind, Dampf, Wasser oder auf andere
+                        Art bewegt werden)</head>
+                </div>
+                <div corresp="#fig003522_7b" type="imtAnnotation">
+                    <head>Fig. 7 (Jeffrey's Verbesserungen an Maschinen welche durch Wind, Dampf, Wasser oder auf andere
+                        Art bewegt werden)</head>
+                </div>
+                <div corresp="#fig003522_8b" type="imtAnnotation">
+                    <head>Fig. 8 (Jeffrey's Verbesserungen an Maschinen welche durch Wind, Dampf, Wasser oder auf andere
+                        Art bewegt werden)</head>
+                </div>
+                <div corresp="#fig003522_1c" type="imtAnnotation">
+                    <head>Fig. 1 (Doppelte Thürfeder)</head>
+                </div>
+                <div corresp="#fig003522_2c" type="imtAnnotation">
+                    <head>Fig. 2 (Doppelte Thürfeder)</head>
+                </div>
+                <div corresp="#fig003522_3c" type="imtAnnotation">
+                    <head>Fig. 3 (Doppelte Thürfeder)</head>
+                </div>
+                <div corresp="#fig003522_4c" type="imtAnnotation">
+                    <head>Fig. 4 (Doppelte Thürfeder)</head>
+                </div>
+                <div corresp="#fig003522_5c" type="imtAnnotation">
+                    <head>Fig. 5 (Doppelte Thürfeder)</head>
+                </div>
+                <div corresp="#fig003522_1d" type="imtAnnotation">
+                    <head>Fig. 1 (Roberts Vorrichtung zur Verhinderung des Umwerfens der Kutschen und anderer
+                        Fuhrwerke)</head>
+                </div>
+                <div corresp="#fig003522_2d" type="imtAnnotation">
+                    <head>Fig. 2 (Roberts Vorrichtung zur Verhinderung des Umwerfens der Kutschen und anderer
+                        Fuhrwerke)</head>
+                </div>
+                <div corresp="#fig003522_3d" type="imtAnnotation">
+                    <head>Fig. 3 (Roberts Vorrichtung zur Verhinderung des Umwerfens der Kutschen und anderer
+                        Fuhrwerke)</head>
+                </div>
+                <div corresp="#fig003522_4d" type="imtAnnotation">
+                    <head>Fig. 4 (Roberts Vorrichtung zur Verhinderung des Umwerfens der Kutschen und anderer
+                        Fuhrwerke)</head>
+                </div>
+                <div corresp="#fig003522_5d" type="imtAnnotation">
+                    <head>Fig. 5 (Roberts Vorrichtung zur Verhinderung des Umwerfens der Kutschen und anderer
+                        Fuhrwerke)</head>
+                </div>
+                <div corresp="#fig003522_6d" type="imtAnnotation">
+                    <head>Fig. 6 (Roberts Vorrichtung zur Verhinderung des Umwerfens der Kutschen und anderer
+                        Fuhrwerke)</head>
+                </div>
+                <div corresp="#fig003522_7d" type="imtAnnotation">
+                    <head>Fig. 7 (Roberts Vorrichtung zur Verhinderung des Umwerfens der Kutschen und anderer
+                        Fuhrwerke)</head>
+                </div>
+                <div corresp="#fig003522_8d" type="imtAnnotation">
+                    <head>Fig. 8 (Roberts Vorrichtung zur Verhinderung des Umwerfens der Kutschen und anderer
+                        Fuhrwerke)</head>
+                </div>
+                <div corresp="#fig003522_1e" type="imtAnnotation">
+                    <head>Fig. 1 (Chocolade-Maschine)</head>
+                </div>
+                <div corresp="#fig003522_2e" type="imtAnnotation">
+                    <head>Fig. 2 (Chocolade-Maschine)</head>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

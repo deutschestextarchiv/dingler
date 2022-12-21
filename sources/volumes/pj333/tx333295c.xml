@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx333295c"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>3474 x 2443</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-07-24T15:39:01">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="Z:\Dingler_A\2_xml\pj333\32199908Z\png100\tx333295c.png" width="3474px" height="2443px"></graphic><zone xml:id="fig333295c_10" rendition="Textfigures" ulx="22" uly="16" lrx="2218" lry="2432" rend="visible"></zone><zone xml:id="fig333295c_11" rendition="Textfigures" ulx="2147" uly="146" lrx="3456" lry="2421" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig333295c_10" type="imtAnnotation"><head>Fig. 10</head><div><p>Einzelfigur S. 109, Bd. 333</p></div></div><div corresp="#fig333295c_11" type="imtAnnotation"><head>Fig. 11</head><div><p>Einzelfigur S. 109, Bd. 333</p></div></div></div></body></text></TEI>

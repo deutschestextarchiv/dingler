@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab223727"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab223727.png</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>3016 x 2227 2234 x 1478 2996 x 2221 3041 x 2223 3006 x 2207 3006 x 2207</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 9, Bd. 223</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.7" notAfter="2010-10-12T16:53:30">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\32422712Z\tab223727.png" width="3006px" height="2207px"></graphic><zone xml:id="fig223727_1" rendition="Einzelfiguren" ulx="2195" uly="1827" lrx="2949" lry="2169" rend="visible"></zone><zone xml:id="fig223727_2" rendition="Einzelfiguren" ulx="2162" uly="1273" lrx="2953" lry="1928" rend="visible"></zone><zone xml:id="fig223727_3" rendition="Einzelfiguren" ulx="1165" uly="1753" lrx="2204" lry="2159" rend="visible"></zone><zone xml:id="fig223727_4" rendition="Einzelfiguren" ulx="1141" uly="1265" lrx="2119" lry="1665" rend="visible"></zone><zone xml:id="fig223727_5" rendition="Einzelfiguren" ulx="798" uly="1617" lrx="1182" lry="2166" rend="visible"></zone><zone xml:id="fig223727_34" rendition="Einzelfiguren" ulx="2659" uly="76" lrx="2970" lry="708" rend="visible"></zone><zone xml:id="fig223727_38" rendition="Einzelfiguren" ulx="46" uly="1526" lrx="826" lry="1831" rend="visible"></zone><zone xml:id="fig223727_39" rendition="Einzelfiguren" ulx="47" uly="1824" lrx="839" lry="2162" rend="visible"></zone><zone xml:id="fig223727_43" rendition="Einzelfiguren" ulx="41" uly="67" lrx="618" lry="1567" rend="visible"></zone><zone xml:id="fig223727_44" rendition="Einzelfiguren" ulx="516" uly="64" lrx="1126" lry="1553" rend="visible"></zone><zone xml:id="fig223727_55" rendition="Einzelfiguren" ulx="2636" uly="709" lrx="2964" lry="1087" rend="visible"></zone><zone xml:id="fig223727_56" rendition="Einzelfiguren" ulx="2659" uly="1079" lrx="2951" lry="1290" rend="visible"></zone><zone xml:id="fig223727_6" rendition="Einzelfiguren" ulx="1063" uly="71" lrx="2717" lry="1287" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig223727_1" type="imtAnnotation"><head>Fig. 1</head></div><div corresp="#fig223727_2" type="imtAnnotation"><head>Fig. 2</head></div><div corresp="#fig223727_3" type="imtAnnotation"><head>Fig. 3</head></div><div corresp="#fig223727_4" type="imtAnnotation"><head>Fig. 4</head></div><div corresp="#fig223727_5" type="imtAnnotation"><head>Fig. 5</head></div><div corresp="#fig223727_34" type="imtAnnotation"><head>Fig. 34</head></div><div corresp="#fig223727_38" type="imtAnnotation"><head>Fig. 38</head></div><div corresp="#fig223727_39" type="imtAnnotation"><head>Fig. 39</head></div><div corresp="#fig223727_43" type="imtAnnotation"><head>Fig. 43</head></div><div corresp="#fig223727_44" type="imtAnnotation"><head>Fig. 44</head></div><div corresp="#fig223727_55" type="imtAnnotation"><head>Fig. 55</head></div><div corresp="#fig223727_56" type="imtAnnotation"><head>Fig. 56</head></div><div corresp="#fig223727_6" type="imtAnnotation"><head>Friedr. Bode: Uber Concentration der Schwefelsäure auf 60° B. und Denitrirung der nitrosen Schwefelsäure</head></div></div></body></text></TEI>

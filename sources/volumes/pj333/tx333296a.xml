@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oasis-schema href="imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx333296a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2418 x 2945</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-07-24T15:41:24">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="Z:\Dingler_A\2_xml\pj333\32199908Z\png100\tx333296a.png" width="2418px" height="2945px"></graphic><zone xml:id="fig333296a_12" rendition="Textfigures" ulx="20" uly="10" lrx="924" lry="2082" rend="visible"></zone><zone xml:id="fig333296a_13" rendition="Textfigures" ulx="884" uly="33" lrx="1661" lry="2093" rend="visible"></zone><zone xml:id="fig333296a_14" rendition="Textfigures" ulx="1579" uly="16" lrx="2404" lry="2111" rend="visible"></zone><zone xml:id="fig333296a_15" rendition="Textfigures" ulx="52" uly="2070" lrx="926" lry="2939" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig333296a_12" type="imtAnnotation"><head>Fig. 12</head><div><p>Einzelfigur S. 110, Bd. 333</p></div></div><div corresp="#fig333296a_13" type="imtAnnotation"><head>Fig. 13</head><div><p>Einzelfigur S. 110, Bd. 333</p></div></div><div corresp="#fig333296a_14" type="imtAnnotation"><head>Fig. 14</head><div><p>Einzelfigur S. 110, Bd. 333</p></div></div><div corresp="#fig333296a_15" type="imtAnnotation"><head>Fig. 15</head><div><p>Einzelfigur S. 110, Bd. 333</p></div></div></div></body></text></TEI>

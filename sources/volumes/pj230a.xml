@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Polytechnisches Journal.</title>
+        <title type="sub" n="230">Atlas zu Band 230, Jahrgang 1878</title>
+        <editor>
+          <orgName>Dingler Online – Das digitalisierte Polytechnische Journal</orgName>
+        </editor>
+        <respStmt>
+          <orgName ref="https://d-nb.info/gnd/1220138-8">Humboldt-Universität zu Berlin</orgName>
+          <resp>
+            <note type="remarkResponsibility">Projektträger</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <persName ref="https://d-nb.info/gnd/141535091">
+            <surname>Kassung</surname>
+            <forename>Christian</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Projektleitung Humboldt-Universität</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <persName ref="https://d-nb.info/gnd/1204665788">
+            <surname>Hug</surname>
+            <forename>Marius</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Wissenschaftlicher Mitarbeiter Humboldt-Universität</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <persName>
+            <surname>Zehnder</surname>
+            <forename>Deborah</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Projektkoordination</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <persName>
+            <surname>Luzardo</surname>
+            <forename>Laura</forename>
+          </persName>
+          <persName>
+            <surname>Schäfer</surname>
+            <forename>Una</forename>
+          </persName>
+          <persName>
+            <surname>Bechmann</surname>
+            <forename>Antonia</forename>
+          </persName>
+          <persName>
+            <surname>Daniel</surname>
+            <forename>Diana</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Studentische Hilfskräfte</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <persName>
+            <surname>Wiegand</surname>
+            <forename>Frank</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Programmierung</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://d-nb.info/gnd/5165770-3">Sächsische Landesbibliothek – Staats- und Universitätsbibliothek Dresden</orgName>
+          <resp>
+            <note type="remarkResponsibility">Kooperationspartner Bibliothek</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <persName ref="https://d-nb.info/gnd/114684476X">
+            <surname>Rohrmüller</surname>
+            <forename>Marc</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Projektkoordination Bibliothek</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://d-nb.info/gnd/2007744-0">Deutsche Forschungsgemeinschaft</orgName>
+          <resp>
+            <note type="remarkResponsibility">Projektförderung</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://d-nb.info/gnd/1064129226">Editura GmbH &amp; Co. KG, Berlin</orgName>
+          <resp>
+            <note type="remarkResponsibility">Volltextdigitalisierung</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <persName>
+            <surname>Gödel</surname>
+            <forename>Martina</forename>
+          </persName>
+          <resp>
+            <note type="remarkResponsibility">Projektkoordination und Basic Encoding nach den Richtlinien der TEI für die Editura GmbH &amp; Co. KG</note>
+          </resp>
+        </respStmt>
+        <respStmt>
+          <orgName ref="https://www.clarin-d.de/">CLARIN-D</orgName>
+          <resp>
+            <note type="remarkResponsibility">Langfristige Bereitstellung</note>
+          </resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="1"/>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <email>wiegand@bbaw.de</email>
+          <orgName role="project">Deutsches Textarchiv (Dingler)</orgName>
+          <orgName role="hostingInstitution" xml:lang="en" ref="https://d-nb.info/gnd/2131094-4">Berlin-Brandenburg Academy of Sciences and Humanities</orgName>
+          <orgName role="hostingInstitution" xml:lang="de" ref="https://d-nb.info/gnd/2131094-4">Berlin-Brandenburgische Akademie der Wissenschaften (BBAW)</orgName>
+          <address>
+            <addrLine>Jägerstr. 22/23, 10117 Berlin</addrLine>
+            <country>Germany</country>
+          </address>
+        </publisher>
+        <pubPlace>Berlin</pubPlace>
+        <date type="publication">2022-09-26</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/deed.de">
+            <p>Die Textdigitalisate des Polytechnischen Journals stehen unter der Creative-Commons-Lizenz CC BY-SA 4.0.</p>
+          </licence>
+        </availability>
+        <idno>
+          <idno type="URLWeb">http://digital.slub-dresden.de/id32422808Z</idno>
+          <idno type="URLXML">https://www.deutschestextarchiv.de/dingler/journal/pj230a.xml</idno>
+        </idno>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="J">Dr. Johann Gottfried Dingler: Polytechnisches Journal. Bd. 230. Augsburg, 1878.</bibl>
+        <biblFull>
+          <titleStmt>
+            <title type="main">Polytechnisches Journal.</title>
+            <title type="sub" n="230">Atlas zu Band 230, Jahrgang 1878</title>
+            <editor>
+              <persName ref="https://d-nb.info/gnd/116137592">
+                <surname>Dingler</surname>
+                <forename>Johann Gottfried</forename>
+                <roleName>Dr.</roleName>
+              </persName>
+            </editor>
+          </titleStmt>
+          <editionStmt>
+            <edition n="1"/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher>J. G. Cotta'schen Buchhandlung</publisher>
+            <pubPlace>Augsburg</pubPlace>
+            <date type="publication">1878</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <repository>SLUB Dresden</repository>
+            <idno>
+              <idno type="URLWeb">http://digital.slub-dresden.de/id32422808Z</idno>
+            </idno>
+          </msIdentifier>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Optical character recognition and basic TEI encoding by Editura GmbH &amp; Co.KG, Berlin 2009/2010.</p>
+      </projectDesc>
+      <editorialDecl>
+        <hyphenation eol="hard">
+          <p>All soft end-of-line hyphenation has been removed.</p>
+        </hyphenation>
+        <normalization method="silent">
+          <p>No text-decoration elements were captured, such as decorated capital letters at the
+						beginning of chapters or text-separators.</p>
+          <p>All references to printed sheets were captured.</p>
+        </normalization>
+        <correction method="markup">
+          <p>As far as possible all errata-lists printed in the journal have been realised, using the
+						element <gi scheme="TEI">orig</gi> to mark the original text and <gi scheme="TEI">corr</gi> to mark the correction given in the errata-list.</p>
+        </correction>
+        <quotation marks="all">
+          <p>All passages set off by quotation marks were marked by the element <gi scheme="TEI">q</gi> including
+						the quotation mark inside the tag. In case of repeating quotation marks in front of each line,
+						only the first and the last quotation mark was obtained. And the element <gi scheme="TEI">q</gi>'s @type-attribute was set to the value “preline”.</p>
+        </quotation>
+      </editorialDecl>
+      <tagsDecl>
+        <rendition xml:id="roman" scheme="css">font-family: "times new roman", times, serif;</rendition>
+        <rendition xml:id="wide" scheme="css">letter-spacing: 2pt;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: .8em;</rendition>
+        <rendition xml:id="x-small" scheme="css">font-size: x-small;</rendition>
+        <rendition xml:id="xx-small" scheme="css">font-size: xx-small;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: large;</rendition>
+        <rendition xml:id="x-large" scheme="css">font-size: x-large;</rendition>
+        <rendition xml:id="xx-large" scheme="css">font-size: xx-large</rendition>
+        <rendition xml:id="bold" scheme="css">font-weight: bold</rendition>
+        <rendition xml:id="italic" scheme="css">font-style: italic</rendition>
+        <rendition xml:id="no_indent" scheme="css">text-indent: none;</rendition>
+        <rendition xml:id="indent-1" scheme="css">text-indent: -1em;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="l1em" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="l2em" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="r1em" scheme="css">margin-right: 1em;</rendition>
+        <rendition xml:id="superscript" scheme="css">font-size: .7em; vertical-align: super;</rendition>
+        <rendition xml:id="subscript" scheme="css">font-size: .7em; vertical-align: sub;</rendition>
+        <rendition xml:id="hidden" scheme="css">display: none;</rendition>
+        <rendition xml:id="underline" scheme="css">text-decoration: underline;</rendition>
+        <rendition xml:id="double-underline" scheme="css">border-bottom: 3px double;</rendition>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Only unnumbered divs used</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <abstract>
+        <p>Historical German text source digitized for the project “Dingler Online – Das digitalisierte Polytechnische Journal”.</p>
+      </abstract>
+      <langUsage>
+        <language ident="de">Neuhochdeutsch</language>
+        <language ident="de">German</language>
+      </langUsage>
+      <textClass>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds">Wissenschaft</classCode>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text type="volume" xml:lang="german" n="230" xml:id="pj230a">
+    <milestone type="additional-counting" subtype="age-group" ed="Neunundfünfzigster Jahrgang" unit="volume" n="230"/>
+    <front>
+      <divGen type="toc"/>
+      <div type="volume_start">
+        <p rendition="#no_indent">
+          <pb n="binding_recto" facs="32422808Z/00000001" xml:id="tab230a_pbbinding_recto_001"/>
+          <pb n="interleaf" facs="32422808Z/00000002" xml:id="tab230a_pbinterleaf_001"/>
+          <pb n="interleaf" facs="32422808Z/00000003" xml:id="tab230a_pbinterleaf_002"/>
+          <pb n="interleaf" facs="32422808Z/00000004" xml:id="tab230a_pbinterleaf_003"/>
+          <pb n="interleaf" facs="32422808Z/00000005" xml:id="tab230a_pbinterleaf_004"/>
+          <pb n="interleaf" facs="32422808Z/00000006" xml:id="tab230a_pbinterleaf_005"/>
+        </p>
+      </div>
+      <titlePage type="volume">
+        <docTitle rendition="#center">
+          <pb n="III" facs="32422808Z/00000007" xml:id="tab230a_pbtitlepage_001"/>
+          <titlePart type="main">Atlas<lb/>zu<lb/>Dr. Dinglers polytechnischem Journal</titlePart>
+          <titlePart type="volume" n="230">Band 230.</titlePart>
+          <titlePart type="sub">(Neunundfünfzigster Jahrgang.)</titlePart>
+          <titlePart type="year" n="1878"><hi rendition="#wide">Jahrgang 1878</hi>.</titlePart>
+          <titlePart type="sub">Enthaltend 42 lithographirte Tafeln.</titlePart>
+        </docTitle>
+        <docImprint rendition="#center"><hi rendition="#wide">Augsburg</hi>.<lb/><hi rendition="#wide">Druck und Verlag der J. G. COTTA'schen Buchhandlung.</hi></docImprint>
+      </titlePage>
+    </front>
+    <body>
+      <div type="tab">
+        <pb n="Tab. 1" facs="32422808Z/00000008" xml:id="tab230a_pbTab1_001"/>
+        <head rendition="#center">[Tafeln]</head>
+        <figure rend="tab" xml:id="tab230a008">
+          <graphic url="32422808Z/tab230a008"/>
+          <head>Tab. I.</head>
+        </figure>
+        <pb n="Tab. 2" facs="32422808Z/00000009" xml:id="tab230a_pbTab2_001"/>
+        <figure rend="tab" xml:id="tab230a009">
+          <graphic url="32422808Z/tab230a009"/>
+          <head>Tab. II.</head>
+        </figure>
+        <pb n="Tab. 3" facs="32422808Z/00000010" xml:id="tab230a_pbTab3_001"/>
+        <figure rend="tab" xml:id="tab230a010">
+          <graphic url="32422808Z/tab230a010"/>
+          <head>Tab. III.</head>
+        </figure>
+        <pb n="Tab. 4" facs="32422808Z/00000011" xml:id="tab230a_pbTab4_001"/>
+        <figure rend="tab" xml:id="tab230a011">
+          <graphic url="32422808Z/tab230a011"/>
+          <head>Tab. IV.</head>
+        </figure>
+        <pb n="Tab. 5" facs="32422808Z/00000012" xml:id="tab230a_pbTab5_001"/>
+        <figure rend="tab" xml:id="tab230a012">
+          <graphic url="32422808Z/tab230a012"/>
+          <head>Tab. V.</head>
+        </figure>
+        <pb n="Tab. 6" facs="32422808Z/00000013" xml:id="tab230a_pbTab6_001"/>
+        <figure rend="tab" xml:id="tab230a013">
+          <graphic url="32422808Z/tab230a013"/>
+          <head>Tab. VI.</head>
+        </figure>
+        <pb n="Tab. 7" facs="32422808Z/00000014" xml:id="tab230a_pbTab7_001"/>
+        <figure rend="tab" xml:id="tab230a014">
+          <graphic url="32422808Z/tab230a014"/>
+          <head>Tab. VII.</head>
+        </figure>
+        <pb n="Tab. 8" facs="32422808Z/00000015" xml:id="tab230a_pbTab8_001"/>
+        <figure rend="tab" xml:id="tab230a015">
+          <graphic url="32422808Z/tab230a015"/>
+          <head>Tab. VIII.</head>
+        </figure>
+        <pb n="Tab. 9" facs="32422808Z/00000016" xml:id="tab230a_pbTab9_001"/>
+        <figure rend="tab" xml:id="tab230a016">
+          <graphic url="32422808Z/tab230a016"/>
+          <head>Tab. IX.</head>
+        </figure>
+        <pb n="Tab. 10" facs="32422808Z/00000017" xml:id="tab230a_pbTab10_001"/>
+        <figure rend="tab" xml:id="tab230a017">
+          <graphic url="32422808Z/tab230a017"/>
+          <head>Tab. X.</head>
+        </figure>
+        <pb n="Tab. 11" facs="32422808Z/00000018" xml:id="tab230a_pbTab11_001"/>
+        <figure rend="tab" xml:id="tab230a018">
+          <graphic url="32422808Z/tab230a018"/>
+          <head>Tab. XI.</head>
+        </figure>
+        <pb n="Tab. 12" facs="32422808Z/00000019" xml:id="tab230a_pbTab12_001"/>
+        <figure rend="tab" xml:id="tab230a019">
+          <graphic url="32422808Z/tab230a019"/>
+          <head>Tab. XII.</head>
+        </figure>
+        <pb n="Tab. 13" facs="32422808Z/00000020" xml:id="tab230a_pbTab13_001"/>
+        <figure rend="tab" xml:id="tab230a020">
+          <graphic url="32422808Z/tab230a020"/>
+          <head>Tab. XIII.</head>
+        </figure>
+        <pb n="Tab. 14" facs="32422808Z/00000021" xml:id="tab230a_pbTab14_001"/>
+        <figure rend="tab" xml:id="tab230a021">
+          <graphic url="32422808Z/tab230a021"/>
+          <head>Tab. XIV.</head>
+        </figure>
+        <pb n="Tab. 15" facs="32422808Z/00000022" xml:id="tab230a_pbTab15_001"/>
+        <figure rend="tab" xml:id="tab230a022">
+          <graphic url="32422808Z/tab230a022"/>
+          <head>Tab. XV.</head>
+        </figure>
+        <pb n="Tab. 16" facs="32422808Z/00000023" xml:id="tab230a_pbTab16_001"/>
+        <figure rend="tab" xml:id="tab230a023">
+          <graphic url="32422808Z/tab230a023"/>
+          <head>Tab. XVI.</head>
+        </figure>
+        <pb n="Tab. 17" facs="32422808Z/00000024" xml:id="tab230a_pbTab17_001"/>
+        <figure rend="tab" xml:id="tab230a024">
+          <graphic url="32422808Z/tab230a024"/>
+          <head>Tab. XVII.</head>
+        </figure>
+        <pb n="Tab. 18" facs="32422808Z/00000025" xml:id="tab230a_pbTab18_001"/>
+        <figure rend="tab" xml:id="tab230a025">
+          <graphic url="32422808Z/tab230a025"/>
+          <head>Tab. XVIII.</head>
+        </figure>
+        <pb n="Tab. 19" facs="32422808Z/00000026" xml:id="tab230a_pbTab19_001"/>
+        <figure rend="tab" xml:id="tab230a026">
+          <graphic url="32422808Z/tab230a026"/>
+          <head>Tab. XIX.</head>
+        </figure>
+        <pb n="Tab. 20" facs="32422808Z/00000027" xml:id="tab230a_pbTab20_001"/>
+        <figure rend="tab" xml:id="tab230a027">
+          <graphic url="32422808Z/tab230a027"/>
+          <head>Tab. XX.</head>
+        </figure>
+        <pb n="Tab. 21" facs="32422808Z/00000028" xml:id="tab230a_pbTab21_001"/>
+        <figure rend="tab" xml:id="tab230a028">
+          <graphic url="32422808Z/tab230a028"/>
+          <head>Tab. XXI.</head>
+        </figure>
+        <pb n="Tab. 22" facs="32422808Z/00000029" xml:id="tab230a_pbTab22_001"/>
+        <figure rend="tab" xml:id="tab230a029">
+          <graphic url="32422808Z/tab230a029"/>
+          <head>Tab. XXII.</head>
+        </figure>
+        <pb n="Tab. 23" facs="32422808Z/00000030" xml:id="tab230a_pbTab23_001"/>
+        <figure rend="tab" xml:id="tab230a030">
+          <graphic url="32422808Z/tab230a030"/>
+          <head>Tab. XXIII.</head>
+        </figure>
+        <pb n="Tab. 24" facs="32422808Z/00000031" xml:id="tab230a_pbTab24_001"/>
+        <figure rend="tab" xml:id="tab230a031">
+          <graphic url="32422808Z/tab230a031"/>
+          <head>Tab. XXIV.</head>
+        </figure>
+        <pb n="Tab. 25" facs="32422808Z/00000032" xml:id="tab230a_pbTab25_001"/>
+        <figure rend="tab" xml:id="tab230a032">
+          <graphic url="32422808Z/tab230a032"/>
+          <head>Tab. XXV.</head>
+        </figure>
+        <pb n="Tab. 26" facs="32422808Z/00000033" xml:id="tab230a_pbTab26_001"/>
+        <figure rend="tab" xml:id="tab230a033">
+          <graphic url="32422808Z/tab230a033"/>
+          <head>Tab. XXVI.</head>
+        </figure>
+        <pb n="Tab. 27" facs="32422808Z/00000034" xml:id="tab230a_pbTab27_001"/>
+        <figure rend="tab" xml:id="tab230a034">
+          <graphic url="32422808Z/tab230a034"/>
+          <head>Tab. XXVII.</head>
+        </figure>
+        <pb n="Tab. 28" facs="32422808Z/00000035" xml:id="tab230a_pbTab28_001"/>
+        <figure rend="tab" xml:id="tab230a035">
+          <graphic url="32422808Z/tab230a035"/>
+          <head>Tab. XXVIII.</head>
+        </figure>
+        <pb n="Tab. 29" facs="32422808Z/00000036" xml:id="tab230a_pbTab29_001"/>
+        <figure rend="tab" xml:id="tab230a036">
+          <graphic url="32422808Z/tab230a036"/>
+          <head>Tab. XXIX.</head>
+        </figure>
+        <pb n="Tab. 30" facs="32422808Z/00000037" xml:id="tab230a_pbTab30_001"/>
+        <figure rend="tab" xml:id="tab230a037">
+          <graphic url="32422808Z/tab230a037"/>
+          <head>Tab. XXX.</head>
+        </figure>
+        <pb n="Tab. 31" facs="32422808Z/00000038" xml:id="tab230a_pbTab31_001"/>
+        <figure rend="tab" xml:id="tab230a038">
+          <graphic url="32422808Z/tab230a038"/>
+          <head>Tab. XXXI.</head>
+        </figure>
+        <pb n="Tab. 32" facs="32422808Z/00000039" xml:id="tab230a_pbTab32_001"/>
+        <figure rend="tab" xml:id="tab230a039">
+          <graphic url="32422808Z/tab230a039"/>
+          <head>Tab. XXXII.</head>
+        </figure>
+        <pb n="Tab. 33" facs="32422808Z/00000040" xml:id="tab230a_pbTab33_001"/>
+        <figure rend="tab" xml:id="tab230a040">
+          <graphic url="32422808Z/tab230a040"/>
+          <head>Tab. XXXIII.</head>
+        </figure>
+        <pb n="Tab. 34" facs="32422808Z/00000041" xml:id="tab230a_pbTab34_001"/>
+        <figure rend="tab" xml:id="tab230a041">
+          <graphic url="32422808Z/tab230a041"/>
+          <head>Tab. XXXIV.</head>
+        </figure>
+        <pb n="Tab. 35" facs="32422808Z/00000042" xml:id="tab230a_pbTab35_001"/>
+        <figure rend="tab" xml:id="tab230a042">
+          <graphic url="32422808Z/tab230a042"/>
+          <head>Tab. XXXV.</head>
+        </figure>
+        <pb n="Tab. 36" facs="32422808Z/00000043" xml:id="tab230a_pbTab36_001"/>
+        <figure rend="tab" xml:id="tab230a043">
+          <graphic url="32422808Z/tab230a043"/>
+          <head>Tab. XXXVI.</head>
+        </figure>
+        <pb n="Tab. 37" facs="32422808Z/00000044" xml:id="tab230a_pbTab37_001"/>
+        <figure rend="tab" xml:id="tab230a044">
+          <graphic url="32422808Z/tab230a044"/>
+          <head>Tab. XXXVII.</head>
+        </figure>
+        <pb n="Tab. 38" facs="32422808Z/00000045" xml:id="tab230a_pbTab38_001"/>
+        <figure rend="tab" xml:id="tab230a045">
+          <graphic url="32422808Z/tab230a045"/>
+          <head>Tab. XXXVIII.</head>
+        </figure>
+        <pb n="Tab. 39" facs="32422808Z/00000046" xml:id="tab230a_pbTab39_001"/>
+        <figure rend="tab" xml:id="tab230a046">
+          <graphic url="32422808Z/tab230a046"/>
+          <head>Tab. XXXIX.</head>
+        </figure>
+        <pb n="Tab. 40" facs="32422808Z/00000047" xml:id="tab230a_pbTab40_001"/>
+        <figure rend="tab" xml:id="tab230a047">
+          <graphic url="32422808Z/tab230a047"/>
+          <head>Tab. XL.</head>
+        </figure>
+        <pb n="Tab. 41" facs="32422808Z/00000048" xml:id="tab230a_pbTab41_001"/>
+        <figure rend="tab" xml:id="tab230a048">
+          <graphic url="32422808Z/tab230a048"/>
+          <head>Tab. XLI.</head>
+        </figure>
+        <pb n="Tab. 42" facs="32422808Z/00000049" xml:id="tab230a_pbTab42_001"/>
+        <figure rend="tab" xml:id="tab230a049">
+          <graphic url="32422808Z/tab230a049"/>
+          <head>Tab. XLII.</head>
+        </figure>
+      </div>
+      <div type="volume_end">
+        <pb n="interleaf" facs="32422808Z/00000050" xml:id="tab230a_pbinterleaf_006"/>
+        <pb n="interleaf" facs="32422808Z/00000051" xml:id="tab230a_pbinterleaf_007"/>
+        <pb n="interleaf" facs="32422808Z/00000052" xml:id="tab230a_pbinterleaf_008"/>
+        <pb n="interleaf" facs="32422808Z/00000053" xml:id="tab230a_pbinterleaf_009"/>
+        <pb n="interleaf" facs="32422808Z/00000054" xml:id="tab230a_pbinterleaf_010"/>
+        <pb n="interleaf" facs="32422808Z/00000055" xml:id="tab230a_pbinterleaf_011"/>
+        <pb n="binding_verso" facs="32422808Z/00000056" xml:id="tab230a_pbbinding_verso_001"/>
+      </div>
+    </body>
+  </text>
+</TEI>

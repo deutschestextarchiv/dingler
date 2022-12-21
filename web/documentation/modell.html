@@ -1,0 +1,240 @@
+<main>
+  <h1>Textauszeichnung am Modell</h1>
+
+  <p>
+    Der Dienstleister Editura GmbH lieferte eine TEI-Datei pro
+    texterfasstem Band aus. Diese sind mit Strukturdaten angereichert. In
+    einem zweistufigen Verfahren wurden diese Dateien tiefer granuliert.
+    Neben den TEI-Dateien wurde pro Band auch eine METS-Datei ausgeliefert.
+    Dieses Kontainerformat für Strukturdaten ist sowohl für die
+    Präsentation mit Kitodo (ehemals Goobi) wie auch mit dem DFG-Viewer notwendig.
+  </p>
+
+  <p>
+    Im Folgenden soll anhand von drei Beispielen detailliert auf unsere
+    Auszeichnungstrategien eingegangen werden:
+  </p>
+
+  <h2>1. Register</h2>
+
+  <p>
+    Zum Ende jedes Jahrgangs enthält das »Polytechnische Journal« ein
+    umfangreiches Personen- und Sachregister. Zusätzlich dazu wurden zum
+    Polytechnischen Journal vier sogenannte Real-Indizes gefertigt, die
+    jeweils ca. 40 Bände des Journals umfassen, wobei es sich hier um
+    reine Sachregister handelt.
+  </p>
+
+  <p>
+    Diese Register wurden ebenfalls komplett per OCR erfasst und
+    ausgezeichnet. Anschließend wurden diese tiefer granuliert und in unser im
+    Folgenden beschriebenes TEI-basiertes Register mit aufgenommen.
+  </p>
+
+  <h3>TEI-basierte Personenregister</h3>
+
+  <p>
+    Eine Person, die im Journal als solche identifiziert wurde, erhält
+    einen Eintrag in einem zentral verwalteten XML-Dokument. Gemäß den TEI
+    Richtlinien sieht ein solcher Eintrag wie folgt aus.
+  </p>
+
+  <pre><code>&lt;person xml:id=&quot;pers00033&quot;&gt;
+  &lt;persName&gt;
+    &lt;roleName&gt;Prof. Dr.&lt;/roleName&gt;
+    &lt;surname&gt;Schönbein&lt;/surname&gt;
+    &lt;forename&gt;Christian Friedrich&lt;/forename&gt;
+  &lt;/persName&gt;
+  &lt;birth&gt;
+    &lt;date when=&quot;1799-10-18&quot;/&gt;
+    &lt;placeName&gt;Metzingen bei Reutlingen&lt;/placeName&gt;
+  &lt;/birth&gt;
+  &lt;death&gt;
+    &lt;date when=&quot;1868-08-29&quot;/&gt;
+    &lt;placeName&gt;Bad Wildbad (Schwarzwald)&lt;/placeName&gt;
+  &lt;/death&gt;
+  &lt;occupation&gt;
+    &lt;ref target=&quot;http://mdz10.bib-bvb.de/~db/bsb00008390/images/index.html?seite=258&quot;&gt;ADB|NDB&lt;/ref&gt;
+  &lt;/occupation&gt;
+&lt;/person&gt;
+</code></pre>
+
+  <p>
+    Per <code>@xml:id</code> erhält der Eintrag eine eindeutige Projekt-ID. Wann immer
+    diese Person im Journal erwähnt wird, wird dann per
+    <code>@ref=&amp;persons;#pers00033</code> auf den Datensatz verlinkt. Wenn möglich
+    wird eine Quelle angegeben, die weitere Informationen zur Person
+    enthält, bspw. also die ADB (Allgemeine deutsche Biographie) bzw. NDB
+    (Neue deutsche Biographie). Perspektivisch soll dieser Datensatz mit
+    der entsprechenden PND (Personen Normdatei<!-- fw: GND! -->) komplettiert werden.
+  </p>
+
+  <h3>Quellen</h3>
+
+  <p>
+    Ein ähnliches Vorgehen wird für die im Journal genannten Quellen
+    verfolgt. Das »Polytechnische Journal« ist ein Referateorgan und die
+    Herausgeber haben sehr sorgfältig ihre Quellen ausgewiesen. Ein
+    typischer Eintrag im Journal würde vor der wissenschaftlichen
+    Bearbeitung wie folgt aussehen:
+  </p>
+
+  <pre><code>&lt;titlePart type=&quot;sub&quot; rendition=&quot;#center&quot;&gt;
+  Aus dem &lt;hi rendition=&quot;#wide&quot;&gt;Mechanics&#39; Magazine&lt;/hi&gt;
+  &lt;hi rendition=&quot;#roman&gt;N.&lt;/hi&gt; 441. S. 290.
+&lt;/titlePart&gt;</code></pre>
+
+  <p>
+    Die weitere Strategie verfolgte den Ansatz, die einzelnen Elemente in
+    ihrer Funktion kenntlich zu machen. Im genannten Beispiel handelt es
+    sich zweifelsfrei um eine bibliographische Angabe: Es wird ein
+    Journaltitel erwähnt, eine Heftnummer und eine Seitenzahl.
+  </p>
+
+  <p>Gemäß TEI P5 wird daraus:</p>
+
+  <pre><code>&lt;titlePart type=&quot;sub&quot; rendition=&quot;#center&quot;&gt;
+  Aus dem
+  &lt;bibl type=&quot;source&quot;&gt;
+    &lt;title level=&quot;j&quot; ref=&quot;&amp;journals;#jour0011&quot;&gt;Mechanics&#39; Magazine&lt;/title&gt;
+    &lt;biblScope type=&quot;iss&quot;&gt;N. 441.&lt;/biblScope&gt; &lt;biblScope type=&quot;pp&quot;&gt;S. 290.&lt;/biblScope&gt;
+  &lt;/bibl&gt;
+&lt;/titlePart&gt;</code></pre>
+
+  <p>
+    Und wir nehmen zusätzlich einen Eintrag in einer XML-Datei vor, in der
+    zentral und eindeutig alle Quellen verwaltet werden:
+  </p>
+
+<pre><code>&lt;bibl xml:id=&quot;jour0011&quot;&gt;
+  &lt;title level=&quot;j&quot;&gt;Mechanics&#39; Magazine: museum, register, journal, and gazette&lt;/title&gt;
+  &lt;pubPlace&gt;
+    &lt;country&gt;England&lt;/country&gt;
+  &lt;/pubPlace&gt;
+  &lt;date from=&quot;1823&quot; to=&quot;1873&quot;&gt;1823-1873&lt;/date&gt;
+  &lt;ref target=&quot;#ZDB-ID&quot;&gt;423434-0&lt;/ref&gt;
+  &lt;ref target=&quot;e-journal&quot;&gt;http://rzblx1.uni-regensburg.de/ezeit/?2248618&lt;/ref&gt;
+&lt;/bibl&gt;</code></pre>
+
+  <h2>2. Verlinkungen innerhalb des Journals</h2>
+
+  <p>
+    Die Herausgeber des »Polytechnischen Journals« versuchten ihren Lesern
+    von Beginn an dabei behilflich zu sein, die sehr heterogen
+    abgehandelten Themen zu strukturieren und miteinander zu vernetzen. So
+    finden sich sehr häufig Hinweise auf Artikel innerhalb des Journals,
+    die Gleiches oder Ähnliches behandeln.
+  </p>
+
+  <p>
+    Im Rahmen der wissenschaftlichen Bearbeitung des
+    Digitalisats wurde gezielt nach diesen Verweisen gesucht, um diese zu
+    ›taggen‹ und per bandübergreifendem Link in der Textansicht als
+    Hyperlink zur Verfügung zu stellen.
+  </p>
+
+  <p>
+    Mit einem schon recht komplexen suche&amp;ersetzen-Muster funktioniert
+    dieser Arbeitsschritt mittlerweile automatisch. Zum Einsatz kommt
+    folgendes Suchmuster, das auf regulären Ausdrücken beruht:
+  </p>
+
+<pre><code>my $pat = qr/
+    (
+        (?:\s+)
+        (?:
+            (?:polyt[^&lt;]*)
+            |
+            (?:diesem)
+            |
+            (?:unser[^&lt;]*)
+            \s+
+        )?
+        journ(?:ale?)?
+        (?:&lt;\/hi&gt;)?
+        [,.]?\s+
+    )
+    (
+        [BV](?:an)?d?\.?\s+
+        (?:&lt;hi\s+rendition=&quot;\#roman&quot;\s*&gt;)?
+        (
+            (?:[ivxlcdm]{1,8})
+            |
+            (?:[1-9][0-9]{0,2})
+        )
+        (?:&lt;\/hi&gt;)?
+        [,.]*
+        (?:
+            \s+Heft\s+\d\[.,]?
+        )?
+        \s+
+        S(?:eite)?\.?\s+(\d{1,3})
+        (?!&lt;\/ref&gt;)
+    )/isx;</code></pre>
+
+  <p>
+    Übersetzt heißt das: Suche nach dem Vorkommen von so etwas wie »polyt.
+    Journal Bd. VI, S. 342«. Der reguläre Ausdruck würde aber auch diverse
+    Varianten dieser Schreibweise finden, es könnte also auch von »unserem
+    Journal« die Rede sein, wobei dies mit einem <code>&lt;hi&gt;</code>-Element
+    umschlossen sein könnte. Statt Bd. könnte es auch »Band« heißen. Die
+    eigentliche Bandangabe kann sowohl in römischen wie auch arabischen Ziffern
+    erscheinen. Ein Heft kann genannt sein, muss aber nicht usw.
+  </p>
+
+  <h2>3. Text-Bild Verhältnis</h2>
+
+  <p>
+    Das »Polytechnische Journal« ist ein Referateorgan, das einem großen
+    Leserkreis zugänglich gemacht werden sollte. Nicht zuletzt deswegen
+    hatte man von Beginn an auch Wert gelegt auf qualitativ sehr
+    hochwertige Abbildungen in den Falttafeln am Ende eines jeden Bandes,
+    oder später Heftes.
+  </p>
+
+  <p>
+    Diese Tafeln werden per Link aus dem Text heraus zugänglich gemacht:
+  </p>
+
+  <pre><code>&lt;titlePart type=&quot;sub&quot; rendition=&quot;#center&quot;&gt;
+  Mit Abbildungen auf
+  &lt;ref target=&quot;#tab044493&quot;&gt;Tab. V&lt;/ref&gt;.
+&lt;/titlePart&gt;</code></pre>
+
+  <p>
+    Zusätzlich werden die Einzelfiguren der Tafel mit Hilfe des von der
+    University of Victoria entwickelten Image Markup Tools<!-- fw: Link --> per Koordinaten
+    ausgezeichnet. So ist es möglich, aus dem Text heraus direkt auf diese
+    zu verlinken:
+  </p>
+
+  <pre><code>&lt;ref rend=&quot;new&quot; target=&quot;image_markup/tab044493.xml#fig044493_38&quot;&gt;Fig. 38&lt;/ref&gt;</code></pre>
+
+  <p>
+    Dieser Link verweist dann auf das zur Tabelle gehörende und per Image
+    Markup Tool generierte XML-File, wobei bspw. Fig. 38 dort wie folgt
+    ausgezeichnet wurde:
+  </p>
+
+  <pre><code>&lt;zone xml:id=&quot;fig044493_38&quot; rendition=&quot;Einzelfiguren&quot;
+      ulx=&quot;2258&quot; uly=&quot;229&quot; lrx=&quot;2776&quot; lry=&quot;492&quot;
+      rend=&quot;visible&quot;/&gt;</code></pre>
+
+  <p>Diese Auszeichnungsstrategie verfolgt zwei Ansätze:</p>
+
+  <ol>
+    <li>
+      Es wird das ursprüngliche Text-Bild-Verhältnis wiederhergestellt,
+      in dem das parallele Lesen von Text und Bild mit Hilfe der
+      Aufklapptafel am Ende des Bandes ermöglicht wurde.
+    </li>
+    <li>
+      Die Verlinkung aller Einzelfiguren und Präsentation einer
+      detaillierten Zoom-Ansicht in einem Pop-Up verbessert die Lesbarkeit.
+      Da die Tafeln aus ökonomischen Gründen mit bis zu 100 oft zu
+      verschiedenen Artikeln gehörenden Figuren gefüllt wurden, sorgt unsere
+      Auszeichnung und Einzelverlinkung für eine ganz neue Integration von
+      Text und Bildern.
+    </li>
+  </ol>
+</main>

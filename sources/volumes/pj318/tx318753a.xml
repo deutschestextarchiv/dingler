@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tx318753a"><teiHeader>
+  <fileDesc>
+    <titleStmt><title></title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>4416 x 2644</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Textfigures"><label>Textfigures</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.4" notAfter="2012-08-23T15:24:38">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="Y:\Dingler_A\2_xml\pj318\32199815Z\png100\tx318753a.png" width="4416px" height="2644px"></graphic><zone xml:id="fig318753a_12" rendition="Textfigures" ulx="10" uly="15" lrx="4416" lry="1659" rend="visible"></zone><zone xml:id="fig318753a_12a" rendition="Textfigures" ulx="0" uly="1514" lrx="4356" lry="2079" rend="visible"></zone><zone xml:id="fig318753a_12b" rendition="Textfigures" ulx="140" uly="2049" lrx="4341" lry="2634" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig318753a_12" type="imtAnnotation"><head>Fig. 12</head></div><div corresp="#fig318753a_12a" type="imtAnnotation"><head>Fig. 12a</head></div><div corresp="#fig318753a_12b" type="imtAnnotation"><head>Fig. 12b</head></div></div></body></text></TEI>

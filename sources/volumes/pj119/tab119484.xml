@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../../Stylesheet/Anpassung/dingler-imt.xsl"?>
+<?oasis-schema href="../../Stylesheet/Anpassung/imt_1_8.rng" type="application/xml"?>
+<?oxygen RNGSchema="../../Stylesheet/Anpassung/imt_1_8.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" version="5.0" xml:id="tab119484"><teiHeader>
+  <fileDesc>
+    <titleStmt><title>tab119484</title></titleStmt>
+      
+    <publicationStmt>
+      <p></p></publicationStmt>
+    <sourceDesc>
+    <p>2079 x 2748 2079 x 2748</p></sourceDesc></fileDesc>
+  <encodingDesc><tagsDecl xml:id="imtAnnotationCategories"><rendition xml:id="Einzelfiguren"><label>Einzelfiguren aus Tab. 1, Bd. 119</label><code rend="rectangle" lang="text/css">color: #0000ff</code></rendition></tagsDecl><appInfo>
+     <application ident="ImageMarkupTool01" version="1.8.1.7" notAfter="2010-09-29T16:46:31">
+     <label>
+     Image Markup Tool</label><desc>
+     Tool for annotating images using TEI</desc><ref type="appURI" target="http://www.tapor.uvic.ca/~mholmes/image_markup/">
+     </ref><ptr target="#imtAnnotatedImage"></ptr><ptr target="#imtImageAnnotations"></ptr><ptr target="#imtAnnotationCategories"></ptr></application>
+     
+     
+     </appInfo></encodingDesc></teiHeader><facsimile xml:id="imtAnnotatedImage"><surface><graphic url="..\30375080Z\tab119484.png" width="2079px" height="2748px"></graphic><zone xml:id="fig119484_1" rendition="Einzelfiguren" ulx="33" uly="32" lrx="1519" lry="1406" rend="visible"></zone><zone xml:id="fig119484_2" rendition="Einzelfiguren" ulx="43" uly="1386" lrx="2060" lry="2720" rend="visible"></zone><zone xml:id="fig119484_3" rendition="Einzelfiguren" ulx="1495" uly="318" lrx="2048" lry="1390" rend="visible"></zone></surface></facsimile><text><body><div xml:id="imtImageAnnotations"><div corresp="#fig119484_1" type="imtAnnotation"><head>Fig. 1</head></div><div corresp="#fig119484_2" type="imtAnnotation"><head>Fig. 2</head></div><div corresp="#fig119484_3" type="imtAnnotation"><head>Fig. 3</head></div></div></body></text></TEI>
