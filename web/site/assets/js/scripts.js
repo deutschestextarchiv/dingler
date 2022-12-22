@@ -19,7 +19,7 @@ $( function() {
                        .css('cursor', 'pointer')
                        .html( el.data('n') )
     ret.popover({
-      content: $('<div class="tei-text"/>').css('font-size', '100%').html( el.html() ),
+      content: $('<div class="tei-text tei-note-popover"/>').css('font-size', '1rem').html( el.html() ),
       title: "<sup>" + el.data('n') + '</sup>',
       trigger: "focus",
       sanitize: false,
