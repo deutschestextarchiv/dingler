@@ -14,7 +14,8 @@
     <xsl:variable name="id">
       <xsl:value-of select="substring-after($ref, '#')"/>
     </xsl:variable>
-    <xsl:apply-templates select="document($file)//t:person[@xml:id=$id]"/>
+    <xsl:text>John Doe</xsl:text>
+<!--    <xsl:apply-templates select="document($file)//t:person[@xml:id=$id]"/>-->
   </xsl:template>
 
   <xsl:template match="t:person">
@@ -80,8 +81,15 @@
             <xsl:value-of select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:biblFull/t:seriesStmt/t:biblScope[@unit='issue']"/>
             <xsl:text>, Jahrgang </xsl:text>
             <xsl:value-of select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:biblFull/t:seriesStmt/t:biblScope[@unit='volume']"/>
-            <xsl:text>, Nr. </xsl:text>
-            <xsl:value-of select="//t:text//t:titlePart[@type='number'][1]"/>
+            <xsl:choose>
+              <xsl:when test="//t:text//t:titlePart[@type='number'][1]">
+                <xsl:text>, Nr. </xsl:text>
+                <xsl:value-of select="//t:text//t:titlePart[@type='number'][1]"/>
+              </xsl:when>
+              <xsl:when test="//t:text/t:body/t:div/@type='misc_undef' or //t:text/t:body/t:div/@type='misc_patents'">
+                <xsl:text>, Miszellen</xsl:text>
+              </xsl:when>
+            </xsl:choose>
             <xsl:text>, </xsl:text>
             <xsl:value-of select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:biblFull/t:seriesStmt/t:biblScope[@unit='pages']"/>
           </td>

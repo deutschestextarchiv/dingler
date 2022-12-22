@@ -36,7 +36,44 @@ Apache configuration snippet, assuming your checkout resides under
 Alias /dingler /var/www/dingler/web/site
 ```
 
-## TODO
+## Obtaining facsimile images
+
+## Progress
+
+### Build
+
+- [x] extract articles and miscellanea from volumes
+  - [ ] add volume id (eg. *pjXXX*) to article/miscellanea file
+- website:
+  - [x] index page and documentation
+  - [x] create volume index
+  - [x] HTML version of volumes
+  - [x] HTML version of articles:
+    - [x] link facsimile
+  - [ ] link to XML sources
+  - TEI elements within `<text>`:
+    - [x] `<add>`
+    - [x] `<cb>`
+    - [x] `<cell>`
+    - [x] `<date>`
+    - [x] `<div>`
+    - [x] `<front>`
+    - [x] `<head>`
+    - [x] `<hi>`
+    - [x] `<item>`
+    - [x] `<lb>`
+    - [x] `<list>`
+    - [x] `<milestone>`
+    - [ ] `<note>`
+    - [x] `<p>`
+    - [x] `<pb>`
+    - [x] `<persName>`
+    - [x] `<placeName>`
+    - [x] `<ref>` (to articles)
+    - [x] `<row>`
+    - [x] `<table>`
+    - [x] `<titlePart>`
+    - [x] `<unclear>`
 
 ### Images
 

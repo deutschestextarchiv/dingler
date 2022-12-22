@@ -24,17 +24,19 @@
           <xsl:with-param name="title" select="/t:TEI/t:teiHeader/t:fileDesc/t:titleStmt/t:title[@type='main'][1]"/>
         </xsl:call-template>
       </head>
-      <body>
+      <body class="d-flex flex-column vh-100">
         <header>
           <xsl:call-template name="site-header"/>
         </header>
-        <div class="container mt-3 mb-5">
-          <div class="row">
-            <div class="col-lg-8 col-md-12 tei mx-auto">
-              <xsl:apply-templates/>
+        <main class="flex-shrink-0">
+          <div class="container mt-3 mb-5">
+            <div class="row">
+              <div class="col-lg-8 col-md-12 tei mx-auto">
+                <xsl:apply-templates/>
+              </div>
             </div>
           </div>
-        </div>
+        </main>
 
         <xsl:call-template name="site-footer"/>
         <xsl:call-template name="html-footer"/>

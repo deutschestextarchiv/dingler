@@ -116,8 +116,12 @@ a:hover { text-decoration:underline }
 .tei-lb::after      { content:"\a "; display:block }
 .tei-list           { display:block; list-style-type:none }
 .tei-milestone      { display:block; border-bottom:1px solid #aaa; margin:2rem 0 }
+.tei-note-sign      { position:relative; top:-0.5em; font-size:80% }
+/*.tei-note[data-place="bottom"] { display:inline-block }
+.tei-note[data-place="bottom"]::before { content:' [Fußnote ' attr(data-n) ']' }
+.tei-note[data-place="bottom"] .tei-pb { display:none }*/
 .tei-p              { display:block; margin:0 0 10px; text-indent:1rem }
-.tei-pb             { display:block; text-align:center; color:#666; margin:1rem 0; font-family:var(--tei-font-family); font-size:var(--tei-font-size); font-weight:var(--tei-font-weight) }
+.tei-pb             { display:block; text-align:center; color:#666; margin:1rem 0; font-family:var(--tei-font-family); font-size:var(--tei-font-size); font-weight:var(--tei-font-weight); letter-spacing:normal }
 .tei-pb:hover       { background:#f3f3f3 }
 .tei-pb::before     { content:'[' attr(data-facs) ']' }
 .tei-persname       { background:#77e195; padding:4px; cursor:help }

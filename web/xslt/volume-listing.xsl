@@ -22,25 +22,27 @@
           <xsl:with-param name="title" select="'Übersicht Bände'"/>
         </xsl:call-template>
       </head>
-      <body>
+      <body class="d-flex flex-column vh-100">
         <header>
           <xsl:call-template name="site-header"/>
         </header>
-        <div class="container mt-3 mb-5">
-          <div class="row">
-            <div class="col-lg-8 col-md-12 tei mx-auto">
-              <h1>Übersicht Bände</h1>
+        <main class="flex-shrink-0">
+          <div class="container mt-3 mb-5">
+            <div class="row">
+              <div class="col-lg-8 col-md-12 tei mx-auto">
+                <h1>Übersicht Bände</h1>
 
-              <ul>
-                <xsl:for-each select="//t:teiHeader">
-                  <li>
-                    <a href="{$base}volumes/{@xml:id}.html"><xsl:value-of select="current()//t:bibl[@type='J']"/></a>
-                  </li>
-                </xsl:for-each>
-              </ul>
+                <ul>
+                  <xsl:for-each select="//t:teiHeader">
+                    <li>
+                      <a href="{$base}volumes/{@xml:id}.html"><xsl:value-of select="current()//t:bibl[@type='J']"/></a>
+                    </li>
+                  </xsl:for-each>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
+        </main>
 
         <xsl:call-template name="site-footer"/>
         <xsl:call-template name="html-footer"/>

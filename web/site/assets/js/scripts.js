@@ -10,7 +10,26 @@ $( function() {
   })
 
   // footnotes: TODO
-  // $('.tei-note[data-place="bottom"]')
+  $('.tei-note[data-place="bottom"]').before( function() {
+    let el = $(this)
+    el.hide()
+    $('.tei-pb', el).remove()
+    let ret = $('<a/>').attr('tabindex', 0)
+                       .addClass('tei-note-sign')
+                       .css('cursor', 'pointer')
+                       .html( el.data('n') )
+    ret.popover({
+      content: $('<div class="tei-text"/>').css('font-size', '100%').html( el.html() ),
+      title: "<sup>" + el.data('n') + '</sup>',
+      trigger: "focus",
+      sanitize: false,
+      html: true,
+      animation: true,
+      placement: 'bottom',
+    })
+    return ret
+  })
+
 
   // links to articles
   $('.tei-ref[data-target]').wrap( function() {

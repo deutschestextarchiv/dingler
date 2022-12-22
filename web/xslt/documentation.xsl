@@ -17,17 +17,19 @@
           <xsl:with-param name="title" select="/main/h1[1]"/>
         </xsl:call-template>
       </head>
-      <body class="d-flex flex-column min-vh-100">
+      <body class="d-flex flex-column vh-100">
         <header>
           <xsl:call-template name="site-header"/>
         </header>
-        <div class="container mt-3 mb-5">
-          <div class="row">
-            <div class="col-lg-8 col-md-12 tei mx-auto">
-              <xsl:copy-of select="."/>
+        <main class="flex-shrink-0">
+          <div class="container mt-3 mb-5">
+            <div class="row">
+              <div class="col-lg-8 col-md-12 tei mx-auto">
+                <xsl:copy-of select="."/>
+              </div>
             </div>
           </div>
-        </div>
+        </main>
 
         <xsl:call-template name="site-footer"/>
         <xsl:call-template name="html-footer"/>
