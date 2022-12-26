@@ -8,6 +8,7 @@
   <xsl:output method="xml" encoding="UTF-8"/>
 
   <xsl:param name="outdir" required="yes"/>
+  <xsl:param name="volume-id" required="yes"/>
 
   <xsl:template match="@*|node()">
     <xsl:param name="title-main"/>
@@ -22,6 +23,17 @@
     </xsl:copy>
   </xsl:template>
 
+  <!-- main text -->
+  <xsl:template name="text">
+    <text xmlns="http://www.tei-c.org/ns/1.0">
+      <xsl:apply-templates select="@*"/>
+      <xsl:if test="string-length(normalize-space(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::node())) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
+        <xsl:copy-of select="preceding::t:pb[not(ancestor::t:note[@place='bottom'])][1]"/>
+      </xsl:if>
+      <xsl:apply-templates select="node()"/>
+    </text>
+  </xsl:template>
+
   <!-- articles -->
   <xsl:template match="//t:text[@type='art_undef' or @type='art_patent' or @type='art_patents' or @type='art_literature']">
     <xsl:variable name="outfile">
@@ -30,17 +42,25 @@
       <xsl:value-of select="@xml:id"/>
       <xsl:text>.xml</xsl:text>
     </xsl:variable>
+
+    <xsl:variable name="page">
+      <xsl:call-template name="start-page"/>
+    </xsl:variable>
+    <xsl:variable name="page-n">
+      <xsl:call-template name="start-page-n"/>
+    </xsl:variable>
+
     <xsl:result-document href="{$outfile}">
       <xsl:processing-instruction name="xml-model">href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
       <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <xsl:apply-templates select="/t:TEI/t:teiHeader">
           <xsl:with-param name="title-main" select="normalize-space(t:front/t:titlePart[@type='main']/text())"/>
           <xsl:with-param name="title-sub" select="normalize-space(t:front/t:titlePart[@type='sub']/text())"/>
-          <xsl:with-param name="page">
-            <xsl:call-template name="start-page"/>
-          </xsl:with-param>
+          <xsl:with-param name="page" select="$page-n"/>
         </xsl:apply-templates>
-        <xsl:copy-of select="."/> 
+        <xsl:call-template name="text">
+          <xsl:with-param name="page" select="$page"/>
+        </xsl:call-template>
       </TEI>
     </xsl:result-document>
   </xsl:template>
@@ -53,20 +73,24 @@
       <xsl:value-of select="@xml:id"/>
       <xsl:text>.xml</xsl:text>
     </xsl:variable>
+
+    <xsl:variable name="page">
+      <xsl:call-template name="start-page"/>
+    </xsl:variable>
+    <xsl:variable name="page-n">
+      <xsl:call-template name="start-page-n"/>
+    </xsl:variable>
+
     <xsl:result-document href="{$outfile}">
       <xsl:processing-instruction name="xml-model">href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
       <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <xsl:apply-templates select="/t:TEI/t:teiHeader">
           <xsl:with-param name="title-main" select="normalize-space(t:head/text())"/>
-          <xsl:with-param name="page">
-            <xsl:call-template name="start-page"/>
-          </xsl:with-param>
+          <xsl:with-param name="page" select="$page-n"/>
         </xsl:apply-templates>
-        <text>
-          <body>
-            <xsl:copy-of select="."/> 
-          </body>
-        </text>
+        <xsl:call-template name="text">
+          <xsl:with-param name="page" select="$page"/>
+        </xsl:call-template>
       </TEI>
     </xsl:result-document>
   </xsl:template>
@@ -135,7 +159,7 @@
         <xsl:with-param name="page" select="$page"/>
       </xsl:apply-templates>
       <seriesStmt>
-        <title level="j" type="main">
+        <title level="j" type="main" xml:id="{$volume-id}">
           <xsl:value-of select="//t:sourceDesc/t:bibl[@type='J']"/>
         </title>
         <biblScope unit="volume">
@@ -155,11 +179,23 @@
   <!-- start page -->
   <xsl:template name="start-page">
     <xsl:choose>
-      <xsl:when test="t:front/t:pb[1]/@n">
-        <xsl:value-of select="t:front/t:pb[1]/@n"/>
+      <xsl:when test="string-length(normalize-space(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::node())) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
+        <xsl:copy-of select="preceding::t:pb[not(ancestor::t:note[@place='bottom'])][1]"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="preceding::t:pb[1]/@n"/>
+        <xsl:copy-of select="descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- start page, @n attribute -->
+  <xsl:template name="start-page-n">
+    <xsl:choose>
+      <xsl:when test="string-length(normalize-space(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::node())) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
+        <xsl:value-of select="preceding::t:pb[not(ancestor::t:note[@place='bottom'])][1]/@n"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/@n"/>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

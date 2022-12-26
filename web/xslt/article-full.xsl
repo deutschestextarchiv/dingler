@@ -8,6 +8,8 @@
   <xsl:import href="article-header.xsl"/>
 
   <xsl:variable name="force-exclude-all-namespaces" select="true()"/>
+  <xsl:variable name="volume-id" select="//t:seriesStmt/t:title[@type='main']/@xml:id"/>
+  <xsl:variable name="barcode" select="substring-before(//t:text//t:pb[1]/@facs, '/')"/>
 
   <xsl:output method="html"/>
 
@@ -33,7 +35,7 @@
                   <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="{$base}">Start</a></li>
                     <li class="breadcrumb-item">
-                      <a href="../volumes/{substring-before(//t:pb[1]/@xml:id, '_')}.html">
+                      <a href="../volumes/{$volume-id}.html">
                         <xsl:text>Band </xsl:text>
                         <xsl:value-of select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:biblFull/t:seriesStmt/t:biblScope[@unit='volume']"/>
                         <xsl:text>, </xsl:text>
@@ -62,7 +64,7 @@
                   <p style="font-size:14pt; font-weight:bold">Tafeln</p>
                   <xsl:for-each select="//t:ref[starts-with(@target, '#tab')]">
                     <figure class="figure">
-                      <img src="{$base}tabs/{substring-before(//t:pb[1]/@xml:id, '_')}/{//t:idno[@type='shelfmark']}/{substring-after(@target, '#')}.png" class="figure-img img-fluid rounded" alt="Tafel {text()}"/>
+                      <img src="{$base}images/{$volume-id}/{$barcode}/{substring-after(@target, '#')}.png" class="figure-img img-fluid rounded" alt="Tafel {text()}"/>
                       <figcaption class="figure-caption text-end">
                         <xsl:value-of select="current()"/>
                       </figcaption>

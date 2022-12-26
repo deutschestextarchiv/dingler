@@ -44,6 +44,7 @@ Alias /dingler /var/www/dingler/web/site
 
 - [x] extract articles and miscellanea from volumes
   - [ ] add volume id (eg. *pjXXX*) to article/miscellanea file
+  - [ ] shelfmark id (eg. *pjXXX*) to article/miscellanea file
 - website:
   - [x] index page and documentation
   - [x] create volume index
@@ -57,6 +58,7 @@ Alias /dingler /var/www/dingler/web/site
     - [x] `<cell>`
     - [x] `<date>`
     - [x] `<div>`
+    - [ ] `<figure>`
     - [x] `<front>`
     - [x] `<head>`
     - [x] `<hi>`

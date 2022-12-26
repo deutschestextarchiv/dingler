@@ -46,7 +46,7 @@
   </xsl:template>
 
   <xsl:template match="t:teiHeader">
-    <div class="tei-header">
+    <div class="tei-header" data-volume="{//t:seriesStmt/t:title[@type='main']/@xml:id}">
       <table>
         <tr>
           <td>Titel:</td>

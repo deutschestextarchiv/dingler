@@ -1,4 +1,6 @@
 $( function() {
+  var volume = $('.tei-header').data('volume');
+
   // link to page images
   $('.tei-pb[data-facs]').append( function(i, str) {
     let facs = $(this).data('facs')
@@ -7,6 +9,19 @@ $( function() {
               <img src="../facsimile/${facs}.png" class="figure-img img-fluid rounded"/>
               <figcaption class="figure-caption">Faksimile S. ${n}</figcaption>
             </figure>`
+  })
+
+  // figures
+  $('.tei-figure').html( function() {
+    let el = $(this)
+    return `
+<figure class="figure text-center">
+  <img src="../images/${volume}/${ $('.tei-graphic', el).data('url')}.png" class="figure-img img-fluid rounded">
+  <figcaption class="figure-caption">
+    ${ $('.tei-figDesc', el).html()}
+  </figcaption>
+  ${ $(':not(.tei-figDesc, .tei-graphic)', el).html() }
+</figure>`
   })
 
   // footnotes: TODO

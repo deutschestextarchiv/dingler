@@ -21,5 +21,5 @@ $(ARTICLES_FILES)/%.xml: | $(VOL_DIR)
 articles:
 	for i in $(VOLUMES_DIR)/pj*.xml; do \
 	  b=`basename "$$i" .xml`; \
-	  saxonb-xslt -ext:on "$$i" $(SCRIPT_DIR)/extract_articles.xsl outdir=$(ARTICLES_DIR) >/dev/null; \
+	  saxonb-xslt -ext:on "$$i" $(SCRIPT_DIR)/extract_articles.xsl volume-id="$$b" outdir=$(ARTICLES_DIR) >/dev/null; \
 	done
