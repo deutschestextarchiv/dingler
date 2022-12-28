@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1"
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0"
   xmlns:t="http://www.tei-c.org/ns/1.0"
   exclude-result-prefixes="t"
   xpath-default-namespace="http://www.tei-c.org/ns/1.0">
@@ -16,8 +16,12 @@
     <xsl:param name="page"/>
     <xsl:copy>
       <xsl:apply-templates select="@*|node()">
-        <xsl:with-param name="title-main" select="$title-main"/>
-        <xsl:with-param name="title-sub" select="$title-sub"/>
+        <xsl:with-param name="title-main">
+          <xsl:sequence select="$title-main"/>
+        </xsl:with-param>
+        <xsl:with-param name="title-sub">
+          <xsl:sequence select="$title-sub"/>
+        </xsl:with-param>
         <xsl:with-param name="page" select="$page"/>
       </xsl:apply-templates>
     </xsl:copy>
@@ -25,9 +29,10 @@
 
   <!-- main text -->
   <xsl:template name="text">
+    <xsl:param name="page"/>
     <text xmlns="http://www.tei-c.org/ns/1.0">
       <xsl:apply-templates select="@*"/>
-      <xsl:if test="string-length(normalize-space(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::node())) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
+      <xsl:if test="count(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::t:*) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
         <xsl:copy-of select="preceding::t:pb[not(ancestor::t:note[@place='bottom'])][1]"/>
       </xsl:if>
       <xsl:apply-templates select="node()"/>
@@ -46,17 +51,18 @@
     <xsl:variable name="page">
       <xsl:call-template name="start-page"/>
     </xsl:variable>
-    <xsl:variable name="page-n">
-      <xsl:call-template name="start-page-n"/>
-    </xsl:variable>
 
     <xsl:result-document href="{$outfile}">
       <xsl:processing-instruction name="xml-model">href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
       <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <xsl:apply-templates select="/t:TEI/t:teiHeader">
-          <xsl:with-param name="title-main" select="normalize-space(t:front/t:titlePart[@type='main']/text())"/>
-          <xsl:with-param name="title-sub" select="normalize-space(t:front/t:titlePart[@type='sub']/text())"/>
-          <xsl:with-param name="page" select="$page-n"/>
+          <xsl:with-param name="title-main">
+            <xsl:sequence select="t:front/t:titlePart[@type='main']"/>
+          </xsl:with-param>
+          <xsl:with-param name="title-sub">
+            <xsl:sequence select="t:front/t:titlePart[@type='sub']"/>
+          </xsl:with-param>
+          <xsl:with-param name="page" select="$page//@n"/>
         </xsl:apply-templates>
         <xsl:call-template name="text">
           <xsl:with-param name="page" select="$page"/>
@@ -77,16 +83,16 @@
     <xsl:variable name="page">
       <xsl:call-template name="start-page"/>
     </xsl:variable>
-    <xsl:variable name="page-n">
-      <xsl:call-template name="start-page-n"/>
-    </xsl:variable>
 
     <xsl:result-document href="{$outfile}">
       <xsl:processing-instruction name="xml-model">href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
       <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <xsl:apply-templates select="/t:TEI/t:teiHeader">
-          <xsl:with-param name="title-main" select="normalize-space(t:head/text())"/>
-          <xsl:with-param name="page" select="$page-n"/>
+          <!--<xsl:with-param name="title-main" select="t:head"/>-->
+          <xsl:with-param name="title-main">
+            <xsl:sequence select="t:head"/>
+          </xsl:with-param>
+          <xsl:with-param name="page" select="$page//@n"/>
         </xsl:apply-templates>
         <xsl:call-template name="text">
           <xsl:with-param name="page" select="$page"/>
@@ -101,16 +107,17 @@
     <xsl:param name="title-main"/>
     <xsl:param name="title-sub"/>
     <xsl:param name="page"/>
+
     <titleStmt xmlns="http://www.tei-c.org/ns/1.0">
-      <xsl:for-each select="$title-main">
+      <xsl:for-each select="$title-main/t:titlePart | $title-main/t:head">
         <title type="main">
           <xsl:call-template name="normalize">
             <xsl:with-param name="s" select="current()"/>
           </xsl:call-template>
         </title>
       </xsl:for-each>
-      <xsl:if test="string-length(normalize-space($title-sub))>0">
-        <xsl:for-each select="$title-sub">
+      <xsl:if test="count($title-sub/t:titlePart)>0">
+        <xsl:for-each select="$title-sub/t:titlePart">
           <title type="sub">
             <xsl:call-template name="normalize">
               <xsl:with-param name="s" select="current()"/>
@@ -174,12 +181,12 @@
         </biblScope>
       </seriesStmt>
     </biblFull>
-  </xsl:template> 
+  </xsl:template>
 
   <!-- start page -->
   <xsl:template name="start-page">
     <xsl:choose>
-      <xsl:when test="string-length(normalize-space(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::node())) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
+      <xsl:when test="count(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::t:*) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
         <xsl:copy-of select="preceding::t:pb[not(ancestor::t:note[@place='bottom'])][1]"/>
       </xsl:when>
       <xsl:otherwise>
@@ -188,22 +195,15 @@
     </xsl:choose>
   </xsl:template>
 
-  <!-- start page, @n attribute -->
-  <xsl:template name="start-page-n">
-    <xsl:choose>
-      <xsl:when test="string-length(normalize-space(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::node())) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
-        <xsl:value-of select="preceding::t:pb[not(ancestor::t:note[@place='bottom'])][1]/@n"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/@n"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
   <!-- normalize characters within metadata -->
   <xsl:template name="normalize">
     <xsl:param name="s"/>
-    <xsl:value-of select="replace(replace(replace(replace(replace(replace(replace($s,'aͤ','ä'),'oͤ','ö'),'uͤ','ü'),'Aͤ','Ä'),'Oͤ','Ö'),'Uͤ','Ü'),'ſ','s')"/>
+    <xsl:variable name="clean">
+      <xsl:for-each select="$s">
+        <xsl:value-of select="string-join(current()//text()[not(ancestor::t:note[@place='bottom'] or ancestor::t:sic)], '')"/>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="normalize-space( replace(replace(replace(replace(replace(replace(replace($clean,'aͤ','ä'),'oͤ','ö'),'uͤ','ü'),'Aͤ','Ä'),'Oͤ','Ö'),'Uͤ','Ü'),'ſ','s') )"/>
   </xsl:template>
 
 </xsl:stylesheet>

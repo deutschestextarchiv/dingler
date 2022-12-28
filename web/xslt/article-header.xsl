@@ -97,7 +97,7 @@
         <tr>
           <td>Download:</td>
           <td>
-            <a href="../../sources/articles/{//t:text[1]/@xml:id}.xml">XML</a>
+            <a href="{$base}xml/articles/{//t:text[1]/@xml:id}.xml">XML</a>
           </td>
         </tr>
       </table>

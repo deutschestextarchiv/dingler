@@ -1,0 +1,43 @@
+<main>
+  <h1>Suche im Polytechnischen Journal</h1>
+
+  <form method="get" action="search.html">
+    <div class="input-group mb-3">
+      <span class="input-group-text">Suchanfrage</span>
+      <input name="q" id="q" class="form-control"/>
+      <span class="input-group-text"><a href="suche-hilfe.html">Hilfe</a></span>
+    </div>
+    <div class="input-group mb-3"> 
+      <span class="input-group-text">Dokumenttyp</span>
+      <select class="form-control" name="type">
+        <option>alle</option>
+        <option>Artikel</option>
+        <option>Miszelle</option>
+        <option>Patent</option>
+      </select>
+      <span class="input-group-text">Start</span>
+      <input type="number" class="form-control" min="1820" max="1931" name="ds" id="ds" value="1820"/>
+      <span class="input-group-text">Ende</span>
+      <input type="number" class="form-control" min="1820" max="1931" name="de" id="de" value="1931"/>
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text">Anzeige Sätze Kontext</span>
+      <input type="number" class="form-control" min="1" max="3" name="cntxt" value="1"/>
+      <span class="input-group-text">Anzeige Treffer</span>
+      <select class="form-control" name="within">
+        <option>alle Treffer</option>
+        <option>passende Sätze</option>
+        <option>passende Dokumente</option>
+      </select>
+      <span class="input-group-text">Treffer pro Seite</span>
+      <input type="number" class="form-control" min="10" max="100" name="limit" value="20"/>
+    </div>
+    <button type="submit" class="btn btn-primary">suchen</button>
+    <a class="btn btn-default" href="search.html">zurücksetzen</a>
+  </form>
+
+  <hr/>
+
+  <div id="results"></div>
+  <div id="search-error" class="p-3" style="display:none"></div>
+</main>

@@ -54,23 +54,31 @@ Alias /dingler /var/www/dingler/web/site
   - [ ] link to XML sources
   - TEI elements within `<text>`:
     - [x] `<add>`
+    - [ ] `<bibl>`
     - [x] `<cb>`
     - [x] `<cell>`
+    - [ ] `<choice>`
+      - [x] `<sic>`/`<corr>`
     - [x] `<date>`
     - [x] `<div>`
+    - [ ] `<div type="continuation">`
     - [ ] `<figure>`
+    - [x] `<formula>`
     - [x] `<front>`
     - [x] `<head>`
     - [x] `<hi>`
     - [x] `<item>`
+    - [x] `<l>`
     - [x] `<lb>`
+    - [x] `<lg>`
     - [x] `<list>`
     - [x] `<milestone>`
     - [ ] `<note>`
     - [x] `<p>`
     - [x] `<pb>`
-    - [x] `<persName>`
-    - [x] `<placeName>`
+    - [ ] `<persName>`
+    - [ ] `<placeName>`
+    - [ ] `<q>`
     - [x] `<ref>` (to articles)
     - [x] `<row>`
     - [x] `<table>`
