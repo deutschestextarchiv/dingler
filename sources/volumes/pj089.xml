@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Polytechnisches Journal</title>
-        <title type="sub" n="089">Band 89, Jahrgang 1843</title>
+        <title type="sub" n="89">Band 89, Jahrgang 1843</title>
         <editor>
           <orgName>Dingler Online – Das digitalisierte Polytechnische Journal</orgName>
         </editor>
@@ -142,11 +142,11 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: Polytechnisches Journal. Bd. 089. Stuttgart, Tübingen, 1843.</bibl>
+        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: Polytechnisches Journal. Bd. 89. Stuttgart, Tübingen, 1843.</bibl>
         <biblFull>
           <titleStmt>
             <title type="main">Polytechnisches Journal</title>
-            <title type="sub" n="089">Band 89, Jahrgang 1843</title>
+            <title type="sub" n="89">Band 89, Jahrgang 1843</title>
             <editor>
               <persName ref="https://d-nb.info/gnd/116137592">
                 <surname>Dingler</surname>
@@ -281,9 +281,9 @@
       </textClass>
     </profileDesc>
   </teiHeader>
-  <text type="volume" xml:lang="german" n="089" xml:id="pj089">
+  <text type="volume" xml:lang="german" n="89" xml:id="pj089">
     <milestone type="additional-counting" subtype="age-group" ed="Vierundzwanzigster Jahrgang" unit="volume" n="3"/>
-    <milestone type="additional-counting" subtype="series" ed="Erste Folge" unit="volume" n="089"/>
+    <milestone type="additional-counting" subtype="series" ed="Erste Folge" unit="volume" n="89"/>
     <front>
       <divGen type="toc"/>
       <div type="volume_start">

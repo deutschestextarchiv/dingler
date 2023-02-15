@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">PolytechnischesJournal</title>
-        <title type="sub" n="083">Band 83, Jahrgang 1842</title>
+        <title type="sub" n="83">Band 83, Jahrgang 1842</title>
         <editor>
           <orgName>Dingler Online – Das digitalisierte Polytechnische Journal</orgName>
         </editor>
@@ -142,11 +142,11 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: PolytechnischesJournal. Bd. 083. Stuttgart, Tübingen, 1842.</bibl>
+        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: PolytechnischesJournal. Bd. 83. Stuttgart, Tübingen, 1842.</bibl>
         <biblFull>
           <titleStmt>
             <title type="main">PolytechnischesJournal</title>
-            <title type="sub" n="083">Band 83, Jahrgang 1842</title>
+            <title type="sub" n="83">Band 83, Jahrgang 1842</title>
             <editor>
               <persName ref="https://d-nb.info/gnd/116137592">
                 <surname>Dingler</surname>
@@ -261,7 +261,7 @@
       </textClass>
     </profileDesc>
   </teiHeader>
-  <text type="volume" xml:lang="german" n="083" xml:id="pj083">
+  <text type="volume" xml:lang="german" n="83" xml:id="pj083">
     <milestone type="additional-counting" subtype="age-group" ed="Dreiundzwanzigster Jahrgang" unit="volume" n="1"/>
     <milestone type="additional-counting" subtype="series" ed="Neue Folge" unit="volume" n="33"/>
     <front>

@@ -5,7 +5,7 @@
     <fileDesc>
       <titleStmt>
         <title type="main">Polytechnisches Journal</title>
-        <title type="sub" n="091">Band 91, Jahrgang 1844</title>
+        <title type="sub" n="91">Band 91, Jahrgang 1844</title>
         <editor>
           <orgName>Dingler Online – Das digitalisierte Polytechnische Journal</orgName>
         </editor>
@@ -142,11 +142,11 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: Polytechnisches Journal. Bd. 091. Stuttgart, Tübingen, 1844.</bibl>
+        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: Polytechnisches Journal. Bd. 91. Stuttgart, Tübingen, 1844.</bibl>
         <biblFull>
           <titleStmt>
             <title type="main">Polytechnisches Journal</title>
-            <title type="sub" n="091">Band 91, Jahrgang 1844</title>
+            <title type="sub" n="91">Band 91, Jahrgang 1844</title>
             <editor>
               <persName ref="https://d-nb.info/gnd/116137592">
                 <surname>Dingler</surname>
@@ -266,7 +266,7 @@
       </textClass>
     </profileDesc>
   </teiHeader>
-  <text type="volume" xml:lang="german" n="091" xml:id="pj091">
+  <text type="volume" xml:lang="german" n="91" xml:id="pj091">
     <milestone type="additional-counting" subtype="age-group" ed="Fünfundzwanzigster Jahrgang" unit="volume" n="1"/>
     <milestone type="additional-counting" subtype="series" ed="Neue Folge" unit="volume" n="41"/>
     <front>

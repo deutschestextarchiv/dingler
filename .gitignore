@@ -5,6 +5,10 @@ data/*
 
 web/site/*.html
 web/site/articles
+web/site/article-listings
 web/site/facsimile
+web/site/images
+web/site/journals
+web/site/persons
+web/site/tabs
 web/site/volumes
-

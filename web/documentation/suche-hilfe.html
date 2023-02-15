@@ -1,0 +1,50 @@
+<section>
+  <h1>Hilfe zur Suche</h1>
+
+  <p>
+    Die Abfragesyntax zur Suche im digitalisierten Polytechnischen Journal
+    ist auf den <a href="https://www.dwds.de/d/korpussuche">Webseiten des
+    Digitalen Wörterbuchs der deutschen Sprache</a> (DWDS) dokumentiert.
+  </p>
+
+  <h2>Beispielabfragen</h2>
+
+  <table class="table table-condensed table-striped search-help">
+    <thead>
+      <tr>
+        <th>Abfrage</th>
+        <th>Kommentar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><code><a href="search.html?q=Maschine">Maschine</a></code></td>
+        <td>alle Vorkommen von <i>Maschine</i>, auch in flektierter Form (<i>Maschinen</i>) oder historischer Schreibweise (<i>Maschiene</i>)</td>
+      </tr>
+      <tr>
+        <td><code><a href="search.html?q=Maschiene">@Maschiene</a></code></td>
+        <td>alle Vorkommen von <i>Maschiene</i> in exakt dieser Schreibung</td>
+      </tr>
+      <tr>
+        <td><code><a href="search.html?q=%24p%3DADJ*">$p=ADJ*</a></code></td>
+        <td>Adjektive (<a href="https://www.dwds.de/d/korpussuche#pos">zur Liste der abfragbaren Wortarten</a>)</td>
+      </tr>
+      <tr>
+        <td><code><a href="search.html?q=Mensch+%26%26+Maschine">Mensch &amp;&amp; Maschine</a></code></td>
+        <td>Sätze mit <i>Mensch</i> und <i>Maschine</i></td>
+      </tr>
+      <tr>
+        <td><code><a href="search.html?q=Mensch+%7C%7C+Maschine">Mensch || Maschine</a></code></td>
+        <td>Sätze mit <i>Mensch</i> oder <i>Maschine</i></td>
+      </tr>
+      <tr>
+        <td><code><a href="search.html?q=Mensch+%26%26+%21Maschine">Mensch &amp;&amp; !Maschine</a></code></td>
+        <td>Sätze mit <i>Mensch</i> und nicht <i>Maschine</i></td>
+      </tr>
+      <tr>
+        <td><code><a href='search.html?q="%24p%3DADJ*+Maschine"'>"$p=ADJ* Maschine"</a></code></td>
+        <td>Wortgruppe: Adjektiv gefolge von <i>Maschine</i></td>
+      </tr>
+    </tbody>
+  </table>
+</section>

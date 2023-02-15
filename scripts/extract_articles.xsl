@@ -40,7 +40,7 @@
   </xsl:template>
 
   <!-- articles -->
-  <xsl:template match="//t:text[@type='art_undef' or @type='art_patent' or @type='art_patents' or @type='art_literature']">
+  <xsl:template match="//t:text[@type='art_undef' or @type='art_patent' or @type='art_patents' or @type='art_literature' or @type='art_miscellanea']">
     <xsl:variable name="outfile">
       <xsl:value-of select="$outdir"/>
       <xsl:text>/</xsl:text>
@@ -71,8 +71,8 @@
     </xsl:result-document>
   </xsl:template>
 
-  <!-- miscellanea -->
-  <xsl:template match="//t:div[@type='misc_undef' or @type='misc_patents']">
+  <!-- miscellanea (only at first level) -->
+  <xsl:template match="//t:div[@type='misc_undef' or @type='misc_patents'][not(ancestor::t:div[@type='misc_undef'])]">
     <xsl:variable name="outfile">
       <xsl:value-of select="$outdir"/>
       <xsl:text>/</xsl:text>
@@ -84,11 +84,12 @@
       <xsl:call-template name="start-page"/>
     </xsl:variable>
 
+    <xsl:apply-templates/>
+
     <xsl:result-document href="{$outfile}">
       <xsl:processing-instruction name="xml-model">href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
       <TEI xmlns="http://www.tei-c.org/ns/1.0">
         <xsl:apply-templates select="/t:TEI/t:teiHeader">
-          <!--<xsl:with-param name="title-main" select="t:head"/>-->
           <xsl:with-param name="title-main">
             <xsl:sequence select="t:head"/>
           </xsl:with-param>

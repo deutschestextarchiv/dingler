@@ -8,14 +8,19 @@
   <xsl:template name="format-name">
     <xsl:param name="ref"/>
     <xsl:variable name="file">
-      <!-- <xsl:value-of select="substring-before($ref, '#')"/> -->
       <xsl:text>../../sources/</xsl:text><xsl:value-of select="substring-after(substring-before($ref, '#'), '..')"/>
     </xsl:variable>
     <xsl:variable name="id">
       <xsl:value-of select="substring-after($ref, '#')"/>
     </xsl:variable>
-    <xsl:text>John Doe</xsl:text>
-<!--    <xsl:apply-templates select="document($file)//t:person[@xml:id=$id]"/>-->
+    <xsl:choose>
+      <xsl:when test="$id != 'pers' and string-length($id)>0">
+        <xsl:apply-templates select="document($file)//t:person[@xml:id=$id]"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="."/>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="t:person">
@@ -46,7 +51,7 @@
   </xsl:template>
 
   <xsl:template match="t:teiHeader">
-    <div class="tei-header" data-volume="{//t:seriesStmt/t:title[@type='main']/@xml:id}">
+    <div class="tei-header" data-volume="{$volume-id}" data-barcode="{$barcode}">
       <table>
         <tr>
           <td>Titel:</td>
@@ -82,11 +87,11 @@
             <xsl:text>, Jahrgang </xsl:text>
             <xsl:value-of select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:biblFull/t:seriesStmt/t:biblScope[@unit='volume']"/>
             <xsl:choose>
-              <xsl:when test="//t:text//t:titlePart[@type='number'][1]">
+              <xsl:when test="/t:TEI/t:text[1]//t:titlePart[@type='number'][1]">
                 <xsl:text>, Nr. </xsl:text>
-                <xsl:value-of select="//t:text//t:titlePart[@type='number'][1]"/>
+                <xsl:value-of select="/t:TEI/t:text[1]//t:titlePart[@type='number'][1]"/>
               </xsl:when>
-              <xsl:when test="//t:text/t:body/t:div/@type='misc_undef' or //t:text/t:body/t:div/@type='misc_patents'">
+              <xsl:when test="/t:TEI/t:text/t:body/t:div/@type='misc_undef' or /t:TEI/t:text/t:body/t:div/@type='misc_patents'">
                 <xsl:text>, Miszellen</xsl:text>
               </xsl:when>
             </xsl:choose>

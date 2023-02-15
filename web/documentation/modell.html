@@ -1,13 +1,16 @@
-<main>
+<section>
   <h1>Textauszeichnung am Modell</h1>
-
   <p>
-    Der Dienstleister Editura GmbH lieferte eine TEI-Datei pro
+    Der Dienstleister Editura GmbH lieferte eine XML/TEI-Datei pro
     texterfasstem Band aus. Diese sind mit Strukturdaten angereichert. In
     einem zweistufigen Verfahren wurden diese Dateien tiefer granuliert.
-    Neben den TEI-Dateien wurde pro Band auch eine METS-Datei ausgeliefert.
-    Dieses Kontainerformat für Strukturdaten ist sowohl für die
-    Präsentation mit Kitodo (ehemals Goobi) wie auch mit dem DFG-Viewer notwendig.
+    <!--
+      fw: kann weg?
+
+      Neben den TEI-Dateien wurde pro Band auch eine METS-Datei ausgeliefert.
+      Dieses Containerformat für Strukturdaten ist sowohl für die
+      Präsentation mit Kitodo (ehemals Goobi) wie auch mit dem DFG-Viewer notwendig.
+    -->
   </p>
 
   <p>
@@ -15,8 +18,9 @@
     Auszeichnungstrategien eingegangen werden:
   </p>
 
-  <h2>1. Register</h2>
+  <hr />
 
+  <h2 id="register">1. Register</h2>
   <p>
     Zum Ende jedes Jahrgangs enthält das »Polytechnische Journal« ein
     umfangreiches Personen- und Sachregister. Zusätzlich dazu wurden zum
@@ -26,17 +30,18 @@
   </p>
 
   <p>
-    Diese Register wurden ebenfalls komplett per OCR erfasst und
+    Diese Register wurden ebenfalls komplett per <abbr title="Optical Character Recognition">OCR</abbr> erfasst und
     ausgezeichnet. Anschließend wurden diese tiefer granuliert und in unser im
-    Folgenden beschriebenes TEI-basiertes Register mit aufgenommen.
+    Folgenden beschriebenes XML/TEI-basiertes Register mit aufgenommen.
   </p>
 
-  <h3>TEI-basierte Personenregister</h3>
+  <hr/>
 
+  <h3 id="personenregister">XML/TEI-basierte Personenregister</h3>
   <p>
     Eine Person, die im Journal als solche identifiziert wurde, erhält
-    einen Eintrag in einem zentral verwalteten XML-Dokument. Gemäß den TEI
-    Richtlinien sieht ein solcher Eintrag wie folgt aus.
+    einen Eintrag in einem zentral verwalteten XML-Dokument. Gemäß den
+    TEI-Richtlinien sieht ein solcher Eintrag wie folgt aus.
   </p>
 
   <pre><code>&lt;person xml:id=&quot;pers00033&quot;&gt;
@@ -66,11 +71,14 @@
     wird eine Quelle angegeben, die weitere Informationen zur Person
     enthält, bspw. also die ADB (Allgemeine deutsche Biographie) bzw. NDB
     (Neue deutsche Biographie). Perspektivisch soll dieser Datensatz mit
-    der entsprechenden PND (Personen Normdatei<!-- fw: GND! -->) komplettiert werden.
+    der entsprechenden GND-Nummer
+    (GND: <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">Gemeinsame Normdatei</a>)
+    komplettiert werden.
   </p>
 
-  <h3>Quellen</h3>
+  <hr/>
 
+  <h3 id="quellen">Quellen</h3>
   <p>
     Ein ähnliches Vorgehen wird für die im Journal genannten Quellen
     verfolgt. Das »Polytechnische Journal« ist ein Referateorgan und die
@@ -91,7 +99,7 @@
     Journaltitel erwähnt, eine Heftnummer und eine Seitenzahl.
   </p>
 
-  <p>Gemäß TEI P5 wird daraus:</p>
+  <p>Gemäß den Richtlinien der TEI wird daraus:</p>
 
   <pre><code>&lt;titlePart type=&quot;sub&quot; rendition=&quot;#center&quot;&gt;
   Aus dem
@@ -116,8 +124,9 @@
   &lt;ref target=&quot;e-journal&quot;&gt;http://rzblx1.uni-regensburg.de/ezeit/?2248618&lt;/ref&gt;
 &lt;/bibl&gt;</code></pre>
 
-  <h2>2. Verlinkungen innerhalb des Journals</h2>
+  <hr/>
 
+  <h2 id="verlinkungen">2. Verlinkungen innerhalb des Journals</h2>
   <p>
     Die Herausgeber des »Polytechnischen Journals« versuchten ihren Lesern
     von Beginn an dabei behilflich zu sein, die sehr heterogen
@@ -127,63 +136,15 @@
   </p>
 
   <p>
-    Im Rahmen der wissenschaftlichen Bearbeitung des
-    Digitalisats wurde gezielt nach diesen Verweisen gesucht, um diese zu
-    ›taggen‹ und per bandübergreifendem Link in der Textansicht als
+    Im Rahmen der wissenschaftlichen Bearbeitung der
+    Digitalisate wurde gezielt nach diesen Verweisen gesucht, um diese zu
+    auszuzeichnen und per bandübergreifendem Link in der Textansicht als
     Hyperlink zur Verfügung zu stellen.
   </p>
 
-  <p>
-    Mit einem schon recht komplexen suche&amp;ersetzen-Muster funktioniert
-    dieser Arbeitsschritt mittlerweile automatisch. Zum Einsatz kommt
-    folgendes Suchmuster, das auf regulären Ausdrücken beruht:
-  </p>
+  <hr/>
 
-<pre><code>my $pat = qr/
-    (
-        (?:\s+)
-        (?:
-            (?:polyt[^&lt;]*)
-            |
-            (?:diesem)
-            |
-            (?:unser[^&lt;]*)
-            \s+
-        )?
-        journ(?:ale?)?
-        (?:&lt;\/hi&gt;)?
-        [,.]?\s+
-    )
-    (
-        [BV](?:an)?d?\.?\s+
-        (?:&lt;hi\s+rendition=&quot;\#roman&quot;\s*&gt;)?
-        (
-            (?:[ivxlcdm]{1,8})
-            |
-            (?:[1-9][0-9]{0,2})
-        )
-        (?:&lt;\/hi&gt;)?
-        [,.]*
-        (?:
-            \s+Heft\s+\d\[.,]?
-        )?
-        \s+
-        S(?:eite)?\.?\s+(\d{1,3})
-        (?!&lt;\/ref&gt;)
-    )/isx;</code></pre>
-
-  <p>
-    Übersetzt heißt das: Suche nach dem Vorkommen von so etwas wie »polyt.
-    Journal Bd. VI, S. 342«. Der reguläre Ausdruck würde aber auch diverse
-    Varianten dieser Schreibweise finden, es könnte also auch von »unserem
-    Journal« die Rede sein, wobei dies mit einem <code>&lt;hi&gt;</code>-Element
-    umschlossen sein könnte. Statt Bd. könnte es auch »Band« heißen. Die
-    eigentliche Bandangabe kann sowohl in römischen wie auch arabischen Ziffern
-    erscheinen. Ein Heft kann genannt sein, muss aber nicht usw.
-  </p>
-
-  <h2>3. Text-Bild Verhältnis</h2>
-
+  <h2 id="text-bild">3. Text-Bild-Verhältnis</h2>
   <p>
     Das »Polytechnische Journal« ist ein Referateorgan, das einem großen
     Leserkreis zugänglich gemacht werden sollte. Nicht zuletzt deswegen
@@ -237,4 +198,4 @@
       Text und Bildern.
     </li>
   </ol>
-</main>
+</section>

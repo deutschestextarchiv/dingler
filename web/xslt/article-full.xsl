@@ -8,8 +8,8 @@
   <xsl:import href="article-header.xsl"/>
 
   <xsl:variable name="force-exclude-all-namespaces" select="true()"/>
-  <xsl:variable name="volume-id" select="//t:seriesStmt/t:title[@type='main']/@xml:id"/>
-  <xsl:variable name="barcode" select="substring-before(//t:text//t:pb[1]/@facs, '/')"/>
+  <xsl:variable name="volume-id" select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:biblFull/t:seriesStmt/t:title[@type='main']/@xml:id"/>
+  <xsl:variable name="barcode" select="substring-before(/t:TEI/t:text[1]//t:pb[1]/@facs, '/')"/>
 
   <xsl:output method="html"/>
 
@@ -44,7 +44,7 @@
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
                       Artikel
-                      <xsl:value-of select="//t:text//t:titlePart[@type='number'][1]"/>
+                      <xsl:value-of select="/t:TEI/t:text[1]//t:titlePart[@type='number'][1]"/>
                     </li>
                   </ol>
                 </nav>
@@ -63,12 +63,14 @@
                 <xsl:if test="//t:ref[starts-with(@target, '#tab')]">
                   <p style="font-size:14pt; font-weight:bold">Tafeln</p>
                   <xsl:for-each select="//t:ref[starts-with(@target, '#tab')]">
-                    <figure class="figure">
-                      <img src="{$base}images/{$volume-id}/{$barcode}/{substring-after(@target, '#')}.png" class="figure-img img-fluid rounded" alt="Tafel {text()}"/>
-                      <figcaption class="figure-caption text-end">
-                        <xsl:value-of select="current()"/>
-                      </figcaption>
-                    </figure>
+                    <a href="{$base}images/{$volume-id}/{$barcode}/{substring-after(@target, '#')}.png" target="_blank">
+                      <figure class="figure">
+                        <img src="{$base}images/{$volume-id}/thumbs/{substring-after(@target, '#')}_800.jpg" class="figure-img img-fluid rounded" alt="Tafel {text()}"/>
+                        <figcaption class="figure-caption text-end">
+                          <xsl:value-of select="current()"/>
+                        </figcaption>
+                      </figure>
+                    </a>
                   </xsl:for-each>
                 </xsl:if>
               </div>

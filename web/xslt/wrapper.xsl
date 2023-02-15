@@ -48,23 +48,26 @@
               <a class="nav-link" aria-current="page" href="{$base}index.html">Start</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{$base}volumes/index.html">Übersicht Bände</a>
+              <a class="nav-link" href="{$base}volumes/index.html">Bandübersicht</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dokumentation
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="{$base}ptj.html">Polytechnisches Journal</a></li>
+                <li><a class="dropdown-item" href="{$base}das-polytechnische-journal.html">Das Polytechnische Journal</a></li>
                 <li><hr class="dropdown-divider"/></li>
-                <li><a class="dropdown-item" href="{$base}journal.html">Polytechnisches Journal</a></li>
-                <li><a class="dropdown-item" href="{$base}projekt.html">Projekt</a></li>
+                <li class="dropdown-header">Projektdokumentation</li>
+                <li><a class="dropdown-item" href="{$base}digitalisierung.html">Digitalisisierung</a></li>
                 <li><a class="dropdown-item" href="{$base}dingler-online.html">Dingler Online</a></li>
-                <li><a class="dropdown-item" href="{$base}workflow.html">Workflow</a></li>
                 <li><a class="dropdown-item" href="{$base}modell.html">Textauszeichnung am Modell</a></li>
+                <li><a class="dropdown-item" href="{$base}encoding.html">TEI-Encoding und Editionsprinzipien</a></li>
+                <li><a class="dropdown-item" href="{$base}team.html">Projektteam</a></li>
                 <li><hr class="dropdown-divider"/></li>
                 <li><a class="dropdown-item" href="{$base}publikationen.html">Publikationen</a></li>
                 <li><a class="dropdown-item" href="{$base}nachnutzung.html">Nachnutzung</a></li>
+                <li><hr class="dropdown-divider"/></li>
+                <li><a class="dropdown-item" href="{$base}webseite.html">Hinweise zu dieser Webseite</a></li>
               </ul>
             </li>
           </ul>
@@ -90,11 +93,9 @@
           <a href="{$base}nutzungsbedingungen.html">Nutzungsbedingungen</a>.
         </p>
         <p class="text-center">
-          <a href="{$base}impressum.html">Impressum</a>
-          |
           <a href="{$base}datenschutz.html">Datenschutz</a>
           |
-          <a href="{$base}kontakt.html">Kontakt</a>
+          <a href="{$base}impressum.html">Impressum</a>
         </p>
       </div>
     </footer>

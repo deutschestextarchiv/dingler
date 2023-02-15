@@ -2,9 +2,9 @@
 
 /* some variables */
 :root {
-  --tei-font-family: "PT Sans",sans-serif;
-  --tei-font-size: 10pt;
-  --tei-font-weight: 300;
+  --base-font-family: "PT Sans",sans-serif;
+  --base-font-size: 10pt;
+  --base-font-weight: 300;
 }
 
 @font-face { font-family:JuniusVF; src:url('../fonts/JuniusVF.woff2'); font-weight:300 700; font-stretch:60% 100%; font-style:normal }
@@ -77,20 +77,31 @@
        url('../fonts/pt-serif-v17-latin-ext_latin-700.svg#PTSerif') format('svg'); /* Legacy iOS */
 }
 
+.btn-primary { background:#265085; border-color:#173151 }
+a.btn:hover { text-decoration:none }
+
 body { font-family:"PT Sans",sans-serif; background:linear-gradient(to bottom, #fff, #fff 50%, #eee 50%, #eee); background-size:100% 3px }
 footer { border-top:1px solid #ccc }
 h1 { font-weight:bold; border-bottom:1px solid #ddd; margin-bottom:20px }
 h2 { font-weight:normal; margin-bottom:20px }
+h3 { font-weight:bold; font-size:19pt }
 blockquote { border-left:5px solid #ddd; margin-left:3rem; padding-left:1rem }
 .blockquote-footer { text-align:right }
 a { text-decoration:none; color:#265085 }
 a:hover { text-decoration:underline }
 
+.card-img-top { width:100%; height:10vw; object-fit:cover }
+
 .popover { border-radius:0 }
-.popover-header { background:#d8e7f7; font-family:var(--tei-font-family); font-weight:bold; padding:6px; border-radius:0 }
+.popover-header { background:#d8e7f7; font-family:var(--base-font-family); font-weight:bold; padding:6px; border-radius:0 }
+
+.search-help td:nth-child(1) { white-space:nowrap }
 
 .nav-link { font-size:13pt; margin:0 10px }
 .nav-link, .nav-item a.dropdown-item { color:#265085 }
+
+.facs-fullscreen { margin-left:5px; opacity:.4 }
+.facs-fullscreen:hover { opacity:1 }
 
 #search-error { background:#ffb2b3 }
 .result-head { font-weight:bold; font-size:14pt }
@@ -98,27 +109,34 @@ a:hover { text-decoration:underline }
 .hit-text { font-family:'JuniusVF' }
 
 .tei { background:#fff; padding:20px }
-.tei-header { margin-bottom:20px; border-bottom:2px solid #ccc; font-family:var(--tei-font-family) }
+.tei-header { margin-bottom:20px; border-bottom:2px solid #ccc; font-family:var(--base-font-family) }
 .tei-header table td { padding:2px 10px }
 
 .tei-text { font-family:'JuniusVF'; font-size:14pt }
 
-.tei-side-figure { display:block; float:left; margin-left:-230px; clear:left; width:200px; height:320px; background:#fff; padding:10px; text-indent:0 }
+.tei-side-figure { display:block; float:left; clear:left; width:200px; max-height:340px; background:#fff; padding:10px; text-indent:0 }
 .tei-side-figure figcaption { display:inline }
 
 @media (max-width:1100px) {
   .tei-side-figure { display:none }
 }
 
+.tei-ab             { }
 .tei-add            { color:#060 }
-.tei-cb             { display:block; text-align:center; color:#666; margin:1rem 0; font-family:var(--tei-font-family); font-size:var(--tei-font-size); font-weight:var(--tei-font-weight) }
-.tei-cb::before     { content:'[Spalte ' attr(data-n) ']' }
-.tei-cell           { display:table-cell; padding:2px 10px }
+.tei-bibl           { }
+.tei-div[data-type="section"] > .tei-bibl { display:block; text-indent:-1rem; margin-left:1rem; margin-bottom:1rem }
+
+.tei-cb             { display:block; text-align:center; color:#666; margin:1rem 0; font-family:var(--base-font-family); font-size:var(--base-font-size); font-weight:var(--base-font-weight) }
+.tei-cb[data-n]::before       { content:'[Spalte ' attr(data-n) ']' }
+.tei-cb:not([data-n])::before { content:'[Spalte]' }
+
+.tei-cell           { display:table-cell !important; padding:2px 10px } /* handle <cell rendition="#c | #right"> properly */
 .tei-choice         { border-bottom:1px dotted #666 }
 .tei-date           { }
 .tei-div            { margin-top:20px }
-.tei-figure figure  { display:block }
-.tei-front          { display:block; padding-bottom:30px; margin-bottom:30px; border-bottom:1px solid #ddd }
+.tei-figure figure  { display:block; border:1px solid #ddd; padding:10px }
+.tei-figure .tei-head { font-size:14pt }
+.tei-front          { display:block; /* padding-bottom:30px; margin-bottom:30px; border-bottom:1px solid #ddd*/ }
 .tei-head           { display:block; font-weight:bold; font-size:larger; margin-top:20px }
 .tei-hi             { }
 .tei-hr             { max-width:10rem; margin-left:auto; margin-right:auto; border-top: 1px solid #999; clear:both }
@@ -128,13 +146,23 @@ a:hover { text-decoration:underline }
 .tei-lb::after      { content:"\a "; display:block }
 .tei-lg             { margin:1rem 2rem; display:block }
 .tei-list           { margin:1rem 1rem; display:block; list-style-type:none }
+.tei-listBibl       { margin:1rem 1rem; display:block; list-style-type:none }
+.tei-listBibl > .tei-bibl { display:list-item; text-indent:-2rem; margin-left:2rem }
 .tei-milestone      { display:block; border-bottom:1px solid #aaa; margin:2rem 0 }
+
+.tei-note[data-type="digital_edition"] { opacity:.6; font-size:12pt }
+.tei-note[data-type="digital_edition"]::before { content:'[Anmerkung digitale Edition: ' }
+.tei-note[data-type="digital_edition"]::after  { content:']' }
+
 .tei-note-sign      { position:relative; top:-0.5em; font-size:80% }
 .tei-note-popover .tei-p:nth-of-type(1) { text-indent:0 }
 .tei-p              { display:block; margin:0 0 10px; text-indent:1rem }
-.tei-pb             { display:block; text-align:center; color:#666; margin:1rem 0; font-family:var(--tei-font-family); font-size:var(--tei-font-size); font-weight:var(--tei-font-weight); letter-spacing:normal }
+
+.tei-pb             { display:block; text-align:center; color:#666; margin:1rem 0; font-family:var(--base-font-family); font-size:var(--base-font-size); font-weight:var(--base-font-weight); letter-spacing:normal }
 .tei-pb:hover       { background:#f3f3f3 }
-.tei-pb::before     { content:'[' attr(data-facs) ']' }
+.tei-pb[data-n]::before       { content:'[Seite ' attr(data-n) ']' }
+.tei-pb:not([data-n])::before { content:'[' attr(data-facs) ']' }
+
 .tei-persname       { background:#77e195; padding:4px; cursor:help }
 .tei-placename      { background:#8cc8ff; padding:4px; cursor:help }
 .tei-row            { display:table-row }
@@ -159,7 +187,7 @@ a:hover { text-decoration:underline }
 [data-rendition~="#bold"]        { font-weight:bold }
 [data-rendition~="#italic"]      { font-style:italic }
 [data-rendition~="#no_indent"]   { text-indent:0 }
-[data-rendition~="#indent-1"]    { text-indent:-1em }
+[data-rendition~="#indent-1"]    { margin-left:1em; text-indent:-1em }
 [data-rendition~="#right"]       { text-align:right; display:block }
 [data-rendition~="#left"]        { text-align:left; display:block }
 [data-rendition~="#l1em"]        { margin-left:1em }
@@ -172,3 +200,39 @@ a:hover { text-decoration:underline }
 [data-rendition~="#double-underline"] { border-bottom:3px double #333 }
 
 .tei-titlePart[data-type="column"] { display:none }
+
+/* encoding.xml */
+.encoding .tei-text { font-family:var(--base-font-family); font-size:13pt }
+.encoding .tei-p { text-indent:0 }
+
+.encoding .tei-front > .tei-div > .tei-head,
+.encoding .tei-body > .tei-div > .tei-head,
+.encoding .tei-back > .tei-head
+{ font-size:30pt }
+
+.encoding .tei-body > .tei-div > .tei-div > .tei-head,
+.encoding .tei-back > .tei-div > .tei-head
+{ font-size:22pt }
+
+.egxml { white-space:pre; border:1px solid #ccc; padding:10px; overflow-x:auto; text-indent:0; margin:20px }
+
+.tei-att, .tei-gi, .tei-tag, .tei-val { padding:2px }
+.tei-att::before { content:'@' }
+.tei-gi::before, .tei-tag::before { content:'<' }
+.tei-gi::after, .tei-tag::after { content:'>' }
+
+.egxml,
+.tei-att,
+.tei-gi,
+.tei-tag,
+.tei-val { font-family:monospace; font-size:10pt; background:#d8e7f7 }
+
+.tei-elementSpec::before { content:'<' attr(data-ident) '>'; display:block; font-size:18pt; font-weight:bold }
+.tei-elementSpec { display:block; margin-bottom:20px; padding-bottom:15px; border-bottom:1px solid #ddd }
+.tei-attList::before { display:block; content:'Attributliste:'; font-size:14pt }
+.tei-attDef::before { display:block; content:'@' attr(data-ident); margin-left:2rem }
+.tei-valList { display:block; margin-bottom:20px }
+.tei-valItem::before { display:block; content:'Wert: "' attr(data-ident) '"'; margin-left:4rem }
+.tei-valItem .tei-desc { display:block; margin-left:6rem }
+.tei-valItem .tei-desc::before { content:'Bedeutung: ' }
+

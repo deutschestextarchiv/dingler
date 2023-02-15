@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Digitalisierung des Polytechnischen Journals</title>
+        <title type="sub">ODD-File</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Zur uneingeschränkten Nutzung freigegeben</p>
+      </publicationStmt>
+      <notesStmt>
+        <note type="ns">http://www.example.org/ns/nonTEI</note>
+      </notesStmt>
+      <sourceDesc>
+        <p>Dieses ODD-File wurde als Projektdokumentation von <name xml:id="mg">textloop Martina Gödel</name> entworfen. Eingeflossen sind die Arbeitsergebnisse von <name xml:id="mh">Marius Hug</name>, Humboldt-Universität zu Berlin, und Frank Wiegand, ehemals Humboldt-Universität zu Berlin, heute Berlin-Brandenburgische Akademie der Wissenschaften.</p>
+        <p>Über <ref target="http://www.tei-c.org/Roma/"><title>TEI Roma</title></ref> lässt sich aus dieser Datei eine Projektdokumentation im HTML-Format erzeugen. Eine umfassender verlinkte Version gelingt über <ref target="http://www.tei-c.org/oxgarage"><title>OxGarage</title></ref>.</p>
+        <p>Basierend auf den von der Text Encoding Initiative angebotenen Inhalten in den <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html"><title>TEI Guidelines</title></ref> wurde die Datei am Freitag, den 5. Februar 2009 initial angelegt und im Projektverlauf jeweils erweitert. Letzter Stand hier nach Projektende: April 2014.</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <tagsDecl>
+        <rendition xml:id="roman" scheme="css">font-family: "times new roman", times, serif;</rendition>
+        <rendition xml:id="wide" scheme="css">letter-spacing: 2pt;</rendition>
+        <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+        <rendition xml:id="small" scheme="css">font-size: .8em;</rendition>
+        <rendition xml:id="x-small" scheme="css">font-size: x-small;</rendition>
+        <rendition xml:id="xx-small" scheme="css">font-size: xx-small;</rendition>
+        <rendition xml:id="large" scheme="css">font-size: large;</rendition>
+        <rendition xml:id="x-large" scheme="css">font-size: x-large;</rendition>
+        <rendition xml:id="xx-large" scheme="css">font-size: xx-large</rendition>
+        <rendition xml:id="bold" scheme="css">font-weight: bold</rendition>
+        <rendition xml:id="italic" scheme="css">font-style: italic</rendition>
+        <rendition xml:id="no_indent" scheme="css">text-indent: none;</rendition>
+        <rendition xml:id="indent-1" scheme="css">text-indent: -1em;</rendition>
+        <rendition xml:id="indent-2" scheme="css">margin-left: 2em; text-indent: -1em;</rendition>
+        <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+        <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+        <rendition xml:id="l1em" scheme="css">margin-left: 1em;</rendition>
+        <rendition xml:id="l2em" scheme="css">margin-left: 2em;</rendition>
+        <rendition xml:id="l3em" scheme="css">margin-left: 3em;</rendition>
+        <rendition xml:id="r1em" scheme="css">margin-right: 1em;</rendition>
+        <rendition xml:id="superscript" scheme="css">font-size: .7em; vertical-align: super;</rendition>
+        <rendition xml:id="subscript" scheme="css">font-size: .7em; vertical-align: sub;</rendition>
+        <rendition xml:id="hidden" scheme="css">display: none;</rendition>
+        <rendition xml:id="underline" scheme="css">text-decoration: underline;</rendition>
+        <rendition xml:id="double-underline" scheme="css">border-bottom: 3px double;</rendition>
+        <rendition xml:id="v" scheme="free">Describes vertically orientated texts within tables. The HTML transfomation rotates these texts per 360° and calculates the size needed.</rendition>
+        <namespace name="http://www.tei-c.org/ns/1.0">
+          <tagUsage gi="div">Only unnumbered divs used</tagUsage>
+        </namespace>
+      </tagsDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <change who="#mg">Initiation, Revision: 0001, Date: 2009-02 04:54:19 +0200 (Th, 05. Feb 2009)</change>
+      <change who="#mg">Abschluss Digitalisierung, Oktober 2012</change>
+      <change who="#mg">Ausbau der ODD-Projektdokumentation, April 2013</change>
+      <change who="#mg">Finale Fassung, April 2014 (enthält nun erstmals Angaben zur Wissenschaftlichen Auszeichnung)</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <titlePage>
+        <docTitle>
+          <titlePart type="main">Digitalisierung des Polytechnischen Journals – </titlePart>
+          <titlePart type="sub">Projektdokumentation zu TEI-Encoding und Editionsprinzipien</titlePart>
+        </docTitle>
+        <docAuthor>textloop Martina Gödel</docAuthor>
+        <docDate>2014</docDate>
+      </titlePage>
+      <div type="preface">
+        <head>Einleitung</head>
+        <p>Diese Schemadokumentation wurde im Rahmen des Projektes <hi rendition="#italic"><ref target="http://www.polytechnischesjournal.de">Digitalisierung des Polytechnischen Journals</ref></hi> erstellt und soll Interessierten die für das "Basic Encoding" genutzten Elemente und Projektfestlegungen veranschaulichen.</p>
+        <p>Im Verlauf des Projektes wurden 375 Bände mit etwa 205.000 Seiten, inklusive aller Textbände, Atlanten und Realindizes, von der SLUB in Dresden imagedigitalisiert, im Anschluss von dem Digitalisierungsdienstleister Editura GmbH &amp; Co. KG texterkannt und nach den Guidelines der <hi rendition="#italic"><ref target="http://www.tei-c.org">Text Encoding Initiative</ref></hi> sowie in Absprache mit den wissenschaftlichen Mitarbeitern der Humboldt Universität zu Berlin ausgezeichnet. Auf Grundlage dieses "Basic Encoding", das zunächst nur textimmanent Informationen ausgewertet hat, wurden von den Wissenschaftlern Informationen zu Personen, Orten und Patenten angereichert. Eine ausführliche Projektdokumentation zu den Projektpartnern und Arbeitsabläufen findet sich auf der <hi rendition="#italic"><ref target="http://www.polytechnischesjournal.de/projekt/">Website des Projektes</ref></hi>.</p>
+        <p>Das Projektschema nutzt unverändertes TEI. Es wurden keine Elemente hinzugefügt, keine Klassen verändert. Die Logik der Auszeichnung folgt den Vorgaben der TEI-Guidelines. Restriktiv war das Vorgehen insofern, als im Projekt nicht genutzte Elemente aus dem Schema ausgeschlossen wurden und für einige Elemente geschlossene Listen von Attributwerten vorgegeben und ihr Einsatz im Projekt definiert wurde.</p>
+      </div>
+    </front>
+    <body>
+      <div type="section">
+        <head>Allgemeine Festlegungen</head>
+        <div>
+          <head>Was erfasst wurde</head>
+        	<p>Es wurden alle Scandateien, die von der SLUB aus Dresden geliefert wurden in die XML-Texte eingelinkt.  Scandateinamen und Barcodes der einzelnen Bände wurden initial übernommen und analog zur SLUB Logik weitergeführt. In den Fällen bei denen die SLUB fehlende Seiten nachgescannt bzw. Korrekturen in der Scanchronolgie nachträglich vorgenommen hat, weichen die Bezeichnungen heute ab. Doppeltlieferungen von Textseiten wurden aus dem XML gelöscht. Als Orientierungshilfe wurden sprechende Band-IDs ergänzt, z. B. pj001 für "Polytechnisches Journal Band 1".</p>
+          <p>Alle gedruckten Textzeichen, die für den Sinnzusammenhang wichtig sind, wurden erfasst. Sonderzeichen für die kein Unicode existiert, Textornamente und Illustrationen sind als Bilder umgesetzt worden. (Vgl. Abschnitt zu <ref target="#sonderzeichen">Sonderzeichen</ref>).</p>
+          <p>Alle Bilder und Tafeln wurden aus den gelieferten Faksimiledateien ausgeschnitten, gerade gerückt und als Master-TIF abgespeichert. In die Texte eingebunden wurden 25 % PNG-Versionen (bezogen auf die Kantenlänge) der Originaldateien, bei Textabbildungen wurde zusätzlich auf Graustufen reduziert.</p>
+          <div>
+            <head>Anpassungen, Nichtübernahmen</head>
+          	<p>Textdekorierende Elemente, wie z. B. Initialen, wurden normalisiert.</p>
+            <p>Dekorierte Texttrennzeichen zwischen Textabschnitten sind entfallen.</p>
+            <p>In den frühen Bänden enthaltene Angaben zu Druckbögen am Seitenende wurden nicht erfasst.</p>
+            <p>Kolumnentitel wurden nur einmal zu Beginn des Textabschnitts, auf den sie sich beziehen, als <tag>titlePart type="column"</tag> übernommen und sind in der Folge entfallen. (Vgl. "Legal values" zu <gi>titlePart</gi>)</p>
+          </div>
+          <div>
+            <head>Herausgeberanmerkungen zur digitalen Ausgabe</head>
+          	<p>Bei offensichtlichen Fehlern in der Vorlage, wie z. B. fehlenden Anmerkungszeichen, fehlenden Einzelfiguren auf Tafeln, fehlenden Seiten, wurde ein Herausgeberkommentar gesetzt und wie folgt gekennzeichnet:
+          <tag>note type="digital_edition"</tag>.
+            <egXML xmlns="http://www.tei-c.org/ns/Examples"><note anchored="true" place="bottom">
+              <note type="digital_edition">Anmerkungszeichen zu dieser Fußnote fehlt im Text.</note>
+              <pb facs="32422908Z/00000518" n="484" xml:id="pj272_pb484_2"/>
+              <p>Ueber Materialprüfungsmaschinen vgl. <hi rendition="#italic">Williamson,</hi>
+                1882 <hi rendition="#bold">244</hi> * 41, <hi rendition="#italic">Gravenstaden 
+                und Pohlmeyer,</hi> 1882 <hi rendition="#bold">245</hi> * 16,
+                <hi rendition="#italic">Thomasset,</hi> 1882 <hi rendition="#bold">246</hi>* 27
+                und <hi rendition="#italic">Emery,</hi> 1889 <hi rendition="#bold">271</hi>*
+                <ref target="#pj271_pb442">442</ref>.</p>
+             </note></egXML>
+            (Vgl. allgemein <gi>note</gi>).</p>
+          </div>
+        </div>
+        <div>
+          <head>Zeichensetzung</head>
+          <p>Alle durch Anführungszeichen gekennzeichneten Passagen wurden zusätzlich mit dem Element <gi>q</gi> umschlossen, solang es sich nicht eindeutig um Buchtitel oder Eigennamen handelte. Die Anführungszeichen wurden soweit als möglich erhalten. Im Fall von sich wiederholenden Anführungszeichen zu Beginn jeder einzelnen Zeile wurde das q-Element gekennzeichnet (<tag>q type="preline"</tag>)und nur das erste öffnende und das schließende Anführungszeichen übernommen.</p>
+          <figure>
+            <graphic url="http://textloop.de/Tests/ODD_images/exem_pj010_preline.jpg"/>
+          </figure>
+        </div>
+        <div>
+          <head>Zeichencodierung</head>
+          <p>Alle Texte sind über das Wurzelelement auf eine UTF-8 Codierung festgelegt. Auf den Einsatz von hexadezimalen Codes innerhalb der Texte wurde zugunsten eines kürzeren Quelltextes im Projektverlauf zunehmend verzichtet.</p>
+        </div>
+        <div>
+          <head>Seiten-, Spalten- und Zeilenkonkordanz</head>
+          <p>Seitenumbrüche der Druckvorlage wurden zu Beginn der Seite möglichst nah vor dem ersten Textzeichen, das erfasst wurde, über das Element <gi>pb</gi> markiert. Beginnt ein Kapitel mit einer neuen Seite, wird der Seitenumbruch zu Anfang und innerhalb des öffnenden Textabschnitts gesetzt. (Dieses Vorgehen folgt den Empfehlungen der <hi rendition="#italic"><ref target="http://www.tei-c.org/SIG/Libraries/teiinlibraries/main-driver.html#index.xml-body.1_div.3_div.6">Best Practices for TEI in Libraries</ref></hi>.) In das Attribut <att>n</att> wurde dabei der Wert der gedruckten Seite aufgenommen, selbst wenn es sich um einen offensichtlichen Paginierungsfehler handelte. Wenn es keine gedruckte Seitenzahl gab, wurde eine sinnvolle Bezeichnung in eckigen Klammern ergänzt. (Vgl. "Legal values" für <att>n</att> in <gi>pb</gi>.)</p>
+          <p>Bei zweispaltigem Satz wurde jeweils möglichst nah vor dem erste Zeichen jeder neuen Spalte ein <gi>cb</gi> gesetzt.</p>
+          <p>Die Zeilentrennung ist zugunsten eines dynamischen Flusses der digitalen Ausgabe aufgelöst worden. Wo eine Gliederungen über Zeilenumbrüche wichtig erschien, wurden diese in Überschriften und Tabellen erhalten. Harte Zeilentrennungen in Komposita wurden selbstverständlich erhalten.</p>
+        </div>
+        <div>
+          <head>Wohlgeformtheit, Validität</head>
+          <p>Alle Dateien wurden wären des gesamten Arbeitsprozesses auf Wohlgeformtheit und Validität geprüft. Die Erstellung des Schemas wurde über die hier vorliegende ODD-XML Datei gesteuert und jeweils das Schema auf dem aktuellen Stand in den Dateikopf aller Dateien eingelinkt. Download Schema <hi rendition="#italic"><ref target="http://textloop.de/Tests/dingler.rnc">hier</ref></hi>.</p>
+        </div>
+      </div>
+      <div>
+        <head>Texterfassung</head>
+        <div>
+          <head>Absatzformate</head>
+        	<p>Das am häufigsten im Text vorkommende Absatzformat (erste Zeile eingerückt, die folgende Zeile nicht) wurde als Standard festgelegt und über ein einfaches <gi>p</gi> ausgezeichnet. Absätze, deren erste Zeile nicht eingerückt war (z. B. bei ersten Absätzen in Artikeln) werden als <tag>p rendition="#no_indent"</tag> ausgewiesen.</p>
+          <p>Auszeichnungsbeispiel: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <div type="section" n="1">
+              <head rendition="#center #wide">1. Vorzu&#x0364;ge der
+                hydraulischen Presse.</head>
+              <p rendition="#no_indent">Die hydraulische Presse hat besondere  Vorzu&#x0364;ge, die man an andern Arten von Pressen vermi&#x00DF;t. Man kann ihren Effekt bedeutend vermehren, ohne ihren Umfang in demselben Verha&#x0364;ltni&#x00DF; zu vergro&#x0364;&#x00DF;ern. Ein einziger Mann reicht hin, vermittelst derselben sehr gro&#x00DF;e Wirkungen hervorzubringen. Man hat hier mit wenigen Reibungen zu ka&#x0364;mpfen.</p>
+            </div></egXML></p>
+        </div>
+        <div>
+          <head>Hervorhebungen in der Textvorlage</head>
+          <p>Alle Texte wurden vollständig wiedergegeben und möglichst vorlagengetreu getaggt. Es wurde versucht möglichst viel Information des Textes zu erhalten und explizit zu machen. Größe und Schriftart des normalen Fließtextes galten als Standardwerte, zu ihnen wurde ins Verhältnis gesetzt.</p>
+          <p>Jede Hervorhebung des Originaltextes wurde über das Element <gi>hi</gi> markiert, über sein Attribut <att>rendition</att> wird auf den Dateiheader verwiesen. Die Layout-Hervorhebungen im Text wurden hier klassifiziert und für jede Klasse ein rendition-Element gesetzt, dass in CSS-Notation eine Beschreibung enthält.
+    <egXML xmlns="http://www.tei-c.org/ns/Examples"><tagsDecl>
+      <rendition xml:id="roman" scheme="css">font-family: "times new roman", times, serif;</rendition>
+      <rendition xml:id="wide" scheme="css">letter-spacing: 2pt;</rendition>
+      <rendition xml:id="center" scheme="css">text-align: center;</rendition>
+      <rendition xml:id="small" scheme="css">font-size: .8em;</rendition>
+      <rendition xml:id="x-small" scheme="css">font-size: x-small;</rendition>
+      <rendition xml:id="xx-small" scheme="css">font-size: xx-small;</rendition>
+      <rendition xml:id="large" scheme="css">font-size: large;</rendition>
+      <rendition xml:id="x-large" scheme="css">font-size: x-large;</rendition>
+      <rendition xml:id="xx-large" scheme="css">font-size: xx-large</rendition>
+      <rendition xml:id="bold" scheme="css">font-weight: bold</rendition>
+      <rendition xml:id="italic" scheme="css">font-style: italic</rendition>
+      <rendition xml:id="no_indent" scheme="css">text-indent: none;</rendition>
+      <rendition xml:id="indent-1" scheme="css">text-indent: -1em;</rendition>
+      <rendition xml:id="indent-2" scheme="css">margin-left: 2em; text-indent: -1em;</rendition>
+      <rendition xml:id="right" scheme="css">text-align: right;</rendition>
+      <rendition xml:id="left" scheme="css">text-align: left;</rendition>
+      <rendition xml:id="l1em" scheme="css">margin-left: 1em;</rendition>
+      <rendition xml:id="l2em" scheme="css">margin-left: 2em;</rendition>
+      <rendition xml:id="l3em" scheme="css">margin-left: 3em;</rendition>
+      <rendition xml:id="r1em" scheme="css">margin-right: 1em;</rendition>
+      <rendition xml:id="superscript" scheme="css">font-size: .7em; vertical-align: super;</rendition>
+      <rendition xml:id="subscript" scheme="css">font-size: .7em; vertical-align: sub;</rendition>
+      <rendition xml:id="hidden" scheme="css">display: none;</rendition>
+      <rendition xml:id="underline" scheme="css">text-decoration: underline;</rendition>
+      <rendition xml:id="double-underline" scheme="css">border-bottom: 3px double;</rendition>
+      <rendition xml:id="v" scheme="free">Describes vertically orientated texts within tables. 
+        The HTML transformation rotates these texts per 360° and calculates the size needed.</rendition>
+      </tagsDecl></egXML></p>
+          <div>
+            <head>Informationen zur Schriftgröße</head>
+            <p>Ausnahmeregelung: Informationen zur Schriftgröße wurden nur dann erfasst, wenn im Fließtext durch die Schriftgröße ein Textabschnitt und/oder ein Wort besonders hervorgehoben wird. Im Fall von Überschriften <tag>titlePart</tag>/<tag>head</tag> entfällt die Information zur Schriftgröße komplett.</p>
+          </div>
+        </div>
+        <div xml:id="sonderzeichen">
+          <head>Sonderzeichen</head>
+          <p>Sonderzeichen, die nicht eindeutig als Unicode identifiziert werden konnten, wurden als im Text mitfließende Bildchen eingebunden.</p>
+          <p>Verweis im Quelltext:
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">[...]Der Fräser, eine kleine Kreissäge von
+              etwa 20 mm <g ref="#z0219"/>, die 1500 Umdrehungen in der Min. macht, 
+              ist auf einem Support gelagert, der 
+              <pb n="30" facs="32199828Z/00000052" xml:id="pj324_pb030"/><cb/>
+              je nach dem <g ref="#z0219"/> des Kommutators mittels einer Schraube senkrecht und zur
+              Führung in Richtung der Achse mittels eines Hebels seitlich beweglich ist. [...]</egXML>
+            </p>
+          <p>Definition im Header:
+                <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <charDecl>                  
+                  <char xml:id="z0219">
+                    <figure>
+                      <graphic url="../Sonderzeichen/z0219.png"/>
+                    </figure>
+                  </char>
+                  </charDecl>
+                </egXML></p>
+        </div>
+        <div>
+          <head>Formeln</head>
+        	<p>In der ersten Projektphase (Bände 1 bis 226) wurden Formeln vereinfacht übernommen (z. B. Bruchdarstellung über "/") oder als Bilder eingebunden. In der zweiten Projektphase (Band 227 bis Ende) wurde das Vorgehen optimiert und den Vorschlägen der TEI Guidelines folgend angepasst. Die TEI Guidlines empfehlen die folgende Auszeichnung: <tag>formula notation="TeX"</tag>. Die notation="TeX" wurde als 'default'-Wert gesetzt, und das Tagging auf <tag>formula</tag> verkürzt. Zum Testen wurde auf das <hi rendition="#italic"><ref target="http://www.forkosh.com/mathtextutorial.html">LaTeX Math Tutorial for mathTeX</ref></hi> zurückgegriffen.</p>
+          <p>Beispielabbildung einer Seite mit Formeln:
+            <figure>
+              <graphic url="http://textloop.de/Tests/ODD_images/exem_formula.jpg"/>
+            </figure></p>
+          <p>Umsetzung im Quelltext: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <p>Die <q>„Marke A“</q> besitzt ein specifisches Gewicht von 0,910 bis
+            0,912, einen zwischen 140 und 150° C. liegenden Flammpunkt, eine zwischen 180
+            und 200° C. liegende Entzündungstemperatur, die Viscosität bei 50° C. beträgt
+            beispielsweise <formula>\frac{5\mbox{ Min. }38\mbox{ Sec.}}{240}=1,4</formula>;
+            der Cold test-Punkt liegt bei – 21° C.</p>
+            </egXML></p>
+        </div>
+        <div>
+          <head>Druckfehler, Corrigenda, unleserliche Textstellen</head>
+          <p>Offensichtliche Druckfehler der Vorlage wurden innerhalb von <gi>sic</gi> identisch übernommen. Ein Korrekturvorschlag ist in <tag>corr</tag> ergänzt und über den Wert <val>Druckfehler</val> in <att>type</att> gekennzeichnet worden. (Vgl. "Legal Values" zu <gi>corr</gi>) Die beiden Alternativen wurden in <gi>choice</gi> zusammengefasst.</p>
+          <p>In der ersten Projektphase wurden Corrigendalisten der Vorlage soweit als möglich eingearbeitet. Der zu korrigierende Wert der Vorlage wurde in <tag>sic</tag> und der korrigierte Wert aus dem Corrigendaverzeichnis in <tag>corr</tag> erfasst (Vgl. "Legal values" zu <tag>corr</tag>). Das Element <tag>choice</tag> umschließt die Alternativen. In der zweiten Projektphase musste dieser Arbeitsschritt leider entfallen.</p>
+          <p>Bei unleserlichen Textstellen durch Schäden in der Vorlage oder bei nicht ohne weiteres rekonstruierbaren fehlgedruckten Wörtern wurde ein <tag>unclear</tag> gesetzt und der Grund für die Unleserlichkeit über <att>reason</att> näher bestimmt. (Vgl. "Legal values" zu <gi>unclear</gi>). Bei fehlenden Textsequenzen wurde ein <gi>gap</gi> gesetzt.</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p>Die um <unclear reason="damage"><gap/></unclear> 50 Minuten angeheizte
+              Maschine wurde von 10 Uhr 16 Minuten bis 
+              <unclear reason="damage"><gap/></unclear> Uhr 16 Minuten mit einer 
+              <hi rendition="#italic">Brauer'</hi>schen Bremse nach Abstellung des 
+              <unclear reason="illegible">Regu</unclear>lators gebremst. Die Beschickung des
+              Ofens erfolgte durch einen französischen Heizer mit abgewogenem Brennstoff.</p></egXML>
+        </div>
+        <div>
+          <head>Fußnoten</head>
+          <p>Der Fußnotentext wurde am Ort seines Vorkommens eingefügt und die Fußnotenziffer in das <tag>note</tag> als Wert für <att>n</att> übernommen. Am Anfang des Fußnotentextes wurde das <gi>pb</gi> der Seite wiederholt, aber mit einer neuen ID versehen, damit unabhängig vom späteren Ort der Umsetzung die Seitenkonkordanz nachvollziehbar bleibt. Auch umbrechende Seiten innerhalb von Fußnoten wurden auf diese Weise ausgezeichnet. Alle Fußnotentexte wurden grundsätzlich <tag>p</tag> getaggt.</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"> <div type="section" n="B">
+            <pb n="103" facs="32199828Z/00000135" xml:id="pj324_pb103"/>
+            <head rendition="#center">B. Spezial-Löffelbagger
+                <note place="bottom" anchored="true" n="3)">
+                  <pb n="103" facs="32199828Z/00000135" xml:id="pj324_pb103_n38"/>
+<p>Dem Vernehmen nach hat die bekannte Firma <hi rendition="#italic">A. Bleichert &amp; Co.,</hi> Leipzig-Gohlis, bei
+  der zeitweise die Absicht bestanden hat, solche Maschinen von der <hi rendition="#italic">Bucyrus Co.</hi> in
+  Milwankee zu beziehen bezw. in Gemeinschaft mit ihr zu bauen, diesen Plan aufgegeben, sodass m.W. gegenwärtig nur die
+  Firma <hi rendition="#italic">Menck &amp; Hambrock</hi> solche Bagger in Deutschland herstellt.</p></note>.</head>
+            <p>Außer den bisher besprochenen Universal-Löffelbaggern bauen <hi rendition="#italic">Mench
+                &amp; Hambrock G.m.b.H.,</hi> Altona-Ottensen, ...</p>
+            </div></egXML>
+        </div>
+        <div>
+          <head>Zusätze des Herausgebers/Übersetzers</head>
+          <p>Zusätze des Herausgebers bzw. des Übersetzers in Artikeln wurden als <tag>div type="addendum"</tag> gekennzeichnet. (Vgl. "legal values" zu <gi>div</gi>)</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"> <div type="addendum">
+            <head>Zusatz des Herausgebers</head>
+            <p>Diese Verbesserung des Hrn. Omrod bei der Erzeugung metallener Walzen [...]</p>
+            </div></egXML>
+        </div>
+        <div>
+          <head>Mehrteilige Artikel</head>
+          <p>Am Ende einiger Artikel findet sich ein Hinweis auf eine Fortsetzung. Diese Art von Fortsetzungshinweisen wurde als <tag>div type="continuation"</tag>gekennzeichnet und in einem zweiten Schritt mit dem Fortsetzungsabschnitt verlinkt. (Vgl. "legal values" zu <gi>div</gi>)</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"> <div type="continuation">
+            <p rendition="#right">
+                <ref target="#ar273017">(Fortsetzung folgt</ref>.)</p>
+            </div></egXML>
+        </div>
+
+      </div>
+
+      <div>
+        <head>Text- und Tafelabbildungen</head>
+
+        <p>Alle Bilder und Tafeln wurden aus den gelieferten Faksimiledateien ausgeschnitten, geradegerückt und als  Master-TIF Datei abgespeichert. In die Texte eingebunden wurden 25 % PNG-Versionen (bezogen auf die Kantenlänge) der Originaldateien, bei Textabbildungen zusätzlich auf Graustufen reduziert.</p>
+        <div>
+          <head>Textabbildungen</head>
+          <p>Bei vom Text umflossenen Abbildungen wurde in der ersten Projektphase (Bände 1 bis 226), wie im Beispiel unten, der Textabsatz, auf den sie sich beziehen, in das figure-Element miteingeschlossen. In der zweiten Projektphase (Bände 227 bis Ende) wurde das <tag>figure</tag> an den Anfang des ihn umfliessenden Absatzes gesetzt.</p>
+          <figure>
+            <graphic url="http://textloop.de/Tests/ODD_images/exem_pj001_textimage.jpg"/>
+          </figure>
+          <p>Die Textabbildungen wurden über <att>rend</att> näher bestimmt (Vgl. "legal values" zu <gi>figure</gi>).</p>
+          <p>In das Element <gi>figDesc</gi> wurde eine formale Beschreibung des Bildes aufgenommen.</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"> <figure rend="text" xml:id="tx3200007a">
+            <graphic url="32199816Z/tx3200007a"/>
+            <figDesc>Textabbildung Bd. 320, Hefttitelillustration</figDesc>
+            </figure></egXML>
+        </div>
+        <div>
+          <head>Tafelabbildungen</head>
+          <p>Hinweise auf einzelne Figuren aus dem Text wurden mit den Einzelfiguren auf den Tafeln verlinkt. Vgl. folgender Abschnitt zu <ref target="#image-markup">Image-Markup der Einzelfiguren auf den Tafeln</ref>. </p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p>Dieser Ofen (<ref rend="new" target="image_markup/tab272668.xml#fig272668_7">
+            Fig. 7</ref>) bildet einen langen, aufrecht stehenden Cylinder 
+              (<ref rend="new" target="image_markup/tab272668.xml#fig272668_1">Fig. 1</ref>), 
+              dessen Länge ungefähr das Fünffache seines Durchmessers beträgt, und welcher aus 
+              zwei Theilen, einem oberen <hi rendition="#italic">A</hi> und einem unteren 
+              <hi rendition="#italic">B</hi> zusammengesetzt ist. Es wird ohne Anwendung von 
+              Wind gearbeitet.</p></egXML>
+          <div xml:id="image-markup">
+            <head>Image-Markup der Einzelfiguren auf den Tafeln</head>
+            <p>Für die Ausweisung der Einzelfiguren auf den Tafeln über Bildkoordinaten wurde das Tool des <hi rendition="#italic"><ref target="http://tapor.uvic.ca/~mholmes/image_markup/">UVic Image markup Tool Projects</ref></hi> genutzt.</p>
+            <p>Jede Tafel wurde mittels der freien Software geöffnet und für die Einzelfiguren der Tafeln Bildkoordinaten definiert. Jede Einzelfigur erhält eine xml:id, auf die als Sprungziel aus dem Text verwiesen werden kann (s.o.).</p>
+            <p>Auszug aus der Image-markup-XML-Datei mit eingetragenen Bildkoordinaten für die Einzelfiguren 1 und 2:
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<facsimile xml:id="imtAnnotatedImage">
+  <surface>
+    <graphic url="..\png25\tab272668.png" width="1613px" height="1177px"/>
+    <zone xml:id="fig272668_1" rendition="Einzelfiguren" ulx="602" uly="424" lrx="898" lry="629" rend="visible"/>
+    <zone xml:id="fig272668_2" rendition="Einzelfiguren" ulx="415" uly="62" lrx="850" lry="405" rend="visible"/>
+    ...
+  </surface>
+</facsimile></egXML></p>
+            <p>Auszug aus der Image-markup-XML-Datei mit xml:ids und Benennungen, die für die Einzelfiguren 1 und 2 vergeben wurden: 
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<text>
+  <body>
+    <div xml:id="imtImageAnnotations">
+      <div corresp="#fig272668_1" type="imtAnnotation">
+        <head>Fig. 1</head>
+      </div>
+      <div corresp="#fig272668_2" type="imtAnnotation">
+        <head>Fig. 2</head>
+      </div>
+      ...
+    </div>
+  </body>
+</text></egXML></p>
+          </div>
+
+        </div>
+      </div>
+      <div>
+        <head>Tabellen</head>
+      	<p>Die im Jounal zahlreich vorkommenden Tabellenstrukturen wurden möglichst nah an der Vorlage umgesetzt. Tabellen mit deutlichem Gitternetz wurden als <tag>table rend="boxed"</tag> ausgezeichnet. Die Ausrichtung der Zelleninhalte wurde z. B. mittels <tag>cell rendition="right"</tag> näher bestimmt. Feinausrichtungen der Zellinhalte untereinander wurden darüber hinaus mittels geschützter Leerzeichen erhalten. Zeilenumbrüche innerhalb der Zellen wurden <tag>lb/</tag> getaggt. In der zweiten Projektphase (Band 227 bis Ende) vermehrt vorkommende vertikal ausgerichtete Zellinhalte wurden als <tag>cell rendition="#v"</tag> ausgewiesen. Über mehrere Zellen reichende Inhalte wurden wie folgt dokumentiert: <tag>cell cols="2"</tag> oder <tag>cell rows="2"</tag>. (Vgl. <gi>table</gi>)</p>
+        <p>Beispielabbildung einer Tabelle mit vertikal ausgerichteten Zellinhalten:
+        <figure>
+          <graphic url="http://textloop.de/Tests/ODD_images/exem_table.jpg"/>
+        </figure></p>
+        <p>Umsetzung im Quelltext: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <table cols="15" rows="15" rend="boxed">
+            <row>
+              <cell rows="3" rendition="#center #v">Versuchsnummer</cell>
+              <cell rows="3" rendition="#center #v">Ueberschüssige Luft</cell>
+              <cell cols="6" rendition="#center">Zusammensetzung der Gase</cell>
+              <cell cols="2" rows="2" rendition="#center">Unver-<lb/>brannt<lb/>entwichen</cell>
+              <cell rows="3" rendition="#center #v">Auf 1qm Rostfläche stünd-<lb/>lich verbrannte Kohle</cell>
+              <cell rows="3" rendition="#center #v">Höchste Temperatur der<lb/>Austrittsgase</cell>
+              <cell rows="3" rendition="#center #v">Auf einmal aufgegebene<lb/>Kohlenmenge</cell>
+              <cell rows="3" rendition="#center #v">Pausen zwischen dem<lb/>Aufgeben</cell>
+              <cell rows="3" rendition="#center #v">Dauer der Gasentnahme</cell>
+            </row>
+            <row>
+              <cell rows="2" rendition="#center #v">Stickstoff</cell>
+              <cell rows="2" rendition="#center #v">Kohlensäure</cell>
+              <cell rows="2" rendition="#center #v">Sauerstoff</cell>
+              <cell cols="3" rendition="#center">Brennbare Gase</cell>
+            </row>
+            <row>
+              <cell rendition="#center #v">Kohlenoxyd</cell>
+              <cell rendition="#center #v">Kohlenstoff</cell>
+              <cell rendition="#center #v">Wasserstoff</cell>
+              <cell rendition="#center #v">Kohlenstoff</cell>
+              <cell rendition="#center #v">Wasserstoff</cell>
+            </row>
+            <row>
+              <cell/>
+              <cell>Proc.</cell>
+              <cell>Proc.</cell>
+              <cell>Proc.</cell>
+              <cell>Proc.</cell>
+              <cell>Proc.</cell>
+              <cell>Proc.</cell>
+              <cell>Proc.</cell>
+              <cell>Proc.</cell>
+              <cell>Proc.</cell>
+              <cell>k</cell>
+              <cell>Grad</cell>
+              <cell>k</cell>
+              <cell>Min.</cell>
+              <cell>Min.</cell>
+            </row>
+            <row>
+              <cell>12</cell>
+              <cell>6,66</cell>
+              <cell>80,38</cell>
+              <cell>14,87</cell>
+              <cell>4,41</cell>
+              <cell>0,84</cell>
+              <cell>1,15</cell>
+              <cell>1,35</cell>
+              <cell>18,8</cell>
+              <cell>9,5</cell>
+              <cell>40</cell>
+              <cell>119</cell>
+              <cell>7</cell>
+              <cell>5</cell>
+              <cell>–</cell>
+            </row>[...]</table></egXML></p>
+        <p>Sehr komplexe oder über mehr als eine Seite hinausreichende Tabellen wurden teils im Bild wiedergegeben.</p>
+        <div>
+          <head>Vorgehen bei geschweiften Klammern in Tabellen</head>
+          <p>Geschweifte Klammern innerhalb von Tabellen wurden in der ersten Projektphase (Bände 1-226) als Bildchen eingebunden. In der zweiten Projektphase (Bände 227 bis Ende) entfielen die Klammern zugunsten einer semantischen Nachbildung der Klammerung.</p>
+          <p>Beispielabbildung einer Tabelle mit geschweifter Klammer:
+            <figure>
+              <graphic url="http://textloop.de/Tests/ODD_images/exem_table_2.jpg"/>
+            </figure></p>
+          <p>Umsetzung im Quelltext: <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <table rows="10" cols="4">
+              <row>
+                <cell cols="4" rendition="#center">Betrag des niedrigesten Scheffelgewichts</cell>
+              </row>
+              <row>
+                <cell rendition="#center">Nr.</cell>
+                <cell rendition="#center">grosse<lb/>Kohlen</cell>
+                <cell rendition="#center">kleine<lb/>Kohlen</cell>
+                <cell rendition="#center">Differenz<lb/>Proc.</cell>
+              </row>
+              <row>
+                <cell rendition="#center">1</cell>
+                <cell rendition="#center">58,75</cell>
+                <cell rendition="#center">66</cell>
+                <cell rendition="#center">12,3</cell>
+              </row>
+              <row>
+                <cell rendition="#center">2</cell>
+                <cell rendition="#center">63,75</cell>
+                <cell rendition="#center">72,5</cell>
+                <cell rendition="#center">13,7</cell>
+              </row>
+              <row>
+                <cell rendition="#center">3</cell>
+                <cell rendition="#center">72,5</cell>
+                <cell rendition="#center">74,5</cell>
+                <cell rendition="#center"> 2,7</cell>
+              </row>
+              <row>
+                <cell rendition="#center">4</cell>
+                <cell rendition="#center">64,5</cell>
+                <cell rendition="#center">75,5</cell>
+                <cell rendition="#left">17</cell>
+              </row>
+              <row>
+                <cell rendition="#center">5</cell>
+                <cell rendition="#center">60,5</cell>
+                <cell rendition="#center">73,5</cell>
+                <cell rendition="#center">21,4</cell>
+              </row>
+              <row>
+                <cell rendition="#center">8</cell>
+                <cell rendition="#left">66</cell>
+                <cell rendition="#center">72,5</cell>
+                <cell rendition="#center"> 9,8</cell>
+              </row>
+              <row>
+                <cell rendition="#center">10</cell>
+                <cell rendition="#center">67,5</cell>
+                <cell rendition="#left">98</cell>
+                <cell rendition="#center">31,8</cell>
+              </row>
+              <row>
+                <cell/>
+                <cell/>
+                <cell/>
+                <cell rendition="#center">______</cell>
+              </row>
+              <row>
+                <cell/>
+                <cell/>
+                <cell>Durchschnitt</cell>
+                <cell rendition="#center">15,5</cell>
+              </row>
+            </table></egXML></p>
+        </div>
+      </div>
+      <div>
+        <head>Struktur der Quelltexte und Projektarchitektur</head>
+        <div>
+          <head>Das gedruckte Journal und seine digitale Umsetzung</head>
+          <div>
+            <head>Textbände</head>
+            <p>Das gedruckte Journal setzt sich aus Artikeln und anderen Abschnitten zusammen, die in Heften gruppiert und zu Bänden zusammengefasst sind.</p>
+            <p>Pro Band wurde eine XML Datei erzeugt. Dies entspricht in den allermeisten Fällen der Bindung der aus dem Bestand der SLUB Dresden digitalisierten Bände. Ausnahmen gibt es im Bandbereich 297 bis 341, innerhalb dessen sich im Bestand der SLUB mehrere Einbände finden, die mehr als einen Band zusammenfassen. Hier weicht die digitale Edition ab.</p>
+          	<p>Jeder Textband enthält ein <tag>text</tag>Element mit eigener Band ID, nach dem Muster "pj001" für Band 1. Jedes text-Element gruppiert am Anfang Titelseiten, Inhaltsverzeichnisse und Vorwörter, u. ä. in einem <gi>front</gi>. </p>
+            <p>Das text-Element des Bandes enthält eine <gi>group</gi>, die pro Heft ein <tag>text</tag> enthält.</p>
+            <p>Das text-Element des Heftes enthält eine <tag>group</tag>, die pro Artikel oder Abschnitt auf gleicher Ebene einen <tag>text</tag> enthält.</p>
+            <p>Die auf mehreren Ebenen eingesetzten <tag>text</tag>-Elemente wurden über <att>type</att> näher bestimmt. (Vgl. "Legal values" für <gi>text</gi>)</p>
+            <p>Die einzelnen Artikel des Polytechnischen Journals werden als Kernstück der digitalen Ausgabe verstanden und stellen die unterste <tag>text</tag>-Ebene dar. Neben den Artikeln finden sich auf dieser Ebene noch Patentverzeichnisse, Literaturverzeichnisse u. ä. Über die folgenden Werte von <att>type</att> werden die <tag>text</tag>-Elemente auf Artikelebene näher klassifiziert: <val>art_undef</val>, <val>art_patent</val>, <val>art_patents</val>, <val>art_patentlist</val>, <val>art_literature</val>, <val>art_miscellanea</val>. (Vgl. "Legal values" für <gi>text</gi>).</p>
+          	<p>Register, wirtschaftliche Rundschauen, Tafelanhänge u. ä. wurden als Backmatter aufgefasst und in den <gi>back</gi> von Heften oder Bänden gestellt. Jeder inhaltliche Abschnitt steht in einem eigenen <tag>div</tag> dass über das <att>type</att> näher klassifiziert wurde. (Vgl. "Legal values" zu <gi>div</gi>).</p>
+            <p>Als Hauptzählung für Bände, Jahrgänge und Hefte wurde die durchgehende Zählung von Band 1 bis zum letzten Band der SLUB Dresden übernommen. Diese Werte wurden in den Textelementen eingetaggt. Daneben existieren Zählungen, die einer anderen Logik folgen. Z.B. werden Jahrgänge und Hefte auf Reihen bezogen durchgezählt. Um diese alternativen Chronologien abzubilden wurden <tag>milestone</tag>s an den Beginn der Bände und soweit möglich der Hefte gesetzt. (Vgl. dazu "Legal values" der Attribute <att>type</att> und <att>subtype</att> von <gi>milestone</gi>).
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+  <text type="volume" xml:lang="german" n="324" xml:id="pj324">
+    <milestone type="additional-counting" subtype="age-group" ed="Neunzigster Jahrgang" unit="volume" n="324"/>
+    <milestone type="additional-counting" subtype="series" ed="Siebente Reihe" unit="volume" n="24"/>
+    ...</text></egXML></p>
+          </div>
+          <div>
+            <head>Atlanten</head>
+            <p>Tafelanhänge zu den Bänden waren im Exemplar der SLUB entweder in die Textbände miteingebunden oder existieren im Bandbereich 229 bis 253 separat gebunden. Trägt der Textband die ID <tag>text xml:id="pj229"</tag> so erhielt der dazugehörige Atlas die Band-ID <tag>text xml:id="pj229a"</tag>. </p>
+          </div>
+          <div>
+            <head>Realindices</head>
+            <p>Es gibt vier ergänzende Registerbände. Diese wurden über IDs mit den Textbänden, auf die sie sich beziehen verlinkt. Je Registerband ist eine Band-ID nach dem Muster "<val>ri001</val>" für Realindexband 1 vergeben worden.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <head>Wissenschaftliche Anreicherung des Basic Encodings</head>
+        <div>
+          <head>Personen</head>
+          <p>In den Artikelkopfdaten und in Patentverzeichnissen wurden über das Element <gi>persName</gi> Personen ausgezeichnet und über das Attribut <att>role</att> in ihrer Funktion als Autor oder Patentanmelder näher bestimmt. Über das Attribut <att>ref</att> wurde ein Verweis auf einen eindeutigen Personendatensatz in einer externen Datei realisiert.</p>
+          <p>Beispiel für die Ausweisung Felix Abates als Autor eines Artikels in Band 133:
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<text type="art_undef" subtype="publ_secondary" n="85" xml:id="ar133085">
+  <front>
+  <titlePart type="number" rendition="#center">LXXXV.</titlePart>
+  <titlePart type="main" rendition="#center">Thermographie oder Verfahren Gegenstände durch directes Abdrucken derselben abzubilden; von Hrn. 
+    <persName role="author_orig" ref="../database/persons/persons.xml#pers06797">Felix Abate</persName>
+    in <placeName ref="../database/places/places.xml#pl002955">Neapel</placeName>.</titlePart>...</front></text></egXML></p>
+          <p>Beispiel für die Ausweisung Felix Abates als Anmelder eines Patents in Band 128:
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<div type="patent" xml:id="p128mi01_68">
+  <p>Dem <persName role="patent_app" ref="../database/persons/persons.xml#pers06797">Felix Abate</persName> in
+  George-street, Hampstead-road, und <persName role="patent_app" ref="../database/persons/persons.xml#pers19084">John Clero de Clerville</persName> in
+  <placeName ref="../database/places/places.xml#pl003040">Newman-street</placeName>: auf Verbesserungen im Zubereiten, Verzieren und Bedrucken
+  von Metallflächen. <hi rendition="#roman">Dd</hi>. <date when="1853-01-12" type="dd">12. Jan. 1853</date>.</p>
+</div></egXML></p>
+          <p>Korrespondierender Personendatensatz Felix Abates in zentraler Personendatei "persons.xml":
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <person xml:id="pers06797">
+              <persName>
+                <forename>Felix</forename>
+                <surname>Abate</surname>
+              </persName>
+            </person></egXML></p>
+        	<p>Auf dieser Datenbasis kann sich der User auf der Website über den verlinkten Autor und Patentanmelder den zentralen Personendatensatz einblenden lassen. Gelistet werden hier alle im Polytechnischen Journal vorhandenen weiteren Artikel und Patente dieser Person. (z. B. <ref target="http://dingler.culture.hu-berlin.de/person/view/pers06797">Felix Abate</ref>.</p>
+          <p>Gesamtliste aller ausgewiesenen Autoren, bzw. Patentanmelder über <ref target="http://dingler.culture.hu-berlin.de/person/list">Personenverzeichnis</ref></p>
+        </div>
+        <div>
+          <head>Orte</head>
+          <p>Ähnlich wie bei den Personennamen wurden in den Artikelkopfdaten Orte über  <gi>placeName</gi> ausgezeichnet.</p>
+          <p>Beispiel aus Band 30:</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <text type="art_undef" subtype="publ_secondary" n="52" xml:id="ar030052"><front>
+              <titlePart type="number" rendition="#center">LII.</titlePart>
+              <titlePart type="main" rendition="#center">Ueber die von Herrn <persName role="originator" ref="../database/persons/persons.xml#pers00628">Guilbaud</persName> zu <placeName ref="../database/places/places.xml#pl002941">Nantes</placeName>
+                vorgeschlagene Gasbeleuchtung.</titlePart>
+              <titlePart type="sub" rendition="#center">Aus dem <bibl type="source"><title level="j" ref="../database/journals/journals.xml#jour0063">Recueil industriel</title>. N. 17. S.
+                185.</bibl></titlePart>
+              <titlePart type="sub" rendition="#center">(<hi rendition="#wide">Im
+                Auszuge</hi>.)</titlePart>
+              <titlePart type="column">Guilbaud's, vorgeschlagene Gasbeleuchtung.</titlePart>
+            </front>...</text></egXML>
+        	<p>Statt eines Links auf ein Ortsverzeichnis wird hier am rechten Fensterrand ein Google Maps Kartenausschnitt eingebunden, auf dem der markierte Ort projiziert wird (z. B. <ref target="http://dingler.culture.hu-berlin.de/article/pj030/ar030052">Nantes</ref>).</p>
+          <p>Die Basis für diese Projektion sind in einer zentralen Datei zusammengestellte geographische Ortskoordinaten:
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <place xml:id="pl002941">
+              <placeName>Nantes</placeName>
+              <location>
+                <geo>47.2183710 -1.5536210</geo>
+              </location>
+            </place></egXML></p>
+        	<p>Wurden in einem Patentverzeichnissen mehrere Orte ausgezeichnet, werden sie alle auf einen einzelnen Kartenausschnitt projiziert. (z. B. <ref target="http://dingler.culture.hu-berlin.de/article/pj010/mi010092_2">Band 10</ref>)</p>
+        </div>
+        <div>
+          <head>Quellen</head>
+        	<p>In einer zentralen Datei wurden bibliographische Informationen zu Literaturangaben in den Artikeln gesammelt (<ref target="http://dingler.culture.hu-berlin.de/source/list">Quellenverzeichnis</ref>). Testweise wurden die bibliographischen Datensätze über die ZDB-ID mit dem <ref target="https://zdb-katalog.de/index.xhtml">Katalog der Zeitschriftendatenbank</ref> verlinkt.</p>
+          <p>Bibliographischer Datensatz zu den "Annalen für Gewerbe und Bauwesen" in der zentralen Datei "journals.xml":
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <bibl xml:id="jour0507">
+                <title level="j">Annalen für Gewerbe und Bauwesen</title>
+                <pubPlace><settlement>Berlin</settlement><country>Deutschland</country></pubPlace>
+                <editor>
+                  <persName>
+                    <forename>Friedrich</forename>
+                    <surname>Glaser</surname>
+                  </persName>
+                </editor>
+                <date from="1877" to="1921">1877–1921</date>
+                <ref target="#ZDB-ID">210776-4</ref>
+              </bibl>
+              </egXML></p>
+        </div>
+        <div>
+          <head>Patente</head>
+          <p>In Patentverzeichnissen wurden die einzelnen Patente über <tag>div type="patent"</tag> als solche gekennzeichnet und Information zum Land der Anmeldung im übergeordneten <tag>div</tag> auf Ebene des Patentverzeichnisses mitgegeben:             <egXML xmlns="http://www.tei-c.org/ns/Examples">
+              <div type="misc_patents" subtype="english" xml:id="mi010092_2">
+                <head rendition="#center">Verzeichniß der zu London am 18. Ma&#x0364;rz ertheilten Patente.</head>
+                <head rendition="#center">Aus dem <hi rendition="#roman">Repertory of Arts, Manufactures et Agriculture. N.</hi> 251. April. 1823. S. 319.</head>
+                <div type="patent" xml:id="p010092_94">
+                  <p>Dem <persName role="patent_app" ref="../database/persons/persons.xml#pers14835">Georg Emannel
+                    Harpur</persName> und <persName role="patent_app" ref="../database/persons/persons.xml#pers01024">Benjamin Baylis</persName>, Maschinisten zu <placeName ref="../database/places/places.xml#pl004594">Weeden</placeName>, Northamptonshire; auf
+                    eine Methode Maschinen in Bewegung zu sezen.</p>
+                </div>...</div>
+          </egXML></p>
+          <p>Da auch Orte ausgezeichnet wurden, lassen sich nun alle ausgezeichneten Patente komfortabel nach Land oder Dekade gruppieren (vgl. <ref target="http://dingler.culture.hu-berlin.de/patent">Patentverzeichnis</ref>).</p>
+          <p/>
+        </div>
+      </div>
+    </body>
+    <back>
+      <head>Anhang</head>
+      <div xmlns="http://www.tei-c.org/ns/1.0">
+        <head>Technische Projektschemaspezifikationen</head>
+        <p>Für die Module "tagdocs" und "gajii" wurden zunächst keine Restriktionen vorgenommen. Der Übersichtlichkeit halber wurden in allen anderen Modulen aber nur jene Elemente belassen, die im Projekt tatsächlich zum Einsatz kommen. Im Projekt nicht genutzte Elemente wurden aus den Modulen weitestgehend ausgeschlossen.</p>
+        <div>
+          <schemaSpec ident="dingler" docLang="en" prefix="tei_" start="TEI" xml:lang="en">
+            <moduleRef key="linking" except="alt altGrp anchor join joinGrp link seg timeline when"/>
+            <moduleRef key="core" except="addrLine address analytic binaryObject citedRange del distinct email emph expan foreign gb gloss headItem headLabel measure measureGrp media meeting mentioned postBox postCode rs said soCalled sp speaker stage street teiCorpus textLang time"/>
+            <moduleRef key="tei"/>
+            <moduleRef key="header" except="appInfo application authority cRefPattern calendar calendarDesc catDesc catRef category classCode classDecl creation distributor edition editionStmt extent geoDecl handNote interpretation langUsage language licence listChange listPrefixDef prefixDef principal profileDesc refState refsDecl samplingDecl scriptNote segmentation sponsor stdVals styleDefDecl taxonomy textClass typeNote"/>
+            <moduleRef key="textstructure" except="argument div1 div2 div3 div4 div5 div6 div7 epigraph floatingText imprimatur postscript salute signed trailer"/>
+            <moduleRef key="figures" except="notatedMusic"/>
+            <moduleRef key="transcr" except="addSpan am damageSpan delSpan ex fw handNotes handShift line listTranspose metamark mod redo restore retrace sourceDoc space subst substJoin supplied surface surfaceGrp surplus transpose undo"/>
+            <moduleRef key="tagdocs"/>
+            <moduleRef key="gaiji"/>
+            <moduleRef key="namesdates" except="affiliation age bloc climate district event faith geogFeat geogName langKnowledge langKnown listEvent listNym listOrg listRelation nationality nym offset org personGrp population relation relationGrp residence socecStatus state terrain trait"/>
+            <elementSpec ident="ab" module="linking" mode="change" xml:id="ab">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="keywords">
+                      <desc>Schlagworte für Tabellen und Textabbildungen, die Text enthalten, aber als Bild erfasst wurden. Die einzelnen Begriffe werden mit Semikolon getrennt gelistet.</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><figure rend="text" xml:id="tx210498a">
+                      <graphic url="32422630Z/tx210498a"/>
+                      <figDesc>Textabbildung Bd. 210, S. 472</figDesc>
+                      <ab part="Y" rendition="#hidden" type="keywords">Pferdehaarkissen; Federkissen; Flockkissen</ab>
+                      </figure> </egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Das Attribut <att>type</att> des Elements <gi>ab</gi> wurde auf den Wert "<val>keywords</val>" eingeschränkt. Hier wurden Findwörter für Tabellen und Textabbildungen, die Text enthalten aber als Bild umgesetzt wurden, erfasst.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="abbr" module="core" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="name">
+                      <desc>Abkürzungen von Personennamen.</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p>Quecksilber greift auch mit der Zeit Platin an und <hi rendition="#italic">Mann</hi>
+  bringt aus diesem Grunde beide Platindrähte ausserhalb des Quecksilbers an. [...]
+  und zum Quecksilber klein ist.</p> <p rendition="#italic #right"><abbr type="name">Rr.</abbr></p> </egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>das Attribut <att>type</att> des Elementes <gi>abbr</gi> wurde auf den Wert "<val>name</val>" eingeschränkt.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="bibl" module="core" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="source"/>
+                    <valItem ident="undef"/>
+                    <valItem ident="talk"/>
+                    <valItem ident="patent"/>
+                  </valList>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="choice" module="core" mode="change">
+              <exemplum>
+                <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                <egXML xmlns="http://www.tei-c.org/ns/Examples">[...], zum mindesten aber die Verbrauchszeiten <choice><corr type="Druckfehler">wesentlich</corr><sic>wesentlichlich</sic></choice> zu verlängern,[...]</egXML>
+              </exemplum>
+              <remarks>
+                <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Mithilfe des Elements <gi>choice</gi> wurden offensichtliche Druckfehler verbessert und Korrekturen aus Corrigendaverzeichnissen umgesetzt. (Zu dieser Unterscheidung vgl. Restriktionen für das Element <gi>corr</gi>). Der Originalwert der Vorlage wurde jeweils im Element <gi>sic</gi> dokumentiert.</p>
+              </remarks>
+            </elementSpec>
+            <elementSpec ident="corr" module="core" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="corrigenda">
+                      <desc>Korrektur folgt einem Druckfehlerverzeichnis der Druckausgabe. In <att>source</att> wurde die ID der Seite des Verzeichnisses aufgenommen.</desc>
+                    </valItem>
+                    <valItem ident="Druckfehler">
+                      <desc>Korrektur aufgrund eines eindeutigen Druckfehlers.</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <choice> <corr type="corrigenda" source="#pj210_pb480">0,01</corr> <sic>0,1</sic> </choice> </egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Das Attribut <att>type</att> des Elementes <gi>corr</gi> wurde je nach Art der Korrektur näher bestimmt.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="div" module="textstructure" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <!-- front -->
+                    <valItem ident="volume_start">
+                      <desc>Ledereinband, Leerseitenvorlauf</desc>
+                    </valItem>
+                    <valItem ident="preface">
+                      <desc>Vorwort, Einleitung</desc>
+                    </valItem>
+                    <valItem ident="contents">
+                      <desc>Inhaltsverzeichnis</desc>
+                    </valItem>
+                    <valItem ident="dedication">
+                      <desc>Widmungstexte</desc>
+                    </valItem>
+                    <valItem ident="issue_title_line">
+                      <desc>Hefttiteldaten</desc>
+                    </valItem>
+                    <!-- universal -->
+                    <valItem ident="section">
+                      <desc>Textabschnitt innerhalb eines längeren Textes, 1. Ebene</desc>
+                    </valItem>
+                    <valItem ident="subsection">
+                      <desc>Textabschnitt innerhalb eines längeren Textes, 2. Ebene</desc>
+                    </valItem>
+                    <valItem ident="literature">
+                      <desc>Literaturverzeichnis, nicht weiter spezifiziert</desc>
+                    </valItem>
+                    <!-- Textebene -->
+                    <valItem ident="patent">
+                      <desc>Einzelnes Patent</desc>
+                    </valItem>
+                    <valItem ident="continuation">
+                      <desc>Hinweis auf Fortsetzung am Ende von Artikel</desc>
+                    </valItem>
+                    <valItem ident="addendum">
+                    	<desc>Zusätze am Ende von Artikeln, z. B. von Herausgeberseite</desc>
+                    </valItem>
+                    <valItem ident="ad">
+                      <desc>Verlagswerbung, am Ende oder zu Beginn von Heften</desc>
+                    </valItem>
+                    <valItem ident="corrigenda">
+                      <desc>Abschnitt mit Berichtigungen und Angaben zu Druckfehlern</desc>
+                    </valItem>
+                    <valItem ident="misc_undef">
+                      <desc>Miszellen, nicht weiter spezifiziert</desc>
+                    </valItem>
+                    <valItem ident="misc_patents">
+                      <desc>Patentverzeichnis auf Ebene der Miszellen</desc>
+                    </valItem>
+                    <valItem ident="misc_patentlist">
+                      <desc>Patentliste auf Ebene der Miszellen</desc>
+                    </valItem>
+                    <valItem ident="misc_patent_applist">
+                      <desc>Patentliste auf Ebene der Miszellen</desc>
+                    </valItem>
+                    <valItem ident="misc_literature">
+                      <desc>Literaturverzeichnis auf Ebene der Miszellen</desc>
+                    </valItem>
+                    <valItem ident="sec_literature">
+                      <desc>Literaturverzeichnis als Unterabschnitt eines Artikels</desc>
+                    </valItem>
+                    <!-- back -->
+                    <valItem ident="index">
+                    	<desc>Indices u. ä.</desc>
+                    </valItem>
+                    <valItem ident="tab">
+                      <desc>Tafelanhang</desc>
+                    </valItem>
+                    <valItem ident="volume_end">
+                      <desc>Leerseiten, Ledereinband</desc>
+                    </valItem>
+                    <valItem ident="economic_review">
+                      <desc>Wirtschaftliche Rundschau am Ende des Bands.</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi><lb/>Kopfzeilen von Heften</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <div type="issue_title_line">
+                      <pb n="titlepage_recto" facs="32199828Z/00000019" xml:id="pj324_pbtitlepage_recto_053"/>
+                      <head rendition="#center">90. Jahrg., Bd. 324, Heft 1. Berlin, 2. Januar 1909.</head>
+                      <head rendition="#center">DINGLERS<lb/>POLYTECHNISCHES JOURNAL</head>
+                      </div> </egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Die Attribute <att>type</att> und <att>subtype</att> des Elementes <gi>div</gi> wurden über die gelisteten Attributwerte näher klassifiziert (Vgl. jeweils die beigegebenen Definitionen.)</p>
+                  </remarks>
+                </attDef>
+                <attDef ident="subtype" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="english"/>
+                    <valItem ident="french"/>
+                    <valItem ident="american"/>
+                    <valItem ident="italian"/>
+                    <valItem ident="scottish"/>
+                    <valItem ident="prussian"/>
+                    <valItem ident="austrian"/>
+                  </valList>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="figure" module="figures" mode="change">
+              <attList>
+                <attDef ident="rend" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="text">
+                      <desc>Textabbildung, klein</desc>
+                    </valItem>
+                    <valItem ident="full-page">
+                      <desc>Textabbildung, seitenfüllend</desc>
+                    </valItem>
+                    <valItem ident="tab">
+                      <desc>Tafel</desc>
+                    </valItem>
+                    <valItem ident="image_markup">
+                      <desc>Textabbildung, die über weitere Einzelfiguren mit Einzelkoordinaten verfügt.</desc>
+                    </valItem>
+                    <valItem ident="ad">
+                      <desc>Werbung, die als Bild erfasst wurde, zunächst ohne Erfassung von "keywords".</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi><lb/>Beispiel einer Werbeanzeige</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><p>☛ Den beigefügten Prospekt der Firma <hi rendition="#wide">Chr. Berghöfer &amp; Co</hi>. in Cassel empfehlen wir der geneigten Beachtung unserer Leser bestens.</p> <figure rend="ad" xml:id="tx3241376a">
+                      <graphic url="32199828Z/tx3241376a"/>
+                      <figDesc>Textabbildung Bd. 324</figDesc>
+                      </figure></egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Das Attribut <att>rend</att> des Elementes <gi>figure</gi> wurde zur Unterscheidung von Abbildungstypen klassifiziert.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="formula" module="figure" mode="change">
+              <exemplum>
+                <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                <egXML xmlns="http://www.tei-c.org/ns/Examples"> <formula>X=-\frac{G}{g}+\sqrt{\frac{G^2}{g^2}+\frac{1,5\,(M_h-M_v)\,.\,p+G^2}{0,75\,p\,g-g^2}}</formula> </egXML>
+              </exemplum>
+              <remarks>
+                <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Zugunsten eines kürzeren Quelltextes wurde hier TeX-Notation innerhalb von <gi>formula</gi> ohne nähere Bestimmung genutzt. Die ausführliche Schreibweise wäre: <tag>formula notation="tex"</tag></p>
+              </remarks>
+            </elementSpec>
+            <elementSpec ident="hi" module="core" mode="change">
+              <exemplum>
+                <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                <egXML xmlns="http://www.tei-c.org/ns/Examples"><item><hi rendition="#bold">Schaufelradflieger</hi>. (s. Luftschiffahrt)</item></egXML>
+              </exemplum>
+              <remarks>
+                <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Die Attribute <att>rendition</att> und <att>rend</att> des Elementes <gi>hi</gi> finden hier Anwendung. Der Wert von <att>rendition</att> verweist über eine ID auf ein <gi>rendition</gi>-Element im <gi>teiHeader</gi>. Dieser enthält eine CSS-Definition der beschriebenen Hervorhebung im Text.</p>
+              </remarks>
+            </elementSpec>
+            <elementSpec ident="list" module="core" mode="change">
+              <attList>
+                <attDef ident="n" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="Namen-Sachregister">
+                      <desc>Register mit Namen- und Sacheinträgen</desc>
+                    </valItem>
+                    <valItem ident="Namenregister">
+                      <desc>Register enthält ausschließlich Namen</desc>
+                    </valItem>
+                    <valItem ident="Sachregister">
+                      <desc>Register enthält ausschließlich Sacheinträge</desc>
+                    </valItem>
+                    <valItem ident="Nachtrag">
+                      <desc>Nachtragsregister</desc>
+                    </valItem>
+                    <valItem ident="Patentinhaber">
+                      <desc>Register von Patentinhabern</desc>
+                    </valItem>
+                    <valItem ident="Real-Index">
+                      <desc>Register in separat gebundenen Realindices</desc>
+                    </valItem>
+                    <valItem ident="Bücherschau">
+                      <desc>Nicht in Namenregister eingebettetes Register der Bücherschau.</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <list type="index" n="Namenregister" xml:id="reg324001"> <head rendition="#center">Namen-Register.</head><item>
+                        <label rendition="#center"><cb/>A.</label>
+                        <list type="simple">
+                          <item>Abraham, Selbsttätige Ableitung der Flüssigkeiten aus
+                            den Dampfkammern der Verdampfapparate in der Zuckerindustrie * 394.</item>
+                          <item>Adt, Papierrohre 204.</item></list>...</item></list></egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Das Attribut <att>type</att> des Elementes <gi>list</gi> wird hier über die gelisteten Attributwerte zu Typen von Listen näher bestimmt.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="milestone" module="core" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="additional-counting">
+                      <desc>Alternative Zählungen zur Gesamtzählung (Band 1-374 und Jahrgänge 1820-1930)</desc>
+                    </valItem>
+                  </valList>
+                </attDef>
+                <attDef ident="subtype" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="series">
+                      <desc>Alternative Zählung: Reihe/Folge</desc>
+                    </valItem>
+                    <valItem ident="age-group">
+                      <desc>Alternative Zählung der Jahrgänge, chronologisch nach ihrer Reihenfolge</desc>
+                    </valItem>
+                  </valList>
+                </attDef>
+                <attDef ident="unit" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="volume">
+                      <desc>Band</desc>
+                    </valItem>
+                    <valItem ident="issue">
+                      <desc>Heft</desc>
+                    </valItem>
+                  </valList>
+                </attDef>
+              </attList>
+              <exemplum>
+                <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                <egXML xmlns="http://www.tei-c.org/ns/Examples"> <text type="volume" xml:lang="german" n="324" xml:id="pj324">
+                  <milestone type="additional-counting" subtype="age-group" ed="Neunzigster Jahrgang" unit="volume" n="324"/>
+                  <milestone type="additional-counting" subtype="series" ed="Siebente Reihe" unit="volume" n="24"/>
+                  <front> <divGen type="toc"/> <titlePage type="volume">
+                    <docTitle rendition="#center">
+                      <pb n="titlepage_recto" facs="32199828Z/00000005" xml:id="pj324_pbtitlepage_recto_001"/>
+                      <titlePart type="main" rendition="#center">DINGLERS<lb/>Polytechnisches Journal</titlePart>
+                      <titlePart type="sub" rendition="#center">Herausgegeben<lb/>von Geh. Reg.-Rat. Prof. M. Rudeloff in Groß-Lichterfelde W.</titlePart>
+                      <titlePart type="sub" rendition="#center">Dozent an der Königl. Technischen Hochschule zu Berlin.</titlePart>
+                      <titlePart type="year"><hi rendition="#bold">Neunzigster Jahrgang 1909.</hi></titlePart>
+                      <titlePart type="volume" n="324">Band 324.</titlePart>
+                      <titlePart type="sub" rendition="#center">Mit 1379 in den Text gedruckten Abbildungen.</titlePart>
+                    </docTitle>
+                    <docImprint rendition="#center">BERLIN W.<lb/>RICHARD DIETZE, VERLAGSBUCHHANDLUNG<lb/>(Dr. R. DIETZE).</docImprint>
+                    <pb n="titlepage_verso" facs="32199828Z/00000006" xml:id="pj324_pbtitlepage_verso_001"/>
+                    </titlePage>...</front>
+                  </text></egXML>
+              </exemplum>
+              <remarks>
+                <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Das Element <gi>milestone</gi> wird hier genutzt um alternative Zählungen über die Bände fortlaufen zu lassen, auch wenn einige Druckexemplare diese Information nicht selbst enthalten.</p>
+              </remarks>
+            </elementSpec>
+            <elementSpec ident="name" module="core" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="person"/>
+                    <valItem ident="subject"/>
+                    <valItem ident="profession"/>
+                    <valItem ident="journal"/>
+                    <valItem ident="patent"/>
+                  </valList>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="note" module="core" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="open" mode="replace">
+                    <valItem ident="digital_edition">
+                      <desc>Herausgeberanmerkung der digitalen Edition zu Besonderheiten der Druckvorlage.</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <note place="bottom" anchored="true">
+<note type="digital_edition">Anmerkungszeichen zu dieser Fußnote fehlt im Text.</note>
+<pb n="484" facs="32422908Z/00000518" xml:id="pj272_pb484_2"/>
+<p>Ueber Materialprüfungsmaschinen vgl. <hi rendition="#italic">Williamson,</hi> 1882
+<hi rendition="#bold">244</hi> * 41, <hi rendition="#italic">Gravenstaden und Pohlmeyer,</hi> 
+1882 <hi rendition="#bold">245</hi> * 16, <hi rendition="#italic">Thomasset,</hi> 1882 
+<hi rendition="#bold">246</hi> * 27 und <hi rendition="#italic">Emery,</hi> 1889 
+<hi rendition="#bold">271</hi> * <ref target="#pj271_pb442">442</ref>.</p></note></egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Das optionale Attribut <att>type</att> wurde hier genutzt um Herausgeberkommentare zur digitalen Edition von den Anmerkungen der Druckausgabe deutlich abzuheben.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="persName" module="namesdates" mode="change">
+              <attList>
+                <attDef ident="role" mode="change">
+                  <desc/>
+                  <valList type="closed" mode="replace">
+                    <valItem ident="author"/>
+                    <valItem ident="author_add"/>
+                    <valItem ident="author_orig"/>
+                    <valItem ident="editor"/>
+                    <valItem ident="originator"/>
+                    <valItem ident="patent_app"/>
+                    <valItem ident="translator"/>
+                    <valItem ident="subscriber"/>
+                    <valItem ident="undef"/>
+                  </valList>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Definiert die Funktion einer Person innerhalb des Textkontextes.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="pb" module="core" mode="change">
+              <attList>
+                <attDef ident="n" mode="change">
+                  <valList type="open" mode="replace">
+                    <valItem ident="binding_recto">
+                      <desc>Ledereinband-Vorderseite</desc>
+                    </valItem>
+                    <valItem ident="binding_verso">
+                      <desc>Ledereinband-Rückseite</desc>
+                    </valItem>
+                    <valItem ident="interleaf">
+                      <desc>Vakat</desc>
+                    </valItem>
+                    <valItem ident="titlepage_recto">
+                      <desc>Titelseite-Vorderseite</desc>
+                    </valItem>
+                    <valItem ident="titlepage_verso">
+                      <desc>Titelseite-Rückseite</desc>
+                    </valItem>
+                    <valItem ident="ad">
+                      <desc>Werbeseiten, die nicht texterkannt werden</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <div type="contents">
+                      <pb n="III" facs="30130090Z/00000011" xml:id="pj010_pbIII_001"/>
+                      <head rendition="#center #wide">Inhalt des zehnten Bandes.</head>
+                      <list type="simple"> <head rendition="#center #wide">Erstes Heft.</head> <item>
+                        <label>I.</label> Beschreibung der Maschine des Hrn. Bramah zu London zur Erzeugung der
+                        Mineral-Wasser. Von Hrn. <hi rendition="#wide">Hoyau</hi>. Mit Abbildungen auf Tab. I. und II.
+                        <ref target="#ar010001">1</ref>
+                      </item>...</list>
+                      </div></egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Das Attribut <att>n</att> des Elements <gi>pb</gi> wurde genutzt um sowohl die gedruckten Seitenzahlen, als auch wenn kein gedruckter Wert vorlag, eine Bezeichnung für die typisierte erfasste Seite aufzunehmen.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="q" module="core" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="preline">
+                      <desc>Zitat ist durch wiederholende Anführungszeichen am Zeilenanfang gekennzeichnet. </desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p>
+                      <q type="preline">&#x201E;In welchem Abstande, und von welchen Dimensionen, wirken
+                        Gegensta&#x0364;nde dadurch nachtheilig auf Windmu&#x0364;hlen, daß sie diesen
+                        Maschinen den Wind entziehen, und unter welchen Verha&#x0364;ltnissen kann man
+                        solche als nicht nachtheilig ansehn?&#x201C;</q>
+                    </p> </egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Das optionale Attribut <att>type</att> wurde hier genutzt um Zitate zu kennzeichen, die zu Beginn jeder Zeile das Anführungszeichen wiederholen. Da im Projekt Zeilenumbrüche aufgelöst wurden, sind nur das öffnende und das schließende Anführungszeichen übernommen worden.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="table" module="figures" mode="change">
+              <attList>
+                <attDef ident="rend" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="boxed">
+                      <desc>Tabellen die in der Vorlage mit klarem Raster, bzw. Rahmen ausgestattet sind. Strukturiert komplexe Tabelleninhalte</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <table rend="boxed" cols="7" rows="4"> <row role="label"> <cell rows="2" rendition="#center"><lb/><lb/>Blech-<lb/>stärke<lb/><lb/><lb/>mm</cell> <cell cols="2" rendition="#center"><lb/>Nicht geschweißtes<lb/>Blech</cell> <cell cols="2" rendition="#center">Mit Sauerstoff und<lb/>Azetylen<lb/>geschweiſstes Blech</cell> <cell cols="2" rendition="#center">Festigkeit und Dehnung<lb/>des geschweiſsten Bleches<lb/>in v.H. des vollen Bleches</cell> </row> <row role="label"> <cell rendition="#center">Spezifische<lb/>Bruch-<lb/>festigkeit<lb/>kg/qmm</cell> <cell rendition="#center">Bruch-<lb/>dehnung<lb/><lb/>v.H.</cell> <cell rendition="#center">Spezifische<lb/>Bruch-<lb/>festigkeit<lb/>kg/qmm</cell> <cell rendition="#center">Bruch-<lb/>dehnung<lb/><lb/>v.H.</cell> <cell rendition="#center">Bruch-<lb/>festigkeit<lb/>auf 1 qmm<lb/>Querschnitt</cell> <cell rendition="#center"><lb/>Bruch-<lb/>dehnung</cell> </row> <row> <cell rendition="#center">  3<lb/>  5<lb/>    6,5<lb/>  8<lb/>10</cell> <cell rendition="#center">   33,6<lb/>   32,9<lb/>   35,6<lb/>   34,4<lb/>37</cell> <cell rendition="#center">29,1<lb/>31,6<lb/>35,6<lb/>29,6<lb/>29,2</cell> <cell rendition="#center">  27,1<lb/>32<lb/>  33,7<lb/>  21,7<lb/>  18,8</cell> <cell rendition="#center">1<lb/>9<lb/>   7,5<lb/>1<lb/>   4,5</cell> <cell rendition="#center">81<lb/>97<lb/>95<lb/>63<lb/>51</cell> <cell rendition="#center">    3,5<lb/>  28,5<lb/>21<lb/>    3,5<lb/>  15,5</cell> </row> <row> <cell/> <cell/> <cell/> <cell cols="2" rendition="#right">Im Mittel</cell> <cell rendition="#center"><hi rendition="#bold">  77,5</hi></cell> <cell rendition="#center"><hi rendition="#bold">  14,5</hi></cell> </row> </table> </egXML>
+                  </exemplum>
+                </attDef>
+              </attList>
+            </elementSpec>
+
+            <elementSpec ident="text" module="textstructure" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="volume">
+                      <desc>Einzelband</desc>
+                    </valItem>
+                    <valItem ident="issue">
+                      <desc>Einzelheft</desc>
+                    </valItem>
+                    <valItem ident="ri_partition">
+                      <desc>Abtheilungen in den Realindices</desc>
+                    </valItem>
+                    <valItem ident="art_undef">
+                      <desc>Nicht weiter spezifizierter Artikel</desc>
+                    </valItem>
+                    <valItem ident="art_patent">
+                      <desc>Artikel als Besprechung eines Patents</desc>
+                    </valItem>
+                    <valItem ident="art_patents">
+                      <desc>Patentverzeichnis auf Artikelebene</desc>
+                    </valItem>
+                    <valItem ident="art_patentlist">
+                      <desc>Patentliste auf Artikelebene</desc>
+                    </valItem>
+                    <valItem ident="art_literature">
+                      <desc>Literaturverzeichnis auf Artikelebene</desc>
+                    </valItem>
+                    <valItem ident="art_miscellanea">
+                      <desc>Miszellen</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"><text type="issue" n="1" xml:id="is120001">
+                      <milestone type="additional-counting" subtype="age-group" ed="Achtzehnter Jahrgang" unit="issue" n="1"/>
+                      <front>
+                        <pb n="1" facs="30148338Z/00000019" xml:id="pj120_pb001"/>
+                        <titlePart type="main" rendition="#center">Polytechnisches Journal.</titlePart>
+                        <titlePart type="sub" rendition="#center"><hi rendition="#wide">Zweiunddreißigster Jahrgang</hi>.</titlePart>
+                        <titlePart type="sub" rendition="#center"><hi rendition="#wide">Siebentes Heft</hi>.</titlePart>
+                      </front>
+                      <group>
+                        <text type="art_undef" n="001" xml:id="ar120001">[...]</text>
+                      </group>
+                      </text></egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Das <gi>text</gi>-Element wird auf Band-, Heft- und Artikelebene genutzt. Der Einsatz wird durch das <att>type</att>-Attribut näher bestimmt (Liste der "Legal values").</p>
+                  </remarks>
+                </attDef>
+                <attDef ident="subtype" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="publ_primary"/>
+                    <valItem ident="publ_secondary"/>
+                    <valItem ident="english"/>
+                    <valItem ident="french"/>
+                    <valItem ident="american"/>
+                    <valItem ident="italian"/>
+                    <valItem ident="scottish"/>
+                    <valItem ident="prussian"/>
+                    <valItem ident="austrian"/>
+                  </valList>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="titlePage" module="textstructure" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="volume">
+                      <desc>Einzelbandtitelbaltt in der Logik der fortlaufenden Bandzählung</desc>
+                    </valItem>
+                    <valItem ident="series">
+                      <desc>Einzelbandtitelblatt in der Logik der Reihen-/Folgenzählung</desc>
+                    </valItem>
+                    <valItem ident="issue">
+                      <desc>Titelblatt des Heftes</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <titlePage type="series">
+                      <docTitle rendition="#center">
+                        <pb n="titlepage_recto" facs="32422908Z/00000008" xml:id="pj272_pbtitlepage_recto_001"/>
+                        <titlePart type="main" rendition="#center">Dingler's<lb/> Polytechnisches Journal.</titlePart>
+                        <titlePart type="sub" rendition="#center"> Unter Mitwirkung von<lb/> Professor Dr. C. Engler in Karlsruhe<lb/>
+herausgegeben von<lb/> Ingenieur A. Hollenberg und Docent Dr. H. Kast<lb/>   in Stuttgart.                in Karlsruhe.</titlePart>
+                        <titlePart type="volume" n="272"> Sechste Reihe. Zweiundzwanzigster Band.</titlePart>
+                        <titlePart type="year"> <hi rendition="#wide">Jahrgang 1889</hi>.</titlePart>
+                        <titlePart type="sub" rendition="#center"> Mit 142 in den Text gedruckten und 30 Tafeln Abbildungen. </titlePart>
+                      </docTitle>
+                      <docImprint rendition="#center"> <hi rendition="#bold">Stuttgart</hi>.<lb/> Verlag der J. G. Cotta'schen
+  Buchhandlung Nachfolger.</docImprint>
+                      </titlePage> <titlePage type="volume">
+                      <docTitle rendition="#center">
+                        <pb n="titlepage_recto" facs="32422908Z/00000009" xml:id="pj272_pbtitlepage_recto_002"/>
+                        <titlePart type="main" rendition="#center">Dingler's<lb/> Polytechnisches Journal.</titlePart>
+                        <titlePart type="sub" rendition="#center"> Unter Mitwirkung von<lb/> Professor Dr. C. Engler in Karlsruhe<lb/>
+  herausgegeben von<lb/> Ingenieur A. Hollenberg und Docent Dr. H. Kast<lb/>   in Stuttgart.                in
+  Karlsruhe.</titlePart>
+                        <titlePart type="volume" n="272"> Zweihundertzweiundsiebenzigster Band.</titlePart>
+                        <titlePart type="year" n="1889"> <hi rendition="#wide">Jahrgang 1889</hi>.</titlePart>
+                        <titlePart type="sub" rendition="#center"> Mit 142 in den Text gedruckten und 30 Tafeln Abbildungen. </titlePart>
+                      </docTitle>
+                      <docImprint rendition="#center"> <hi rendition="#bold">Stuttgart</hi>.<lb/> Verlag der J. G. Cotta'schen
+  Buchhandlung Nachfolger.</docImprint>
+                      <pb n="titlepage_verso" facs="32422908Z/00000010" xml:id="pj272_pbtitlepage_verso_001"/>
+                      </titlePage></egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Unterschieden werden drei Typen von Titelblättern, definiert über die obige Liste von zugelassenen Werten.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="titlePart" module="textstructure" mode="change">
+              <attList>
+                <attDef ident="type" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="main">
+                      <desc>Hauptitel auf Band- oder Artikelebene</desc>
+                    </valItem>
+                    <valItem ident="volume">
+                      <desc>Textzeile(n) mit Angabe der Bandnummer – in Attribut <att>n</att> die Zahl aufnehmen</desc>
+                    </valItem>
+                    <valItem ident="year">
+                      <desc>Textzeile zum Erscheinungsjahr, in Attribut <att>n</att> das Jahr aufnehmen</desc>
+                    </valItem>
+                    <valItem ident="number">
+                      <desc>Römische Nummer der Artikel</desc>
+                    </valItem>
+                    <valItem ident="sub">
+                      <desc>Titelzeile, nicht weiter definiert</desc>
+                    </valItem>
+                    <valItem ident="column">
+                      <desc>Kurztitel, der in Kolumne verwandt wird</desc>
+                    </valItem>
+                    <valItem ident="series">
+                      <desc>Textzeile(n) mit Angabe der Reihennummer – in Attribut <att>n</att> die Zahl aufnehmen</desc>
+                    </valItem>
+                    <valItem ident="series_number">
+                      <desc>Textzeile(n) mit Angabe der Bandnummer innerhalb der Reihe – in Attribut <att>n</att> die Zahl aufnehmen</desc>
+                    </valItem>
+                    <valItem ident="partition">
+                      <desc>Section in Realindices (wird in METS/MODS-Transformation genutzt)</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi></p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <text type="art_undef" n="1" xml:id="ar324001"> <front>
+                      <titlePart type="main" rendition="#center">Deutsche Verladevorrichtungen für Kohlen und Erz.</titlePart>
+                      <titlePart type="sub" rendition="#center">Von Ingenieur <hi rendition="#bold">K. Drews</hi>, Posen.</titlePart>
+                      <titlePart type="column">Deutsche Verladevorrichtungen für Kohlen und Erz.</titlePart>
+                      </front>...</text></egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>Klassifizierung der Titelinformationen der einzelnen Artikel über definierte Werte auf obiger Liste.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+            <elementSpec ident="unclear" module="core" mode="change">
+              <attList>
+                <attDef ident="reason" mode="change">
+                  <valList type="closed" mode="replace">
+                    <valItem ident="illegible">
+                      <desc>In der Druckvorlage unleserliche Textbereiche</desc>
+                    </valItem>
+                    <valItem ident="misprint">
+                      <desc>In der Druckvorlage fehlerhaft gedruckte Textbereiche</desc>
+                    </valItem>
+                    <valItem ident="damage">
+                      <desc>In der Druckvorlage beschädigte Textbereiche</desc>
+                    </valItem>
+                  </valList>
+                  <exemplum>
+                    <p><hi rendition="#bold">Beispiel aus dem Polytechnischen Journal:</hi><lb/>
+                  In der Vorlage unleserliche Stellen</p>
+                    <egXML xmlns="http://www.tei-c.org/ns/Examples"> <p>Die um <unclear reason="damage"><gap/></unclear> 50 Minuten angeheizte
+                        Maschine wurde von 10 Uhr 16 Minuten bis 
+                        <unclear reason="damage"><gap/></unclear> Uhr 16  Minuten mit einer 
+                        <hi rendition="#italic">Brauer'</hi>schen Bremse nach Abstellung des 
+                        <unclear reason="illegible">Regu</unclear>lators gebremst. Die Beschickung des
+                    Ofens erfolgte durch einen französischen Heizer mit abgewogenem Brennstoff.</p></egXML>
+                  </exemplum>
+                  <remarks>
+                    <p><hi rendition="#bold">Projektspezifische Restriktionen/Definitionen:</hi><lb/>das Element wurde projektübergreifend genutzt um unleserliche/beschädigte Stellen in der Druckvorlage zu kennzeichnen und über die gelisteten Attributwerte näher zu klassifizieren.</p>
+                  </remarks>
+                </attDef>
+              </attList>
+            </elementSpec>
+          </schemaSpec>
+        </div>
+      </div>
+      <div xml:id="danksagung">
+        <head>Danksagung</head>
+        <p>Diese Datei basiert auf den Errungenschaften der <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html"><title>TEI Guidelines</title></ref> und der hier angebotenen Tools und Mailinglisten.</p>
+        <p>Many thanks to the institutions and individuals responsible for sharing
+          their experience and expertise for the benefit of the TEI community at large.</p>
+      </div>
+    </back>
+  </text>
+</TEI>

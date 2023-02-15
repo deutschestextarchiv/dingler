@@ -6,6 +6,11 @@ DFG project “Digitalisierung des Polytechnischen Journals”.
 NB: **Any facsimile images and generated content to run a website are
 not included.**
 
+## Known issues
+
+- [ ] faksimiles for vol. 8 are missing
+- [ ] index page for vol. 337 is borked
+
 ## A website with minimal requirements
 
 ## Prerequisites to generate a static website
@@ -120,6 +125,8 @@ Alias /dingler /var/www/dingler/web/site
 
 - [ ] GND/BEACON file
 - [ ] list of curious articles
+- [ ] 404 page
+- [ ] use dwds.de search API
 
 ## Directory structure
 

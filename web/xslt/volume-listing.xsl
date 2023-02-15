@@ -31,9 +31,8 @@
             <div class="row">
               <div class="col-lg-8 col-md-12 tei mx-auto">
                 <h1>Übersicht Bände</h1>
-
                 <ul>
-                  <xsl:for-each select="//t:teiHeader">
+                  <xsl:for-each select="t:teiHeader">
                     <li>
                       <a href="{$base}volumes/{@xml:id}.html"><xsl:value-of select="current()//t:bibl[@type='J']"/></a>
                     </li>

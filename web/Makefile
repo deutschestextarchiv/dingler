@@ -6,7 +6,7 @@ XSLT_FILES := $(wildcard $(MKFILE_DIR)xslt/*.xsl)
 XSLT_DIR   := $(MKFILE_DIR)/xslt
 
 #######################
-all: documentation volumes volume-index articles
+all: documentation volumes volume-index article-listings articles tabs
 
 #######################
 # documentation
@@ -18,7 +18,11 @@ DOC_FILES    := $(wildcard $(DOC_DIR)/*.html)
 documentation: $(subst $(DOC_DIR),$(DOC_OUTDIR),$(DOC_FILES))
 
 $(DOC_OUTDIR)/%.html: $(DOC_DIR)/%.html $(XSLT_FILES)
-	xsltproc $(MKFILE_DIR)xslt/documentation.xsl $< > $@
+	xsltproc --stringparam page "$(notdir $<)" $(MKFILE_DIR)xslt/documentation.xsl $< > $@
+
+.PHONY: encoding
+encoding: $(DOC_DIR)/encoding.xml $(XSLT_FILES)
+	 saxonb-xslt -ext:on $< $(MKFILE_DIR)xslt/encoding.xsl > $(DOC_OUTDIR)/encoding.html
 
 #######################
 # volumes
@@ -34,8 +38,21 @@ $(VOLUMES_FILES): | $(VOLUMES_OUTDIR)
 $(VOLUMES_OUTDIR):
 	mkdir -p $(VOLUMES_OUTDIR)
 
-$(VOLUMES_OUTDIR)/%.html: $(VOLUMES_DIR)/%.xml
+$(VOLUMES_OUTDIR)/%.html: $(VOLUMES_DIR)/%.xml $(XSLT_FILES)
 	xsltproc $(MKFILE_DIR)xslt/volume.xsl $< > $@
+
+#######################
+# article listings per volume
+ARTICLE_LISTINGS_OUTDIR := $(MKFILE_DIR)site/article-listings
+
+.PHONY: article-listings
+article-listings: $(subst $(VOLUMES_DIR),$(ARTICLE_LISTINGS_OUTDIR),$(VOLUMES_FILES:.xml=.html)) $(XSLT_FILES)
+
+$(ARTICLE_LISTINGS_OUTDIR):
+	mkdir -p $(ARTICLE_LISTINGS_OUTDIR)
+
+$(ARTICLE_LISTINGS_OUTDIR)/%.html: $(VOLUMES_DIR)/%.xml $(XSLT_FILES)
+	xsltproc $(MKFILE_DIR)xslt/article-listing.xsl $< > $@
 
 #######################
 # volume index
@@ -65,5 +82,27 @@ $(ARTICLES_FILES): | $(ARTICLES_OUTDIR)
 $(ARTICLES_OUTDIR):
 	mkdir -p $(ARTICLES_OUTDIR)
 
-$(ARTICLES_OUTDIR)/%.html: $(ARTICLES_DIR)/%.xml
+$(ARTICLES_OUTDIR)/%.html: $(ARTICLES_DIR)/%.xml $(XSLT_FILES)
 	xsltproc $(MKFILE_DIR)xslt/article-full.xsl $< > $@
+
+#######################
+# tabs
+.PHONY: tabs
+TABS_OUTDIR := $(MKFILE_DIR)site/tabs
+tabs:	
+	for i in $(VOLUMES_DIR)/*/*.xml; \
+	  do b=`basename "$$i" .xml`; \
+	  xsltproc $(MKFILE_DIR)xslt/imt.xsl "$$i" > $(TABS_OUTDIR)/"$$b".html; \
+	done; \
+
+#######################
+# person register
+.PHONY: person-register
+person-register: $(MKFILE_DIR)../sources/database/persons/persons.xml $(MKFILE_DIR)xslt/persons.xsl
+	saxonb-xslt -ext:on $(MKFILE_DIR)../sources/database/persons/persons.xml $(MKFILE_DIR)xslt/persons.xsl > $(MKFILE_DIR)site/persons/index.html
+
+#######################
+# journal register
+.PHONY: journal-register
+journal-register: $(MKFILE_DIR)../sources/database/journals/journals.xml $(MKFILE_DIR)xslt/journals.xsl
+	saxonb-xslt -ext:on $(MKFILE_DIR)../sources/database/journals/journals.xml $(MKFILE_DIR)xslt/journals.xsl > $(MKFILE_DIR)site/journals/index.html
