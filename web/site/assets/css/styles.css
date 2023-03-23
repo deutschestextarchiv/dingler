@@ -146,6 +146,7 @@ a:hover { text-decoration:underline }
 .tei-lb::after      { content:"\a "; display:block }
 .tei-lg             { margin:1rem 2rem; display:block }
 .tei-list           { margin:1rem 1rem; display:block; list-style-type:none }
+.tei-list .tei-list { margin:0 1rem }
 .tei-listBibl       { margin:1rem 1rem; display:block; list-style-type:none }
 .tei-listBibl > .tei-bibl { display:list-item; text-indent:-2rem; margin-left:2rem }
 .tei-milestone      { display:block; border-bottom:1px solid #aaa; margin:2rem 0 }

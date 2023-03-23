@@ -4,6 +4,7 @@ $( function() {
 
   // link to page images
   // no image is provided for binding and interleaf pages
+  /*
   $('.tei-pb[data-facs]').not('[data-n^="binding"]').not('[data-n^="interleaf"]').append( function(i, str) {
     let facs = $(this).data('facs')
     let n    = $(this).data('n')
@@ -16,7 +17,7 @@ $( function() {
                 Faksimile ${Number.isInteger(n) != 0 ? 'S. ' + n : n}
               </figcaption>
             </figure>`
-  })
+  })*/
 
   // choice/sic|corr
   $('.tei-choice').html( function() {
@@ -61,7 +62,7 @@ $( function() {
     return ret
   })
 
-  // footnotes: TODO
+  // footnotes
   $('.tei-note[data-place="bottom"]').before( function() {
     let el = $(this)
     el.hide()
@@ -124,6 +125,10 @@ $( function() {
           target: '_blank'
         })
       })
+    }
+    // … to pages within volumes
+    else if ( target.search(/^\.\..*?#pj.*?_.*?$/) > -1 ) {
+      // do nothing here, these references must be adjusted
     }
     // … to articles
     else {

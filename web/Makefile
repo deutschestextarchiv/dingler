@@ -86,6 +86,10 @@ $(ARTICLES_OUTDIR)/%.html: $(ARTICLES_DIR)/%.xml $(XSLT_FILES)
 	xsltproc $(MKFILE_DIR)xslt/article-full.xsl $< > $@
 
 #######################
+# page mapping
+
+
+#######################
 # tabs
 .PHONY: tabs
 TABS_OUTDIR := $(MKFILE_DIR)site/tabs

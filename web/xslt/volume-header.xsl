@@ -17,7 +17,6 @@
       </xsl:for-each>
       <xsl:for-each select="current()/t:surname">
         <xsl:apply-templates select="current()"/>
-        <xsl:text> </xsl:text>
       </xsl:for-each>
       <xsl:if test="starts-with(current()/@ref, 'https://d-nb.info/gnd/')">
         <xsl:text> [</xsl:text>
@@ -64,6 +63,12 @@
             <a href="http://digital.slub-dresden.de/id{$barcode}">Digitale Sammlungen (SLUB)</a>
             |
             <a href="{$base}xml/volumes/{$volume-id}.xml">TEI-XML</a>
+          </td>
+        </tr>
+        <tr>
+          <td>Barcode SLUB:</td>
+          <td>
+            <xsl:value-of select="$barcode"/>
           </td>
         </tr>
       </table>

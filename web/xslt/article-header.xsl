@@ -99,12 +99,25 @@
             <xsl:value-of select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:biblFull/t:seriesStmt/t:biblScope[@unit='pages']"/>
           </td>
         </tr>
-        <tr>
-          <td>Download:</td>
-          <td>
-            <a href="{$base}xml/articles/{//t:text[1]/@xml:id}.xml">XML</a>
-          </td>
-        </tr>
+        <xsl:variable name="article-id">
+          <xsl:choose>
+            <xsl:when test="//t:text[1]/@xml:id">
+              <xsl:value-of select="//t:text[1]/@xml:id"/>
+            </xsl:when>
+            <xsl:when test="//t:list[@type='index' and @xml:id][1]">
+              <xsl:value-of select="//t:list[@type='index' and @xml:id][1]/@xml:id"/>
+            </xsl:when>
+            <xsl:otherwise>0</xsl:otherwise>
+          </xsl:choose>
+        </xsl:variable>
+        <xsl:if test="$article-id != 0">
+          <tr>
+            <td>Download:</td>
+            <td>
+              <a href="{$base}xml/articles/{$article-id}.xml">XML</a>
+            </td>
+          </tr>
+        </xsl:if>
       </table>
     </div>
   </xsl:template>
