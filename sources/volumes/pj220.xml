@@ -35969,7 +35969,6 @@
         <head rendition="#center">1876.<lb/>Namen- und Sachregister<lb/>des<lb/>220. Bandes
 					von Dingler's polytechnischem Journal.</head>
         <p rendition="#center"><hi rendition="#superscript">*</hi> bedeutet: Mit Abbild.</p>
-        <div type="index">
           <list type="index" n="Namenregister" xml:id="reg220001">
             <head rendition="#center">
               <hi rendition="#bold">Namenregister.</hi>
@@ -36354,11 +36353,9 @@
                 <item><hi rendition="#wide">Zmerzlikar</hi>, Brauproceß <ref target="../pj220/32422722Z.xml#pj220_pb070">70</ref>.</item>
               </list>
             </item>
-          </list>
-        </div>
-        <div type="index">
-          <head rendition="#center">Sachregister.</head>
+          </list>          
           <list type="index" n="Sachregister" xml:id="reg220002">
+          	<head rendition="#center">Sachregister.</head>
             <item>
               <list type="simple">
                 <item><hi rendition="#bold">Abdampfen</hi>. Faure und Keßler's
@@ -37416,7 +37413,6 @@
               </list>
             </item>
           </list>
-        </div>
       </div>
       <div type="ad">
         <pb n="[ad]" facs="32422722Z/00000625" xml:id="pj220_pbad_023"/>
