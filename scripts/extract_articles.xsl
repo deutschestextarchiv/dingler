@@ -102,6 +102,44 @@
     </xsl:result-document>
   </xsl:template>
 
+  <!-- indices -->
+  <xsl:template match="//t:div[@type='index']">
+    <xsl:variable name="outfile">
+      <xsl:value-of select="$outdir"/>
+      <xsl:text>/</xsl:text>
+      <xsl:choose>
+        <xsl:when test="@xml:id">
+          <xsl:value-of select="@xml:id"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="t:list[@type='index' and @xml:id][1]/@xml:id"/>
+        </xsl:otherwise>
+      </xsl:choose>
+      <xsl:text>.xml</xsl:text>
+    </xsl:variable>
+
+    <xsl:variable name="page">
+      <xsl:call-template name="start-page"/>
+    </xsl:variable>
+
+    <xsl:apply-templates/>
+
+    <xsl:result-document href="{$outfile}">
+      <xsl:processing-instruction name="xml-model">href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
+      <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <xsl:apply-templates select="/t:TEI/t:teiHeader">
+          <xsl:with-param name="title-main">
+            <xsl:sequence select="t:head"/>
+          </xsl:with-param>
+          <xsl:with-param name="page" select="$page//@n"/>
+        </xsl:apply-templates>
+        <xsl:call-template name="text">
+          <xsl:with-param name="page" select="$page"/>
+        </xsl:call-template>
+      </TEI>
+    </xsl:result-document>
+  </xsl:template>
+
   <!-- change <title> -->
   <xsl:template match="t:titleStmt/t:title"/>
   <xsl:template match="t:titleStmt">
