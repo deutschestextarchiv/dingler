@@ -12,8 +12,6 @@ VOLUMES_FILES  := $(wildcard $(VOLUMES_DIR)/*.xml)
 
 .PHONY: articles
 articles: $(subst pj, article-extraction-, $(VOLUMES_FILES:.xml=))
-	@echo $<
-	@echo $?
 
 article-extraction-%: $(VOLUMES_DIR)/pj%.xml
 	@mkdir -p $(ARTICLES_DIR)
