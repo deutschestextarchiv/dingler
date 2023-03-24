@@ -1,8 +1,4 @@
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1"
-                xmlns:t="http://www.tei-c.org/ns/1.0"
-                exclude-result-prefixes="t"
-                xpath-default-namespace="http://www.tei-c.org/ns/1.0">
-
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1">
   <xsl:import href="wrapper.xsl"/>
 
   <xsl:variable name="force-exclude-all-namespaces" select="true()"/>

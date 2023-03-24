@@ -5,7 +5,7 @@
 
   <xsl:output method="html"/>
 
-  <xsl:variable name="base" select="'http://localhost/dingler/'"/>
+  <xsl:param name="base" select="'http://localhost/dingler/'"/>
 
   <!-- <!DOCTYPE html> declaration -->
   <xsl:template name="doctype">
@@ -20,14 +20,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title><xsl:value-of select="$title"/> – Polytechnisches Journal</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    <link href="{$base}assets/bootstrap/bootstrap.min.css" rel="stylesheet"/>
 
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-      });
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+          fontCache: 'global'
+        }
+      }
     </script>
-    <script type="text/javascript" async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script type="text/javascript" async="async" src="{$base}assets/js/MathJax/es5/tex-chtml.js" id="MathJax-script"></script>
 
     <link href="{$base}assets/css/styles.css" rel="stylesheet"/>
   </xsl:template>
@@ -102,9 +107,9 @@
   </xsl:template>
 
   <xsl:template name="html-footer">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="{$base}assets/bootstrap/popper.min.js"></script>
+    <script src="{$base}assets/bootstrap/bootstrap.min.js"></script>
+    <script src="{$base}assets/js/jquery-3.6.1.min.js"></script>
     <script src="{$base}assets/js/scripts.js"></script>
   </xsl:template>
 

@@ -11,7 +11,7 @@
   <xsl:variable name="volume-id" select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:biblFull/t:seriesStmt/t:title[@type='main']/@xml:id"/>
   <xsl:variable name="barcode" select="substring-before(/t:TEI/t:text[1]//t:pb[1]/@facs, '/')"/>
 
-  <xsl:output method="html"/>
+  <xsl:output method="html" media-type="text/html"/>
 
   <xsl:template match="/">
     <xsl:apply-templates/>
