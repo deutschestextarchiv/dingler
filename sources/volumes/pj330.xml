@@ -211,8 +211,8 @@
         <rendition xml:id="bold" scheme="css">font-weight: bold</rendition>
         <rendition xml:id="italic" scheme="css">font-style: italic</rendition>
         <rendition xml:id="no_indent" scheme="css">text-indent: none;</rendition>
-        <rendition xml:id="indent-1" scheme="css">text-indent:_1em;</rendition>
-        <rendition xml:id="indent-2" scheme="css">margin-left: 2em; text-indent:_1em;</rendition>
+        <rendition xml:id="indent-1" scheme="css">text-indent: -1em;</rendition>
+        <rendition xml:id="indent-2" scheme="css">margin-left: 2em; text-indent: -1em;</rendition>
         <rendition xml:id="right" scheme="css">text-align: right;</rendition>
         <rendition xml:id="left" scheme="css">text-align: left;</rendition>
         <rendition xml:id="l1em" scheme="css">margin-left: 1em;</rendition>
@@ -1653,7 +1653,7 @@
               <item><hi rendition="#bold">Messung.</hi> (s. Bergbau, Schiffbau.)</item>
               <item><hi rendition="#bold">Meßvorrichtung.</hi> Apparat zum Messen und Prüfen von
 								Zahnrädern <ref target="../pj330/32199907Z.xml#pj330_pb173">173</ref> *.<list><item>– Dynamometerwagen <ref target="../pj330/32199907Z.xml#pj330_pb111">111</ref>.</item><item>– Falsche und richtige Verwendung von Meßdosen <ref target="../pj330/32199907Z.xml#pj330_pb213">213</ref> *.</item><item>– Gasmesser <ref target="../pj330/32199907Z.xml#pj330_pb406">406</ref> *.</item><item>– Ueber das Messen der Ungleichförmigkeit von Drehbewegungen. Von Johs. A. F.
-										Engel in Hamburg <ref target="../pj330/32199907Z.xml#pj330_pb208">208</ref> *.</item><item>– Ueber das Messen des Ungleichförmigkeitsgrades. Von Julius von Rohonyi <ref target="../pj330/32199907Z.xml#pj330_pb441">441</ref> *.</item><item>– Wirbelstrom-Tachometer und_Tachographen <ref target="../pj330/32199907Z.xml#pj330_pb055">55</ref>.</item></list>
+										Engel in Hamburg <ref target="../pj330/32199907Z.xml#pj330_pb208">208</ref> *.</item><item>– Ueber das Messen des Ungleichförmigkeitsgrades. Von Julius von Rohonyi <ref target="../pj330/32199907Z.xml#pj330_pb441">441</ref> *.</item><item>– Wirbelstrom-Tachometer und -Tachographen <ref target="../pj330/32199907Z.xml#pj330_pb055">55</ref>.</item></list>
 							</item>
               <item><hi rendition="#bold">Metallbearbeitung.</hi> Apparat zum Balligdrehen <ref target="../pj330/32199907Z.xml#pj330_pb154">154</ref> *.<list><item>– Die größte Karusselldrehbank Amerikas <ref target="../pj330/32199907Z.xml#pj330_pb191">191</ref> *.</item></list>
 							</item>
@@ -2633,7 +2633,7 @@
 									derartigen Baues ist in <ref target="#tx330028a">Abb. 1</ref> wiedergegeben, welche
 									die gelenkartige Verbindung von Türstock und Kappe deutlich erkennen läßt.</p>
                 <p>Ein weiterer Fortschrit zeigte sich in der Verwendung von Betonplatten als Verzug an
-									Stelle der Holzscheite. Die jüngste Ausbildung der Betonstempel und_Kappen ist
+									Stelle der Holzscheite. Die jüngste Ausbildung der Betonstempel und -Kappen ist
 									aus <ref target="#tx330028b">Abb. 2</ref> ersichtlich.</p>
                 <figure rend="text" xml:id="tx330028b">
                   <graphic url="32199907Z/tx330028b"/>
@@ -2663,7 +2663,7 @@
 									zuweilen die Nachgiebigkeit durch Hinterfüllung von Bruchholz oder durch Einbau von
 									Holzscheiten zu erhöhen versucht.</p>
                 <p>In Strecken ist die Verwendungsmöglichkeit des Ausbaues in Betonstempeln
-									und_Kappen unbeschränkt, Der oben bezeichnete vorläufige Ausbau in Holz wird
+									und -Kappen unbeschränkt, Der oben bezeichnete vorläufige Ausbau in Holz wird
 									überflüssig, da die Aufstellung der über Tage hergestellten Betonbaue der Arbeit vor
 									Ort unmittelbar folgen kann. Die Feuersicherheit erfährt eine erhebliche Steigerung.
 									Als Nachteile ergeben sich das beträchtliche Gewicht und die damit verbundenen hohen
@@ -5470,7 +5470,7 @@
 								das komprimierte und gelöste Azetylen – Die Fernversorgung mit Koksofengas – Die
 								Entwicklung der Lindeschen Gasgewinnungsverfahren – Reinigung von Rauch- und sonstigen
 								Abgasen, Niederschlagen von Abdämpfen, ihre Verwertung unter Gewinnung von
-								Nebenprodukten – Wirbelstrom – Tachometer und_Tachographen – Untersuchung an einem
+								Nebenprodukten – Wirbelstrom-Tachometer und -Tachographen – Untersuchung an einem
 								15 PS-Dieselmotor – Ueber die Verwendbarkeit der autogenen und elektrischen
 								Schweißverfahren an Dampfkesseln – Mitteilungen der Aeltesten der Kaufmannschaft<cb/>von
 								Berlin – Verein Deutscher Werkzeugmaschinen-Fabriken – Auszeichnung auf der Baltischen
@@ -5844,7 +5844,7 @@
 									Hub gleichwertig ist. Legt man eine geringere Anzahl von größeren Zylindern der
 									Viertaktmaschine gleicher Leistung zu Grunde, so werden die Gewichtsverhältnisse für
 									dieselbe noch ungünstiger, woraus die Ueberlegenheit der <hi rendition="#wide">Fullagar</hi>-Maschine in dieser Hinsicht deutlich hervorgeht. Hinsichtlich der
-									Wärmebeanspruchung und_Abfuhr bietet der beiderseits offene Doppelzylinder
+									Wärmebeanspruchung und -Abfuhr bietet der beiderseits offene Doppelzylinder
 									gegenüber allen anderen Bauarten unbestritten die größten Vorteile. Die Zylinder der
 										<hi rendition="#wide">Fullagar</hi>-Maschine stellen einfache glatte Röhren dar,
 									die an einem <pb n="46" facs="32199907Z/00000078" xml:id="pj330_pb046"/></p>
@@ -6599,7 +6599,7 @@
                 <p rendition="#right"><hi rendition="#wide">Georgius</hi>.</p>
               </div>
               <div type="section">
-                <p><hi rendition="#bold">Wirbelstrom-Tachometer und_Tachographen,</hi> Die
+                <p><hi rendition="#bold">Wirbelstrom-Tachometer und -Tachographen,</hi> Die
 									Erkennung und fortlaufende Kontrolle der Umdrehungszahl vieler Verkehrs- oder
 									Industriemaschinen ist oftmals eine Frage von größter Wichtigkeit. Kein Flugzeug
 									beispielsweise, keine Papiermaschine kann einen zuverlässigen Anzeiger der
@@ -7173,7 +7173,7 @@
 									Hundert Kilometern einheitlich zu leiten, ist für den Heerführer aber nur möglich,
 									wenn er die gesamte aufgerollte Schlachtfront ständig <q>„sieht“</q> und wenn er
 									fortlaufend mit jedem einzelnen Punkt <q>„sprechen“</q> kann. Letzteres vermittelt
-									in erster Linie die Feldtelegraphie und_Telephonie mit und ohne Draht, weiter
+									in erster Linie die Feldtelegraphie und -Telephonie mit und ohne Draht, weiter
 									die Flieger, Autos und Radfahrer sowie die Meldereiter; ersterem Zweck dienen die
 									Kavallerie- und Infantriepatrouillen und als eigentliches <q>„Auge“</q> ist im
 									modernen Feldzug das Luftfahrtwesen hinzugekommen. Vermag der Flugdienst schon für
@@ -7416,7 +7416,7 @@
 									daher fast stets über 150 km, so daß bei der nötigen Reserve Betriebsstoffe für drei
 									bis vier Stunden mitzunehmen sind. Da nun die Plätze nicht immer gut ausgesucht
 									werden können, da weiter bei jeder Witterung und jeder Tageszeit geflogen werden
-									muß, so stellt schon der Start hohe Anforderungen an Flieger und_Apparate.
+									muß, so stellt schon der Start hohe Anforderungen an Flieger und -Apparate.
 									Hindernde Gräben, die nicht aus-gefüllt werden können, werden durch Fahnen und
 									Lichter gekennzeichnet, reicht der Anlauf vor dem Graben nicht, den Apparat zum
 									Fliegen zu bringen, dann reißt man ihn kurz hoch, springt über den Graben und rollt
@@ -8612,7 +8612,7 @@
 									Bogenlänge ist, und ferner, ob die Temperatur des negativen Kraters stets kleiner
 									als die des positiven bleibt, Zur Messung der Temperatur, bzw. der Flächenhelligkeit
 									des Kraters diente das bereits 1901 angegebene Interferenzphoto-
-									und_pyrometer, bei welchem das photometrische Kriterium praktisch auf dem im
+									und -pyrometer, bei welchem das photometrische Kriterium praktisch auf dem im
 									Endlichen oder Unendlichen befindlichen zu messenden Objekt gelegen ist. Die hiermit
 									angestellten subjektiven und objektiven Messungen führten zu dem Resultat, daß bei
 									verschiedenen Homogenkohlen die Temperatur des positiven Kraters innerhalb weiter
@@ -8883,7 +8883,7 @@
 									es sich doch in den meisten Fällen darum, Sitz und Form von Fremdkörpern – von
 									Infanteriegeschossen (<ref target="#tx330125a">Abb. 1</ref>) und Granatsplittern –
 									festzustellen, oder Art und Schwere von Knochenbrüchen – Schußfrakturen – zu
-									untersuchen. Und eine Röntgendurchleuchtung oder_aufnähme gibt über beides
+									untersuchen. Und eine Röntgendurchleuchtung oder -aufnähme gibt über beides
 									sofort und erschöpfend Auskunft.</p>
                 <p>Man hat deshalb ein Röntgengerät ausgebildet, das an Gewicht und Umfang gering und
 									infolgedessen leicht zu befördern ist, rasch gebrauchsfertig gemacht und ebenso
@@ -11305,7 +11305,7 @@
                 <p>Weiter wurden die Aufgaben des Etappenwesens (Ergänzung aller Heeresbedürfnisse und
 									Entlastung von allem, was die Schlagfertigkeit behindern kann), und die Bedeutung
 									der Etappenverbindungen (Eisenbahn, schmalspurige Feldbahn, Wasserstraßen,
-									Landstraßen, Kraftwagen, Lazarettzüge und_Schiffe usw.) eingehend erläutert,
+									Landstraßen, Kraftwagen, Lazarettzüge und -Schiffe usw.) eingehend erläutert,
 									insbesondere auch der Bedeutung unserer Verkehrstruppen für das Gesamtheer gedacht,
 									ihre Einteilung in Friedens- und Kriegszeiten erklärt und vornehmlich die Verwendung
 									der Eisenbahntruppen bei der Zerstörung und Wiederherstellung von Tunnel- und
@@ -11321,7 +11321,7 @@
 									und ihre Verwendungsmöglichkeiten für Verkehrsverbesserungen ein, auf die
 									Notwendigkeit der Trennung von Kranken und Verwundeten aus dem berufsmäßig tätigen
 									Heer und ihre Auffindung (Sanitätshunde), Beförderung und Verteilung über ein
-									größeres Landgebiet (Sanitätsdienst, Rotes Kreuz, Lazarettzüge,_Fluß- und
+									größeres Landgebiet (Sanitätsdienst, Rotes Kreuz, Lazarettzüge, -Fluß- und
 									-Seeschiffe usw.). Beim Seeverkehr wurden die Kanalfrage sowie die Aufgabe der
 									Lebensmittelzufuhr beleuchtet; alsdann wurde die Nachfuhr der Verpflegungsmittel
 									seitens des Trains sowie die Verpflegung durch Quartiere, Beitreibung und Ankauf in
@@ -11642,7 +11642,7 @@
 									selbstansaugende Strahlpumpen nach <hi rendition="#wide">Gresham</hi> und <hi rendition="#wide">Craven</hi>, Sicherheitsventile nach <hi rendition="#wide">Ramsbottom</hi>, Wasserstände von <hi rendition="#wide">Dewrance</hi>,
 									Heizeinrichtung von <hi rendition="#wide">Laycock</hi> und ein<cb/>Wasserstandzeiger
 									am Tender nach <hi rendition="#wide">Wittacker</hi> vorhanden. Aus England wurden
-									zum Bau dieser Lokomotiven die Rahmenplatten, Kesselbleche und_Niete, Bronze
+									zum Bau dieser Lokomotiven die Rahmenplatten, Kesselbleche und -Niete, Bronze
 									für Stehbolzen, Kupferrohre, Stab- und Formeisen, Achsen und Radreifen, Puffer und
 									Pufferfedern bezogen. Das Dienstgewicht beträgt 86,5 t. Die Zugkraft berechnet sich
 									zu 20800 kg. Die Rostfläche ist 3,72 m<hi rendition="#superscript">2</hi> groß.
@@ -12144,7 +12144,7 @@
                 <p>Ermittlung der Konstitution des Portlandzementes;</p>
                 <p>Untersuchungen über Eigenspannungen in kaltgereckten Metallen;</p>
                 <p>Rosten von Eisen;</p>
-                <p>Kerbschlagversuche: Feststellung des Einflusses von Glühdauer und_Temperatur
+                <p>Kerbschlagversuche: Feststellung des Einflusses von Glühdauer und -Temperatur
 									sowie der Abmessungen der Proben.</p>
                 <p>An laufenden Arbeiten wurden unter anderm die folgenden von besonderem Interesse
 									erledigt:</p>
@@ -12503,7 +12503,7 @@
 									Reihe von Theorien aufgestellt worden. So nimmt v. <hi rendition="#wide">Jüptner</hi> die Bildung von Explosivwellen und dadurch eine Drucksteigerung
 									des Heizgases und der Luft an; nach <hi rendition="#wide">Bone</hi> ist nur die
 									katalytische Wirkung der porösen Diaphragmen Materialien von Einfluß, während nach
-									Schnabel (und auch nach Mache) noch verbrennungsphysikalische und_mechanische
+									Schnabel (und auch nach Mache) noch verbrennungsphysikalische und -mechanische
 									Erscheinungen dabei mitwirken. Im Gegensatz dazu faßt <hi rendition="#wide">Leather</hi> die <q>„flammenlose Verbrennung“</q> nur als eine Verbrennung in
 									einem außerordentlich beschränkten Raume auf; nach Lücke wäre sie ausschließlich auf
 									eine selbsttätige Regulierung des Ausströmungsquerschnitts zurückzuführen. <hi rendition="#wide">Carleton Ellis</hi> glaubt die molekulare Verdichtung der Gase
@@ -12972,7 +12972,7 @@
 									eventuell die dem Vergaser zugeführte Luft vorwärmen. Es sind bereits zahlreiche
 									Spiritusvergaser im Handel, die diese Forderungen erfüllen, und es ist somit der
 									Beweis erbracht, daß selbst bei vollständiger Unterbindung der
-									Kohlenwasserstoffzufuhr und_erzeugung die deutsche Spiritusindustrie imstande
+									Kohlenwasserstoffzufuhr und -erzeugung die deutsche Spiritusindustrie imstande
 									ist, den Brennstoffbedarf für die Aufrechterhaltung des Automobilbetriebes
 									sicherzustellen.</p>
                 <p>Um den Wärmeinhalt des Spiritus zu erhöhen und auf diese Weise den im Vergleich zum
@@ -13484,7 +13484,7 @@
                     <cell rendition="#center">5,0 m<hi rendition="#superscript">4</hi></cell>
                   </row>
                   <row>
-                    <cell role="label">Auftrieb durch 1,0 m Wellenberg<lb/>    bzw._Tal</cell>
+                    <cell role="label">Auftrieb durch 1,0 m Wellenberg<lb/>    bzw. -Tal</cell>
                     <cell rendition="#center"><lb/>7068 kg</cell>
                     <cell rendition="#center"><lb/>700 kg</cell>
                   </row>
@@ -13600,7 +13600,7 @@
 									∾  1000 m ein, das ist eine Teufe, die der heutige Bergbau bereits erreicht hat.
 									Wächst bei einer derartigen Teufe <hi rendition="#italic">T</hi> um nur noch 10 v.
 									H., so nimmt der Seilquerschnitt <hi rendition="#italic">S</hi> um beinahe die
-									Hälfte zu. Um die mit größer werdendem Seilquerschnitt und_gewicht verbundenen
+									Hälfte zu. Um die mit größer werdendem Seilquerschnitt und -gewicht verbundenen
 									Schwierigkeiten zu vermeiden, muß man also den Nenner in geeigneter Weise zu
 									verändern suchen. Da <hi rendition="#italic">T</hi> aber nicht beeinflußt werden
 									kann, bleibt für diesen Zweck nur der Ausdruck
@@ -13640,7 +13640,7 @@
 									ausgesetzt.</p>
                 <p>Um der Gefahr einer Unterschreitung der Endsicherheit zu begegnen, hat der
 									Bergwerksbesitzer es in der Hand, die Anfangssicherheit beliebig groß zu wählen.
-									Allerdings steigen die Seilgewichte und_kosten bei einer auch nur mäßigen
+									Allerdings steigen die Seilgewichte und -kosten bei einer auch nur mäßigen
 									Erhöhung der Anfangssicherheit für tiefe Schächte ganz bedeutend. Während man für
 									geringe Schachtteufen häufig eine acht- bis zehnfache Anfangssicherheit wählt, geht
 									diese Zahl bei tiefen Schächten bis auf 7,2 vereinzelt hinab. Da die sechsfache
@@ -13906,7 +13906,7 @@
                 <bibl rendition="#indent-1"><hi rendition="#bold">Telephon- und Signalanlagen.</hi> Von
 										<hi rendition="#wide">Karl Beckmann</hi>. IX und 312 Seiten, 426 Abbildungen.
 									Berlin 1914. Julius Springer. Preis geb. 4,– M.</bibl>
-                <p>Das Buch ist geschrieben für Schwachstromtechniker und_Monteure und ist ihren
+                <p>Das Buch ist geschrieben für Schwachstromtechniker und -Monteure und ist ihren
 									Vorkenntnissen und ihrem Fassungsvermögen – vom Durchschnitt gesprochen – angepaßt.
 									Die knappen einleitenden Betrachtungen über die Grundtatsachen der Elektrotechnik
 									dürften wohl geeignet sein, etwas Klarheit und Zusammenhang in die Vorstellung von
@@ -14014,13 +14014,13 @@
 									Es folgen dann die stromverbrauchenden Strom- und Spannungsmesser und die
 									elektrostatischen Instrumente. Nach einem Abschnitt über die Erdschlußanzeiger und
 									Isolationsmesser werden in den drei letzten Abschnitten die Oszillographen, die
-									Phasenmesser und_Indikatoren und die Frequenzmesser behandelt.</p>
+									Phasenmesser und -Indikatoren und die Frequenzmesser behandelt.</p>
                 <p>5. <hi rendition="#wide">Prinzip und Wirkungsweise der Wattmeter</hi> u n d <hi rendition="#wide">Elektrizitätszähler für Gleich- und Wechselstrom</hi>.
 									Bearbeitet von Alex. <hi rendition="#wide">Königswerther</hi>. 71 Seiten mit 84
 									Abbildungen. 1912. Preis geb. 3,30 M.</p>
                 <p>Es werden zunächst die Wattmeter und im Anschluß daran die Elektrizitätszähler
 									behandelt. Bei den letzten wird auch auf Einzelheiten des Baues, zweckmäßige Wahl
-									und Montage, Eichtinrichtungen und_Protokolle und die gesetzlichen
+									und Montage, Eichtinrichtungen und -Protokolle und die gesetzlichen
 									Fehlergrenzen eingegangen.</p>
                 <p>6. <hi rendition="#wide">Widerstandsmessungen mit Berücksichtigung der
 										Isolationsmessungen, sowie der Widerstands- und Temperaturmessungen an Maschinen
@@ -14080,7 +14080,7 @@
                 <p rendition="#right"><hi rendition="#wide">Jahnke</hi>.</p>
                 <bibl rendition="#indent-1"><hi rendition="#bold">Die angewandte Chemie in der
 										Luftfahrt.</hi> Von Dr. <hi rendition="#wide">Géza Austerweil</hi>.
-									(Luftfahrzeugbau und_Führung, Bd. 16.) 199 Seiten mit 92 Abbildungen. München
+									(Luftfahrzeugbau und -Führung, Bd. 16.) 199 Seiten mit 92 Abbildungen. München
 									und Berlin 1914. R. Oldenbourg. Preis geb. 6,– M.</bibl>
                 <p>An der Schaffung von Konstruktionsmaterial wie von Betriebsmitteln für die
 									Luftfahrzeuge hat die technische Chemie von Anfang an einen recht erheblichen
@@ -14295,7 +14295,7 @@
 									hätte jedenfalls die von Ihnen befürchtete <q>„Totgeburt“</q> nicht gezeitigt.
 									Vielmehr wäre die heute in den weitesten Kreisen als <q>„Mißgeburt“</q> (ich bleibe
 									nur in Ihrem Bilde) bezeichnete Schiffsmaschinenkonstruktion vermieden worden,
-									welche wenigstens auf diesem Zweige des Gleichstrom_Dampfmaschinenbaues die
+									welche wenigstens auf diesem Zweige des Gleichstrom -Dampfmaschinenbaues die
 									von Ihnen so befürchtete <q>„Bremswirkung“</q> auch heute noch fühlbar macht.</p>
                 <p>Lediglich um den nicht orientierten Lesern einen Ueberblick zu geben, sei mir
 									gestattet, an dieser Stelle die Abbildungen meiner Originalkonstruktionen 1903/4
@@ -16767,7 +16767,7 @@
 									an Feuchtigkeit aufweist, bei der Pressung, unter welcher sie sich befindet, wobei
 									im Auge behalten werden muß, daß feuchte Luft stets eine Mischung von reiner Luft
 									und Wasserdampf, beide vollkommen trocken gedacht, darstellt. Als Gesamtspannung
-									dieser zwei Gase wird in den sogenannten Feuchtigkeitstafeln und_kurven
+									dieser zwei Gase wird in den sogenannten Feuchtigkeitstafeln und -kurven
 									durchgängig der mittlere <pb n="171" facs="32199907Z/00000239" xml:id="pj330_pb171"/><cb/>Druck der äußeren Atmosphäre mit 760 mm Q.-S. zugrunde gelegt.</p>
                 <p>Für andere Pressungen sind Umrechnungen und neue Aufzeichnungen nötig, doch kann man
 									bei dem in Wirklichkeit sehr schwankenden Luftdruck hiervon meistens absehen, ohne
@@ -18232,7 +18232,7 @@
                   <figure rend="image_markup" xml:id="tx330260b">
                     <graphic url="32199907Z/tx330260b"/>
                     <figDesc>Textabbildung Bd. 330, S. 186</figDesc>
-                    <head>Abb. 17 und 18. Kartoffeldämpfer und_Quetscher für
+                    <head>Abb. 17 und 18. Kartoffeldämpfer und -Quetscher für
 											Bäckereizwecke.</head>
                   </figure>
                   <p rendition="#no_indent">Diese bewegen sich gegeneinander und walzen einen dünnen
@@ -18250,7 +18250,7 @@
 										Hauptvorzüge liegen in der zugänglicheren Bauart und insbesondere in der
 										größeren Sicherheit gegen Zerstörungen durch; Fremdkörper (Steine). <ref target="#tx330259b">Abb. 14</ref> gibt die Außenansicht eines
 										Einwalzentrockners wieder (Bauart <hi rendition="#wide">Tätosin</hi> der
-										Trocknungsanlagen_G. m. b. H., Berlin). Im wesentlichen eine Verdopplung
+										Trocknungsanlagen G. m. b. H., Berlin). Im wesentlichen eine Verdopplung
 										des Einwalzentrockners bedeuten die Zweiwalzentrockner mit nach außen
 										schlagender Drehrichtung der Walzen (<ref target="#tx330259a">Abb. 13</ref>,
 										Bauart <hi rendition="#wide">Venuleth</hi> und <hi rendition="#wide">Ellenberger</hi>). Sie vereinigen die größere Leistungsfähigkeit der
@@ -18345,7 +18345,7 @@
 									Stelle weiter auf die für Erreichung des oben genannten Ziels einzuschlagenden Wege
 									näher einzugehen, soll nachstehend eine von denjenigen <pb n="188" facs="32199907Z/00000262" xml:id="pj330_pb188"/><cb/>Maßnahmen behandelt werden,
 									welche für die Verbesserung der Verbrennung von großem Wert ist: <q>„Auf die
-										richtige, der Brennstoffart und_Menge sowie dem jeweiligen Stadium der
+										richtige, der Brennstoffart und -Menge sowie dem jeweiligen Stadium der
 										Verbrennung genau angepaßte Zufuhr an Verbrennungsluft“</q>.</p>
                 <p>Für die Erzielung einer wirtschaftlichen Verbrennung ist es von großer Bedeutung, daß
 									weder mit zu großer noch mit zu geringer. Luftmenge gearbeitet wird. Der beste
@@ -18488,12 +18488,12 @@
                     <cell rendition="#center">83,0</cell>
                   </row>
                   <row>
-                    <cell role="label">1 C-Zweizyl.-Heißd_Zw.-Tenderlokomotive</cell>
+                    <cell role="label">1 C-Zweizyl.-Heißd.-Zw.-Tenderlokomotive</cell>
                     <cell rendition="#center">38,7</cell>
                     <cell rendition="#center">115,6</cell>
                   </row>
                   <row>
-                    <cell role="label">D-Zweizyl.-Sattd_Zw.-Tenderlokomotive</cell>
+                    <cell role="label">D-Zweizyl.-Sattd.-Zw.-Tenderlokomotive</cell>
                     <cell rendition="#center">42,9</cell>
                     <cell rendition="#center">144,5</cell>
                   </row>
@@ -19699,7 +19699,7 @@
 									Dr.-Ing. <hi rendition="#wide">Blum</hi>, Oberbaurat <hi rendition="#wide">Courtin</hi>, Geh. Rat <hi rendition="#wide">von Weiß</hi>. Fünfter Band.
 									Lagervorräte, Bau- und Betriebstoffe der Eisenbahnen. Zweiter, Schlußteil. Andere
 									Werkstättenvorräte. Heiz- und Brennstoffe. Schmiermittel. Schmierstoffe. Andere
-									Betriebsvorräte. Telegraphen_Lagervorräte. Nebenerzeugnisse. Altstoffe.
+									Betriebsvorräte. Telegraphen-Lagervorräte. Nebenerzeugnisse. Altstoffe.
 									Bearbeitet von <hi rendition="#wide">Fraenkel</hi>, Erfurt, <hi rendition="#wide">Großmann</hi>, Wien, <hi rendition="#wide">Kuntze</hi>, Berlin, <hi rendition="#wide">Lehners</hi>, Halberstadt. Mit 167 Abb. Wiesbaden 1915. C. W.
 									Kreidel. Preis geh. 15,– M.</bibl>
                 <bibl><hi rendition="#bold">Die Elektrizität und ihre Anwendungen.</hi> Von Dr. L. <hi rendition="#wide">Graetz</hi>, o. ö. Professor an der Universität München. Mit
@@ -24645,7 +24645,7 @@
 									<pb n="254" facs="32199907Z/00000346" xml:id="pj330_pb254"/><cb/>(D. R. P. 279823).
 									Dieser Selbstentlader kann für jedes zulässige Ladegewicht (15 und 20 t) für Normal-
 									und Schmalspurbahnen hergestellt werden. Der Erfinder hat die bauliche Anordnung der
-									bestehenden Normalwagen des deutschen Staatsbahn_Wagenverbandes beibehalten
+									bestehenden Normalwagen des deutschen Staatsbahn-Wagenverbandes beibehalten
 									und die Selbstentladeeinrichtung derart angegliedert, daß der Selbstentlader für den
 									gewöhnlichen Verkehr, das ist für Nicht-Massengüter, den bisherigen Normalwagen
 									entspricht. Auch werden hierdurch die den bisherigen Selbstentladern, insbesondere
@@ -25472,7 +25472,7 @@
 									saunierende Papier von oben nach unten mit großer Geschwindigkeit in einem Zuge
 									hindurchgeführt wird.</p>
                 <p>Kalander zum Satinieren von Rollenpapier heißen Rollenkalander, zum Satinieren von
-									Papierbogen Bogenkalander. Friktions-, Reibungs- oder_Glanzkalander sollen dem
+									Papierbogen Bogenkalander. Friktions-, Reibungs- oder -Glanzkalander sollen dem
 									Papier einen besonders guten Glanz verleihen, Gaufrier- und Grainierkalander endlich
 									sind Kalander, in denen das Papier mit Zeichnungen oder mit bestimmten Zeichen
 									versehen wird.</p>
@@ -27043,7 +27043,7 @@
 									die folgenden Abschnitte: 1. Die privaten Gaswerksunternehmungen von Direktor J. <hi rendition="#wide">Engländer</hi>, 2. die öffentliche Verwaltung der Gaswerke von
 									Dr.-Ing. Fr. <hi rendition="#wide">Greineder</hi>, 3. der Fabrikbetrieb von Direktor
 										<hi rendition="#wide">Kobbert</hi>, 4. der Außendienst von Direktor O. <hi rendition="#wide">Meyer</hi> und 5. der Gasverkauf von Direktor K. <hi rendition="#wide">Lempelius</hi>. Es versteht sich von selbst, daß unter diesen
-									Umständen die einzelnen Fragen der Gaswerksorganisation und_Verwaltung eine
+									Umständen die einzelnen Fragen der Gaswerksorganisation und -Verwaltung eine
 									sehr gründliche und äußerst instruktive Behandlung erfahren haben. Man findet in dem
 									Bande zahlreiche Anleitungen und Schemen zum Abschlusse von Verträgen, zur
 									Aufstellung von Personallisten, Inventarien, Bilanzen, Betriebsstatistiken und
@@ -27130,7 +27130,7 @@
               <item>Ein <q>„Paradoxon“</q> aus der mechanischen Wärmetheorie. Von <hi rendition="#wide">Johs</hi>. A. F. <hi rendition="#wide">Engel</hi>
 								<ref target="#ar330053">Seite 289</ref></item>
               <item>Polytechnische Rundschau: Die Oelversorgung der englischen Schlachtflotte –
-								Herstellung von Unterseeminengehäusen und Ankerkastendeckeln_Schutz vor
+								Herstellung von Unterseeminengehäusen und Ankerkastendeckeln – Schutz vor
 								minderwertigem Schmieröl – Dieselmaschinen für mittlere Leistungen – Amerikanische und
 								deutsche Anordnung technischer Zeichnungen –<cb/>Motorschiffe – Einführung des
 								JS-Diagramms in die Wärmetechnik und seine Bedeutung – Ueber die Gewinnung von Fett aus
@@ -36376,7 +36376,7 @@
 									maßgebend und führend auf diesem Gebiete zu bleiben. Erwähnt seien in erster Linie
 									die chemischen Apparate, sodann die Spirituslötlampen, die Benzinlötkolben und
 									Benzinlötlampen mit ihren einfachen geraden Vergaserkanälen, dann die
-									Petroleumlötlampen und_Gebläse, sowie der tragbare Petroleumlötofen.</p>
+									Petroleumlötlampen und -Gebläse, sowie der tragbare Petroleumlötofen.</p>
                 <p>Diese Grundsätze sichern dem Hause <hi rendition="#wide">Gustav Barthel</hi> auch
 									weiterhin eine günstige Entwicklung, die übrigens auch aus nationalem und
 									volkswirtschaftlichem Interesse wünschenswert ist: denn gerade auf diesem Gebiete
@@ -41131,9 +41131,9 @@
                 <p rendition="#right">R. <hi rendition="#wide">Vater</hi>.</p>
                 <bibl rendition="#indent-1"><hi rendition="#bold">Der Flugzeugkompaß und seine
 										Handhabung. Kompensieren und Kursabsetzen.</hi> Von F. Gansberg. Ein Handbuch
-									für Flugzeugführer und_beobachter. 43 Seiten mit einer Tafel. Berlin 1915. M.
+									für Flugzeugführer und -beobachter. 43 Seiten mit einer Tafel. Berlin 1915. M.
 									Krayn. Preis 1,50 M.</bibl>
-                <p>Das kleine Werkchen wendet sich an Flugzeugbeobachter und_führer, um ihnen ein
+                <p>Das kleine Werkchen wendet sich an Flugzeugbeobachter und -führer, um ihnen ein
 									Nachschlagebuch für die Praxis zu bieten. Aus diesem Grunde ist die Darstellung
 									möglichst populär gehalten. Am besten sind die beiden Kapitel über die eigentliche
 									Verwendung des Kompasses im Flugzeug (Kompensieren und Kursabsetzen in der Karte)
@@ -41178,7 +41178,7 @@
 									allem des zweiten Kapitels dringend erforderlich; dabei wäre es auch wünschenswert,
 									den Text stilistisch etwas sorgfältiger zu gestalten und einige unklare
 									Darstellungen zu verbessern. Dann wird das Buch seinen Zweck, den
-									Flugzeugbeobachtern und_führern ein Leitfaden für das Verständnis und die
+									Flugzeugbeobachtern und -führern ein Leitfaden für das Verständnis und die
 									Benutzung des Kompasses zu sein, zu dem es jetzt schon manche guten Teile beiträgt,
 									erst ganz erfüllen.</p>
                 <p rendition="#right"><hi rendition="#wide">Berndt</hi>.</p>
@@ -42575,7 +42575,7 @@
 									aus Eisenblech, in das eine Anzahl Doppelentstaubungsrahmen aus T-Eisen leicht
 									herausnehmbar eingesetzt sind. Die Doppelrahmen sind an der Vorder- und Rückseite
 									mit Filterschnüren aus besonderen feuersicheren Fasern bespannt. Der Blechschacht
-									selbst ist vorn und hinten für den Luftein- und_austritt offen, wird aber
+									selbst ist vorn und hinten für den Luftein- und -austritt offen, wird aber
 									zweckmäßig vorn mit einem leicht abnehmbaren Drahtschutzgitter versehen und hinten
 									mit einem engmaschigen Drahtgeflecht verschlossen, welches das etwaige Durchtreten
 									brennender Teile verhindert. Die Doppelentstaubungsrahmen stehen in den Kammern von
@@ -44107,7 +44107,7 @@
 									angeordnet sind, daß Vakuum- oder Stauwirkung vermieden wird. Die Vorrichtung
 									besteht im wesentlichen aus einem umlaufenden Wasserverteiler, der zugleich als
 									Ventilator und Zugerzeuger für Rauch, Luft und Gase dienen kann. Die Wasserdüsen
-									werden dabei auf der Vorderseite oder_kante der Flügel angebracht, so daß das
+									werden dabei auf der Vorderseite oder -kante der Flügel angebracht, so daß das
 									Wasser tangential zur Drehrichtung des Ventilators austritt. Vorteilhaft wird mit
 									dem vereinigten Wasserverteiler und Ventilator eine Vorrichtung zum Ablenken des
 									Rauches usw. von der Triebwelle des Ventilators verbunden. Auch die

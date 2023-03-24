@@ -218,8 +218,8 @@
         <rendition xml:id="bold" scheme="css">font-weight: bold</rendition>
         <rendition xml:id="italic" scheme="css">font-style: italic</rendition>
         <rendition xml:id="no_indent" scheme="css">text-indent: none;</rendition>
-        <rendition xml:id="indent-1" scheme="css">text-indent:_1em;</rendition>
-        <rendition xml:id="indent-2" scheme="css">margin-left: 2em; text-indent:_1em;</rendition>
+        <rendition xml:id="indent-1" scheme="css">text-indent: -1em;</rendition>
+        <rendition xml:id="indent-2" scheme="css">margin-left: 2em; text-indent: -1em;</rendition>
         <rendition xml:id="right" scheme="css">text-align: right;</rendition>
         <rendition xml:id="left" scheme="css">text-align: left;</rendition>
         <rendition xml:id="l1em" scheme="css">margin-left: 1em;</rendition>
@@ -25797,7 +25797,7 @@ oder nach Ersatz von <hi rendition="#italic">x</hi> durch <hi rendition="#italic
 									Stehlager von <hi rendition="#italic">Leutert</hi> in Giebichenstein (<ref target="#tx288278c">Fig. 20</ref>). Bei derselben werden die Schalen mit
 									Keilbewegung durch angegossene Knaggen an der Ueberschreitung einer bestimmten
 									Weglänge und in Folge dessen an übermässigem Drucke auf die Welle dadurch gehindert,
-									dass jene gegen Vorsprünge, die im Lagerkörper und_Deckel angebracht sind,
+									dass jene gegen Vorsprünge, die im Lagerkörper und -Deckel angebracht sind,
 									anstossen. Bei späterem Nachstellen der Schalen müssen die Knaggen bezieh. die
 									Vorsprünge nachgefeilt werden.</p>
                 <figure rend="text" xml:id="tx288278c">
@@ -30062,7 +30062,7 @@ oder nach Ersatz von <hi rendition="#italic">x</hi> durch <hi rendition="#italic
                 <p>Bis in die letzte Zeit hat man nur die auch sonst im Wolldruck bewährten wenig
 									walkechten Säurefarbstoffe für solche Garne verwandt und daraus nur leichte
 									Damenkleiderstoffe fabriziren können. Jetzt stellt man auch für bessere Tuche
-									walkechte Drucke her, es werden dafür verwendet Alizarinroth,_orange,_schwarz,
+									walkechte Drucke her, es werden dafür verwendet Alizarinroth, -orange, -schwarz,
 									-gelb, ferner Anthracitschwarz, Anthracengelb, Diaminechtroth. Auch Congofarben,
 									denen, wie bereits früher berichtet; bemerkenswerthe Walkechtheit zukommt, dürften
 									sich für diesen Artikel eignen.</p>
@@ -31926,7 +31926,7 @@ oder nach Ersatz von <hi rendition="#italic">x</hi> durch <hi rendition="#italic
               <item>Haecht van und Obozinski, Gerbung unter Luftleere <ref target="../pj288/32199803Z.xml#pj288_pb256">256</ref>.</item>
               <item>Haenlein, Wirkung von Kochsalz auf Bakterien <ref target="../pj288/32199803Z.xml#pj288_pb214">214</ref>.</item>
               <item>Hahn, Ofen <ref target="../pj288/32199803Z.xml#pj288_pb057">57</ref>.</item>
-              <item>Hall, Dynamo * <ref target="../pj288/32199803Z.xml#pj288_pb137">137</ref>.<list><item>–_Brown, Indicator * <ref target="../pj288/32199803Z.xml#pj288_pb062">62</ref>.</item></list>
+              <item>Hall, Dynamo * <ref target="../pj288/32199803Z.xml#pj288_pb137">137</ref>.<list><item>–Brown, Indicator * <ref target="../pj288/32199803Z.xml#pj288_pb062">62</ref>.</item></list>
 							</item>
               <item>Hamburger, Extractgehalt im Malz <ref target="../pj288/32199803Z.xml#pj288_pb116">116</ref>.</item>
               <item>Hampel, Maisentschäler <ref target="../pj288/32199803Z.xml#pj288_pb114">114</ref>.</item>
@@ -33051,7 +33051,7 @@ oder nach Ersatz von <hi rendition="#italic">x</hi> durch <hi rendition="#italic
 								Railway <ref target="../pj288/32199803Z.xml#pj288_pb024">24</ref>.</item>
               <item><hi rendition="#bold">Luft.</hi> –widerstand bei Geschossen * <ref target="../pj288/32199803Z.xml#pj288_pb029">29</ref>.<list><item>– Reinigung des Leuchtgases mittels –zuführung <ref target="../pj288/32199803Z.xml#pj288_pb142">142</ref>.</item></list>
 							</item>
-              <item><hi rendition="#bold">Luft-Druck und_Leere.</hi> – – für Gerbereizwecke <ref target="../pj288/32199803Z.xml#pj288_pb256">256</ref>.</item>
+              <item><hi rendition="#bold">Luft-Druck und -Leere.</hi> – – für Gerbereizwecke <ref target="../pj288/32199803Z.xml#pj288_pb256">256</ref>.</item>
               <item><hi rendition="#bold">Lüftung.</hi> – und Heizung von Schulhäusern <ref target="../pj288/32199803Z.xml#pj288_pb144">144</ref>.</item>
             </list>
           </item>
