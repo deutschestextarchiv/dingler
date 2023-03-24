@@ -92,7 +92,7 @@ $( function() {
   */
 
   // links
-  $('.tei-ref').each( function() {
+  $('.tei-ref[data-target]').each( function() {
     let el = $(this)
     let target = el.data('target')
 
@@ -146,9 +146,8 @@ $( function() {
   $('.tei-formula').each( function() {
     let el = $(this)
     el.html( '$' + el.html() + '$' )
-    let id = "id-" + Math.random().toString(16).slice(2)
-    el.attr('id', id )
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub, id])
+  }).promise().done( function() {
+    MathJax.typeset()
   })
 
   // link to XML source
