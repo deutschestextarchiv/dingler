@@ -5,8 +5,10 @@ MKFILE_DIR := $(dir $(MKFILE_PATH))
 XSLT_FILES := $(wildcard $(MKFILE_DIR)xslt/*.xsl)
 XSLT_DIR   := $(MKFILE_DIR)/xslt
 
+BASE_URL ?= /
+
 #######################
-all: documentation volumes volume-index article-listings articles tabs
+all: documentation encoding volumes volume-index article-listings articles-libxslt
 
 #######################
 # documentation
@@ -18,11 +20,11 @@ DOC_FILES    := $(wildcard $(DOC_DIR)/*.html)
 documentation: $(subst $(DOC_DIR),$(DOC_OUTDIR),$(DOC_FILES))
 
 $(DOC_OUTDIR)/%.html: $(DOC_DIR)/%.html $(XSLT_FILES)
-	xsltproc --stringparam page "$(notdir $<)" $(MKFILE_DIR)xslt/documentation.xsl $< > $@
+	saxonb-xslt -ext:on -s:$< -xsl:$(MKFILE_DIR)xslt/documentation.xsl -o:$@ base="$(BASE_URL)" page="$(notdir $<)"
 
 .PHONY: encoding
 encoding: $(DOC_DIR)/encoding.xml $(XSLT_FILES)
-	 saxonb-xslt -ext:on $< $(MKFILE_DIR)xslt/encoding.xsl > $(DOC_OUTDIR)/encoding.html
+	saxonb-xslt -ext:on -s:$< -xsl:$(MKFILE_DIR)xslt/encoding.xsl -o:$(DOC_OUTDIR)/encoding.html base="$(BASE_URL)"
 
 #######################
 # volumes
@@ -39,7 +41,7 @@ $(VOLUMES_OUTDIR):
 	mkdir -p $(VOLUMES_OUTDIR)
 
 $(VOLUMES_OUTDIR)/%.html: $(VOLUMES_DIR)/%.xml $(XSLT_FILES)
-	xsltproc $(MKFILE_DIR)xslt/volume.xsl $< > $@
+	saxonb-xslt -ext:on -s:$< -xsl:$(MKFILE_DIR)xslt/volume.xsl -o:$@ base="$(BASE_URL)"
 
 #######################
 # article listings per volume
@@ -52,7 +54,7 @@ $(ARTICLE_LISTINGS_OUTDIR):
 	mkdir -p $(ARTICLE_LISTINGS_OUTDIR)
 
 $(ARTICLE_LISTINGS_OUTDIR)/%.html: $(VOLUMES_DIR)/%.xml $(XSLT_FILES)
-	xsltproc $(MKFILE_DIR)xslt/article-listing.xsl $< > $@
+	saxonb-xslt -ext:on -s:$< -xsl:$(MKFILE_DIR)xslt/article-listing.xsl -o:$@ base="$(BASE_URL)"
 
 #######################
 # volume index
@@ -63,10 +65,11 @@ volume-index:
 	  echo '<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">'; \
 	  for i in $(VOLUMES_DIR)/*.xml; \
 		do b=`basename "$$i" .xml`; \
-		xsltproc $(MKFILE_DIR)xslt/volume-single.xsl "$$i"; \
+		echo [volume-index] parsing $$b … 1>&2; \
+		saxonb-xslt -s:"$$i" -xsl:$(MKFILE_DIR)xslt/volume-single.xsl; \
 	  done; \
 	  echo '</teiCorpus>'; \
-	} | xsltproc $(MKFILE_DIR)xslt/volume-listing.xsl - > $(VOLUMES_OUTDIR)/index.html
+	} | saxonb-xslt -ext:on -s:- -xsl:$(MKFILE_DIR)xslt/volume-listing.xsl -o:$(VOLUMES_OUTDIR)/index.html base="$(BASE_URL)"
 
 #######################
 # articles
@@ -74,8 +77,12 @@ ARTICLES_DIR      := $(MKFILE_DIR)../data/articles
 ARTICLES_OUTDIR   := $(MKFILE_DIR)site/articles
 ARTICLES_FILES    := $(wildcard $(ARTICLES_DIR)/*.xml)
 
-.PHONY: articles
-articles: $(subst $(ARTICLES_DIR),$(ARTICLES_OUTDIR),$(ARTICLES_FILES:.xml=.html)) $(XSLT_FILES)
+.PHONY: articles-saxon
+articles-saxon:
+	saxonb-xslt -t -ext:on -s:$(ARTICLES_DIR) -xsl:$(MKFILE_DIR)xslt/article-full.xsl -o:$(ARTICLES_OUTDIR) base="$(BASE_URL)" 2>&1 | grep "Processing file"
+
+.PHONY: articles-libxslt
+articles-libxslt: $(subst $(ARTICLES_DIR),$(ARTICLES_OUTDIR),$(ARTICLES_FILES:.xml=.html)) $(XSLT_FILES)
 
 $(ARTICLES_FILES): | $(ARTICLES_OUTDIR)
 
@@ -83,7 +90,7 @@ $(ARTICLES_OUTDIR):
 	mkdir -p $(ARTICLES_OUTDIR)
 
 $(ARTICLES_OUTDIR)/%.html: $(ARTICLES_DIR)/%.xml $(XSLT_FILES)
-	xsltproc $(MKFILE_DIR)xslt/article-full.xsl $< > $@
+	xsltproc -o $@ --stringparam base "$(BASE_URL)" $(MKFILE_DIR)xslt/article-full.xsl $<
 
 #######################
 # page mapping
@@ -103,10 +110,10 @@ tabs:
 # person register
 .PHONY: person-register
 person-register: $(MKFILE_DIR)../sources/database/persons/persons.xml $(MKFILE_DIR)xslt/persons.xsl
-	saxonb-xslt -ext:on $(MKFILE_DIR)../sources/database/persons/persons.xml $(MKFILE_DIR)xslt/persons.xsl > $(MKFILE_DIR)site/persons/index.html
+	saxonb-xslt -ext:on -xsl:$(MKFILE_DIR)xslt/persons.xsl -s:$(MKFILE_DIR)../sources/database/persons/persons.xml -o:$(MKFILE_DIR)site/persons/index.html base="$(BASE_URL)"
 
 #######################
 # journal register
 .PHONY: journal-register
 journal-register: $(MKFILE_DIR)../sources/database/journals/journals.xml $(MKFILE_DIR)xslt/journals.xsl
-	saxonb-xslt -ext:on $(MKFILE_DIR)../sources/database/journals/journals.xml $(MKFILE_DIR)xslt/journals.xsl > $(MKFILE_DIR)site/journals/index.html
+	saxonb-xslt -ext:on -xsl:$(MKFILE_DIR)xslt/journals.xsl -s:$(MKFILE_DIR)../sources/database/journals/journals.xml -o:$(MKFILE_DIR)site/journals/index.html base="$(BASE_URL)"
