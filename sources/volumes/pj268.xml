@@ -7660,15 +7660,15 @@
 									nach <hi rendition="#italic">Werner.</hi></p>
                 <p>Nachdem <formula>\eta_t=\frac{A_F}{A_R\,V_t}.\left(\frac{F_t}{R}\right)</formula> so
 									ist mit Benützung des Obigen:</p>
-                <p><formula>\eta_t=\frac{\left(\frac{F_t}{R}\right)}{(A_R.V_t)}.\frac{1}{F_t}\,\right[\frac{B\,H\,\eta_f.s.\xi\,d}{\lambda-q_w}+F_i\,\frac{K_r\,\xi_i\,\Delta\,T}{(\lambda-q_w)\,\log\,C}\right]</formula><hi rendition="#italic">nach Redtenbacher</hi> oder
-										<formula>\eta_t=\frac{\left(\frac{F_t}{R}\right)}{(A_R.V_t)}.\frac{1}{F_t}\,\right[\frac{B\,H\,\eta_f.s.\xi\,d}{\lambda-q_w}+F_i\,\frac{K_w.\xi_i\,(T_p-w)\,(T_1-w)}{\lambda-q_w}\right]</formula>
+                <p><formula>\eta_t=\frac{\left(\frac{F_t}{R}\right)}{(A_R.V_t)}.\frac{1}{F_t}\,\left[\frac{B\,H\,\eta_f.s.\xi\,d}{\lambda-q_w}+F_i\,\frac{K_r\,\xi_i\,\Delta\,T}{(\lambda-q_w)\,\log\,C}\right]</formula><hi rendition="#italic">nach Redtenbacher</hi> oder
+										<formula>\eta_t=\frac{\left(\frac{F_t}{R}\right)}{(A_R.V_t)}.\frac{1}{F_t}\,\left[\frac{B\,H\,\eta_f.s.\xi\,d}{\lambda-q_w}+F_i\,\frac{K_w.\xi_i\,(T_p-w)\,(T_1-w)}{\lambda-q_w}\right]</formula>
 									nach <hi rendition="#italic">Werner</hi> und wegen
 										<formula>V_t=\frac{H}{\lambda-q_0}</formula> und
 										<formula>A_R=\frac{B}{R}</formula> nach mehrfachen Umwandlungen:</p>
                 <p>II)
-										<formula>\eta_t=\frac{\lambda-q_0}{\lambda-q_w}\,\right[\eta_f.s.\xi\,d+\left(\frac{F_i}{B\,H}\right).\frac{K_r.xi_i.\Delta\,T}{log\,C}\right]</formula>
-									nach <hi rendition="#italic">Redtenbtcher</hi> oder
-										<formula>\eta_t=\frac{\lambda-q_0}{\lambda-q_w}.\right[\eta_f.s.\xi\,d+\left(\frac{F_i}{B.H}\right).K_w\,\xi_i\,(T_p-w)\,(T_1-w)\right]</formula>
+										<formula>\eta_t=\frac{\lambda-q_0}{\lambda-q_w}\,\left[\eta_f.s.\xi\,d+\left(\frac{F_i}{B\,H}\right).\frac{K_r.xi_i.\Delta\,T}{log\,C}\right]</formula>
+									nach <hi rendition="#italic">Redtenbacher</hi> oder
+										<formula>\eta_t=\frac{\lambda-q_0}{\lambda-q_w}.\left[\eta_f.s.\xi\,d+\left(\frac{F_i}{B.H}\right).K_w\,\xi_i\,(T_p-w)\,(T_1-w)\right]</formula>
 									nach <hi rendition="#italic">Werner.</hi></p>
                 <p>Hierbei ist: III) <formula>\xi\,d=\frac{M_d\,(\lambda-q_w)}{B.G.c\,(T_0-T_p)};\
 										\xi_i=\frac{M_i\,(\lambda-q_w)}{B.G.c.(T_p-T_1)}</formula>; wenn <hi rendition="#italic">B.G.c</hi> die Wärme der erzeugten Verbrennungsproducte für
