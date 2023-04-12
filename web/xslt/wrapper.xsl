@@ -63,7 +63,7 @@
                 <li><a class="dropdown-item" href="{$base}das-polytechnische-journal.html">Das Polytechnische Journal</a></li>
                 <li><hr class="dropdown-divider"/></li>
                 <li class="dropdown-header">Projektdokumentation</li>
-                <li><a class="dropdown-item" href="{$base}digitalisierung.html">Digitalisisierung</a></li>
+                <li><a class="dropdown-item" href="{$base}digitalisierung.html">Digitalisierung</a></li>
                 <li><a class="dropdown-item" href="{$base}dingler-online.html">Dingler Online</a></li>
                 <li><a class="dropdown-item" href="{$base}modell.html">Textauszeichnung am Modell</a></li>
                 <li><a class="dropdown-item" href="{$base}encoding.html">TEI-Encoding und Editionsprinzipien</a></li>
