@@ -116,12 +116,32 @@ $( function() {
         })
       })
     }
+    // … to tabs within other volumes
+    else if ( target.search(/^\.\.\/(pj[^/]+)\/(\w+)\.xml#(t(?:ab|x)\w+)/) > -1 ) {
+      let parts = target.match(/^\.\.\/(pj[^/]+)\/(\w+)\.xml#(t(?:ab|x)\w+)/)
+      el.wrap( function() {
+        return $('<a/>').attr({
+          href:   `../images/${parts[1]}/${parts[2]}/${parts[3]}.png`,
+          target: '_blank'
+        })
+      })
+    }
     // … to figures
     else if ( target.search(/^image_markup\//) > -1 ) {
       el.wrap( function() {
         let target = $(this).data('target').replace(/^.*?#(.*)/, '$1')
         return $('<a/>').attr({
           href:   `../images/${volume}/figures/${target}.jpg`,
+          target: '_blank'
+        })
+      })
+    }
+    // … to figures within other volumes
+    else if ( target.search(/^\.\.\/(pj[^/]+)\/image_markup\/(?:t(?:ab|x)\w+)\.xml#(fig\w+)/) > -1 ) {
+      let parts = target.match(/^\.\.\/(pj[^/]+)\/image_markup\/(?:t(?:ab|x)\w+)\.xml#(fig\w+)/)
+      el.wrap( function() {
+        return $('<a/>').attr({
+          href:   `../images/${parts[1]}/figures/${parts[2]}.jpg`,
           target: '_blank'
         })
       })
@@ -147,7 +167,8 @@ $( function() {
     let el = $(this)
     el.html( '$' + el.html() + '$' )
   }).promise().done( function() {
-    MathJax.typeset()
+    if ( typeof MathJax != "undefined" && typeof MathJax.typeset === "function" )
+      MathJax.typeset()
   })
 
   // link to XML source
