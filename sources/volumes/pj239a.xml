@@ -225,9 +225,6 @@
         </namespace>
       </tagsDecl>
     </encodingDesc>
-    <revisionDesc>
-      <change who="#Editura">Initiation <ident>$Revision: 000 $</ident>, <date>$Date: 2013-02-12 $</date> </change>
-    </revisionDesc>
     <profileDesc>
       <abstract>
         <p>Historical German text source digitized for the project “Dingler Online – Das digitalisierte Polytechnische Journal”.</p>
@@ -240,6 +237,9 @@
         <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation#dwds">Wissenschaft</classCode>
       </textClass>
     </profileDesc>
+    <revisionDesc>
+      <change who="#Editura">Initiation <ident>$Revision: 000 $</ident>, <date>$Date: 2013-02-12 $</date> </change>
+    </revisionDesc>
   </teiHeader>
   <text type="volume" xml:lang="german" n="239" xml:id="pj239a">
     <milestone type="additional-counting" subtype="age-group" ed="Zweiundsechzigster Jahrgang" unit="volume" n="239"/>

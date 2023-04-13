@@ -7459,7 +7459,7 @@
               <titlePart type="main" rendition="#center">Ueber Ammoniakbildung bei Einwirkung des
                                 Schwefelwasserstoffs auf Salpetersaͤure; von <persName role="originator" ref="../database/persons/persons.xml#pers02833">James Johnston</persName>, <hi rendition="#roman">M.
                                     A</hi>. etc.</titlePart>
-              <titlePart type="sub" rendition="#center">Aus <bibl type="source"><title level="j" ref="../database/journals/journals.xml#jour0026">Brewster's Edinburgh Journal of Science</title>. <date when="1832-01">Januar 1832</date>, <biblScope unit="">S.
+              <titlePart type="sub" rendition="#center">Aus <bibl type="source"><title level="j" ref="../database/journals/journals.xml#jour0026">Brewster's Edinburgh Journal of Science</title>. <date when="1832-01">Januar 1832</date>, <biblScope unit="page">S.
                                 65</biblScope>.</bibl></titlePart>
               <titlePart type="column">Johnston, uͤber Ammoniakbildung etc.</titlePart>
             </front>
