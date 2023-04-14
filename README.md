@@ -55,7 +55,7 @@ Go to the SLUB pages and grab them from there.
 
 - [x] extract articles and miscellanea from volumes
   - [x] add volume id (eg. *pjXXX*) to article/miscellanea file
-  - [ ] adjust URLs in `<idno type="URLXML">` for volumes and articles
+  - [x] adjust URLs in `<idno type="URLXML">` for volumes and articles
 
 ### Website
 

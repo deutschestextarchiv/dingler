@@ -14,6 +14,7 @@
     <xsl:param name="title-main"/>
     <xsl:param name="title-sub"/>
     <xsl:param name="page"/>
+    <xsl:param name="article-id"/>
     <xsl:copy>
       <xsl:apply-templates select="@*|node()">
         <xsl:with-param name="title-main">
@@ -23,6 +24,7 @@
           <xsl:sequence select="$title-sub"/>
         </xsl:with-param>
         <xsl:with-param name="page" select="$page"/>
+        <xsl:with-param name="article-id" select="$article-id"/>
       </xsl:apply-templates>
     </xsl:copy>
   </xsl:template>
@@ -63,6 +65,7 @@
             <xsl:sequence select="t:front/t:titlePart[@type='sub']"/>
           </xsl:with-param>
           <xsl:with-param name="page" select="$page//@n"/>
+          <xsl:with-param name="article-id" select="@xml:id"/>
         </xsl:apply-templates>
         <xsl:call-template name="text">
           <xsl:with-param name="page" select="$page"/>
@@ -94,6 +97,7 @@
             <xsl:sequence select="t:head"/>
           </xsl:with-param>
           <xsl:with-param name="page" select="$page//@n"/>
+          <xsl:with-param name="article-id" select="@xml:id"/>
         </xsl:apply-templates>
         <xsl:call-template name="text">
           <xsl:with-param name="page" select="$page"/>
@@ -132,6 +136,7 @@
             <xsl:sequence select="t:head"/>
           </xsl:with-param>
           <xsl:with-param name="page" select="$page//@n"/>
+          <xsl:with-param name="article-id" select="@xml:id"/>
         </xsl:apply-templates>
         <xsl:call-template name="text">
           <xsl:with-param name="page" select="$page"/>
@@ -220,6 +225,16 @@
         </biblScope>
       </seriesStmt>
     </biblFull>
+  </xsl:template>
+
+  <!-- URLXML -->
+  <xsl:template match="t:idno[@type='URLXML']">
+    <xsl:param name="article-id"/>
+    <idno xmlns="http://www.tei-c.org/ns/1.0" type="URLXML">
+      <xsl:text>https://dingler.bbaw.de/xml/articles/</xsl:text>
+      <xsl:value-of select="$article-id"/>
+      <xsl:text>.xml</xsl:text>
+    </idno>
   </xsl:template>
 
   <!-- start page -->
