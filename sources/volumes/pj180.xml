@@ -138,7 +138,7 @@
         </availability>
         <idno>
           <idno type="URLWeb">http://digital.slub-dresden.de/id30153541Z</idno>
-          <idno type="URLXML">https://www.deutschestextarchiv.de/dingler/journal/pj180.xml</idno>
+          <idno type="URLXML">https://dingler.bbaw.de/xml/volumes/pj180.xml</idno>
         </idno>
       </publicationStmt>
       <sourceDesc>
