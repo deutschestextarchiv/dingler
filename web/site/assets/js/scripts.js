@@ -221,8 +221,10 @@ $( function() {
       $('#within').val(within)
 
     within = $('#within').val()
-    if ( within )
+    if ( within == 'sep' )
       qf += ` #${within}`
+    else if ( within == 'file' )
+      qf += ' #within file'
 
     // console.log('DDC query:', qf)
 
@@ -332,11 +334,19 @@ $( function() {
     <span class="hit-no">${parseInt(data.start) + i + 1}.</span>
     <a href="articles/${_u(_h(h.meta_.basename.replace(/\.orig$/,'')))}.html#:~:text=${_u(_h(fragment))}">${_h(h.meta_.bibl)}</a>
   </div>
+`
+
+        if ( within != 'file' ) {
+          div += `
   <div class="hit-text">
     ${ ctx_before }
     ${ h.ctx_[1].map( (k,i) => (i!=0 && k.ws==1 ? ' ' : '') + (k.hl_==1 ? '<b>' : '') + _h(k.w) + (k.hl_==1 ? '</b>' : '') ).join('') }
     ${ ctx_after }
   </div>
+          `
+        }
+
+        div += `
 </div>`
         hits.push( div)
       })
