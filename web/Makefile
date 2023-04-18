@@ -63,7 +63,7 @@ volume-index:
 	mkdir -p $(VOLUMES_OUTDIR)
 	{ \
 	  echo '<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">'; \
-	  for i in $(VOLUMES_DIR)/*.xml; \
+	  for i in $(VOLUMES_DIR)/pj???.xml; \
 		do b=`basename "$$i" .xml`; \
 		echo [volume-index] parsing $$b … 1>&2; \
 		saxonb-xslt -s:"$$i" -xsl:$(MKFILE_DIR)xslt/volume-single.xsl; \
