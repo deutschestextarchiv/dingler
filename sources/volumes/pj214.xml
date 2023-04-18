@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Polytechnisches Journal</title>
+        <title type="main">Dingler's Polytechnisches Journal</title>
         <title type="sub" n="214">Band 214, Jahrgang 1874</title>
         <editor>
           <orgName>Dingler Online – Das digitalisierte Polytechnische Journal</orgName>
@@ -142,10 +142,10 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">Johann Zeman, Dr. Ferd. Fischer: Polytechnisches Journal. Bd. 214. Augsburg, 1874.</bibl>
+        <bibl type="J">Johann Zeman, Dr. Ferd. Fischer: Dingler's Polytechnisches Journal. Bd. 214. Augsburg, 1874.</bibl>
         <biblFull>
           <titleStmt>
-            <title type="main">Polytechnisches Journal</title>
+            <title type="main">Dingler's Polytechnisches Journal</title>
             <title type="sub" n="214">Band 214, Jahrgang 1874</title>
             <editor>
               <persName ref="https://d-nb.info/gnd/116979151">

@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">PolytechnischesJournal</title>
+        <title type="main">Polytechnisches Journal</title>
         <title type="sub" n="83">Band 83, Jahrgang 1842</title>
         <editor>
           <orgName>Dingler Online – Das digitalisierte Polytechnische Journal</orgName>
@@ -142,10 +142,10 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: PolytechnischesJournal. Bd. 83. Stuttgart, Tübingen, 1842.</bibl>
+        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: Polytechnisches Journal. Bd. 83. Stuttgart, Tübingen, 1842.</bibl>
         <biblFull>
           <titleStmt>
-            <title type="main">PolytechnischesJournal</title>
+            <title type="main">Polytechnisches Journal</title>
             <title type="sub" n="83">Band 83, Jahrgang 1842</title>
             <editor>
               <persName ref="https://d-nb.info/gnd/116137592">

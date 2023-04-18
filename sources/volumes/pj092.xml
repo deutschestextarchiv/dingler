@@ -142,7 +142,7 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: Polytechnisches Journal. Bd. 92. Stuttgart und Tübingen, 1844.</bibl>
+        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: Polytechnisches Journal. Bd. 92. Stuttgart, Tübingen, 1844.</bibl>
         <biblFull>
           <titleStmt>
             <title type="main">Polytechnisches Journal</title>
@@ -167,7 +167,8 @@
           </editionStmt>
           <publicationStmt>
             <publisher>J. G. Cotta'schen Buchhandlung</publisher>
-            <pubPlace>Stuttgart und Tübingen</pubPlace>
+            <pubPlace>Stuttgart</pubPlace>
+            <pubPlace>Tübingen</pubPlace>
             <date type="publication">1844</date>
           </publicationStmt>
         </biblFull>

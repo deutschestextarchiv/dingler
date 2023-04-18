@@ -142,19 +142,12 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">Dr. Johann Gottfried Dingler: Dinglers polytechnisches Journal. Bd. 345. Berlin, 1930.</bibl>
+        <bibl type="J">Dinglers polytechnisches Journal. Bd. 345. Berlin, 1930.</bibl>
         <biblFull>
           <titleStmt>
             <title type="main">Dinglers polytechnisches Journal</title>
             <title type="sub" n="345">Band 345, Jahrgang 1930</title>
-            <editor>
-              <persName ref="https://d-nb.info/gnd/116137592">
-                <surname>Dingler</surname>
-                <forename>Johann Gottfried</forename>
-                <roleName>Dr.</roleName>
-              </persName>
-            </editor>
-          </titleStmt>
+         </titleStmt>
           <editionStmt>
             <edition n="1"/>
           </editionStmt>

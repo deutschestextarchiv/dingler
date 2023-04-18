@@ -4,7 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title type="main">Dinglers Polytechnisches Journal</title>
+        <title type="main">Dingler's Polytechnisches Journal</title>
         <title type="sub" n="278">Band 278, Jahrgang 1890</title>
         <editor>
           <orgName>Dingler Online – Das digitalisierte Polytechnische Journal</orgName>
@@ -142,10 +142,10 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">A. Hollenberg, Dr. H. Kast: Dinglers Polytechnisches Journal. Bd. 278. Stuttgart, 1890.</bibl>
+        <bibl type="J">A. Hollenberg, Dr. H. Kast: Dingler's Polytechnisches Journal. Bd. 278. Stuttgart, 1890.</bibl>
         <biblFull>
           <titleStmt>
-            <title type="main">Dinglers Polytechnisches Journal</title>
+            <title type="main">Dingler's Polytechnisches Journal</title>
             <title type="sub" n="278">Band 278, Jahrgang 1890</title>
             <editor>
               <persName>

@@ -142,7 +142,7 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: Polytechnisches Journal. Bd. 119. Stuttgart, 1851.</bibl>
+        <bibl type="J">Dr. Johann Gottfried Dingler, Dr. Emil Maximilian Dingler: Polytechnisches Journal. Bd. 119. Stuttgart, Tübingen, 1851.</bibl>
         <biblFull>
           <titleStmt>
             <title type="main">Polytechnisches Journal</title>
@@ -168,6 +168,7 @@
           <publicationStmt>
             <publisher>J. G. Cotta'sche Buchhandlung</publisher>
             <pubPlace>Stuttgart</pubPlace>
+            <pubPlace>Tübingen</pubPlace>
             <date type="publication">1851</date>
           </publicationStmt>
         </biblFull>

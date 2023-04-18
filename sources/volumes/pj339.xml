@@ -142,18 +142,11 @@
         </idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl type="J">Dr. Johann Gottfried Dingler: Dinglers polytechnisches Journal. Bd. 339. Berlin, 1924.</bibl>
+        <bibl type="J">Dinglers polytechnisches Journal. Bd. 339. Berlin, 1924.</bibl>
         <biblFull>
           <titleStmt>
             <title type="main">Dinglers polytechnisches Journal</title>
             <title type="sub" n="339">Band 339, Jahrgang 1924</title>
-            <editor>
-              <persName ref="https://d-nb.info/gnd/116137592">
-                <surname>Dingler</surname>
-                <forename>Johann Gottfried</forename>
-                <roleName>Dr.</roleName>
-              </persName>
-            </editor>
           </titleStmt>
           <editionStmt>
             <edition n="1"/>
