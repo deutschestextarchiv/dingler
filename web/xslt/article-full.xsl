@@ -62,7 +62,7 @@
               <div class="col-lg-3 bg-light">
                 <xsl:if test="//t:ref[contains(@target, '#tab')]">
                   <p style="font-size:14pt; font-weight:bold">Tafeln</p>
-                  <xsl:for-each select="//t:ref[contains(@target, '#tab')]">
+                  <xsl:for-each-group select="//t:ref[contains(@target, '#tab')]" group-by="@target">
                     <xsl:variable name="tab-thumb">
                       <xsl:value-of select="$base"/>
                       <xsl:text>images/</xsl:text>
@@ -116,7 +116,7 @@
                         </figcaption>
                       </figure>
                     </a>
-                  </xsl:for-each>
+                  </xsl:for-each-group>
                 </xsl:if>
               </div>
             </div>
