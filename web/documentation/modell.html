@@ -2,8 +2,8 @@
   <h1>Textauszeichnung am Modell</h1>
   <p>
     Der Dienstleister Editura GmbH lieferte eine XML/TEI-Datei pro
-    texterfasstem Band aus. Diese sind mit Strukturdaten angereichert. In
-    einem zweistufigen Verfahren wurden diese Dateien tiefer granuliert.
+    texterfasstem Band aus. Diese mit Strukturdaten angereicherten Dateien
+    wurden in einem zweistufigen Verfahren tiefer granuliert.
     <!--
       fw: kann weg?
 
@@ -70,10 +70,10 @@
     <code>@ref=&amp;persons;#pers00033</code> auf den Datensatz verlinkt. Wenn möglich
     wird eine Quelle angegeben, die weitere Informationen zur Person
     enthält, bspw. also die ADB (Allgemeine deutsche Biographie) bzw. NDB
-    (Neue deutsche Biographie). Perspektivisch soll dieser Datensatz mit
+    (Neue deutsche Biographie). Im besten Fall ist der Datensatz mit
     der entsprechenden GND-Nummer
     (GND: <a href="https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html">Gemeinsame Normdatei</a>)
-    komplettiert werden.
+    komplettiert.
   </p>
 
   <hr/>
@@ -93,7 +93,7 @@
 &lt;/titlePart&gt;</code></pre>
 
   <p>
-    Die weitere Strategie verfolgte den Ansatz, die einzelnen Elemente in
+    Das Projekt verfolgte den Ansatz, die einzelnen Elemente in
     ihrer Funktion kenntlich zu machen. Im genannten Beispiel handelt es
     sich zweifelsfrei um eine bibliographische Angabe: Es wird ein
     Journaltitel erwähnt, eine Heftnummer und eine Seitenzahl.
@@ -110,7 +110,7 @@
 &lt;/titlePart&gt;</code></pre>
 
   <p>
-    Und wir nehmen zusätzlich einen Eintrag in einer XML-Datei vor, in der
+    Zusätzlich wurde ein Eintrag in einer XML-Datei angelegt, in der
     zentral und eindeutig alle Quellen verwaltet werden:
   </p>
 
@@ -154,7 +154,7 @@
   </p>
 
   <p>
-    Diese Tafeln werden per Link aus dem Text heraus zugänglich gemacht:
+    Diese Tafeln wurden per Link aus dem Text heraus zugänglich gemacht:
   </p>
 
   <pre><code>&lt;titlePart type=&quot;sub&quot; rendition=&quot;#center&quot;&gt;
@@ -163,7 +163,7 @@
 &lt;/titlePart&gt;</code></pre>
 
   <p>
-    Zusätzlich werden die Einzelfiguren der Tafel mit Hilfe des von der
+    Zusätzlich wurden die Einzelfiguren der Tafel mit Hilfe des von der
     University of Victoria entwickelten Image Markup Tools<!-- fw: Link --> per Koordinaten
     ausgezeichnet. So ist es möglich, aus dem Text heraus direkt auf diese
     zu verlinken:
