@@ -32,12 +32,28 @@
   <!-- main text -->
   <xsl:template name="text">
     <xsl:param name="page"/>
+    <xsl:param name="wrap-div"/>
     <text xmlns="http://www.tei-c.org/ns/1.0">
-      <xsl:apply-templates select="@*"/>
-      <xsl:if test="count(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::t:*) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
-        <xsl:copy-of select="preceding::t:pb[not(ancestor::t:note[@place='bottom'])][1]"/>
-      </xsl:if>
-      <xsl:apply-templates select="node()"/>
+      <xsl:choose>
+        <xsl:when test="$wrap-div = '1'">
+          <body>
+            <div>
+              <xsl:apply-templates select="@*"/>
+              <xsl:if test="count(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::t:*) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
+                <xsl:copy-of select="preceding::t:pb[not(ancestor::t:note[@place='bottom'])][1]"/>
+              </xsl:if>
+              <xsl:apply-templates select="node()"/>
+            </div>
+          </body>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:apply-templates select="@*"/>
+          <xsl:if test="count(descendant::t:pb[not(ancestor::t:note[@place='bottom'])][1]/preceding-sibling::t:*) > 0 or not(descendant::t:pb[not(ancestor::t:note[@place='bottom'])])">
+            <xsl:copy-of select="preceding::t:pb[not(ancestor::t:note[@place='bottom'])][1]"/>
+          </xsl:if>
+          <xsl:apply-templates select="node()"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </text>
   </xsl:template>
 
@@ -87,7 +103,10 @@
       <xsl:call-template name="start-page"/>
     </xsl:variable>
 
-    <xsl:apply-templates/>
+    <div xmlns="http://www.tei-c.org/ns/1.0">
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates/>
+    </div>
 
     <xsl:result-document href="{$outfile}">
       <xsl:processing-instruction name="xml-model">href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
@@ -101,6 +120,7 @@
         </xsl:apply-templates>
         <xsl:call-template name="text">
           <xsl:with-param name="page" select="$page"/>
+          <xsl:with-param name="wrap-div" select="'1'"/>
         </xsl:call-template>
       </TEI>
     </xsl:result-document>
@@ -126,7 +146,10 @@
       <xsl:call-template name="start-page"/>
     </xsl:variable>
 
-    <xsl:apply-templates/>
+    <div xmlns="http://www.tei-c.org/ns/1.0">
+      <xsl:copy-of select="@*"/>
+      <xsl:apply-templates/>
+    </div>
 
     <xsl:result-document href="{$outfile}">
       <xsl:processing-instruction name="xml-model">href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
@@ -140,6 +163,7 @@
         </xsl:apply-templates>
         <xsl:call-template name="text">
           <xsl:with-param name="page" select="$page"/>
+          <xsl:with-param name="wrap-div" select="'1'"/>
         </xsl:call-template>
       </TEI>
     </xsl:result-document>
@@ -160,6 +184,9 @@
           </xsl:call-template>
         </title>
       </xsl:for-each>
+      <xsl:if test="count($title-main/t:titlePart | $title-main/t:head) = 0">
+        <title type="main"/>
+      </xsl:if>
       <xsl:if test="count($title-sub/t:titlePart)>0">
         <xsl:for-each select="$title-sub/t:titlePart">
           <title type="sub">
