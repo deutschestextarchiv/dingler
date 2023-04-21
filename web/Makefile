@@ -8,7 +8,7 @@ XSLT_DIR   := $(MKFILE_DIR)/xslt
 BASE_URL ?= /
 
 #######################
-all: documentation encoding volumes volume-index article-listings articles-libxslt
+all: documentation encoding volumes volume-index article-listings articles-saxon
 
 #######################
 # documentation
