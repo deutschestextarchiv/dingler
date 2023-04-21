@@ -6,6 +6,7 @@
   <xsl:import href="wrapper.xsl"/>
   <xsl:import href="tei-text.xsl"/>
   <xsl:import href="volume-header.xsl"/>
+  <xsl:import href="tabs-right.xsl"/>
 
   <xsl:variable name="force-exclude-all-namespaces" select="true()"/>
   <xsl:variable name="volume-id" select="/t:TEI/t:text[@type='volume'][1]/@xml:id"/>
@@ -58,7 +59,9 @@
               <div class="col-lg-7 col-md-8 tei mx-auto">
                 <xsl:apply-templates/>
               </div>
-              <div class="col-lg-3"></div>
+              <div class="col-lg-3 bg-light">
+                <xsl:call-template name="tabs-right"/>
+              </div>
             </div>
           </div>
         </main>

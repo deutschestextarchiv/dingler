@@ -6,6 +6,7 @@
   <xsl:import href="wrapper.xsl"/>
   <xsl:import href="tei-text.xsl"/>
   <xsl:import href="article-header.xsl"/>
+  <xsl:import href="tabs-right.xsl"/>
 
   <xsl:variable name="force-exclude-all-namespaces" select="true()"/>
   <xsl:variable name="volume-id" select="/t:TEI/t:teiHeader/t:fileDesc/t:sourceDesc/t:biblFull/t:seriesStmt/t:title[@type='main']/@xml:id"/>
@@ -60,64 +61,7 @@
                 <xsl:apply-templates/>
               </div>
               <div class="col-lg-3 bg-light">
-                <xsl:if test="//t:ref[contains(@target, '#tab')]">
-                  <p style="font-size:14pt; font-weight:bold">Tafeln</p>
-                  <xsl:for-each-group select="//t:ref[contains(@target, '#tab')]" group-by="@target">
-                    <xsl:variable name="tab-thumb">
-                      <xsl:value-of select="$base"/>
-                      <xsl:text>images/</xsl:text>
-                      <xsl:choose>
-                        <xsl:when test="starts-with(@target, '#tab')">
-                          <!-- tab within same volume -->
-                          <xsl:value-of select="$volume-id"/>
-                          <xsl:text>/thumbs/</xsl:text>
-                          <xsl:value-of select="substring-after(@target, '#')"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                          <!-- tab within other volume
-                            ../pj013/32258217Z.xml#tab013567
-                               |...| |.......|     |.......|
-                               $volume-id           tab
-                                     $barecode
-                          -->
-                         <xsl:value-of select="substring-before(substring-after(@target, '../'), '/')"/>
-                         <xsl:text>/thumbs/</xsl:text>
-                         <xsl:value-of select="substring-after(@target, '#')"/>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                      <xsl:text>_800.jpg</xsl:text>
-                    </xsl:variable>
-                    <xsl:variable name="tab-full">
-                      <xsl:value-of select="$base"/>
-                      <xsl:text>images/</xsl:text>
-                      <xsl:choose>
-                        <xsl:when test="starts-with(@target, '#tab')">
-                          <xsl:value-of select="$volume-id"/>
-                          <xsl:text>/</xsl:text>
-                          <xsl:value-of select="$barcode"/>
-                          <xsl:text>/</xsl:text>
-                          <xsl:value-of select="substring-after(@target, '#')"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                         <xsl:value-of select="substring-before(substring-after(@target, '../'), '/')"/>
-                         <xsl:text>/</xsl:text>
-                         <xsl:value-of select="substring-after(substring-after(substring-before(@target, '.xml'), '/'), '/')"/>
-                         <xsl:text>/</xsl:text>
-                         <xsl:value-of select="substring-after(@target, '#')"/>
-                        </xsl:otherwise>
-                      </xsl:choose>
-                      <xsl:text>.png</xsl:text>
-                    </xsl:variable>
-                    <a href="{$tab-full}" target="_blank">
-                      <figure class="figure">
-                        <img src="{$tab-thumb}" class="figure-img img-fluid rounded" alt="Tafel {text()}"/>
-                        <figcaption class="figure-caption text-end">
-                          <xsl:value-of select="current()"/>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </xsl:for-each-group>
-                </xsl:if>
+                <xsl:call-template name="tabs-right"/>
               </div>
             </div>
           </div>
