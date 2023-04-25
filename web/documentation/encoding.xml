@@ -203,7 +203,7 @@
         </div>
         <div>
           <head>Formeln</head>
-        	<p>In der ersten Projektphase (Bände 1 bis 226) wurden Formeln vereinfacht übernommen (z. B. Bruchdarstellung über "/") oder als Bilder eingebunden. In der zweiten Projektphase (Band 227 bis Ende) wurde das Vorgehen optimiert und den Vorschlägen der TEI Guidelines folgend angepasst. Die TEI Guidlines empfehlen die folgende Auszeichnung: <tag>formula notation="TeX"</tag>. Die notation="TeX" wurde als 'default'-Wert gesetzt, und das Tagging auf <tag>formula</tag> verkürzt. Zum Testen wurde auf das <hi rendition="#italic"><ref target="http://www.forkosh.com/mathtextutorial.html">LaTeX Math Tutorial for mathTeX</ref></hi> zurückgegriffen.</p>
+          <p>In der ersten Projektphase (Bände 1 bis 226) wurden Formeln vereinfacht übernommen (z. B. Bruchdarstellung über "/") oder als Bilder eingebunden. In der zweiten Projektphase (Band 227 bis Ende) wurde das Vorgehen optimiert und den Vorschlägen der TEI Guidelines folgend angepasst. Die TEI Guidlines empfehlen die folgende Auszeichnung: <tag>formula notation="TeX"</tag>. Die notation="TeX" wurde als 'default'-Wert gesetzt, und das Tagging auf <tag>formula</tag> verkürzt. Zum Testen wurde auf das <hi rendition="#italic"><ref target="https://web.archive.org/web/20160605114615/http://www.forkosh.com/mathtextutorial.html">LaTeX Math Tutorial for mathTeX</ref></hi> zurückgegriffen.</p>
           <p>Beispielabbildung einer Seite mit Formeln:
             <figure>
               <graphic url="http://textloop.de/Tests/ODD_images/exem_formula.jpg"/>
@@ -292,7 +292,7 @@
               Wind gearbeitet.</p></egXML>
           <div xml:id="image-markup">
             <head>Image-Markup der Einzelfiguren auf den Tafeln</head>
-            <p>Für die Ausweisung der Einzelfiguren auf den Tafeln über Bildkoordinaten wurde das Tool des <hi rendition="#italic"><ref target="http://tapor.uvic.ca/~mholmes/image_markup/">UVic Image markup Tool Projects</ref></hi> genutzt.</p>
+            <p>Für die Ausweisung der Einzelfiguren auf den Tafeln über Bildkoordinaten wurde das Tool des <hi rendition="#italic"><ref target="https://web.archive.org/web/20190831053802/http://tapor.uvic.ca/~mholmes/image_markup/">UVic Image markup Tool Projects</ref></hi> genutzt.</p>
             <p>Jede Tafel wurde mittels der freien Software geöffnet und für die Einzelfiguren der Tafeln Bildkoordinaten definiert. Jede Einzelfigur erhält eine xml:id, auf die als Sprungziel aus dem Text verwiesen werden kann (s.o.).</p>
             <p>Auszug aus der Image-markup-XML-Datei mit eingetragenen Bildkoordinaten für die Einzelfiguren 1 und 2:
 <egXML xmlns="http://www.tei-c.org/ns/Examples">
@@ -325,7 +325,7 @@
       </div>
       <div>
         <head>Tabellen</head>
-      	<p>Die im Jounal zahlreich vorkommenden Tabellenstrukturen wurden möglichst nah an der Vorlage umgesetzt. Tabellen mit deutlichem Gitternetz wurden als <tag>table rend="boxed"</tag> ausgezeichnet. Die Ausrichtung der Zelleninhalte wurde z. B. mittels <tag>cell rendition="right"</tag> näher bestimmt. Feinausrichtungen der Zellinhalte untereinander wurden darüber hinaus mittels geschützter Leerzeichen erhalten. Zeilenumbrüche innerhalb der Zellen wurden <tag>lb/</tag> getaggt. In der zweiten Projektphase (Band 227 bis Ende) vermehrt vorkommende vertikal ausgerichtete Zellinhalte wurden als <tag>cell rendition="#v"</tag> ausgewiesen. Über mehrere Zellen reichende Inhalte wurden wie folgt dokumentiert: <tag>cell cols="2"</tag> oder <tag>cell rows="2"</tag>. (Vgl. <gi>table</gi>)</p>
+      	<p>Die im Journal zahlreich vorkommenden Tabellenstrukturen wurden möglichst nah an der Vorlage umgesetzt. Tabellen mit deutlichem Gitternetz wurden als <tag>table rend="boxed"</tag> ausgezeichnet. Die Ausrichtung der Zelleninhalte wurde z. B. mittels <tag>cell rendition="right"</tag> näher bestimmt. Feinausrichtungen der Zellinhalte untereinander wurden darüber hinaus mittels geschützter Leerzeichen erhalten. Zeilenumbrüche innerhalb der Zellen wurden <tag>lb/</tag> getaggt. In der zweiten Projektphase (Band 227 bis Ende) vermehrt vorkommende vertikal ausgerichtete Zellinhalte wurden als <tag>cell rendition="#v"</tag> ausgewiesen. Über mehrere Zellen reichende Inhalte wurden wie folgt dokumentiert: <tag>cell cols="2"</tag> oder <tag>cell rows="2"</tag>. (Vgl. <gi>table</gi>)</p>
         <p>Beispielabbildung einer Tabelle mit vertikal ausgerichteten Zellinhalten:
         <figure>
           <graphic url="http://textloop.de/Tests/ODD_images/exem_table.jpg"/>
@@ -480,7 +480,7 @@
             <p>Die auf mehreren Ebenen eingesetzten <tag>text</tag>-Elemente wurden über <att>type</att> näher bestimmt. (Vgl. "Legal values" für <gi>text</gi>)</p>
             <p>Die einzelnen Artikel des Polytechnischen Journals werden als Kernstück der digitalen Ausgabe verstanden und stellen die unterste <tag>text</tag>-Ebene dar. Neben den Artikeln finden sich auf dieser Ebene noch Patentverzeichnisse, Literaturverzeichnisse u. ä. Über die folgenden Werte von <att>type</att> werden die <tag>text</tag>-Elemente auf Artikelebene näher klassifiziert: <val>art_undef</val>, <val>art_patent</val>, <val>art_patents</val>, <val>art_patentlist</val>, <val>art_literature</val>, <val>art_miscellanea</val>. (Vgl. "Legal values" für <gi>text</gi>).</p>
           	<p>Register, wirtschaftliche Rundschauen, Tafelanhänge u. ä. wurden als Backmatter aufgefasst und in den <gi>back</gi> von Heften oder Bänden gestellt. Jeder inhaltliche Abschnitt steht in einem eigenen <tag>div</tag> dass über das <att>type</att> näher klassifiziert wurde. (Vgl. "Legal values" zu <gi>div</gi>).</p>
-            <p>Als Hauptzählung für Bände, Jahrgänge und Hefte wurde die durchgehende Zählung von Band 1 bis zum letzten Band der SLUB Dresden übernommen. Diese Werte wurden in den Textelementen eingetaggt. Daneben existieren Zählungen, die einer anderen Logik folgen. Z.B. werden Jahrgänge und Hefte auf Reihen bezogen durchgezählt. Um diese alternativen Chronologien abzubilden wurden <tag>milestone</tag>s an den Beginn der Bände und soweit möglich der Hefte gesetzt. (Vgl. dazu "Legal values" der Attribute <att>type</att> und <att>subtype</att> von <gi>milestone</gi>).
+            <p>Als Hauptzählung für Bände, Jahrgänge und Hefte wurde die durchgehende Zählung von Band 1 bis zum letzten Band der SLUB Dresden übernommen. Diese Werte wurden in den Textelementen eingetaggt. Daneben existieren Zählungen, die einer anderen Logik folgen. Z. B. werden Jahrgänge und Hefte auf Reihen bezogen durchgezählt. Um diese alternativen Chronologien abzubilden wurden <tag>milestone</tag>s an den Beginn der Bände und soweit möglich der Hefte gesetzt. (Vgl. dazu "Legal values" der Attribute <att>type</att> und <att>subtype</att> von <gi>milestone</gi>).
 <egXML xmlns="http://www.tei-c.org/ns/Examples">
   <text type="volume" xml:lang="german" n="324" xml:id="pj324">
     <milestone type="additional-counting" subtype="age-group" ed="Neunzigster Jahrgang" unit="volume" n="324"/>
@@ -526,8 +526,8 @@
                 <surname>Abate</surname>
               </persName>
             </person></egXML></p>
-        	<p>Auf dieser Datenbasis kann sich der User auf der Website über den verlinkten Autor und Patentanmelder den zentralen Personendatensatz einblenden lassen. Gelistet werden hier alle im Polytechnischen Journal vorhandenen weiteren Artikel und Patente dieser Person. (z. B. <ref target="http://dingler.culture.hu-berlin.de/person/view/pers06797">Felix Abate</ref>.</p>
-          <p>Gesamtliste aller ausgewiesenen Autoren, bzw. Patentanmelder über <ref target="http://dingler.culture.hu-berlin.de/person/list">Personenverzeichnis</ref></p>
+        	<p>Auf dieser Datenbasis kann sich der User auf der Website über den verlinkten Autor und Patentanmelder den zentralen Personendatensatz einblenden lassen. Gelistet werden hier alle im Polytechnischen Journal vorhandenen weiteren Artikel und Patente dieser Person. (z. B. <ref target="https://dingler.bbaw.de/person/view/pers06797">Felix Abate</ref>).</p>
+          <p>Gesamtliste aller ausgewiesenen Autoren, bzw. Patentanmelder über <ref target="http://dingler.bbaw.de/person/list">Personenverzeichnis</ref></p>
         </div>
         <div>
           <head>Orte</head>
@@ -544,7 +544,7 @@
                 Auszuge</hi>.)</titlePart>
               <titlePart type="column">Guilbaud's, vorgeschlagene Gasbeleuchtung.</titlePart>
             </front>...</text></egXML>
-        	<p>Statt eines Links auf ein Ortsverzeichnis wird hier am rechten Fensterrand ein Google Maps Kartenausschnitt eingebunden, auf dem der markierte Ort projiziert wird (z. B. <ref target="http://dingler.culture.hu-berlin.de/article/pj030/ar030052">Nantes</ref>).</p>
+          <p>Statt eines Links auf ein Ortsverzeichnis wird hier am rechten Fensterrand ein Google Maps Kartenausschnitt eingebunden, auf dem der markierte Ort projiziert wird (z. B. <ref target="https://dingler.bbaw.de/articles/ar030052.html">Nantes</ref>).</p>
           <p>Die Basis für diese Projektion sind in einer zentralen Datei zusammengestellte geographische Ortskoordinaten:
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
             <place xml:id="pl002941">
@@ -553,11 +553,11 @@
                 <geo>47.2183710 -1.5536210</geo>
               </location>
             </place></egXML></p>
-        	<p>Wurden in einem Patentverzeichnissen mehrere Orte ausgezeichnet, werden sie alle auf einen einzelnen Kartenausschnitt projiziert. (z. B. <ref target="http://dingler.culture.hu-berlin.de/article/pj010/mi010092_2">Band 10</ref>)</p>
+          <p>Wurden in einem Patentverzeichnissen mehrere Orte ausgezeichnet, werden sie alle auf einen einzelnen Kartenausschnitt projiziert. (z. B. <ref target="https://dingler.bbaw.de/articles/mi010092_2.html">Band 10</ref>)</p>
         </div>
         <div>
           <head>Quellen</head>
-        	<p>In einer zentralen Datei wurden bibliographische Informationen zu Literaturangaben in den Artikeln gesammelt (<ref target="http://dingler.culture.hu-berlin.de/source/list">Quellenverzeichnis</ref>). Testweise wurden die bibliographischen Datensätze über die ZDB-ID mit dem <ref target="https://zdb-katalog.de/index.xhtml">Katalog der Zeitschriftendatenbank</ref> verlinkt.</p>
+        	<p>In einer zentralen Datei wurden bibliographische Informationen zu Literaturangaben in den Artikeln gesammelt (<ref target="http://dingler.bbaw.de/source/list">Quellenverzeichnis</ref>). Testweise wurden die bibliographischen Datensätze über die ZDB-ID mit dem <ref target="https://zdb-katalog.de/index.xhtml">Katalog der Zeitschriftendatenbank</ref> verlinkt.</p>
           <p>Bibliographischer Datensatz zu den "Annalen für Gewerbe und Bauwesen" in der zentralen Datei "journals.xml":
             <egXML xmlns="http://www.tei-c.org/ns/Examples">
               <bibl xml:id="jour0507">
@@ -586,7 +586,7 @@
                     eine Methode Maschinen in Bewegung zu sezen.</p>
                 </div>...</div>
           </egXML></p>
-          <p>Da auch Orte ausgezeichnet wurden, lassen sich nun alle ausgezeichneten Patente komfortabel nach Land oder Dekade gruppieren (vgl. <ref target="http://dingler.culture.hu-berlin.de/patent">Patentverzeichnis</ref>).</p>
+          <p>Da auch Orte ausgezeichnet wurden, lassen sich nun alle ausgezeichneten Patente komfortabel nach Land oder Dekade gruppieren (vgl. <ref target="https://dingler.bbaw.de/patent">Patentverzeichnis</ref>).</p>
           <p/>
         </div>
       </div>
