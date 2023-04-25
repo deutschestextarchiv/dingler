@@ -150,6 +150,21 @@ $( function() {
     else if ( target.search(/^\.\..*?#pj.*?_.*?$/) > -1 ) {
       // do nothing here, these references must be adjusted
     }
+    // … to anchors within document
+    else if ( target.search(/^#/) > -1 ) {
+      el.wrap( function() {
+        let anchor = $('<a/>').attr({
+          href: target
+        })
+        anchor.on( 'click', function() {
+          $([document.documentElement, document.body]).animate({
+            scrollTop: $('[data-xml-id="' + target.replace(/^#/,'') + '"]').offset().top
+          }, 100)
+          return false
+        })
+        return anchor
+      })
+    }
     // … to articles
     else {
       el.wrap( function() {
