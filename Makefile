@@ -22,3 +22,8 @@ article-extraction-%: $(VOLUMES_DIR)/pj%.xml
 .PHONY: web
 web:
 	$(MAKE) -C web all
+
+#######################
+.PHONY: publish
+publish:
+	rsync -av --exclude images web/site/ dingler:/var/www/dingler/web/site
