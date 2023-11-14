@@ -25,7 +25,7 @@
     <script>
       MathJax = {
         tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
+          inlineMath: [['$$', '$$'], ['\\(', '\\)']]
         },
         svg: {
           fontCache: 'global'
@@ -107,10 +107,29 @@
   </xsl:template>
 
   <xsl:template name="html-footer">
-    <script src="{$base}assets/bootstrap/popper.min.js"></script>
     <script src="{$base}assets/bootstrap/bootstrap.min.js"></script>
-    <script src="{$base}assets/js/jquery-3.6.1.min.js"></script>
+    <script src="{$base}assets/js/jquery-3.7.1.min.js"></script>
     <script src="{$base}assets/js/scripts.js"></script>
+
+    <!-- Matomo -->
+    <script>
+      var _paq = window._paq = window._paq || [];
+      /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="https://stats.dwds.de/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '3']);
+        _paq.push(['enableLinkTracking']);
+        _paq.push(['trackPageView']);
+        _paq.push(['trackVisibleContentImpressions']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <noscript><p><img src="https://stats.dwds.de/matomo.php?idsite=3&amp;rec=1" style="border:0" alt="" /></p></noscript>
+    <!-- // Matomo -->
   </xsl:template>
 
 </xsl:stylesheet>
