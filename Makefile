@@ -8,7 +8,7 @@ all: articles web
 
 ARTICLES_DIR   := $(MKFILE_DIR)data/articles
 VOLUMES_DIR    := $(MKFILE_DIR)sources/volumes
-VOLUMES_FILES  := $(wildcard $(VOLUMES_DIR)/*.xml)
+VOLUMES_FILES  := $(wildcard $(VOLUMES_DIR)/pj*.xml)
 
 #######################
 .PHONY: articles
