@@ -47,7 +47,6 @@ $( function() {
 <figure class="figure text-center">
   <img src="${ imgUrl.search(/^https?:/) > -1 ? imgUrl : '../images/' + volume + '/' + imgUrl + '.png'}" class="figure-img img-fluid rounded">
 `
-
     if ( figDesc ) {
       ret += `
     <figcaption class="figure-caption">
@@ -176,11 +175,12 @@ $( function() {
 
   // table styling
   $('.tei-header table').addClass('table table-condensed table-striped')
+  $('.tei-table').wrap('<div class="table-responsive"></div>')
 
   // formulas
   $('.tei-formula').each( function() {
     let el = $(this)
-    el.html( '$' + el.html() + '$' )
+    el.html( '$$' + el.html() + '$$' )
   }).promise().done( function() {
     if ( typeof MathJax != "undefined" && typeof MathJax.typeset === "function" )
       MathJax.typeset()
