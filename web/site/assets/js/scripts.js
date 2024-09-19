@@ -263,7 +263,7 @@ $( function() {
       return url.toString()
     }
 
-    let dstar = 'https://kaskade.dwds.de/dstar/dingler/dstar.perl'
+    let dstar = 'https://ddc.dwds.de/dstar/dingler/dstar.perl'
     $.ajax({
       url: dstar,
       data: { q: qf, fmt: 'json', limit: limit, start: start },
